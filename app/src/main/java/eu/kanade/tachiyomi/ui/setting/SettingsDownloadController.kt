@@ -66,8 +66,8 @@ class SettingsDownloadController : SettingsController() {
         intListPreference {
             key = Keys.downloadThreads
             titleRes = R.string.pref_download_slots
-            entries = arrayOf("1", "2", "3")
-            entryValues = arrayOf("1", "2", "3")
+            entries = arrayOf("1", "2", "3", "4", "5", "6")
+            entryValues = arrayOf("1", "2", "3", "4", "5", "6")
             defaultValue = "1"
             summary = "%s"
         }
