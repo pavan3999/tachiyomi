@@ -3,7 +3,7 @@ name: Build job
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04.3
     
     steps:
       - name: Clone Repository (Latest)
