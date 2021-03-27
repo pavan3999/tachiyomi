@@ -45,7 +45,6 @@ import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
 import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
 import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
 import eu.kanade.tachiyomi.ui.reader.setting.OrientationType
-import eu.kanade.tachiyomi.ui.reader.setting.ReaderColorFilterSheet
 import eu.kanade.tachiyomi.ui.reader.setting.ReaderSettingsSheet
 import eu.kanade.tachiyomi.ui.reader.setting.ReadingModeType
 import eu.kanade.tachiyomi.ui.reader.viewer.BaseViewer
@@ -60,6 +59,7 @@ import eu.kanade.tachiyomi.util.system.toast
 import eu.kanade.tachiyomi.util.view.defaultBar
 import eu.kanade.tachiyomi.util.view.hideBar
 import eu.kanade.tachiyomi.util.view.isDefaultBar
+import eu.kanade.tachiyomi.util.view.setTooltip
 import eu.kanade.tachiyomi.util.view.showBar
 import eu.kanade.tachiyomi.util.view.snack
 import eu.kanade.tachiyomi.widget.SimpleAnimationListener
@@ -342,22 +342,32 @@ class ReaderActivity : BaseRxActivity<ReaderActivityBinding, ReaderPresenter>() 
             }
         }
 
-        binding.actionReaderMode.setOnClickListener {
-            val newReadingMode = ReadingModeType.getNextReadingMode(presenter.getMangaViewer(resolveDefault = false))
-            presenter.setMangaViewer(newReadingMode.prefValue)
+        with(binding.actionReaderMode) {
+            setTooltip(R.string.viewer)
 
-            menuToggleToast?.cancel()
-            menuToggleToast = toast(newReadingMode.stringRes)
+            setOnClickListener {
+                val newReadingMode =
+                    ReadingModeType.getNextReadingMode(presenter.getMangaViewer(resolveDefault = false))
+                presenter.setMangaViewer(newReadingMode.prefValue)
+
+                menuToggleToast?.cancel()
+                menuToggleToast = toast(newReadingMode.stringRes)
+            }
         }
 
-        binding.actionRotation.setOnClickListener {
-            val newOrientation = OrientationType.getNextOrientation(preferences.rotation().get(), resources)
+        with(binding.actionRotation) {
+            setTooltip(R.string.pref_rotation_type)
 
-            preferences.rotation().set(newOrientation.prefValue)
-            setOrientation(newOrientation.flag)
+            setOnClickListener {
+                val newOrientation =
+                    OrientationType.getNextOrientation(preferences.rotation().get(), resources)
 
-            menuToggleToast?.cancel()
-            menuToggleToast = toast(newOrientation.stringRes)
+                preferences.rotation().set(newOrientation.prefValue)
+                setOrientation(newOrientation.flag)
+
+                menuToggleToast?.cancel()
+                menuToggleToast = toast(newOrientation.stringRes)
+            }
         }
         preferences.rotation().asImmediateFlow { updateRotationShortcut(it) }
             .onEach {
@@ -365,19 +375,12 @@ class ReaderActivity : BaseRxActivity<ReaderActivityBinding, ReaderPresenter>() 
             }
             .launchIn(lifecycleScope)
 
-        binding.actionCustomFilter.setOnClickListener {
-            val sheet = ReaderColorFilterSheet(this)
-                // Remove dimmed backdrop so changes can be previewed
-                .apply { window?.setDimAmount(0f) }
+        with(binding.actionSettings) {
+            setTooltip(R.string.action_settings)
 
-            // Hide toolbars while sheet is open for better preview
-            sheet.setOnDismissListener { setMenuVisibility(true) }
-            setMenuVisibility(false)
-
-            sheet.show()
-        }
-        binding.actionSettings.setOnClickListener {
-            ReaderSettingsSheet(this).show()
+            setOnClickListener {
+                ReaderSettingsSheet(this@ReaderActivity).show()
+            }
         }
 
         // Set initial visibility
@@ -393,7 +396,11 @@ class ReaderActivity : BaseRxActivity<ReaderActivityBinding, ReaderPresenter>() 
      * Sets the visibility of the menu according to [visible] and with an optional parameter to
      * [animate] the views.
      */
-    private fun setMenuVisibility(visible: Boolean, animate: Boolean = true) {
+    fun setMenuVisibility(visible: Boolean, animate: Boolean = true) {
+        if (visible == menuVisible) {
+            return
+        }
+
         menuVisible = visible
         if (visible) {
             if (preferences.fullscreen().get()) {
