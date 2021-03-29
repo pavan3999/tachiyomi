@@ -9,6 +9,8 @@ import eu.kanade.tachiyomi.data.database.models.Chapter
 import eu.kanade.tachiyomi.data.database.models.Manga
 import eu.kanade.tachiyomi.data.download.model.Download
 import eu.kanade.tachiyomi.data.download.model.DownloadQueue
+import eu.kanade.tachiyomi.data.preference.PreferencesHelper
+import eu.kanade.tachiyomi.data.preference.getOrDefault
 import eu.kanade.tachiyomi.source.SourceManager
 import eu.kanade.tachiyomi.source.model.Page
 import eu.kanade.tachiyomi.source.online.HttpSource
@@ -19,8 +21,10 @@ import okhttp3.Response
 import rx.Observable
 import rx.android.schedulers.AndroidSchedulers
 import rx.schedulers.Schedulers
+import rx.subjects.BehaviorSubject
 import rx.subscriptions.CompositeSubscription
 import timber.log.Timber
+import uy.kohesive.injekt.injectLazy
 
 /**
  * This class is the one in charge of downloading chapters.
@@ -54,6 +58,11 @@ class Downloader(
     val queue = DownloadQueue(store)
 
     /**
+     * Preferences.
+     */
+    private val preferences: PreferencesHelper by injectLazy()
+
+    /**
      * Notifier for the downloader state and progress.
      */
     private val notifier by lazy { DownloadNotifier(context) }
@@ -62,6 +71,11 @@ class Downloader(
      * Downloader subscriptions.
      */
     private val subscriptions = CompositeSubscription()
+
+    /**
+     * Subject to do a live update of the number of simultaneous downloads.
+     */
+    private val threadsSubject = BehaviorSubject.create<Int>()
 
     /**
      * Relay to send a list of downloads to the downloader.
@@ -100,6 +114,9 @@ class Downloader(
 
         val pending = queue.filter { it.status != Download.DOWNLOADED }
         pending.forEach { if (it.status != Download.QUEUE) it.status = Download.QUEUE }
+
+        // Show download notification when simultaneous download > 1.
+        notifier.onProgressChange(queue)
 
         downloadsRelay.call(pending)
         return pending.isNotEmpty()
@@ -167,8 +184,14 @@ class Downloader(
 
         subscriptions.clear()
 
-        subscriptions += downloadsRelay.concatMapIterable { it }
-                .concatMap { downloadChapter(it).subscribeOn(Schedulers.io()) }
+        subscriptions += preferences.downloadThreads().asObservable()
+                .subscribe {
+                    threadsSubject.onNext(it)
+                    notifier.multipleDownloadThreads = it > 1
+                }
+
+        subscriptions += downloadsRelay.flatMap { Observable.from(it) }
+                .lift(DynamicConcurrentMergeOperator<Download, Download>({ downloadChapter(it) }, threadsSubject))
                 .onBackpressureBuffer()
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe({ completeDownload(it)
@@ -226,9 +249,15 @@ class Downloader(
             // Initialize queue size.
             notifier.initialQueueSize = queue.size
 
+            // Initial multi-thread
+            notifier.multipleDownloadThreads = preferences.downloadThreads().getOrDefault() > 1
+
             if (isRunning) {
                 // Send the list of downloads to the downloader.
                 downloadsRelay.call(chaptersToQueue)
+            } else {
+                // Show initial notification.
+                notifier.onProgressChange(queue)
             }
 
             // Start downloader if needed
@@ -277,7 +306,7 @@ class Downloader(
                 // Start downloading images, consider we can have downloaded images already
                 .concatMap { page -> getOrDownloadImage(page, download, tmpDir) }
                 // Do when page is downloaded.
-                .doOnNext { notifier.onProgressChange(download) }
+                .doOnNext { notifier.onProgressChange(download, queue) }
                 .toList()
                 .map { _ -> download }
                 // Do after download completes
@@ -288,7 +317,7 @@ class Downloader(
                     notifier.onError(error.message, download.chapter.name)
                     download
                 }
-
+                .subscribeOn(Schedulers.io())
     }
 
     /**
@@ -420,6 +449,7 @@ class Downloader(
         if (download.status == Download.DOWNLOADED) {
             // remove downloaded chapter from queue
             queue.remove(download)
+            notifier.onProgressChange(queue)
         }
         if (areAllDownloadsFinished()) {
             if (notifier.isSingleChapter && !notifier.errorThrown) {

@@ -127,6 +127,8 @@ class PreferencesHelper(val context: Context) {
 
     fun downloadsDirectory() = rxPrefs.getString(Keys.downloadsDirectory, defaultDownloadsDir.toString())
 
+    fun downloadThreads() = rxPrefs.getInteger(Keys.downloadThreads, 1)
+
     fun downloadOnlyOverWifi() = prefs.getBoolean(Keys.downloadOnlyOverWifi, true)
 
     fun numberOfBackups() = rxPrefs.getInteger(Keys.numberOfBackups, 1)
