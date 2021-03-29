@@ -57,7 +57,7 @@ jobs:
           {delimiter}" >> $GITHUB_ENV
 
       - name: Get NDK 
-        run: sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "ndk;17.2.4988734"
+        run: sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "ndk;19.2.5345600"
 
       - name: Build Release APK
         run: bash ./gradlew assembleDevDebug --stacktrace
