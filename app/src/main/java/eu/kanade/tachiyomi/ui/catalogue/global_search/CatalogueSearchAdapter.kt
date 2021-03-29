@@ -19,7 +19,7 @@ class CatalogueSearchAdapter(val controller: CatalogueSearchController) :
      */
     private var bundle = Bundle()
 
-    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int, payloads: List<Any?>?) {
+    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int, payloads: List<Any?>) {
         super.onBindViewHolder(holder, position, payloads)
         restoreHolderState(holder)
     }
@@ -38,7 +38,7 @@ class CatalogueSearchAdapter(val controller: CatalogueSearchController) :
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
         super.onRestoreInstanceState(savedInstanceState)
-        bundle = savedInstanceState.getBundle(HOLDER_BUNDLE_KEY)
+        bundle = savedInstanceState.getBundle(HOLDER_BUNDLE_KEY)!!
     }
 
     /**

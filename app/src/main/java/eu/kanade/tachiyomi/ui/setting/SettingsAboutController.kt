@@ -3,6 +3,7 @@ package eu.kanade.tachiyomi.ui.setting
 import android.app.Dialog
 import android.content.Intent
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.support.v7.preference.PreferenceScreen
 import android.view.View
@@ -14,6 +15,7 @@ import eu.kanade.tachiyomi.data.updater.UpdateResult
 import eu.kanade.tachiyomi.data.updater.UpdaterJob
 import eu.kanade.tachiyomi.data.updater.UpdaterService
 import eu.kanade.tachiyomi.ui.base.controller.DialogController
+import eu.kanade.tachiyomi.ui.main.ChangelogDialogController
 import eu.kanade.tachiyomi.util.toast
 import rx.Subscription
 import rx.android.schedulers.AndroidSchedulers
@@ -101,6 +103,10 @@ class SettingsAboutController : SettingsController() {
         preference {
             titleRes = R.string.build_time
             summary = getFormattedBuildTime()
+
+            onClick {
+                ChangelogDialogController().showDialog(router)
+            }
         }
     }
 
@@ -115,6 +121,11 @@ class SettingsAboutController : SettingsController() {
      */
     private fun checkVersion() {
         if (activity == null) return
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+            activity?.toast("Newer versions of Tachiyomi require Android 5+")
+            return
+        }
 
         activity?.toast(R.string.update_check_look_for_updates)
         releaseSubscription?.unsubscribe()
@@ -150,14 +161,14 @@ class SettingsAboutController : SettingsController() {
         override fun onCreateDialog(savedViewState: Bundle?): Dialog {
             return MaterialDialog.Builder(activity!!)
                     .title(R.string.update_check_title)
-                    .content(args.getString(BODY_KEY))
+                    .content(args.getString(BODY_KEY) ?: "")
                     .positiveText(R.string.update_check_confirm)
                     .negativeText(R.string.update_check_ignore)
                     .onPositive { _, _ ->
                         val appContext = applicationContext
                         if (appContext != null) {
                             // Start download
-                            val url = args.getString(URL_KEY)
+                            val url = args.getString(URL_KEY) ?: ""
                             UpdaterService.downloadUpdate(appContext, url)
                         }
                     }
