@@ -114,9 +114,9 @@ on:
     paths-ignore:
       - '*.md'
       - '*.yml'
-    branches: [ master ]
+    branches: [ 0.8.5 ]
   pull_request:
     paths-ignore:
       - '*.md'
       - '*.yml'
-    branches: [ master ]
+    branches: [ 0.8.5 ]
