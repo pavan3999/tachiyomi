@@ -355,6 +355,8 @@ class ChaptersController :
         } else {
             selectedItems.remove(item)
         }
+        // Only show action_select_between when there are two chapters selected.
+        actionMode?.menu?.findItem(R.id.action_select_between)?.isVisible = (selectedItems.size == 2)
         actionMode?.invalidate()
     }
 
