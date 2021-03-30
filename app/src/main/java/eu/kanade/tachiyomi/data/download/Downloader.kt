@@ -208,12 +208,6 @@ class Downloader(
                 },
                 5
             )
-            .onBackpressureLatest()
-            .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(
-                {
-                    completeDownload(it)
-                }
 
         subscriptions += preferences.downloadThreads().asObservable()
                 .subscribe {
