@@ -1,447 +1,447 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name">名</string>
-    <string name="categories">カテゴリ</string>
-    <string name="manga">漫画</string>
-    <string name="chapters">章</string>
-    <string name="history">履歴</string>
-    <string name="label_settings">設定</string>
-    <string name="label_download_queue">ダウンロードキュー</string>
-    <string name="label_library">ライブラリ</string>
-    <string name="label_recent_manga">履歴</string>
-    <string name="label_recent_updates">最近の更新</string>
-    <string name="label_categories">カテゴリ</string>
-    <string name="label_backup">バックアップ</string>
-    <string name="action_settings">設定</string>
-    <string name="action_filter">フィルター</string>
-    <string name="action_filter_downloaded">ダウンロードした</string>
-    <string name="action_filter_bookmarked">お気に入り</string>
-    <string name="action_filter_unread">未読</string>
-    <string name="action_filter_read">既読</string>
-    <string name="action_filter_empty">フィルタを削除</string>
-    <string name="action_sort_alpha">アルファベット順</string>
-    <string name="action_sort_total">すべての章</string>
-    <string name="action_sort_last_read">最後に読んだ</string>
-    <string name="action_search">検索</string>
-    <string name="action_global_search">グローバル検索</string>
-    <string name="action_select_all">すべて選択</string>
-    <string name="action_download">ダウンロード</string>
-    <string name="action_bookmark">ブックマーク</string>
-    <string name="action_remove_bookmark">ブックマークを削除</string>
-    <string name="action_display_grid">グリッド</string>
-    <string name="action_display_list">リスト</string>
-    <string name="action_sort">ソート</string>
-    <string name="track">追跡</string>
-    <string name="label_extensions">拡張機能</string>
-    <string name="label_extension_info">拡張機能の情報</string>
-    <string name="label_migration">ソース移行</string>
-    <string name="action_mark_as_read">既読にする</string>
-    <string name="action_mark_as_unread">未読としてマーク</string>
-    <string name="action_delete">削除する</string>
-    <string name="action_update">更新</string>
-    <string name="action_update_library">ライブラリを更新する</string>
-    <string name="action_edit">編集</string>
-    <string name="action_add_category">カテゴリを追加</string>
-    <string name="action_edit_categories">カテゴリを編集</string>
-    <string name="action_edit_cover">表紙画像を編集</string>
-    <string name="action_start">開始</string>
-    <string name="action_pause">一時停止</string>
-    <string name="action_close">クリア</string>
-    <string name="action_previous_chapter">前の章</string>
-    <string name="action_next_chapter">次の章</string>
-    <string name="action_retry">リトライ</string>
-    <string name="action_resume">履歴書</string>
-    <string name="action_open_in_browser">ブラウザで開く</string>
-    <string name="action_display_mode">表示モード</string>
-    <string name="action_display">表示</string>
-    <string name="action_display_download_badge">バッジをダウンロードする</string>
-    <string name="action_cancel">キャンセル</string>
-    <string name="action_share">シェア</string>
-    <string name="action_save">保存する</string>
-    <string name="action_reset">リセット</string>
-    <string name="action_open_log">ログを開く</string>
-    <string name="action_create">作成する</string>
-    <string name="action_restore">リストア</string>
-    <string name="action_open">開いた</string>
-    <string name="action_login">ログイン</string>
-    <string name="loading">読み込み中…</string>
-    <string name="app_not_available">アプリは利用不可</string>
-    <string name="pref_category_general">全般</string>
-    <string name="pref_category_downloads">ダウンロード</string>
-    <string name="pref_category_advanced">高度な</string>
-    <string name="pref_category_about">約</string>
-    <string name="portrait">ポートレート</string>
-    <string name="landscape">景観</string>
-    <string name="default_columns">デフォルト</string>
-    <string name="pref_library_update_interval">ライブラリ更新頻度</string>
-    <string name="update_never">マニュアル</string>
-    <string name="update_1hour">毎時</string>
-    <string name="update_2hour">2時間ごと</string>
-    <string name="update_3hour">3時間ごと</string>
-    <string name="update_6hour">6時間ごと</string>
-    <string name="update_12hour">12時間ごと</string>
-    <string name="update_24hour">毎日</string>
-    <string name="update_48hour">2日ごと</string>
-    <string name="update_weekly">毎週</string>
-    <string name="update_monthly">毎月</string>
-    <string name="pref_library_update_categories">グローバル更新に含まれるカテゴリ</string>
-    <string name="all">すべて</string>
-    <string name="pref_library_update_restriction">ライブラリ更新制限</string>
-    <string name="pref_library_update_restriction_summary">条件が満たされた場合にのみ更新する</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="charging">充電</string>
-    <string name="pref_update_only_non_completed">進行中の漫画のみ更新</string>
-    <string name="pref_auto_update_manga_sync">読んだ後に章を同期</string>
-    <string name="pref_start_screen">スタート画面</string>
-    <string name="pref_language">言語</string>
-    <string name="system_default">システム標準</string>
-    <string name="default_category">デフォルトカテゴリ</string>
-    <string name="default_category_summary">毎回尋ねる</string>
-    <string name="all_lang">すべて</string>
-    <string name="ext_details">詳細</string>
-    <string name="ext_update">更新</string>
-    <string name="ext_install">インストール</string>
-    <string name="ext_pending">保留</string>
-    <string name="ext_downloading">ダウンロード中</string>
-    <string name="ext_installing">インストール</string>
-    <string name="ext_installed">インストール済み</string>
-    <string name="ext_trust">トラスト</string>
-    <string name="ext_untrusted">信用できない</string>
-    <string name="ext_uninstall">アンインストール</string>
-    <string name="ext_preferences">設定</string>
-    <string name="ext_available">利用可能</string>
-    <string name="untrusted_extension">信頼できない拡張</string>
-    <string name="ext_version_info">バージョン：%1$s</string>
-    <string name="ext_language_info">言語： %1$s</string>
-    <string name="pref_fullscreen">フルスクリーン</string>
-    <string name="pref_page_transitions">ページ遷移</string>
-    <string name="pref_double_tap_anim_speed">ダブルタップアニメーション速度</string>
-    <string name="pref_crop_borders">クロップボーダー</string>
-    <string name="pref_custom_brightness">カスタムの明るさを使う</string>
-    <string name="pref_custom_color_filter">カスタムカラーフィルターを使用</string>
-    <string name="pref_reader_navigation">ナビゲーション</string>
-    <string name="pref_read_with_volume_keys">音量キー</string>
-    <string name="pref_read_with_volume_keys_inverted">音量キーを反転</string>
-    <string name="pref_read_with_tapping">タッピング</string>
-    <string name="pref_reader_theme">背景色</string>
-    <string name="white_background">白</string>
-    <string name="black_background">ブラック</string>
-    <string name="pref_viewer_type">デフォルトビューア</string>
-    <string name="default_viewer">デフォルト</string>
-    <string name="left_to_right_viewer">左から右</string>
-    <string name="right_to_left_viewer">右から左</string>
-    <string name="vertical_viewer">縦反転</string>
-    <string name="webtoon_viewer">Webtoon</string>
-    <string name="pager_viewer">ページャ</string>
-    <string name="pref_image_decoder">画像デコーダ</string>
-    <string name="pref_image_scale_type">スケールの種類</string>
-    <string name="scale_type_fit_screen">フィット画面</string>
-    <string name="scale_type_stretch">ストレッチ</string>
-    <string name="scale_type_fit_width">幅に合わせる</string>
-    <string name="scale_type_original_size">オリジナルサイズ</string>
-    <string name="scale_type_smart_fit">スマートフィット</string>
-    <string name="pref_zoom_start">ズーム開始位置</string>
-    <string name="zoom_start_automatic">自動</string>
-    <string name="zoom_start_left">左</string>
-    <string name="zoom_start_right">右</string>
-    <string name="zoom_start_center">中央</string>
-    <string name="double_tap_anim_speed_normal">通常</string>
-    <string name="double_tap_anim_speed_fast">速い</string>
-    <string name="pref_rotation_type">回転</string>
-    <string name="rotation_free">無料</string>
-    <string name="rotation_lock">ロック</string>
-    <string name="rotation_force_portrait">強制肖像画</string>
-    <string name="color_filter_r_value">R</string>
-    <string name="color_filter_g_value">ジー</string>
-    <string name="color_filter_b_value">B</string>
-    <string name="color_filter_a_value">A</string>
-    <string name="pref_download_directory">ダウンロードフォルダ</string>
-    <string name="pref_download_only_over_wifi">Wi-Fi経由でのみダウンロード</string>
-    <string name="pref_remove_after_marked_as_read">既読のチャプターを自動で削除</string>
-    <string name="pref_remove_after_read">読んだ後にすぐに削除</string>
-    <string name="custom_dir">カスタムディレクトリ</string>
-    <string name="disabled">無効</string>
-    <string name="second_to_last">最後に読んだチャプターの2番目</string>
-    <string name="pref_download_new">新しいチャプターをダウンロード</string>
-    <string name="pref_download_new_categories">ダウンロードに含まれるカテゴリ</string>
-    <string name="backup">バックアップ</string>
-    <string name="pref_create_backup">バックアップを作成する</string>
-    <string name="pref_create_backup_summ">現在のライブラリを復元するために使用できます</string>
-    <string name="pref_restore_backup">バックアップを復元</string>
-    <string name="pref_restore_backup_summ">バックアップファイルからライブラリを復元する</string>
-    <string name="pref_backup_directory">バックアップディレクトリ</string>
-    <string name="pref_backup_service_category">サービス</string>
-    <string name="pref_backup_interval">バックアップ頻度</string>
-    <string name="pref_backup_slots">最大自動バックアップ</string>
-    <string name="source_not_found">ソースが見つかりません</string>
-    <string name="backup_created">バックアップが作成されました</string>
-    <string name="pref_clear_chapter_cache">チャプタキャッシュをクリア</string>
-    <string name="cache_delete_error">キャッシュの消去中にエラーが発生しました</string>
-    <string name="pref_clear_database">データベースをクリア</string>
-    <string name="pref_clear_database_summary">ライブラリにないマンガとチャプターを削除</string>
-    <string name="version">バージョン</string>
-    <string name="build_time">ビルドタイム</string>
-    <string name="pref_enable_acra">クラッシュレポートを送信する</string>
-    <string name="login_title">%1$sにログイン</string>
-    <string name="username">ユーザー名</string>
-    <string name="password">パスワード</string>
-    <string name="show_password">パスワードを表示</string>
-    <string name="login">ログイン</string>
-    <string name="login_success">ログインしました</string>
-    <string name="action_add">追加</string>
-    <string name="action_rename_category">カテゴリー名を変更</string>
-    <string name="action_move_category">カテゴリーに移動</string>
-    <string name="action_sort_up">昇順に並べ替え</string>
-    <string name="action_sort_down">降順に並べ替え</string>
-    <string name="action_show_downloaded">ダウンロード終了</string>
-    <string name="action_stop">停止</string>
-    <string name="action_remove">削除</string>
-    <string name="action_install">インストール</string>
-    <string name="action_undo">取り消し</string>
-    <string name="label_help">ヘルプ</string>
-    <string name="action_mark_previous_as_read">前に読んだチャプターを既読にする</string>
-    <string name="action_next_unread">次の未読</string>
-    <string name="action_move">移動</string>
-    <string name="action_open_in_web_view">ウェブビューで開く</string>
-    <string name="short_recent_updates">アップデート</string>
-    <string name="pref_category_reader">ビューア</string>
-    <string name="pref_category_tracking">同期</string>
-    <string name="untrusted_extension_message">これは信頼できない証明書でサインされている拡張のため、有効にしていません。
+    <string name="name" formatted="false">名</string>
+    <string name="categories" formatted="false">カテゴリ</string>
+    <string name="manga" formatted="false">漫画</string>
+    <string name="chapters" formatted="false">章</string>
+    <string name="history" formatted="false">履歴</string>
+    <string name="label_settings" formatted="false">設定</string>
+    <string name="label_download_queue" formatted="false">ダウンロードキュー</string>
+    <string name="label_library" formatted="false">ライブラリ</string>
+    <string name="label_recent_manga" formatted="false">履歴</string>
+    <string name="label_recent_updates" formatted="false">最近の更新</string>
+    <string name="label_categories" formatted="false">カテゴリ</string>
+    <string name="label_backup" formatted="false">バックアップ</string>
+    <string name="action_settings" formatted="false">設定</string>
+    <string name="action_filter" formatted="false">フィルター</string>
+    <string name="action_filter_downloaded" formatted="false">ダウンロードした</string>
+    <string name="action_filter_bookmarked" formatted="false">お気に入り</string>
+    <string name="action_filter_unread" formatted="false">未読</string>
+    <string name="action_filter_read" formatted="false">既読</string>
+    <string name="action_filter_empty" formatted="false">フィルタを削除</string>
+    <string name="action_sort_alpha" formatted="false">アルファベット順</string>
+    <string name="action_sort_total" formatted="false">すべての章</string>
+    <string name="action_sort_last_read" formatted="false">最後に読んだ</string>
+    <string name="action_search" formatted="false">検索</string>
+    <string name="action_global_search" formatted="false">グローバル検索</string>
+    <string name="action_select_all" formatted="false">すべて選択</string>
+    <string name="action_download" formatted="false">ダウンロード</string>
+    <string name="action_bookmark" formatted="false">ブックマーク</string>
+    <string name="action_remove_bookmark" formatted="false">ブックマークを削除</string>
+    <string name="action_display_grid" formatted="false">グリッド</string>
+    <string name="action_display_list" formatted="false">リスト</string>
+    <string name="action_sort" formatted="false">ソート</string>
+    <string name="track" formatted="false">追跡</string>
+    <string name="label_extensions" formatted="false">拡張機能</string>
+    <string name="label_extension_info" formatted="false">拡張機能の情報</string>
+    <string name="label_migration" formatted="false">ソース移行</string>
+    <string name="action_mark_as_read" formatted="false">既読にする</string>
+    <string name="action_mark_as_unread" formatted="false">未読としてマーク</string>
+    <string name="action_delete" formatted="false">削除する</string>
+    <string name="action_update" formatted="false">更新</string>
+    <string name="action_update_library" formatted="false">ライブラリを更新する</string>
+    <string name="action_edit" formatted="false">編集</string>
+    <string name="action_add_category" formatted="false">カテゴリを追加</string>
+    <string name="action_edit_categories" formatted="false">カテゴリを編集</string>
+    <string name="action_edit_cover" formatted="false">表紙画像を編集</string>
+    <string name="action_start" formatted="false">開始</string>
+    <string name="action_pause" formatted="false">一時停止</string>
+    <string name="action_close" formatted="false">クリア</string>
+    <string name="action_previous_chapter" formatted="false">前の章</string>
+    <string name="action_next_chapter" formatted="false">次の章</string>
+    <string name="action_retry" formatted="false">リトライ</string>
+    <string name="action_resume" formatted="false">履歴書</string>
+    <string name="action_open_in_browser" formatted="false">ブラウザで開く</string>
+    <string name="action_display_mode" formatted="false">表示モード</string>
+    <string name="action_display" formatted="false">表示</string>
+    <string name="action_display_download_badge" formatted="false">バッジをダウンロードする</string>
+    <string name="action_cancel" formatted="false">キャンセル</string>
+    <string name="action_share" formatted="false">シェア</string>
+    <string name="action_save" formatted="false">保存する</string>
+    <string name="action_reset" formatted="false">リセット</string>
+    <string name="action_open_log" formatted="false">ログを開く</string>
+    <string name="action_create" formatted="false">作成する</string>
+    <string name="action_restore" formatted="false">リストア</string>
+    <string name="action_open" formatted="false">開いた</string>
+    <string name="action_login" formatted="false">ログイン</string>
+    <string name="loading" formatted="false">読み込み中…</string>
+    <string name="app_not_available" formatted="false">アプリは利用不可</string>
+    <string name="pref_category_general" formatted="false">全般</string>
+    <string name="pref_category_downloads" formatted="false">ダウンロード</string>
+    <string name="pref_category_advanced" formatted="false">高度な</string>
+    <string name="pref_category_about" formatted="false">約</string>
+    <string name="portrait" formatted="false">ポートレート</string>
+    <string name="landscape" formatted="false">景観</string>
+    <string name="default_columns" formatted="false">デフォルト</string>
+    <string name="pref_library_update_interval" formatted="false">ライブラリ更新頻度</string>
+    <string name="update_never" formatted="false">マニュアル</string>
+    <string name="update_1hour" formatted="false">毎時</string>
+    <string name="update_2hour" formatted="false">2時間ごと</string>
+    <string name="update_3hour" formatted="false">3時間ごと</string>
+    <string name="update_6hour" formatted="false">6時間ごと</string>
+    <string name="update_12hour" formatted="false">12時間ごと</string>
+    <string name="update_24hour" formatted="false">毎日</string>
+    <string name="update_48hour" formatted="false">2日ごと</string>
+    <string name="update_weekly" formatted="false">毎週</string>
+    <string name="update_monthly" formatted="false">毎月</string>
+    <string name="pref_library_update_categories" formatted="false">グローバル更新に含まれるカテゴリ</string>
+    <string name="all" formatted="false">すべて</string>
+    <string name="pref_library_update_restriction" formatted="false">ライブラリ更新制限</string>
+    <string name="pref_library_update_restriction_summary" formatted="false">条件が満たされた場合にのみ更新する</string>
+    <string name="wifi" formatted="false">Wi-Fi</string>
+    <string name="charging" formatted="false">充電</string>
+    <string name="pref_update_only_non_completed" formatted="false">進行中の漫画のみ更新</string>
+    <string name="pref_auto_update_manga_sync" formatted="false">読んだ後に章を同期</string>
+    <string name="pref_start_screen" formatted="false">スタート画面</string>
+    <string name="pref_language" formatted="false">言語</string>
+    <string name="system_default" formatted="false">システム標準</string>
+    <string name="default_category" formatted="false">デフォルトカテゴリ</string>
+    <string name="default_category_summary" formatted="false">毎回尋ねる</string>
+    <string name="all_lang" formatted="false">すべて</string>
+    <string name="ext_details" formatted="false">詳細</string>
+    <string name="ext_update" formatted="false">更新</string>
+    <string name="ext_install" formatted="false">インストール</string>
+    <string name="ext_pending" formatted="false">保留</string>
+    <string name="ext_downloading" formatted="false">ダウンロード中</string>
+    <string name="ext_installing" formatted="false">インストール</string>
+    <string name="ext_installed" formatted="false">インストール済み</string>
+    <string name="ext_trust" formatted="false">トラスト</string>
+    <string name="ext_untrusted" formatted="false">信用できない</string>
+    <string name="ext_uninstall" formatted="false">アンインストール</string>
+    <string name="ext_preferences" formatted="false">設定</string>
+    <string name="ext_available" formatted="false">利用可能</string>
+    <string name="untrusted_extension" formatted="false">信頼できない拡張</string>
+    <string name="ext_version_info" formatted="false">バージョン：%1$s</string>
+    <string name="ext_language_info" formatted="false">言語： %1$s</string>
+    <string name="pref_fullscreen" formatted="false">フルスクリーン</string>
+    <string name="pref_page_transitions" formatted="false">ページ遷移</string>
+    <string name="pref_double_tap_anim_speed" formatted="false">ダブルタップアニメーション速度</string>
+    <string name="pref_crop_borders" formatted="false">クロップボーダー</string>
+    <string name="pref_custom_brightness" formatted="false">カスタムの明るさを使う</string>
+    <string name="pref_custom_color_filter" formatted="false">カスタムカラーフィルターを使用</string>
+    <string name="pref_reader_navigation" formatted="false">ナビゲーション</string>
+    <string name="pref_read_with_volume_keys" formatted="false">音量キー</string>
+    <string name="pref_read_with_volume_keys_inverted" formatted="false">音量キーを反転</string>
+    <string name="pref_read_with_tapping" formatted="false">タッピング</string>
+    <string name="pref_reader_theme" formatted="false">背景色</string>
+    <string name="white_background" formatted="false">白</string>
+    <string name="black_background" formatted="false">ブラック</string>
+    <string name="pref_viewer_type" formatted="false">デフォルトビューア</string>
+    <string name="default_viewer" formatted="false">デフォルト</string>
+    <string name="left_to_right_viewer" formatted="false">左から右</string>
+    <string name="right_to_left_viewer" formatted="false">右から左</string>
+    <string name="vertical_viewer" formatted="false">縦反転</string>
+    <string name="webtoon_viewer" formatted="false">Webtoon</string>
+    <string name="pager_viewer" formatted="false">ページャ</string>
+    <string name="pref_image_decoder" formatted="false">画像デコーダ</string>
+    <string name="pref_image_scale_type" formatted="false">スケールの種類</string>
+    <string name="scale_type_fit_screen" formatted="false">フィット画面</string>
+    <string name="scale_type_stretch" formatted="false">ストレッチ</string>
+    <string name="scale_type_fit_width" formatted="false">幅に合わせる</string>
+    <string name="scale_type_original_size" formatted="false">オリジナルサイズ</string>
+    <string name="scale_type_smart_fit" formatted="false">スマートフィット</string>
+    <string name="pref_zoom_start" formatted="false">ズーム開始位置</string>
+    <string name="zoom_start_automatic" formatted="false">自動</string>
+    <string name="zoom_start_left" formatted="false">左</string>
+    <string name="zoom_start_right" formatted="false">右</string>
+    <string name="zoom_start_center" formatted="false">中央</string>
+    <string name="double_tap_anim_speed_normal" formatted="false">通常</string>
+    <string name="double_tap_anim_speed_fast" formatted="false">速い</string>
+    <string name="pref_rotation_type" formatted="false">回転</string>
+    <string name="rotation_free" formatted="false">無料</string>
+    <string name="rotation_lock" formatted="false">ロック</string>
+    <string name="rotation_force_portrait" formatted="false">強制肖像画</string>
+    <string name="color_filter_r_value" formatted="false">R</string>
+    <string name="color_filter_g_value" formatted="false">ジー</string>
+    <string name="color_filter_b_value" formatted="false">B</string>
+    <string name="color_filter_a_value" formatted="false">A</string>
+    <string name="pref_download_directory" formatted="false">ダウンロードフォルダ</string>
+    <string name="pref_download_only_over_wifi" formatted="false">Wi-Fi経由でのみダウンロード</string>
+    <string name="pref_remove_after_marked_as_read" formatted="false">既読のチャプターを自動で削除</string>
+    <string name="pref_remove_after_read" formatted="false">読んだ後にすぐに削除</string>
+    <string name="custom_dir" formatted="false">カスタムディレクトリ</string>
+    <string name="disabled" formatted="false">無効</string>
+    <string name="second_to_last" formatted="false">最後に読んだチャプターの2番目</string>
+    <string name="pref_download_new" formatted="false">新しいチャプターをダウンロード</string>
+    <string name="pref_download_new_categories" formatted="false">ダウンロードに含まれるカテゴリ</string>
+    <string name="backup" formatted="false">バックアップ</string>
+    <string name="pref_create_backup" formatted="false">バックアップを作成する</string>
+    <string name="pref_create_backup_summ" formatted="false">現在のライブラリを復元するために使用できます</string>
+    <string name="pref_restore_backup" formatted="false">バックアップを復元</string>
+    <string name="pref_restore_backup_summ" formatted="false">バックアップファイルからライブラリを復元する</string>
+    <string name="pref_backup_directory" formatted="false">バックアップディレクトリ</string>
+    <string name="pref_backup_service_category" formatted="false">サービス</string>
+    <string name="pref_backup_interval" formatted="false">バックアップ頻度</string>
+    <string name="pref_backup_slots" formatted="false">最大自動バックアップ</string>
+    <string name="source_not_found" formatted="false">ソースが見つかりません</string>
+    <string name="backup_created" formatted="false">バックアップが作成されました</string>
+    <string name="pref_clear_chapter_cache" formatted="false">チャプタキャッシュをクリア</string>
+    <string name="cache_delete_error" formatted="false">キャッシュの消去中にエラーが発生しました</string>
+    <string name="pref_clear_database" formatted="false">データベースをクリア</string>
+    <string name="pref_clear_database_summary" formatted="false">ライブラリにないマンガとチャプターを削除</string>
+    <string name="version" formatted="false">バージョン</string>
+    <string name="build_time" formatted="false">ビルドタイム</string>
+    <string name="pref_enable_acra" formatted="false">クラッシュレポートを送信する</string>
+    <string name="login_title" formatted="false">%1$sにログイン</string>
+    <string name="username" formatted="false">ユーザー名</string>
+    <string name="password" formatted="false">パスワード</string>
+    <string name="show_password" formatted="false">パスワードを表示</string>
+    <string name="login" formatted="false">ログイン</string>
+    <string name="login_success" formatted="false">ログインしました</string>
+    <string name="action_add" formatted="false">追加</string>
+    <string name="action_rename_category" formatted="false">カテゴリー名を変更</string>
+    <string name="action_move_category" formatted="false">カテゴリーに移動</string>
+    <string name="action_sort_up" formatted="false">昇順に並べ替え</string>
+    <string name="action_sort_down" formatted="false">降順に並べ替え</string>
+    <string name="action_show_downloaded" formatted="false">ダウンロード終了</string>
+    <string name="action_stop" formatted="false">停止</string>
+    <string name="action_remove" formatted="false">削除</string>
+    <string name="action_install" formatted="false">インストール</string>
+    <string name="action_undo" formatted="false">取り消し</string>
+    <string name="label_help" formatted="false">ヘルプ</string>
+    <string name="action_mark_previous_as_read" formatted="false">前に読んだチャプターを既読にする</string>
+    <string name="action_next_unread" formatted="false">次の未読</string>
+    <string name="action_move" formatted="false">移動</string>
+    <string name="action_open_in_web_view" formatted="false">ウェブビューで開く</string>
+    <string name="short_recent_updates" formatted="false">アップデート</string>
+    <string name="pref_category_reader" formatted="false">ビューア</string>
+    <string name="pref_category_tracking" formatted="false">同期</string>
+    <string name="untrusted_extension_message" formatted="false">これは信頼できない証明書でサインされている拡張のため、有効にしていません。
 \n
 \n悪意のある拡張はTachiyomiに保存されているすべてのログイン情報を読み取ること、または任意のコードを実行することができます。
 \n
 \nこれらのリスクを受け入れ、この拡張を信頼してもよろしいですか？</string>
-    <string name="ext_empty_preferences">この拡張には利用可能なプリファレンスがありません</string>
-    <string name="pref_lock_orientation">ロックの向き</string>
-    <string name="pref_show_page_number">ページ数を表示</string>
-    <string name="pref_keep_screen_on">画面を常にON</string>
-    <string name="scale_type_fit_height">高さに合わせる</string>
-    <string name="double_tap_anim_speed_0">アニメ効果をOFF</string>
-    <string name="rotation_force_landscape">縦向き画面を強制</string>
-    <string name="last_read_chapter">最後に読んだチャプター</string>
-    <string name="third_to_last">最後に読んだチャプターの3番目</string>
-    <string name="fourth_to_last">最後に読んだチャプターの4番目</string>
-    <string name="fifth_to_last">最後に読んだチャプターの5番目</string>
-    <string name="services">サービス</string>
-    <string name="restore_completed">復元が完了しました</string>
-    <string name="restore_completed_content">復元に%1$sがかかりました。
+    <string name="ext_empty_preferences" formatted="false">この拡張には利用可能なプリファレンスがありません</string>
+    <string name="pref_lock_orientation" formatted="false">ロックの向き</string>
+    <string name="pref_show_page_number" formatted="false">ページ数を表示</string>
+    <string name="pref_keep_screen_on" formatted="false">画面を常にON</string>
+    <string name="scale_type_fit_height" formatted="false">高さに合わせる</string>
+    <string name="double_tap_anim_speed_0" formatted="false">アニメ効果をOFF</string>
+    <string name="rotation_force_landscape" formatted="false">縦向き画面を強制</string>
+    <string name="last_read_chapter" formatted="false">最後に読んだチャプター</string>
+    <string name="third_to_last" formatted="false">最後に読んだチャプターの3番目</string>
+    <string name="fourth_to_last" formatted="false">最後に読んだチャプターの4番目</string>
+    <string name="fifth_to_last" formatted="false">最後に読んだチャプターの5番目</string>
+    <string name="services" formatted="false">サービス</string>
+    <string name="restore_completed" formatted="false">復元が完了しました</string>
+    <string name="restore_completed_content" formatted="false">復元に%1$sがかかりました。
 \n%2$s件のエラーが見つかりました。</string>
-    <string name="backup_restore_content">復元するにはソースを用いてデータをダウンロードします。追加の通信料が発生する場合はあります。
+    <string name="backup_restore_content" formatted="false">復元するにはソースを用いてデータをダウンロードします。追加の通信料が発生する場合はあります。
 \n
 \n復元する前に、必要な拡張をインストールし、追跡サービスとソースにログインするようにしてください。</string>
-    <string name="backup_choice">バックアップしたいのは？</string>
-    <string name="restoring_backup">バックアップを復元中</string>
-    <string name="creating_backup">バックアップを作成中</string>
-    <string name="used_cache">スペース使用済み：%1$s</string>
-    <string name="cache_deleted">キャッシュを削除しました。%1$d件のファイルは削除されました</string>
-    <string name="pref_clear_cookies">Cookiesを削除</string>
-    <string name="cookies_cleared">Cookiesを削除しました</string>
-    <string name="choices_reset">ダイヤログの選択をリセット</string>
-    <string name="clear_database_confirmation">データベースをクリアしてもよろしいですか？ライブラリにないマンガの読んだチャプターと読書進捗はすべて失われます</string>
-    <string name="clear_database_completed">エントリーを削除しました</string>
-    <string name="pref_refresh_library_metadata">ライブラリメタデータを再ロード</string>
-    <string name="pref_refresh_library_metadata_summary">カバー、ジャンル、説明とマンガのステータスを更新</string>
-    <string name="pref_refresh_library_tracking">同期メタデータを再ロード</string>
-    <string name="pref_refresh_library_tracking_summary">同期サービスでステータス、評価と最後に読んだチャプターを更新</string>
-    <string name="pref_acra_summary">バグの修正などに役立ちます。個人情報を送信しません</string>
-    <string name="invalid_login">ログインできませんでした</string>
-    <string name="unknown_error">不明なエラー</string>
-    <string name="library_search_hint">タイトル又は作者…</string>
-    <string name="updating_category">カテゴリーを更新中</string>
-    <string name="local_source_badge">ローカル</string>
-    <string name="confirm_delete_manga">選択したマンガを削除してもよろしいですか？</string>
-    <string name="also_delete_chapters">ダウンロードしたチャプターも削除</string>
-    <string name="source_requires_login">このソースを使用するにはログインが必要です</string>
-    <string name="select_source">ソースを選択</string>
-    <string name="no_valid_sources">有効なソースを少なくとも一つONにしてください</string>
-    <string name="no_more_results">結果はこれ以上ありません</string>
-    <string name="added_to_library">マンガをライブラリに追加しました</string>
-    <string name="action_global_search_hint">グローバル検索…</string>
-    <string name="latest">最近の更新</string>
-    <string name="browse">ブラウズ</string>
-    <string name="manga_not_in_db">このマンガはデータベースから削除されました。</string>
-    <string name="manga_detail_tab">情報</string>
-    <string name="description">説明</string>
-    <string name="ongoing">連載中</string>
-    <string name="unknown">不明</string>
-    <string name="licensed">ライセンス済み</string>
-    <string name="remove_from_library">ライブラリから削除</string>
-    <string name="manga_info_full_title_label">タイトル</string>
-    <string name="manga_added_library">ライブラリに追加しました</string>
-    <string name="manga_removed_library">ライブラリから削除しました</string>
-    <string name="manga_info_author_label">作者</string>
-    <string name="manga_info_artist_label">アーティスト</string>
-    <string name="manga_info_chapters_label">チャプター</string>
-    <string name="manga_info_status_label">ステータス</string>
-    <string name="manga_info_source_label">ソース</string>
-    <string name="manga_info_genres_label">ジャンル</string>
-    <string name="delete_downloads_for_manga">ダウンロードしたチャプターを削除してもよろしいですか？</string>
-    <string name="copied_to_clipboard">%1$sをクリップボードにコピーしました</string>
-    <string name="manga_chapters_tab">チャプター</string>
-    <string name="manga_chapter_no_title">無題</string>
-    <string name="display_mode_chapter">チャプター%1$s</string>
-    <string name="chapter_downloaded">ダウンロード済み</string>
-    <string name="chapter_queued">キュー内待機中</string>
-    <string name="chapter_downloading">ダウンロード中</string>
-    <string name="chapter_downloading_progress">ダウンロード中（%1$d/%2$d）</string>
-    <string name="chapter_error">エラー</string>
-    <string name="chapter_paused">一時停止済み</string>
-    <string name="fetch_chapters_error">チャプターを取得できませんでした</string>
-    <string name="show_title">タイトル</string>
-    <string name="show_chapter_number">チャプター番号</string>
-    <string name="sorting_mode">並べ替えモード</string>
-    <string name="sort_by_source">ソース別</string>
-    <string name="sort_by_number">チャプター番号別</string>
-    <string name="manga_download">ダウンロード</string>
-    <string name="custom_download">カスタムの数でダウンロード</string>
-    <string name="download_1">次のチャプター</string>
-    <string name="download_5">次の5チャプター</string>
-    <string name="download_10">次の10チャプター</string>
-    <string name="download_custom">カスタム</string>
-    <string name="download_all">すべて</string>
-    <string name="download_unread">未読</string>
-    <string name="confirm_delete_chapters">選択したチャプターを削除してもよろしいですか？</string>
-    <string name="manga_tracking_tab">同期</string>
-    <string name="reading">読書中</string>
-    <string name="completed">読書済み</string>
-    <string name="dropped">放棄済み</string>
-    <string name="on_hold">保留中</string>
-    <string name="plan_to_read">計画済み</string>
-    <string name="score">評価</string>
-    <string name="title">タイトル</string>
-    <string name="status">ステータス</string>
-    <string name="track_status">ステータス</string>
-    <string name="track_start_date">開始済み</string>
-    <string name="track_type">タイプ</string>
-    <string name="track_author">作者</string>
-    <string name="url_not_set">マンガURLが設定されていません。タイトルをタップしてマンガをもう一度選択してください</string>
-    <string name="error_category_exists">この名前が既に存在しています！</string>
-    <string name="snack_categories_deleted">カテゴリーが削除されました</string>
-    <string name="dialog_with_checkbox_remove_description">このチャプターの読書日時を削除してもよろしいですか？</string>
-    <string name="dialog_with_checkbox_reset">このマンガのチャプターをすべてリセット</string>
-    <string name="snack_add_to_library">マンガをライブラリに追加しますか？</string>
-    <string name="picture_saved">画像を保存しました</string>
-    <string name="saving_picture">画像を保存しています</string>
-    <string name="options">オプション</string>
-    <string name="custom_filter">カスタム フィルタ</string>
-    <string name="set_as_cover">カバーとして設定</string>
-    <string name="cover_updated">カバーとして設定しました</string>
-    <string name="page_downloaded">ページを%1$sにコピーしました</string>
-    <string name="downloading">ダウンロード中…</string>
-    <string name="download_progress">%1$d%%をダウンロードしました</string>
-    <string name="chapter_progress">ページ：%1$d</string>
-    <string name="chapter_subtitle">チャプター%1$s</string>
-    <string name="no_next_chapter">次のチャプターが見つかりません</string>
-    <string name="no_previous_chapter">前のチャプターが見つかりません</string>
-    <string name="decode_image_error">画像を読み取れませんでした</string>
-    <string name="confirm_set_image_as_cover">カバーとして設定しますか？</string>
-    <string name="viewer_for_this_series">このシリーズのビューア</string>
-    <string name="migration_info">タップして移行元のソースを選択</string>
-    <string name="migration_dialog_what_to_include">移行するデータを選択</string>
-    <string name="select">選択</string>
-    <string name="migrate">移行</string>
-    <string name="copy">コピー</string>
-    <string name="download_queue_error">チャプターのダウンロードに失敗しました。「ダウンロード」にて再試行してください</string>
-    <string name="notification_update_progress">更新中：%1$d/%2$d</string>
-    <string name="notification_new_chapters">新しいチャプターが見つかりました</string>
-    <string name="notification_cover_update_failed">カバーを更新できませんでした</string>
-    <string name="notification_first_add_to_library">まずはマンガをライブラリに追加してください</string>
-    <string name="notification_not_connected_to_ac_title">同期がキャンセルされました</string>
-    <string name="notification_not_connected_to_ac_body">電源に接続していません</string>
-    <string name="notification_no_connection_title">同期はキャンセルされました</string>
-    <string name="notification_no_connection_body">接続していません</string>
-    <string name="file_select_cover">カバー画像を選択</string>
-    <string name="file_select_backup">バックアップファイルを選択</string>
-    <string name="file_select_icon">ショートカットアイコンを選択</string>
-    <string name="update_check_confirm">ダウンロード</string>
-    <string name="update_check_ignore">無視</string>
-    <string name="update_check_no_new_updates">新しいバージョンがありません</string>
-    <string name="update_check_look_for_updates">アップデートを確認中…</string>
-    <string name="update_check_notification_file_download">アップデートをダウンロード</string>
-    <string name="update_check_notification_download_in_progress">ダウンロード中…</string>
-    <string name="update_check_notification_download_complete">ダウンロード完了</string>
-    <string name="update_check_notification_download_error">ダウンロード中にエラー発生</string>
-    <string name="update_check_notification_update_available">アップデート利用可能</string>
-    <string name="description_backdrop">マンガ背景</string>
-    <string name="description_cover">マンガカバー</string>
-    <string name="information_no_downloads">ダウンロードタスクなし</string>
-    <string name="information_no_recent">最近のチャプターなし</string>
-    <string name="information_no_recent_manga">最近に読んだマンガなし</string>
-    <string name="information_empty_library">ライブラリは空です。カタログから新しいマンガを追加してください。</string>
-    <string name="information_empty_category">カテゴリーがありません。「+」をタップしてカテゴリーを追加し、ライブラリを整理できます。</string>
-    <string name="download_notifier_downloader_title">ダウンロード</string>
-    <string name="download_notifier_title_error">エラー</string>
-    <string name="download_notifier_unknown_error">予期せぬエラーが発生したため、ダウンロードは失敗しました</string>
-    <string name="download_notifier_page_error">ディレクトリに見つけないページがあります</string>
-    <string name="download_notifier_page_ready_error">ページをロードできませんでした</string>
-    <string name="download_notifier_text_only_wifi">Wi-Fi接続は利用できません</string>
-    <string name="download_notifier_no_network">ネットワーク接続が利用できません</string>
-    <string name="download_notifier_download_paused">ダウンロード一時停止済み</string>
-    <string name="channel_common">一般設定</string>
-    <string name="channel_library">ライブラリ</string>
-    <string name="channel_downloader">ダウンロード</string>
-    <string name="repeating">読み直している</string>
-    <string name="source_not_installed">未インストールのソース：%1$s</string>
-    <string name="transition_finished">読み終わった：</string>
-    <string name="transition_current">読んでいます：</string>
-    <string name="transition_next">次：</string>
-    <string name="transition_previous">前：</string>
-    <string name="transition_no_next">次のチャプターなし</string>
-    <string name="transition_no_previous">前のチャプターなし</string>
-    <string name="transition_pages_loading">ページをロード中…</string>
-    <string name="transition_pages_error">ページのロードに失敗：%1$s</string>
-    <string name="pref_read_with_long_tap">コンテキストメニュー（長押し）</string>
-    <string name="pref_true_color">32ビットカラー</string>
-    <string name="pref_skip_read_chapters">読み終わったチャプターをスキップ</string>
-    <string name="pref_color_filter_mode">カラー フィルター ブレンド モード</string>
-    <string name="filter_mode_default">既定</string>
-    <string name="filter_mode_overlay">オーバーレイ</string>
-    <string name="filter_mode_screen">画面</string>
-    <string name="pref_library_update_prioritization">ライブラリ更新の順</string>
-    <string name="no_results_found">結果が見つかりませんでした</string>
-    <string name="migration_selection_prompt">移行元を選択</string>
-    <string name="action_webview_back">前へ</string>
-    <string name="action_webview_forward">次へ</string>
-    <string name="action_webview_refresh">再ロード</string>
-    <string name="pref_category_library">ライブラリ</string>
-    <string name="invalid_download_dir">ダウンロード場所が無効です</string>
-    <string name="ext_obsolete">廃止済み</string>
-    <string name="obsolete_extension_message">この拡張は利用不可になりました。</string>
-    <string name="pref_date_format">日付形式</string>
-    <string name="pref_category_library_update">更新</string>
-    <string name="pref_category_library_categories">カテゴリー</string>
-    <string name="logout_title">%1$sからログアウトしますか？</string>
-    <string name="logout">ログアウト</string>
-    <string name="logout_success">ログアウトしました</string>
-    <string name="currently_reading">現在の位置</string>
-    <string name="paused">一時停止</string>
-    <string name="want_to_read">読みたい</string>
-    <string name="other_source">他</string>
-    <string name="label_more">他</string>
-    <string name="action_sort_latest_chapter">最新章</string>
-    <string name="action_view_chapters">章を見る</string>
-    <string name="action_cancel_all">取り消す</string>
-    <string name="pref_theme_mode">アプリテーマ</string>
-    <string name="theme_light">ライト</string>
-    <string name="theme_dark">ダーク</string>
-    <string name="theme_system">システム設定</string>
-    <string name="pref_theme_dark">ダークテーマ版</string>
-    <string name="theme_dark_default">初期設定</string>
-    <string name="theme_dark_blue">濃紺</string>
-    <string name="theme_dark_amoled">AMOLED黒い</string>
-    <string name="pref_manage_notifications">通知設定</string>
-    <string name="pref_category_security">安全</string>
-    <string name="lock_with_biometrics">生体認証</string>
-    <string name="lock_when_idle">タイムアウトロック</string>
-    <string name="lock_always">いつも</string>
-    <string name="lock_never">しない</string>
-    <plurals name="lock_after_mins">
-        <item quantity="other">後%1$s分</item>
+    <string name="backup_choice" formatted="false">バックアップしたいのは？</string>
+    <string name="restoring_backup" formatted="false">バックアップを復元中</string>
+    <string name="creating_backup" formatted="false">バックアップを作成中</string>
+    <string name="used_cache" formatted="false">スペース使用済み：%1$s</string>
+    <string name="cache_deleted" formatted="false">キャッシュを削除しました。%1$d件のファイルは削除されました</string>
+    <string name="pref_clear_cookies" formatted="false">Cookiesを削除</string>
+    <string name="cookies_cleared" formatted="false">Cookiesを削除しました</string>
+    <string name="choices_reset" formatted="false">ダイヤログの選択をリセット</string>
+    <string name="clear_database_confirmation" formatted="false">データベースをクリアしてもよろしいですか？ライブラリにないマンガの読んだチャプターと読書進捗はすべて失われます</string>
+    <string name="clear_database_completed" formatted="false">エントリーを削除しました</string>
+    <string name="pref_refresh_library_metadata" formatted="false">ライブラリメタデータを再ロード</string>
+    <string name="pref_refresh_library_metadata_summary" formatted="false">カバー、ジャンル、説明とマンガのステータスを更新</string>
+    <string name="pref_refresh_library_tracking" formatted="false">同期メタデータを再ロード</string>
+    <string name="pref_refresh_library_tracking_summary" formatted="false">同期サービスでステータス、評価と最後に読んだチャプターを更新</string>
+    <string name="pref_acra_summary" formatted="false">バグの修正などに役立ちます。個人情報を送信しません</string>
+    <string name="invalid_login" formatted="false">ログインできませんでした</string>
+    <string name="unknown_error" formatted="false">不明なエラー</string>
+    <string name="library_search_hint" formatted="false">タイトル又は作者…</string>
+    <string name="updating_category" formatted="false">カテゴリーを更新中</string>
+    <string name="local_source_badge" formatted="false">ローカル</string>
+    <string name="confirm_delete_manga" formatted="false">選択したマンガを削除してもよろしいですか？</string>
+    <string name="also_delete_chapters" formatted="false">ダウンロードしたチャプターも削除</string>
+    <string name="source_requires_login" formatted="false">このソースを使用するにはログインが必要です</string>
+    <string name="select_source" formatted="false">ソースを選択</string>
+    <string name="no_valid_sources" formatted="false">有効なソースを少なくとも一つONにしてください</string>
+    <string name="no_more_results" formatted="false">結果はこれ以上ありません</string>
+    <string name="added_to_library" formatted="false">マンガをライブラリに追加しました</string>
+    <string name="action_global_search_hint" formatted="false">グローバル検索…</string>
+    <string name="latest" formatted="false">最近の更新</string>
+    <string name="browse" formatted="false">ブラウズ</string>
+    <string name="manga_not_in_db" formatted="false">このマンガはデータベースから削除されました。</string>
+    <string name="manga_detail_tab" formatted="false">情報</string>
+    <string name="description" formatted="false">説明</string>
+    <string name="ongoing" formatted="false">連載中</string>
+    <string name="unknown" formatted="false">不明</string>
+    <string name="licensed" formatted="false">ライセンス済み</string>
+    <string name="remove_from_library" formatted="false">ライブラリから削除</string>
+    <string name="manga_info_full_title_label" formatted="false">タイトル</string>
+    <string name="manga_added_library" formatted="false">ライブラリに追加しました</string>
+    <string name="manga_removed_library" formatted="false">ライブラリから削除しました</string>
+    <string name="manga_info_author_label" formatted="false">作者</string>
+    <string name="manga_info_artist_label" formatted="false">アーティスト</string>
+    <string name="manga_info_chapters_label" formatted="false">チャプター</string>
+    <string name="manga_info_status_label" formatted="false">ステータス</string>
+    <string name="manga_info_source_label" formatted="false">ソース</string>
+    <string name="manga_info_genres_label" formatted="false">ジャンル</string>
+    <string name="delete_downloads_for_manga" formatted="false">ダウンロードしたチャプターを削除してもよろしいですか？</string>
+    <string name="copied_to_clipboard" formatted="false">%1$sをクリップボードにコピーしました</string>
+    <string name="manga_chapters_tab" formatted="false">チャプター</string>
+    <string name="manga_chapter_no_title" formatted="false">無題</string>
+    <string name="display_mode_chapter" formatted="false">チャプター%1$s</string>
+    <string name="chapter_downloaded" formatted="false">ダウンロード済み</string>
+    <string name="chapter_queued" formatted="false">キュー内待機中</string>
+    <string name="chapter_downloading" formatted="false">ダウンロード中</string>
+    <string name="chapter_downloading_progress" formatted="false">ダウンロード中（%1$d/%2$d）</string>
+    <string name="chapter_error" formatted="false">エラー</string>
+    <string name="chapter_paused" formatted="false">一時停止済み</string>
+    <string name="fetch_chapters_error" formatted="false">チャプターを取得できませんでした</string>
+    <string name="show_title" formatted="false">タイトル</string>
+    <string name="show_chapter_number" formatted="false">チャプター番号</string>
+    <string name="sorting_mode" formatted="false">並べ替えモード</string>
+    <string name="sort_by_source" formatted="false">ソース別</string>
+    <string name="sort_by_number" formatted="false">チャプター番号別</string>
+    <string name="manga_download" formatted="false">ダウンロード</string>
+    <string name="custom_download" formatted="false">カスタムの数でダウンロード</string>
+    <string name="download_1" formatted="false">次のチャプター</string>
+    <string name="download_5" formatted="false">次の5チャプター</string>
+    <string name="download_10" formatted="false">次の10チャプター</string>
+    <string name="download_custom" formatted="false">カスタム</string>
+    <string name="download_all" formatted="false">すべて</string>
+    <string name="download_unread" formatted="false">未読</string>
+    <string name="confirm_delete_chapters" formatted="false">選択したチャプターを削除してもよろしいですか？</string>
+    <string name="manga_tracking_tab" formatted="false">同期</string>
+    <string name="reading" formatted="false">読書中</string>
+    <string name="completed" formatted="false">読書済み</string>
+    <string name="dropped" formatted="false">放棄済み</string>
+    <string name="on_hold" formatted="false">保留中</string>
+    <string name="plan_to_read" formatted="false">計画済み</string>
+    <string name="score" formatted="false">評価</string>
+    <string name="title" formatted="false">タイトル</string>
+    <string name="status" formatted="false">ステータス</string>
+    <string name="track_status" formatted="false">ステータス</string>
+    <string name="track_start_date" formatted="false">開始済み</string>
+    <string name="track_type" formatted="false">タイプ</string>
+    <string name="track_author" formatted="false">作者</string>
+    <string name="url_not_set" formatted="false">マンガURLが設定されていません。タイトルをタップしてマンガをもう一度選択してください</string>
+    <string name="error_category_exists" formatted="false">この名前が既に存在しています！</string>
+    <string name="snack_categories_deleted" formatted="false">カテゴリーが削除されました</string>
+    <string name="dialog_with_checkbox_remove_description" formatted="false">このチャプターの読書日時を削除してもよろしいですか？</string>
+    <string name="dialog_with_checkbox_reset" formatted="false">このマンガのチャプターをすべてリセット</string>
+    <string name="snack_add_to_library" formatted="false">マンガをライブラリに追加しますか？</string>
+    <string name="picture_saved" formatted="false">画像を保存しました</string>
+    <string name="saving_picture" formatted="false">画像を保存しています</string>
+    <string name="options" formatted="false">オプション</string>
+    <string name="custom_filter" formatted="false">カスタム フィルタ</string>
+    <string name="set_as_cover" formatted="false">カバーとして設定</string>
+    <string name="cover_updated" formatted="false">カバーとして設定しました</string>
+    <string name="page_downloaded" formatted="false">ページを%1$sにコピーしました</string>
+    <string name="downloading" formatted="false">ダウンロード中…</string>
+    <string name="download_progress" formatted="false">%1$d%%をダウンロードしました</string>
+    <string name="chapter_progress" formatted="false">ページ：%1$d</string>
+    <string name="chapter_subtitle" formatted="false">チャプター%1$s</string>
+    <string name="no_next_chapter" formatted="false">次のチャプターが見つかりません</string>
+    <string name="no_previous_chapter" formatted="false">前のチャプターが見つかりません</string>
+    <string name="decode_image_error" formatted="false">画像を読み取れませんでした</string>
+    <string name="confirm_set_image_as_cover" formatted="false">カバーとして設定しますか？</string>
+    <string name="viewer_for_this_series" formatted="false">このシリーズのビューア</string>
+    <string name="migration_info" formatted="false">タップして移行元のソースを選択</string>
+    <string name="migration_dialog_what_to_include" formatted="false">移行するデータを選択</string>
+    <string name="select" formatted="false">選択</string>
+    <string name="migrate" formatted="false">移行</string>
+    <string name="copy" formatted="false">コピー</string>
+    <string name="download_queue_error" formatted="false">チャプターのダウンロードに失敗しました。「ダウンロード」にて再試行してください</string>
+    <string name="notification_update_progress" formatted="false">更新中：%1$d/%2$d</string>
+    <string name="notification_new_chapters" formatted="false">新しいチャプターが見つかりました</string>
+    <string name="notification_cover_update_failed" formatted="false">カバーを更新できませんでした</string>
+    <string name="notification_first_add_to_library" formatted="false">まずはマンガをライブラリに追加してください</string>
+    <string name="notification_not_connected_to_ac_title" formatted="false">同期がキャンセルされました</string>
+    <string name="notification_not_connected_to_ac_body" formatted="false">電源に接続していません</string>
+    <string name="notification_no_connection_title" formatted="false">同期はキャンセルされました</string>
+    <string name="notification_no_connection_body" formatted="false">接続していません</string>
+    <string name="file_select_cover" formatted="false">カバー画像を選択</string>
+    <string name="file_select_backup" formatted="false">バックアップファイルを選択</string>
+    <string name="file_select_icon" formatted="false">ショートカットアイコンを選択</string>
+    <string name="update_check_confirm" formatted="false">ダウンロード</string>
+    <string name="update_check_ignore" formatted="false">無視</string>
+    <string name="update_check_no_new_updates" formatted="false">新しいバージョンがありません</string>
+    <string name="update_check_look_for_updates" formatted="false">アップデートを確認中…</string>
+    <string name="update_check_notification_file_download" formatted="false">アップデートをダウンロード</string>
+    <string name="update_check_notification_download_in_progress" formatted="false">ダウンロード中…</string>
+    <string name="update_check_notification_download_complete" formatted="false">ダウンロード完了</string>
+    <string name="update_check_notification_download_error" formatted="false">ダウンロード中にエラー発生</string>
+    <string name="update_check_notification_update_available" formatted="false">アップデート利用可能</string>
+    <string name="description_backdrop" formatted="false">マンガ背景</string>
+    <string name="description_cover" formatted="false">マンガカバー</string>
+    <string name="information_no_downloads" formatted="false">ダウンロードタスクなし</string>
+    <string name="information_no_recent" formatted="false">最近のチャプターなし</string>
+    <string name="information_no_recent_manga" formatted="false">最近に読んだマンガなし</string>
+    <string name="information_empty_library" formatted="false">ライブラリは空です。カタログから新しいマンガを追加してください。</string>
+    <string name="information_empty_category" formatted="false">カテゴリーがありません。「+」をタップしてカテゴリーを追加し、ライブラリを整理できます。</string>
+    <string name="download_notifier_downloader_title" formatted="false">ダウンロード</string>
+    <string name="download_notifier_title_error" formatted="false">エラー</string>
+    <string name="download_notifier_unknown_error" formatted="false">予期せぬエラーが発生したため、ダウンロードは失敗しました</string>
+    <string name="download_notifier_page_error" formatted="false">ディレクトリに見つけないページがあります</string>
+    <string name="download_notifier_page_ready_error" formatted="false">ページをロードできませんでした</string>
+    <string name="download_notifier_text_only_wifi" formatted="false">Wi-Fi接続は利用できません</string>
+    <string name="download_notifier_no_network" formatted="false">ネットワーク接続が利用できません</string>
+    <string name="download_notifier_download_paused" formatted="false">ダウンロード一時停止済み</string>
+    <string name="channel_common" formatted="false">一般設定</string>
+    <string name="channel_library" formatted="false">ライブラリ</string>
+    <string name="channel_downloader" formatted="false">ダウンロード</string>
+    <string name="repeating" formatted="false">読み直している</string>
+    <string name="source_not_installed" formatted="false">未インストールのソース：%1$s</string>
+    <string name="transition_finished" formatted="false">読み終わった：</string>
+    <string name="transition_current" formatted="false">読んでいます：</string>
+    <string name="transition_next" formatted="false">次：</string>
+    <string name="transition_previous" formatted="false">前：</string>
+    <string name="transition_no_next" formatted="false">次のチャプターなし</string>
+    <string name="transition_no_previous" formatted="false">前のチャプターなし</string>
+    <string name="transition_pages_loading" formatted="false">ページをロード中…</string>
+    <string name="transition_pages_error" formatted="false">ページのロードに失敗：%1$s</string>
+    <string name="pref_read_with_long_tap" formatted="false">コンテキストメニュー（長押し）</string>
+    <string name="pref_true_color" formatted="false">32ビットカラー</string>
+    <string name="pref_skip_read_chapters" formatted="false">読み終わったチャプターをスキップ</string>
+    <string name="pref_color_filter_mode" formatted="false">カラー フィルター ブレンド モード</string>
+    <string name="filter_mode_default" formatted="false">既定</string>
+    <string name="filter_mode_overlay" formatted="false">オーバーレイ</string>
+    <string name="filter_mode_screen" formatted="false">画面</string>
+    <string name="pref_library_update_prioritization" formatted="false">ライブラリ更新の順</string>
+    <string name="no_results_found" formatted="false">結果が見つかりませんでした</string>
+    <string name="migration_selection_prompt" formatted="false">移行元を選択</string>
+    <string name="action_webview_back" formatted="false">前へ</string>
+    <string name="action_webview_forward" formatted="false">次へ</string>
+    <string name="action_webview_refresh" formatted="false">再ロード</string>
+    <string name="pref_category_library" formatted="false">ライブラリ</string>
+    <string name="invalid_download_dir" formatted="false">ダウンロード場所が無効です</string>
+    <string name="ext_obsolete" formatted="false">廃止済み</string>
+    <string name="obsolete_extension_message" formatted="false">この拡張は利用不可になりました。</string>
+    <string name="pref_date_format" formatted="false">日付形式</string>
+    <string name="pref_category_library_update" formatted="false">更新</string>
+    <string name="pref_category_library_categories" formatted="false">カテゴリー</string>
+    <string name="logout_title" formatted="false">%1$sからログアウトしますか？</string>
+    <string name="logout" formatted="false">ログアウト</string>
+    <string name="logout_success" formatted="false">ログアウトしました</string>
+    <string name="currently_reading" formatted="false">現在の位置</string>
+    <string name="paused" formatted="false">一時停止</string>
+    <string name="want_to_read" formatted="false">読みたい</string>
+    <string name="other_source" formatted="false">他</string>
+    <string name="label_more" formatted="false">他</string>
+    <string name="action_sort_latest_chapter" formatted="false">最新章</string>
+    <string name="action_view_chapters" formatted="false">章を見る</string>
+    <string name="action_cancel_all" formatted="false">取り消す</string>
+    <string name="pref_theme_mode" formatted="false">アプリテーマ</string>
+    <string name="theme_light" formatted="false">ライト</string>
+    <string name="theme_dark" formatted="false">ダーク</string>
+    <string name="theme_system" formatted="false">システム設定</string>
+    <string name="pref_theme_dark" formatted="false">ダークテーマ版</string>
+    <string name="theme_dark_default" formatted="false">初期設定</string>
+    <string name="theme_dark_blue" formatted="false">濃紺</string>
+    <string name="theme_dark_amoled" formatted="false">AMOLED黒い</string>
+    <string name="pref_manage_notifications" formatted="false">通知設定</string>
+    <string name="pref_category_security" formatted="false">安全</string>
+    <string name="lock_with_biometrics" formatted="false">生体認証</string>
+    <string name="lock_when_idle" formatted="false">タイムアウトロック</string>
+    <string name="lock_always" formatted="false">いつも</string>
+    <string name="lock_never" formatted="false">しない</string>
+    <plurals name="lock_after_mins" formatted="false">
+        <item quantity="other" formatted="false">後%1$s分</item>
     </plurals>
-    <string name="secure_screen">安全画面</string>
-    <string name="unlock_app">Tachiyomiを開ける</string>
-    <plurals name="notification_chapters_generic">
-        <item quantity="other">%1$d新しい章</item>
+    <string name="secure_screen" formatted="false">安全画面</string>
+    <string name="unlock_app" formatted="false">Tachiyomiを開ける</string>
+    <plurals name="notification_chapters_generic" formatted="false">
+        <item quantity="other" formatted="false">%1$d新しい章</item>
     </plurals>
-    <string name="notification_chapters_single">%1$s章</string>
+    <string name="notification_chapters_single" formatted="false">%1$s章</string>
 </resources>

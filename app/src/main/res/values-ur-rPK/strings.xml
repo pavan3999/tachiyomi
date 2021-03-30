@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name">نام</string>
-    <string name="categories">زمرہ جات</string>
-    <string name="manga">مانگا</string>
-    <string name="chapters">ابواب</string>
-    <string name="track">ٹریکنگ</string>
-    <string name="history">ہسٹری</string>
-    <string name="label_more">مزید</string>
-    <string name="label_settings">ترتیبات</string>
-    <string name="label_download_queue">قطارِ ڈاؤنلوڈ</string>
-    <string name="label_library">لائبریری</string>
-    <string name="label_recent_updates">اپڈیٹس</string>
-    <string name="label_recent_manga">ہسٹری</string>
-    <string name="label_categories">اقسام</string>
-    <string name="label_backup">بیک اپ</string>
-    <string name="label_migration">ماخذ منتقلی</string>
-    <string name="label_extensions">ایکسٹینشنز</string>
-    <string name="label_extension_info">توسیع کی معلومات</string>
-    <string name="label_help">مدد</string>
-    <string name="unlock_app">انلاک تاچییومی</string>
-    <string name="action_settings">ترتیبات</string>
-    <string name="action_filter">فلٹر</string>
-    <string name="action_filter_downloaded">ڈاؤن لوڈ شدہ</string>
-    <string name="action_filter_bookmarked">بُک مارک شدہ</string>
-    <string name="action_filter_unread">پڑھا نہیں گیا</string>
-    <string name="action_filter_read">پڑھ لیا</string>
-    <string name="action_filter_empty">فلٹر ہٹائیں</string>
-    <string name="action_sort_alpha">حروف تہجی کے لحاظ سے</string>
-    <string name="action_sort_total">کل ابواب</string>
-    <string name="action_sort_last_read">آخری بار پڑھا گیا</string>
-    <string name="action_sort_latest_chapter">تازہ ترین باب</string>
-    <string name="action_search">تلاش</string>
-    <string name="action_global_search">عالمی تلاش</string>
-    <string name="action_select_all">تمام منتخب کریں</string>
-    <string name="action_mark_as_read">بطور پڑھ چکا نشان زد کریں</string>
-    <string name="action_mark_as_unread">بطور پڑھ نہیں چکا نشان زد کریں</string>
-    <string name="action_mark_previous_as_read">پچھلا بطور پڑھ چکا نشان زد کریں</string>
-    <string name="action_download">ڈاؤنلوڈ کریں</string>
-    <string name="action_bookmark">بُک مارک کریں</string>
-    <string name="action_remove_bookmark">بُک مارک ہٹائیں</string>
-    <string name="action_delete">حذف کریں</string>
-    <string name="action_update">اپ ڈیٹ کریں</string>
-    <string name="action_update_library">لائبریری اپ ڈیٹ کریں</string>
-    <string name="action_add">شامل کریں</string>
-    <string name="label_sources">ذرائع</string>
-    <string name="manga_info_collapse">کم معلومات دکھائیں</string>
-    <string name="manga_info_expand">مزید معلومات دکھائیں</string>
-    <string name="manga_added_library">لائبریری میں شامل</string>
-    <string name="manga_info_full_title_label">عنوان</string>
-    <string name="remove_from_library">لائبریری سے ہٹائیں</string>
-    <string name="in_library">لائبریری میں</string>
-    <string name="transition_previous">پچھلا:</string>
-    <string name="transition_next">اگلا:</string>
+    <string name="name" formatted="false">نام</string>
+    <string name="categories" formatted="false">زمرہ جات</string>
+    <string name="manga" formatted="false">مانگا</string>
+    <string name="chapters" formatted="false">ابواب</string>
+    <string name="track" formatted="false">ٹریکنگ</string>
+    <string name="history" formatted="false">ہسٹری</string>
+    <string name="label_more" formatted="false">مزید</string>
+    <string name="label_settings" formatted="false">ترتیبات</string>
+    <string name="label_download_queue" formatted="false">قطارِ ڈاؤنلوڈ</string>
+    <string name="label_library" formatted="false">لائبریری</string>
+    <string name="label_recent_updates" formatted="false">اپڈیٹس</string>
+    <string name="label_recent_manga" formatted="false">ہسٹری</string>
+    <string name="label_categories" formatted="false">اقسام</string>
+    <string name="label_backup" formatted="false">بیک اپ</string>
+    <string name="label_migration" formatted="false">ماخذ منتقلی</string>
+    <string name="label_extensions" formatted="false">ایکسٹینشنز</string>
+    <string name="label_extension_info" formatted="false">توسیع کی معلومات</string>
+    <string name="label_help" formatted="false">مدد</string>
+    <string name="unlock_app" formatted="false">انلاک تاچییومی</string>
+    <string name="action_settings" formatted="false">ترتیبات</string>
+    <string name="action_filter" formatted="false">فلٹر</string>
+    <string name="action_filter_downloaded" formatted="false">ڈاؤن لوڈ شدہ</string>
+    <string name="action_filter_bookmarked" formatted="false">بُک مارک شدہ</string>
+    <string name="action_filter_unread" formatted="false">پڑھا نہیں گیا</string>
+    <string name="action_filter_read" formatted="false">پڑھ لیا</string>
+    <string name="action_filter_empty" formatted="false">فلٹر ہٹائیں</string>
+    <string name="action_sort_alpha" formatted="false">حروف تہجی کے لحاظ سے</string>
+    <string name="action_sort_total" formatted="false">کل ابواب</string>
+    <string name="action_sort_last_read" formatted="false">آخری بار پڑھا گیا</string>
+    <string name="action_sort_latest_chapter" formatted="false">تازہ ترین باب</string>
+    <string name="action_search" formatted="false">تلاش</string>
+    <string name="action_global_search" formatted="false">عالمی تلاش</string>
+    <string name="action_select_all" formatted="false">تمام منتخب کریں</string>
+    <string name="action_mark_as_read" formatted="false">بطور پڑھ چکا نشان زد کریں</string>
+    <string name="action_mark_as_unread" formatted="false">بطور پڑھ نہیں چکا نشان زد کریں</string>
+    <string name="action_mark_previous_as_read" formatted="false">پچھلا بطور پڑھ چکا نشان زد کریں</string>
+    <string name="action_download" formatted="false">ڈاؤنلوڈ کریں</string>
+    <string name="action_bookmark" formatted="false">بُک مارک کریں</string>
+    <string name="action_remove_bookmark" formatted="false">بُک مارک ہٹائیں</string>
+    <string name="action_delete" formatted="false">حذف کریں</string>
+    <string name="action_update" formatted="false">اپ ڈیٹ کریں</string>
+    <string name="action_update_library" formatted="false">لائبریری اپ ڈیٹ کریں</string>
+    <string name="action_add" formatted="false">شامل کریں</string>
+    <string name="label_sources" formatted="false">ذرائع</string>
+    <string name="manga_info_collapse" formatted="false">کم معلومات دکھائیں</string>
+    <string name="manga_info_expand" formatted="false">مزید معلومات دکھائیں</string>
+    <string name="manga_added_library" formatted="false">لائبریری میں شامل</string>
+    <string name="manga_info_full_title_label" formatted="false">عنوان</string>
+    <string name="remove_from_library" formatted="false">لائبریری سے ہٹائیں</string>
+    <string name="in_library" formatted="false">لائبریری میں</string>
+    <string name="transition_previous" formatted="false">پچھلا:</string>
+    <string name="transition_next" formatted="false">اگلا:</string>
 </resources>

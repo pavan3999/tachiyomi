@@ -1,427 +1,427 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name">Meno</string>
-    <string name="categories">Kategórie</string>
-    <string name="manga">Manga</string>
-    <string name="chapters">Kapitoly</string>
-    <string name="track">Sledovanie</string>
-    <string name="history">História</string>
-    <string name="label_settings">Nastavenia</string>
-    <string name="label_download_queue">Sťahujúce sa</string>
-    <string name="label_library">Knižnica</string>
-    <string name="label_recent_manga">Nedávno čítané</string>
-    <string name="label_recent_updates">Updaty</string>
-    <string name="label_categories">Kategórie</string>
-    <string name="label_backup">Záloha</string>
-    <string name="label_migration">Presun zdrojov</string>
-    <string name="label_extensions">Rozšírenia</string>
-    <string name="label_extension_info">Info o rozšíreniach</string>
-    <string name="label_help">Pomoc</string>
-    <string name="action_settings">Nastavenia</string>
-    <string name="action_filter">Filter</string>
-    <string name="action_filter_downloaded">Stiahnuté</string>
-    <string name="action_filter_bookmarked">Uložené</string>
-    <string name="action_filter_unread">Neprečítané</string>
-    <string name="action_filter_read">Prečítané</string>
-    <string name="action_filter_empty">Zrušiť filter</string>
-    <string name="action_sort_alpha">Abecedne</string>
-    <string name="action_sort_total">Všetky kapitoly</string>
-    <string name="action_sort_last_read">Naposledy čítané</string>
-    <string name="action_search">Hľadať</string>
-    <string name="action_global_search">Hľadať všade</string>
-    <string name="action_select_all">Vybrať všetko</string>
-    <string name="action_mark_as_read">Označiť ako prečítané</string>
-    <string name="action_mark_as_unread">Označiť ako neprečítané</string>
-    <string name="action_mark_previous_as_read">Označiť predošlé ako prečítané</string>
-    <string name="action_download">Stiahnuť</string>
-    <string name="action_bookmark">Uložiť</string>
-    <string name="action_remove_bookmark">Odstrániť záložku</string>
-    <string name="action_delete">Vymazať</string>
-    <string name="action_update">Aktualizovať</string>
-    <string name="action_update_library">Aktualizovať knižnicu</string>
-    <string name="action_edit">Upraviť</string>
-    <string name="action_add">Pridať</string>
-    <string name="action_add_category">Pridať kategóriu</string>
-    <string name="action_edit_categories">Upraviť kategórie</string>
-    <string name="action_rename_category">Premenovať kategóriu</string>
-    <string name="action_move_category">Presunúť do kategórie</string>
-    <string name="action_edit_cover">Nahrať vlastný obal</string>
-    <string name="action_sort_up">Zatriediť hore</string>
-    <string name="action_sort_down">Zatriediť dole</string>
-    <string name="action_show_downloaded">Stiahnuté</string>
-    <string name="action_next_unread">Nasledujúce nečítané</string>
-    <string name="action_start">Začať</string>
-    <string name="action_stop">Zastaviť</string>
-    <string name="action_pause">Pauza</string>
-    <string name="action_close">Zatvoriť</string>
-    <string name="action_previous_chapter">Predošlá kapitola</string>
-    <string name="action_next_chapter">Nasledujúca kapitola</string>
-    <string name="action_retry">Skúsiť znovu</string>
-    <string name="action_remove">Odstrániť</string>
-    <string name="action_resume">Pokračovať</string>
-    <string name="action_move">Presunúť</string>
-    <string name="action_open_in_browser">Otvoriť v browseri</string>
-    <string name="action_open_in_web_view">Otvoriť vo web view</string>
-    <string name="action_display_mode">Zmeniť zobrazenie</string>
-    <string name="action_display">Zobraziť</string>
-    <string name="action_display_grid">Mriežka</string>
-    <string name="action_display_list">List</string>
-    <string name="action_display_download_badge">Symbol stiahnutia</string>
-    <string name="action_cancel">Zrušiť</string>
-    <string name="action_sort">Triediť</string>
-    <string name="action_install">Nainštalovať</string>
-    <string name="action_share">Zdieľať</string>
-    <string name="action_save">Uložiť</string>
-    <string name="action_reset">Reset</string>
-    <string name="action_undo">Krok späť</string>
-    <string name="action_open_log">Otvoriť log</string>
-    <string name="action_create">Vytvoriť</string>
-    <string name="action_restore">Obnoviť</string>
-    <string name="action_open">Otvoriť</string>
-    <string name="action_login">Prihlásiť sa</string>
-    <string name="loading">Načítava sa…</string>
-    <string name="app_not_available">Aplikácia nedostupná</string>
-    <string name="short_recent_updates">Updaty</string>
-    <string name="pref_category_general">Všeobecné</string>
-    <string name="pref_category_reader">Prehliadač</string>
-    <string name="pref_category_downloads">Sťahovanie</string>
-    <string name="pref_category_tracking">Sledovanie</string>
-    <string name="pref_category_advanced">Rozšírené</string>
-    <string name="pref_category_about">O Aplikácii</string>
-    <string name="pref_library_columns">Knižnica: Manga na riadok</string>
-    <string name="portrait">Na výšku</string>
-    <string name="landscape">Na šírku</string>
-    <string name="default_columns">Predvolené</string>
-    <string name="pref_library_update_interval">Frekvencia aktualizácie knižnice</string>
-    <string name="update_never">Manuálne</string>
-    <string name="update_1hour">Raz za hodinu</string>
-    <string name="update_2hour">Každé 2 hodiny</string>
-    <string name="update_3hour">Každé 3 hodiny</string>
-    <string name="update_6hour">Každých 6 hodín</string>
-    <string name="update_12hour">Každých 12 hodín</string>
-    <string name="update_24hour">Raz za deň</string>
-    <string name="update_48hour">Každé 2 dni</string>
-    <string name="update_weekly">Každý týždeň</string>
-    <string name="update_monthly">Každý mesiac</string>
-    <string name="pref_library_update_categories">Kategórie, ktoré sa majú zahrnúť do globálnej aktualizácie</string>
-    <string name="all">Všetko</string>
-    <string name="pref_library_update_prioritization">Poradie aktualizácie knižnice</string>
-    <string name="pref_library_update_restriction">Obmedzenia aktualizácii knižnice</string>
-    <string name="pref_library_update_restriction_summary">Aktualizovať len vtedy, keď sú splnené podmienky</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="charging">Nabíjanie</string>
-    <string name="pref_update_only_non_completed">Aktualizovať iba nedokončenú Mangu</string>
-    <string name="pref_auto_update_manga_sync">Synchronizovať kapitoly po prečítaní</string>
-    <string name="pref_start_screen">Úvodná obrazovka</string>
-    <string name="pref_language">Jazyk</string>
-    <string name="system_default">Predvolené nastavenie systému</string>
-    <string name="default_category">Predvolená kategória</string>
-    <string name="default_category_summary">Vždy sa opýtať</string>
-    <string name="all_lang">Všetky</string>
-    <string name="ext_details">Podrobnosti</string>
-    <string name="ext_update">aktualizovať</string>
-    <string name="ext_install">Nainštalovať</string>
-    <string name="ext_pending">Čakajúce</string>
-    <string name="ext_downloading">Sťahujem</string>
-    <string name="ext_installing">Inštalujem</string>
-    <string name="ext_installed">Nainštalovaný</string>
-    <string name="ext_trust">Dôverovať</string>
-    <string name="ext_untrusted">Odobrať dôveru</string>
-    <string name="ext_uninstall">Odinštalovať</string>
-    <string name="ext_preferences">Preferencie</string>
-    <string name="ext_available">K dispozícii</string>
-    <string name="untrusted_extension">Nedôveryhodné rozšírenie</string>
-    <string name="untrusted_extension_message">Toto rozšírenie bolo podpísané nedôveryhodným certifikátom a nebolo aktivované.
+    <string name="name" formatted="false">Meno</string>
+    <string name="categories" formatted="false">Kategórie</string>
+    <string name="manga" formatted="false">Manga</string>
+    <string name="chapters" formatted="false">Kapitoly</string>
+    <string name="track" formatted="false">Sledovanie</string>
+    <string name="history" formatted="false">História</string>
+    <string name="label_settings" formatted="false">Nastavenia</string>
+    <string name="label_download_queue" formatted="false">Sťahujúce sa</string>
+    <string name="label_library" formatted="false">Knižnica</string>
+    <string name="label_recent_manga" formatted="false">Nedávno čítané</string>
+    <string name="label_recent_updates" formatted="false">Updaty</string>
+    <string name="label_categories" formatted="false">Kategórie</string>
+    <string name="label_backup" formatted="false">Záloha</string>
+    <string name="label_migration" formatted="false">Presun zdrojov</string>
+    <string name="label_extensions" formatted="false">Rozšírenia</string>
+    <string name="label_extension_info" formatted="false">Info o rozšíreniach</string>
+    <string name="label_help" formatted="false">Pomoc</string>
+    <string name="action_settings" formatted="false">Nastavenia</string>
+    <string name="action_filter" formatted="false">Filter</string>
+    <string name="action_filter_downloaded" formatted="false">Stiahnuté</string>
+    <string name="action_filter_bookmarked" formatted="false">Uložené</string>
+    <string name="action_filter_unread" formatted="false">Neprečítané</string>
+    <string name="action_filter_read" formatted="false">Prečítané</string>
+    <string name="action_filter_empty" formatted="false">Zrušiť filter</string>
+    <string name="action_sort_alpha" formatted="false">Abecedne</string>
+    <string name="action_sort_total" formatted="false">Všetky kapitoly</string>
+    <string name="action_sort_last_read" formatted="false">Naposledy čítané</string>
+    <string name="action_search" formatted="false">Hľadať</string>
+    <string name="action_global_search" formatted="false">Hľadať všade</string>
+    <string name="action_select_all" formatted="false">Vybrať všetko</string>
+    <string name="action_mark_as_read" formatted="false">Označiť ako prečítané</string>
+    <string name="action_mark_as_unread" formatted="false">Označiť ako neprečítané</string>
+    <string name="action_mark_previous_as_read" formatted="false">Označiť predošlé ako prečítané</string>
+    <string name="action_download" formatted="false">Stiahnuť</string>
+    <string name="action_bookmark" formatted="false">Uložiť</string>
+    <string name="action_remove_bookmark" formatted="false">Odstrániť záložku</string>
+    <string name="action_delete" formatted="false">Vymazať</string>
+    <string name="action_update" formatted="false">Aktualizovať</string>
+    <string name="action_update_library" formatted="false">Aktualizovať knižnicu</string>
+    <string name="action_edit" formatted="false">Upraviť</string>
+    <string name="action_add" formatted="false">Pridať</string>
+    <string name="action_add_category" formatted="false">Pridať kategóriu</string>
+    <string name="action_edit_categories" formatted="false">Upraviť kategórie</string>
+    <string name="action_rename_category" formatted="false">Premenovať kategóriu</string>
+    <string name="action_move_category" formatted="false">Presunúť do kategórie</string>
+    <string name="action_edit_cover" formatted="false">Nahrať vlastný obal</string>
+    <string name="action_sort_up" formatted="false">Zatriediť hore</string>
+    <string name="action_sort_down" formatted="false">Zatriediť dole</string>
+    <string name="action_show_downloaded" formatted="false">Stiahnuté</string>
+    <string name="action_next_unread" formatted="false">Nasledujúce nečítané</string>
+    <string name="action_start" formatted="false">Začať</string>
+    <string name="action_stop" formatted="false">Zastaviť</string>
+    <string name="action_pause" formatted="false">Pauza</string>
+    <string name="action_close" formatted="false">Zatvoriť</string>
+    <string name="action_previous_chapter" formatted="false">Predošlá kapitola</string>
+    <string name="action_next_chapter" formatted="false">Nasledujúca kapitola</string>
+    <string name="action_retry" formatted="false">Skúsiť znovu</string>
+    <string name="action_remove" formatted="false">Odstrániť</string>
+    <string name="action_resume" formatted="false">Pokračovať</string>
+    <string name="action_move" formatted="false">Presunúť</string>
+    <string name="action_open_in_browser" formatted="false">Otvoriť v browseri</string>
+    <string name="action_open_in_web_view" formatted="false">Otvoriť vo web view</string>
+    <string name="action_display_mode" formatted="false">Zmeniť zobrazenie</string>
+    <string name="action_display" formatted="false">Zobraziť</string>
+    <string name="action_display_grid" formatted="false">Mriežka</string>
+    <string name="action_display_list" formatted="false">List</string>
+    <string name="action_display_download_badge" formatted="false">Symbol stiahnutia</string>
+    <string name="action_cancel" formatted="false">Zrušiť</string>
+    <string name="action_sort" formatted="false">Triediť</string>
+    <string name="action_install" formatted="false">Nainštalovať</string>
+    <string name="action_share" formatted="false">Zdieľať</string>
+    <string name="action_save" formatted="false">Uložiť</string>
+    <string name="action_reset" formatted="false">Reset</string>
+    <string name="action_undo" formatted="false">Krok späť</string>
+    <string name="action_open_log" formatted="false">Otvoriť log</string>
+    <string name="action_create" formatted="false">Vytvoriť</string>
+    <string name="action_restore" formatted="false">Obnoviť</string>
+    <string name="action_open" formatted="false">Otvoriť</string>
+    <string name="action_login" formatted="false">Prihlásiť sa</string>
+    <string name="loading" formatted="false">Načítava sa…</string>
+    <string name="app_not_available" formatted="false">Aplikácia nedostupná</string>
+    <string name="short_recent_updates" formatted="false">Updaty</string>
+    <string name="pref_category_general" formatted="false">Všeobecné</string>
+    <string name="pref_category_reader" formatted="false">Prehliadač</string>
+    <string name="pref_category_downloads" formatted="false">Sťahovanie</string>
+    <string name="pref_category_tracking" formatted="false">Sledovanie</string>
+    <string name="pref_category_advanced" formatted="false">Rozšírené</string>
+    <string name="pref_category_about" formatted="false">O Aplikácii</string>
+    <string name="pref_library_columns" formatted="false">Knižnica: Manga na riadok</string>
+    <string name="portrait" formatted="false">Na výšku</string>
+    <string name="landscape" formatted="false">Na šírku</string>
+    <string name="default_columns" formatted="false">Predvolené</string>
+    <string name="pref_library_update_interval" formatted="false">Frekvencia aktualizácie knižnice</string>
+    <string name="update_never" formatted="false">Manuálne</string>
+    <string name="update_1hour" formatted="false">Raz za hodinu</string>
+    <string name="update_2hour" formatted="false">Každé 2 hodiny</string>
+    <string name="update_3hour" formatted="false">Každé 3 hodiny</string>
+    <string name="update_6hour" formatted="false">Každých 6 hodín</string>
+    <string name="update_12hour" formatted="false">Každých 12 hodín</string>
+    <string name="update_24hour" formatted="false">Raz za deň</string>
+    <string name="update_48hour" formatted="false">Každé 2 dni</string>
+    <string name="update_weekly" formatted="false">Každý týždeň</string>
+    <string name="update_monthly" formatted="false">Každý mesiac</string>
+    <string name="pref_library_update_categories" formatted="false">Kategórie, ktoré sa majú zahrnúť do globálnej aktualizácie</string>
+    <string name="all" formatted="false">Všetko</string>
+    <string name="pref_library_update_prioritization" formatted="false">Poradie aktualizácie knižnice</string>
+    <string name="pref_library_update_restriction" formatted="false">Obmedzenia aktualizácii knižnice</string>
+    <string name="pref_library_update_restriction_summary" formatted="false">Aktualizovať len vtedy, keď sú splnené podmienky</string>
+    <string name="wifi" formatted="false">Wi-Fi</string>
+    <string name="charging" formatted="false">Nabíjanie</string>
+    <string name="pref_update_only_non_completed" formatted="false">Aktualizovať iba nedokončenú Mangu</string>
+    <string name="pref_auto_update_manga_sync" formatted="false">Synchronizovať kapitoly po prečítaní</string>
+    <string name="pref_start_screen" formatted="false">Úvodná obrazovka</string>
+    <string name="pref_language" formatted="false">Jazyk</string>
+    <string name="system_default" formatted="false">Predvolené nastavenie systému</string>
+    <string name="default_category" formatted="false">Predvolená kategória</string>
+    <string name="default_category_summary" formatted="false">Vždy sa opýtať</string>
+    <string name="all_lang" formatted="false">Všetky</string>
+    <string name="ext_details" formatted="false">Podrobnosti</string>
+    <string name="ext_update" formatted="false">aktualizovať</string>
+    <string name="ext_install" formatted="false">Nainštalovať</string>
+    <string name="ext_pending" formatted="false">Čakajúce</string>
+    <string name="ext_downloading" formatted="false">Sťahujem</string>
+    <string name="ext_installing" formatted="false">Inštalujem</string>
+    <string name="ext_installed" formatted="false">Nainštalovaný</string>
+    <string name="ext_trust" formatted="false">Dôverovať</string>
+    <string name="ext_untrusted" formatted="false">Odobrať dôveru</string>
+    <string name="ext_uninstall" formatted="false">Odinštalovať</string>
+    <string name="ext_preferences" formatted="false">Preferencie</string>
+    <string name="ext_available" formatted="false">K dispozícii</string>
+    <string name="untrusted_extension" formatted="false">Nedôveryhodné rozšírenie</string>
+    <string name="untrusted_extension_message" formatted="false">Toto rozšírenie bolo podpísané nedôveryhodným certifikátom a nebolo aktivované.
 \n
 \nŠkodlivé rozšírenie môže čítať všetky prihlasovacie údaje uložené v Tachiyomi alebo spúšťať ľubovoľný kód.
 \n
 \nDôverovaním tohto certifikátu akceptujete tieto riziká.</string>
-    <string name="ext_version_info">Verzia: %1$s</string>
-    <string name="ext_language_info">Jazyk: %1$s</string>
-    <string name="ext_empty_preferences">Nie sú k dispozícii žiadne preferencie na úpravu pre toto rozšírenie</string>
-    <string name="pref_fullscreen">Na celú obrazovku</string>
-    <string name="pref_lock_orientation">Zamknúť orientáciu</string>
-    <string name="pref_page_transitions">Prechod stránok</string>
-    <string name="pref_double_tap_anim_speed">Rýchlosť animácie pre dvojité ťuknutie</string>
-    <string name="pref_show_page_number">Zobraziť číslo strany</string>
-    <string name="pref_true_color">32-bitová farba</string>
-    <string name="pref_crop_borders">Orezať okraje</string>
-    <string name="pref_custom_brightness">Použiť vlastný jas</string>
-    <string name="pref_custom_color_filter">Použiť vlastný farebný filter</string>
-    <string name="pref_color_filter_mode">Farebný filter: režim splynutia</string>
-    <string name="filter_mode_default">Predvolený</string>
-    <string name="filter_mode_overlay">Prekrytie</string>
-    <string name="filter_mode_multiply">Znásobiť</string>
-    <string name="filter_mode_screen">Obrazovka</string>
-    <string name="filter_mode_lighten">Dodge / Zosvetliť</string>
-    <string name="filter_mode_darken">Spáliť / Stmaviť</string>
-    <string name="pref_keep_screen_on">Nechať obrazovku zapnutú</string>
-    <string name="pref_skip_read_chapters">Preskočiť kapitoly označené ako prečítané</string>
-    <string name="pref_reader_navigation">Navigácia</string>
-    <string name="pref_read_with_volume_keys">Tlačidlá hlasitosti</string>
-    <string name="pref_read_with_volume_keys_inverted">Invertovať tlačidlá hlasitosti</string>
-    <string name="pref_read_with_tapping">Ťukanie</string>
-    <string name="pref_read_with_long_tap">Rozšírene možnosti po dlhšiom podržaní</string>
-    <string name="pref_reader_theme">Farba pozadia</string>
-    <string name="white_background">Biela</string>
-    <string name="black_background">Čierna</string>
-    <string name="pref_viewer_type">Predvolený prehliadač</string>
-    <string name="default_viewer">Predvolené</string>
-    <string name="left_to_right_viewer">Zľava doprava</string>
-    <string name="right_to_left_viewer">Sprava doľava</string>
-    <string name="vertical_viewer">Vertikálne</string>
-    <string name="webtoon_viewer">Ako Webtoon - Zhora dole a strany sa spájajú do jednej dlhej</string>
-    <string name="pager_viewer">pager</string>
-    <string name="pref_image_decoder">Dekodér obrázkov</string>
-    <string name="pref_image_scale_type">Mód škálovania</string>
-    <string name="scale_type_fit_screen">Prispôsobiť obrazovke</string>
-    <string name="scale_type_stretch">natiahnuť</string>
-    <string name="scale_type_fit_width">Prispôsobiť šírke</string>
-    <string name="scale_type_fit_height">Prispôsobiť výške</string>
-    <string name="scale_type_original_size">Pôvodná veľkosť</string>
-    <string name="scale_type_smart_fit">Inteligentne prispôsobiť</string>
-    <string name="pref_zoom_start">Začiatočná poloha priblíženia</string>
-    <string name="zoom_start_automatic">Automatická</string>
-    <string name="zoom_start_left">Vľavo</string>
-    <string name="zoom_start_right">Vpravo</string>
-    <string name="zoom_start_center">Stred</string>
-    <string name="double_tap_anim_speed_0">Žiadna animácia</string>
-    <string name="double_tap_anim_speed_normal">Normálne</string>
-    <string name="double_tap_anim_speed_fast">Rýchlo</string>
-    <string name="pref_rotation_type">Rotácia</string>
-    <string name="rotation_free">Voľná</string>
-    <string name="rotation_lock">Zamknúť</string>
-    <string name="rotation_force_portrait">Iba na výšku</string>
-    <string name="rotation_force_landscape">Iba na šírku</string>
-    <string name="color_filter_r_value">R</string>
-    <string name="color_filter_g_value">G</string>
-    <string name="color_filter_b_value">B</string>
-    <string name="color_filter_a_value">A</string>
-    <string name="pref_download_directory">Kam stahovať</string>
-    <string name="pref_download_only_over_wifi">Sťahovať, iba pri pripojení na Wi-Fi</string>
-    <string name="pref_remove_after_marked_as_read">Odstrániť keď označené ako prečítané</string>
-    <string name="pref_remove_after_read">Odstrániť po prečítaní</string>
-    <string name="custom_dir">Vlastný adresár</string>
-    <string name="disabled">Vypnuté</string>
-    <string name="last_read_chapter">Naposledy čítaná kapitola</string>
-    <string name="second_to_last">Predposledná kapitola</string>
-    <string name="third_to_last">Predpred posledná kapitola</string>
-    <string name="fourth_to_last">Štvrtá kapitola od konca</string>
-    <string name="fifth_to_last">Piata kapitola od konca</string>
-    <string name="pref_download_new">Stiahnuť nové kapitoly</string>
-    <string name="pref_download_new_categories">Kategórie, ktoré sa majú zahrnúť do sťahovania</string>
-    <string name="services">Služby</string>
-    <string name="backup">Zálohovanie</string>
-    <string name="pref_create_backup">Vytvoriť zálohu</string>
-    <string name="pref_create_backup_summ">Možno použiť na obnovenie aktuálnej knižnice</string>
-    <string name="pref_restore_backup">Obnoviť zálohu</string>
-    <string name="pref_restore_backup_summ">Obnoviť knižnicu zo záložného súboru</string>
-    <string name="pref_backup_directory">Adresár na zálohy</string>
-    <string name="pref_backup_service_category">Služby</string>
-    <string name="pref_backup_interval">Frekvencia zálohovania</string>
-    <string name="pref_backup_slots">Max. počet automatických záloh</string>
-    <string name="source_not_found">Zdroj sa nenašiel</string>
-    <string name="backup_created">Záloha bola vytvorená</string>
-    <string name="restore_completed">Obnovenie dokončené</string>
-    <string name="restore_completed_content">Obnova trvala %1$s.
+    <string name="ext_version_info" formatted="false">Verzia: %1$s</string>
+    <string name="ext_language_info" formatted="false">Jazyk: %1$s</string>
+    <string name="ext_empty_preferences" formatted="false">Nie sú k dispozícii žiadne preferencie na úpravu pre toto rozšírenie</string>
+    <string name="pref_fullscreen" formatted="false">Na celú obrazovku</string>
+    <string name="pref_lock_orientation" formatted="false">Zamknúť orientáciu</string>
+    <string name="pref_page_transitions" formatted="false">Prechod stránok</string>
+    <string name="pref_double_tap_anim_speed" formatted="false">Rýchlosť animácie pre dvojité ťuknutie</string>
+    <string name="pref_show_page_number" formatted="false">Zobraziť číslo strany</string>
+    <string name="pref_true_color" formatted="false">32-bitová farba</string>
+    <string name="pref_crop_borders" formatted="false">Orezať okraje</string>
+    <string name="pref_custom_brightness" formatted="false">Použiť vlastný jas</string>
+    <string name="pref_custom_color_filter" formatted="false">Použiť vlastný farebný filter</string>
+    <string name="pref_color_filter_mode" formatted="false">Farebný filter: režim splynutia</string>
+    <string name="filter_mode_default" formatted="false">Predvolený</string>
+    <string name="filter_mode_overlay" formatted="false">Prekrytie</string>
+    <string name="filter_mode_multiply" formatted="false">Znásobiť</string>
+    <string name="filter_mode_screen" formatted="false">Obrazovka</string>
+    <string name="filter_mode_lighten" formatted="false">Dodge / Zosvetliť</string>
+    <string name="filter_mode_darken" formatted="false">Spáliť / Stmaviť</string>
+    <string name="pref_keep_screen_on" formatted="false">Nechať obrazovku zapnutú</string>
+    <string name="pref_skip_read_chapters" formatted="false">Preskočiť kapitoly označené ako prečítané</string>
+    <string name="pref_reader_navigation" formatted="false">Navigácia</string>
+    <string name="pref_read_with_volume_keys" formatted="false">Tlačidlá hlasitosti</string>
+    <string name="pref_read_with_volume_keys_inverted" formatted="false">Invertovať tlačidlá hlasitosti</string>
+    <string name="pref_read_with_tapping" formatted="false">Ťukanie</string>
+    <string name="pref_read_with_long_tap" formatted="false">Rozšírene možnosti po dlhšiom podržaní</string>
+    <string name="pref_reader_theme" formatted="false">Farba pozadia</string>
+    <string name="white_background" formatted="false">Biela</string>
+    <string name="black_background" formatted="false">Čierna</string>
+    <string name="pref_viewer_type" formatted="false">Predvolený prehliadač</string>
+    <string name="default_viewer" formatted="false">Predvolené</string>
+    <string name="left_to_right_viewer" formatted="false">Zľava doprava</string>
+    <string name="right_to_left_viewer" formatted="false">Sprava doľava</string>
+    <string name="vertical_viewer" formatted="false">Vertikálne</string>
+    <string name="webtoon_viewer" formatted="false">Ako Webtoon - Zhora dole a strany sa spájajú do jednej dlhej</string>
+    <string name="pager_viewer" formatted="false">pager</string>
+    <string name="pref_image_decoder" formatted="false">Dekodér obrázkov</string>
+    <string name="pref_image_scale_type" formatted="false">Mód škálovania</string>
+    <string name="scale_type_fit_screen" formatted="false">Prispôsobiť obrazovke</string>
+    <string name="scale_type_stretch" formatted="false">natiahnuť</string>
+    <string name="scale_type_fit_width" formatted="false">Prispôsobiť šírke</string>
+    <string name="scale_type_fit_height" formatted="false">Prispôsobiť výške</string>
+    <string name="scale_type_original_size" formatted="false">Pôvodná veľkosť</string>
+    <string name="scale_type_smart_fit" formatted="false">Inteligentne prispôsobiť</string>
+    <string name="pref_zoom_start" formatted="false">Začiatočná poloha priblíženia</string>
+    <string name="zoom_start_automatic" formatted="false">Automatická</string>
+    <string name="zoom_start_left" formatted="false">Vľavo</string>
+    <string name="zoom_start_right" formatted="false">Vpravo</string>
+    <string name="zoom_start_center" formatted="false">Stred</string>
+    <string name="double_tap_anim_speed_0" formatted="false">Žiadna animácia</string>
+    <string name="double_tap_anim_speed_normal" formatted="false">Normálne</string>
+    <string name="double_tap_anim_speed_fast" formatted="false">Rýchlo</string>
+    <string name="pref_rotation_type" formatted="false">Rotácia</string>
+    <string name="rotation_free" formatted="false">Voľná</string>
+    <string name="rotation_lock" formatted="false">Zamknúť</string>
+    <string name="rotation_force_portrait" formatted="false">Iba na výšku</string>
+    <string name="rotation_force_landscape" formatted="false">Iba na šírku</string>
+    <string name="color_filter_r_value" formatted="false">R</string>
+    <string name="color_filter_g_value" formatted="false">G</string>
+    <string name="color_filter_b_value" formatted="false">B</string>
+    <string name="color_filter_a_value" formatted="false">A</string>
+    <string name="pref_download_directory" formatted="false">Kam stahovať</string>
+    <string name="pref_download_only_over_wifi" formatted="false">Sťahovať, iba pri pripojení na Wi-Fi</string>
+    <string name="pref_remove_after_marked_as_read" formatted="false">Odstrániť keď označené ako prečítané</string>
+    <string name="pref_remove_after_read" formatted="false">Odstrániť po prečítaní</string>
+    <string name="custom_dir" formatted="false">Vlastný adresár</string>
+    <string name="disabled" formatted="false">Vypnuté</string>
+    <string name="last_read_chapter" formatted="false">Naposledy čítaná kapitola</string>
+    <string name="second_to_last" formatted="false">Predposledná kapitola</string>
+    <string name="third_to_last" formatted="false">Predpred posledná kapitola</string>
+    <string name="fourth_to_last" formatted="false">Štvrtá kapitola od konca</string>
+    <string name="fifth_to_last" formatted="false">Piata kapitola od konca</string>
+    <string name="pref_download_new" formatted="false">Stiahnuť nové kapitoly</string>
+    <string name="pref_download_new_categories" formatted="false">Kategórie, ktoré sa majú zahrnúť do sťahovania</string>
+    <string name="services" formatted="false">Služby</string>
+    <string name="backup" formatted="false">Zálohovanie</string>
+    <string name="pref_create_backup" formatted="false">Vytvoriť zálohu</string>
+    <string name="pref_create_backup_summ" formatted="false">Možno použiť na obnovenie aktuálnej knižnice</string>
+    <string name="pref_restore_backup" formatted="false">Obnoviť zálohu</string>
+    <string name="pref_restore_backup_summ" formatted="false">Obnoviť knižnicu zo záložného súboru</string>
+    <string name="pref_backup_directory" formatted="false">Adresár na zálohy</string>
+    <string name="pref_backup_service_category" formatted="false">Služby</string>
+    <string name="pref_backup_interval" formatted="false">Frekvencia zálohovania</string>
+    <string name="pref_backup_slots" formatted="false">Max. počet automatických záloh</string>
+    <string name="source_not_found" formatted="false">Zdroj sa nenašiel</string>
+    <string name="backup_created" formatted="false">Záloha bola vytvorená</string>
+    <string name="restore_completed" formatted="false">Obnovenie dokončené</string>
+    <string name="restore_completed_content" formatted="false">Obnova trvala %1$s.
 \n%2$s nájdených chýb.</string>
-    <string name="backup_restore_content">Obnovenie využíva zdroje na načítanie údajov, môžu sa účtovať poplatky operátora.
+    <string name="backup_restore_content" formatted="false">Obnovenie využíva zdroje na načítanie údajov, môžu sa účtovať poplatky operátora.
 \n
 \nPred obnovením skontrolujte, či máte nainštalované všetky potrebné rozšírenia a či ste prihlásení do zdrojov a služieb sledovania.</string>
-    <string name="backup_choice">Čo chcete zálohovať\?</string>
-    <string name="restoring_backup">Obnovuje sa záloha</string>
-    <string name="creating_backup">Vytvára sa záloha</string>
-    <string name="pref_clear_chapter_cache">Vymazať vyrovnávaciu pamäť kapitol</string>
-    <string name="used_cache">Použité: %1$s</string>
-    <string name="cache_deleted">Cache sa vyčistila. %1$d súborov bolo odstráneno</string>
-    <string name="cache_delete_error">Pri mazaní vyrovnávacej pamäte sa vyskytla chyba</string>
-    <string name="pref_clear_cookies">Vymazať cookies</string>
-    <string name="cookies_cleared">Súbory cookie boli vymazané</string>
-    <string name="choices_reset">Možnosti dialógového okna boli resetované</string>
-    <string name="pref_clear_database">Vymazať databázu</string>
-    <string name="pref_clear_database_summary">Odstráňte mangy a kapitoly, ktoré nie sú vo vašej knižnici</string>
-    <string name="clear_database_confirmation">Ste si istý\? Čítanie kapitol a pokrok v mangách mimo vašu knižnicu sa stratí</string>
-    <string name="action_webview_back">Späť</string>
-    <string name="action_webview_forward">Vpred</string>
-    <string name="action_webview_refresh">Obnoviť</string>
-    <string name="pref_category_library">Knižnica</string>
-    <string name="ext_obsolete">Zastaraný</string>
-    <string name="obsolete_extension_message">Toto rozšírenie už nie je k dispozícii.</string>
-    <string name="clear_database_completed">Záznamy boli odstránené</string>
-    <string name="pref_refresh_library_metadata">Obnoviť metadáta knižnice</string>
-    <string name="pref_refresh_library_metadata_summary">Aktualizuje obaly, žánre, popis a informácie o stave mang</string>
-    <string name="pref_refresh_library_tracking">Obnoviť metadáta sledovania</string>
-    <string name="pref_refresh_library_tracking_summary">Aktualizuje stav, skóre a poslednú čítanú kapitolu zo sledovacích služieb</string>
-    <string name="version">Verzia</string>
-    <string name="build_time">Čas sestavenia</string>
-    <string name="pref_enable_acra">Odosielať správy o zlyhaní</string>
-    <string name="pref_acra_summary">Pomáha opraviť akékoľvek chyby. Nebudú odoslané žiadne citlivé údaje</string>
-    <string name="login_title">Prihlásení pre %1$s</string>
-    <string name="username">Užívateľské meno</string>
-    <string name="password">Heslo</string>
-    <string name="show_password">Ukázať heslo</string>
-    <string name="login">Prihlásenie</string>
-    <string name="login_success">Prihlásený</string>
-    <string name="invalid_login">Nepodarilo sa prihlásiť</string>
-    <string name="unknown_error">Neznáma chyba</string>
-    <string name="library_search_hint">Názov alebo autor…</string>
-    <string name="updating_category">Aktualizuje sa kategória</string>
-    <string name="local_source_badge">Lokálny</string>
-    <string name="confirm_delete_manga">Naozaj chcete odstrániť vybraté mangy\?</string>
-    <string name="also_delete_chapters">Odstráňte tiež stiahnuté kapitoly</string>
-    <string name="source_requires_login">Tento zdroj vyžaduje, aby ste sa prihlásili</string>
-    <string name="select_source">Vyberte zdroj</string>
-    <string name="no_valid_sources">Povoľte aspoň jeden platný zdroj</string>
-    <string name="no_more_results">Žiadne ďalšie výsledky</string>
-    <string name="local_source">Lokálna manga</string>
-    <string name="other_source">Ostatné</string>
-    <string name="invalid_combination">Predvolené nemožno vybrať s inými kategóriami</string>
-    <string name="added_to_library">Manga bola pridaná do vašej knižnice</string>
-    <string name="action_global_search_hint">Globálne vyhľadávanie…</string>
-    <string name="latest">Najnovší</string>
-    <string name="browse">Prehľadávať</string>
-    <string name="manga_not_in_db">Táto manga bola odstránená z databázy.</string>
-    <string name="manga_detail_tab">Info</string>
-    <string name="description">Popis</string>
-    <string name="ongoing">Pokračujúci</string>
-    <string name="unknown">Neznámy</string>
-    <string name="licensed">Licencovaný</string>
-    <string name="remove_from_library">Odstrániť z knižnice</string>
-    <string name="manga_info_full_title_label">Názov</string>
-    <string name="manga_added_library">Pridané do knižnice</string>
-    <string name="manga_removed_library">Odstránené z knižnice</string>
-    <string name="manga_info_author_label">Autor</string>
-    <string name="manga_info_artist_label">Umelec</string>
-    <string name="manga_info_chapters_label">Kapitoly</string>
-    <string name="manga_info_status_label">Stav</string>
-    <string name="manga_info_source_label">Zdroj</string>
-    <string name="manga_info_genres_label">Žánre</string>
-    <string name="delete_downloads_for_manga">Odstrániť stiahnuté kapitoly\?</string>
-    <string name="copied_to_clipboard">%1$s bol skopírovaný do schránky</string>
-    <string name="source_not_installed">Zdroj nie je nainštalovaný</string>
-    <string name="manga_chapters_tab">Kapitoly</string>
-    <string name="manga_chapter_no_title">Bez názvu</string>
-    <string name="display_mode_chapter">Kapitola %1$s</string>
-    <string name="chapter_downloaded">Stiahnuté</string>
-    <string name="chapter_queued">Vo fronte</string>
-    <string name="chapter_downloading">Sťahovanie</string>
-    <string name="chapter_downloading_progress">Sťahovanie (%1$d/%2$d)</string>
-    <string name="chapter_error">Chyba</string>
-    <string name="chapter_paused">Pozastavené</string>
-    <string name="fetch_chapters_error">Kapitoly sa nepodarilo načísť</string>
-    <string name="show_title">Zobraziť názov</string>
-    <string name="show_chapter_number">Zobraziť číslo kapitoly</string>
-    <string name="sorting_mode">Režim triedenia</string>
-    <string name="sort_by_source">Podľa zdroja</string>
-    <string name="sort_by_number">Podľa čísla kapitoly</string>
-    <string name="manga_download">Stiahnuť</string>
-    <string name="custom_download">Stiahnutie vlastného počtu</string>
-    <string name="download_1">Stiahnuť ďalšiu kapitolu</string>
-    <string name="download_5">Stiahnuť ďalších 5 kapitol</string>
-    <string name="download_10">Stiahnuť ďalších 10 kapitol</string>
-    <string name="download_custom">Stiahnuť vlastné</string>
-    <string name="download_all">Stiahnuť všetko</string>
-    <string name="download_unread">Stiahnuť neprečítané</string>
-    <string name="confirm_delete_chapters">Naozaj chcete odstrániť vybrané kapitoly\?</string>
-    <string name="manga_tracking_tab">Sledovanie</string>
-    <string name="reading">Čítanie</string>
-    <string name="completed">Dokončený</string>
-    <string name="dropped">Upustený</string>
-    <string name="on_hold">Pozastavený</string>
-    <string name="plan_to_read">Plánované čítanie</string>
-    <string name="repeating">Znovu čítanie</string>
-    <string name="score">Skóre</string>
-    <string name="title">Názov</string>
-    <string name="status">Stav</string>
-    <string name="track_status">Stav</string>
-    <string name="track_start_date">Zahájeno</string>
-    <string name="track_type">Typ</string>
-    <string name="track_author">Autor</string>
-    <string name="url_not_set">URL mangy nie je nastavené, kliknite na názov a znova vyberte mangu</string>
-    <string name="error_category_exists">Kategória s týmto názvom už existuje!</string>
-    <string name="snack_categories_deleted">Kategórie boli odstránené</string>
-    <string name="dialog_with_checkbox_remove_description">Týmto sa odstráni dátum prečítania tejto kapitoly. Si si istý\?</string>
-    <string name="dialog_with_checkbox_reset">Resetovať všetky kapitoly mangy</string>
-    <string name="snack_add_to_library">Pridať mangu do knižnice\?</string>
-    <string name="picture_saved">Obrázok bol uložený</string>
-    <string name="saving_picture">Ukladá sa obrázok</string>
-    <string name="options">Možnosti</string>
-    <string name="custom_filter">Vlastný filter</string>
-    <string name="set_as_cover">Nastaviť ako obal</string>
-    <string name="cover_updated">Obal bol aktualizovaný</string>
-    <string name="page_downloaded">Stránka bola skopírovaná do %1$s</string>
-    <string name="downloading">Sťahovanie…</string>
-    <string name="download_progress">Stiahnuté %1$d%%</string>
-    <string name="chapter_progress">Strana: %1$d</string>
-    <string name="chapter_subtitle">Kapitola %1$s</string>
-    <string name="no_next_chapter">Ďalšia kapitola nebola nájdená</string>
-    <string name="no_previous_chapter">Predchádzajúca kapitola nebola nájdená</string>
-    <string name="decode_image_error">Obrázok sa nepodarilo dekódovať</string>
-    <string name="confirm_set_image_as_cover">Chcete použiť tento obrázok ako obal\?</string>
-    <string name="viewer_for_this_series">Prehliadač tejto série</string>
-    <string name="transition_finished">Dokončená:</string>
-    <string name="transition_current">Aktuálna:</string>
-    <string name="transition_next">Ďalšia:</string>
-    <string name="transition_previous">Predchádzajúcí:</string>
-    <string name="transition_no_next">Žiadna ďalšia kapitola</string>
-    <string name="transition_no_previous">Žiadna predchádzajúca kapitola</string>
-    <string name="transition_pages_loading">Načítání stránok…</string>
-    <string name="transition_pages_error">Chyba pri načítání stránok: %1$s</string>
-    <string name="migration_info">Klepnutím vyberte zdroj, z ktorého chcete migrovať</string>
-    <string name="migration_dialog_what_to_include">Vyberte data, ktoré chcete zahrnúť</string>
-    <string name="select">Vybrať</string>
-    <string name="migrate">Migrovať</string>
-    <string name="copy">Kopírovať</string>
-    <string name="download_queue_error">Kapitoly sa nepodarilo stiahnuť. Môžete to skúsiť znova v sekcii sťahovania</string>
-    <string name="notification_update_progress">Priebeh aktualizácie: %1$d/%2$d</string>
-    <string name="notification_new_chapters">Boli nájdené nové kapitoly</string>
-    <string name="notification_cover_update_failed">Chyba pri aktualizácii obalu</string>
-    <string name="notification_first_add_to_library">Predtým, ako to urobíte, pridajte do svojej knižnice mangu</string>
-    <string name="notification_not_connected_to_ac_title">Synchronizácia bola zrušená</string>
-    <string name="notification_not_connected_to_ac_body">Nie je pripojené k AC napájaniu</string>
-    <string name="notification_no_connection_title">Synchronizácia bola zrušená</string>
-    <string name="notification_no_connection_body">Pripojenie nie je k dispozícii</string>
-    <string name="file_select_cover">Vyberte obrázok obalu</string>
-    <string name="file_select_backup">Vyberte záložný súbor</string>
-    <string name="file_select_icon">Vyberte ikonu zástupca</string>
-    <string name="update_check_confirm">Stiahnuť</string>
-    <string name="update_check_ignore">Ignorovať</string>
-    <string name="update_check_no_new_updates">Žiadné nové aktualizácie</string>
-    <string name="update_check_look_for_updates">Vyhľadávanie aktualizácií…</string>
-    <string name="update_check_notification_file_download">Stiahnuť aktualizáciu</string>
-    <string name="update_check_notification_download_in_progress">Prebiehá stahovanie…</string>
-    <string name="update_check_notification_download_complete">Sťahovanie dokončené</string>
-    <string name="update_check_notification_download_error">Chyba sťahovania</string>
-    <string name="update_check_notification_update_available">Dostupná aktualizácia</string>
-    <string name="description_backdrop">Obrázok pozadí mangy</string>
-    <string name="description_cover">Obal mangy</string>
-    <string name="information_no_downloads">Žiadne sťahovanie</string>
-    <string name="information_no_recent">Žiadne nedávne kapitoly</string>
-    <string name="information_no_recent_manga">Žiadna nedávno čítaná manga</string>
-    <string name="information_empty_library">Vaša knižnica je prázdna, môžete si sem pridat niečo z katalógov.</string>
-    <string name="information_empty_category">Nemáte žiadne kategórie. Kliknite na tlačidlo plus a vytvorte nejakú na usporiadanie knižnice.</string>
-    <string name="download_notifier_downloader_title">Sťahovač</string>
-    <string name="download_notifier_title_error">Chyba</string>
-    <string name="download_notifier_unknown_error">Kapitolu sa nepodarilo stiahnuť z dôvodu neočakávanej chyby</string>
-    <string name="download_notifier_page_error">V adresári chýba stránka</string>
-    <string name="download_notifier_page_ready_error">Stránka nebola načtena</string>
-    <string name="download_notifier_text_only_wifi">WiFi pripojenie nie je dostupné</string>
-    <string name="download_notifier_no_network">Sieťové pripojenie nie je dostupné</string>
-    <string name="download_notifier_download_paused">Sťahovanie bolo pozastavené</string>
-    <string name="channel_common">Bežný</string>
-    <string name="channel_library">Knižnica</string>
-    <string name="channel_downloader">Sťahovač</string>
-    <string name="no_results_found">Neboli nájdené žiadne výsledky</string>
-    <string name="migration_selection_prompt">Vyberte zdroj zo ktorého chcete migrovat</string>
-    <string name="invalid_download_dir">Neplatný adresár sťahovania</string>
-    <string name="action_sort_latest_chapter">Najnovšia kapitola</string>
-    <string name="action_view_chapters">Zobraziť kapitoly</string>
-    <string name="action_cancel_all">Zrušiť všetky</string>
-    <string name="unlock_app">Odomknúť Tachiyomi</string>
-    <string name="action_hide">Skryť</string>
-    <string name="action_menu">Menu</string>
-    <string name="action_reorganize_by">Zmeniť poradie</string>
-    <string name="action_newest">Najnovšie</string>
-    <string name="action_oldest">Najstaršie</string>
-    <string name="action_move_to_top">Presunúť navrch</string>
+    <string name="backup_choice" formatted="false">Čo chcete zálohovať\?</string>
+    <string name="restoring_backup" formatted="false">Obnovuje sa záloha</string>
+    <string name="creating_backup" formatted="false">Vytvára sa záloha</string>
+    <string name="pref_clear_chapter_cache" formatted="false">Vymazať vyrovnávaciu pamäť kapitol</string>
+    <string name="used_cache" formatted="false">Použité: %1$s</string>
+    <string name="cache_deleted" formatted="false">Cache sa vyčistila. %1$d súborov bolo odstráneno</string>
+    <string name="cache_delete_error" formatted="false">Pri mazaní vyrovnávacej pamäte sa vyskytla chyba</string>
+    <string name="pref_clear_cookies" formatted="false">Vymazať cookies</string>
+    <string name="cookies_cleared" formatted="false">Súbory cookie boli vymazané</string>
+    <string name="choices_reset" formatted="false">Možnosti dialógového okna boli resetované</string>
+    <string name="pref_clear_database" formatted="false">Vymazať databázu</string>
+    <string name="pref_clear_database_summary" formatted="false">Odstráňte mangy a kapitoly, ktoré nie sú vo vašej knižnici</string>
+    <string name="clear_database_confirmation" formatted="false">Ste si istý\? Čítanie kapitol a pokrok v mangách mimo vašu knižnicu sa stratí</string>
+    <string name="action_webview_back" formatted="false">Späť</string>
+    <string name="action_webview_forward" formatted="false">Vpred</string>
+    <string name="action_webview_refresh" formatted="false">Obnoviť</string>
+    <string name="pref_category_library" formatted="false">Knižnica</string>
+    <string name="ext_obsolete" formatted="false">Zastaraný</string>
+    <string name="obsolete_extension_message" formatted="false">Toto rozšírenie už nie je k dispozícii.</string>
+    <string name="clear_database_completed" formatted="false">Záznamy boli odstránené</string>
+    <string name="pref_refresh_library_metadata" formatted="false">Obnoviť metadáta knižnice</string>
+    <string name="pref_refresh_library_metadata_summary" formatted="false">Aktualizuje obaly, žánre, popis a informácie o stave mang</string>
+    <string name="pref_refresh_library_tracking" formatted="false">Obnoviť metadáta sledovania</string>
+    <string name="pref_refresh_library_tracking_summary" formatted="false">Aktualizuje stav, skóre a poslednú čítanú kapitolu zo sledovacích služieb</string>
+    <string name="version" formatted="false">Verzia</string>
+    <string name="build_time" formatted="false">Čas sestavenia</string>
+    <string name="pref_enable_acra" formatted="false">Odosielať správy o zlyhaní</string>
+    <string name="pref_acra_summary" formatted="false">Pomáha opraviť akékoľvek chyby. Nebudú odoslané žiadne citlivé údaje</string>
+    <string name="login_title" formatted="false">Prihlásení pre %1$s</string>
+    <string name="username" formatted="false">Užívateľské meno</string>
+    <string name="password" formatted="false">Heslo</string>
+    <string name="show_password" formatted="false">Ukázať heslo</string>
+    <string name="login" formatted="false">Prihlásenie</string>
+    <string name="login_success" formatted="false">Prihlásený</string>
+    <string name="invalid_login" formatted="false">Nepodarilo sa prihlásiť</string>
+    <string name="unknown_error" formatted="false">Neznáma chyba</string>
+    <string name="library_search_hint" formatted="false">Názov alebo autor…</string>
+    <string name="updating_category" formatted="false">Aktualizuje sa kategória</string>
+    <string name="local_source_badge" formatted="false">Lokálny</string>
+    <string name="confirm_delete_manga" formatted="false">Naozaj chcete odstrániť vybraté mangy\?</string>
+    <string name="also_delete_chapters" formatted="false">Odstráňte tiež stiahnuté kapitoly</string>
+    <string name="source_requires_login" formatted="false">Tento zdroj vyžaduje, aby ste sa prihlásili</string>
+    <string name="select_source" formatted="false">Vyberte zdroj</string>
+    <string name="no_valid_sources" formatted="false">Povoľte aspoň jeden platný zdroj</string>
+    <string name="no_more_results" formatted="false">Žiadne ďalšie výsledky</string>
+    <string name="local_source" formatted="false">Lokálna manga</string>
+    <string name="other_source" formatted="false">Ostatné</string>
+    <string name="invalid_combination" formatted="false">Predvolené nemožno vybrať s inými kategóriami</string>
+    <string name="added_to_library" formatted="false">Manga bola pridaná do vašej knižnice</string>
+    <string name="action_global_search_hint" formatted="false">Globálne vyhľadávanie…</string>
+    <string name="latest" formatted="false">Najnovší</string>
+    <string name="browse" formatted="false">Prehľadávať</string>
+    <string name="manga_not_in_db" formatted="false">Táto manga bola odstránená z databázy.</string>
+    <string name="manga_detail_tab" formatted="false">Info</string>
+    <string name="description" formatted="false">Popis</string>
+    <string name="ongoing" formatted="false">Pokračujúci</string>
+    <string name="unknown" formatted="false">Neznámy</string>
+    <string name="licensed" formatted="false">Licencovaný</string>
+    <string name="remove_from_library" formatted="false">Odstrániť z knižnice</string>
+    <string name="manga_info_full_title_label" formatted="false">Názov</string>
+    <string name="manga_added_library" formatted="false">Pridané do knižnice</string>
+    <string name="manga_removed_library" formatted="false">Odstránené z knižnice</string>
+    <string name="manga_info_author_label" formatted="false">Autor</string>
+    <string name="manga_info_artist_label" formatted="false">Umelec</string>
+    <string name="manga_info_chapters_label" formatted="false">Kapitoly</string>
+    <string name="manga_info_status_label" formatted="false">Stav</string>
+    <string name="manga_info_source_label" formatted="false">Zdroj</string>
+    <string name="manga_info_genres_label" formatted="false">Žánre</string>
+    <string name="delete_downloads_for_manga" formatted="false">Odstrániť stiahnuté kapitoly\?</string>
+    <string name="copied_to_clipboard" formatted="false">%1$s bol skopírovaný do schránky</string>
+    <string name="source_not_installed" formatted="false">Zdroj nie je nainštalovaný</string>
+    <string name="manga_chapters_tab" formatted="false">Kapitoly</string>
+    <string name="manga_chapter_no_title" formatted="false">Bez názvu</string>
+    <string name="display_mode_chapter" formatted="false">Kapitola %1$s</string>
+    <string name="chapter_downloaded" formatted="false">Stiahnuté</string>
+    <string name="chapter_queued" formatted="false">Vo fronte</string>
+    <string name="chapter_downloading" formatted="false">Sťahovanie</string>
+    <string name="chapter_downloading_progress" formatted="false">Sťahovanie (%1$d/%2$d)</string>
+    <string name="chapter_error" formatted="false">Chyba</string>
+    <string name="chapter_paused" formatted="false">Pozastavené</string>
+    <string name="fetch_chapters_error" formatted="false">Kapitoly sa nepodarilo načísť</string>
+    <string name="show_title" formatted="false">Zobraziť názov</string>
+    <string name="show_chapter_number" formatted="false">Zobraziť číslo kapitoly</string>
+    <string name="sorting_mode" formatted="false">Režim triedenia</string>
+    <string name="sort_by_source" formatted="false">Podľa zdroja</string>
+    <string name="sort_by_number" formatted="false">Podľa čísla kapitoly</string>
+    <string name="manga_download" formatted="false">Stiahnuť</string>
+    <string name="custom_download" formatted="false">Stiahnutie vlastného počtu</string>
+    <string name="download_1" formatted="false">Stiahnuť ďalšiu kapitolu</string>
+    <string name="download_5" formatted="false">Stiahnuť ďalších 5 kapitol</string>
+    <string name="download_10" formatted="false">Stiahnuť ďalších 10 kapitol</string>
+    <string name="download_custom" formatted="false">Stiahnuť vlastné</string>
+    <string name="download_all" formatted="false">Stiahnuť všetko</string>
+    <string name="download_unread" formatted="false">Stiahnuť neprečítané</string>
+    <string name="confirm_delete_chapters" formatted="false">Naozaj chcete odstrániť vybrané kapitoly\?</string>
+    <string name="manga_tracking_tab" formatted="false">Sledovanie</string>
+    <string name="reading" formatted="false">Čítanie</string>
+    <string name="completed" formatted="false">Dokončený</string>
+    <string name="dropped" formatted="false">Upustený</string>
+    <string name="on_hold" formatted="false">Pozastavený</string>
+    <string name="plan_to_read" formatted="false">Plánované čítanie</string>
+    <string name="repeating" formatted="false">Znovu čítanie</string>
+    <string name="score" formatted="false">Skóre</string>
+    <string name="title" formatted="false">Názov</string>
+    <string name="status" formatted="false">Stav</string>
+    <string name="track_status" formatted="false">Stav</string>
+    <string name="track_start_date" formatted="false">Zahájeno</string>
+    <string name="track_type" formatted="false">Typ</string>
+    <string name="track_author" formatted="false">Autor</string>
+    <string name="url_not_set" formatted="false">URL mangy nie je nastavené, kliknite na názov a znova vyberte mangu</string>
+    <string name="error_category_exists" formatted="false">Kategória s týmto názvom už existuje!</string>
+    <string name="snack_categories_deleted" formatted="false">Kategórie boli odstránené</string>
+    <string name="dialog_with_checkbox_remove_description" formatted="false">Týmto sa odstráni dátum prečítania tejto kapitoly. Si si istý\?</string>
+    <string name="dialog_with_checkbox_reset" formatted="false">Resetovať všetky kapitoly mangy</string>
+    <string name="snack_add_to_library" formatted="false">Pridať mangu do knižnice\?</string>
+    <string name="picture_saved" formatted="false">Obrázok bol uložený</string>
+    <string name="saving_picture" formatted="false">Ukladá sa obrázok</string>
+    <string name="options" formatted="false">Možnosti</string>
+    <string name="custom_filter" formatted="false">Vlastný filter</string>
+    <string name="set_as_cover" formatted="false">Nastaviť ako obal</string>
+    <string name="cover_updated" formatted="false">Obal bol aktualizovaný</string>
+    <string name="page_downloaded" formatted="false">Stránka bola skopírovaná do %1$s</string>
+    <string name="downloading" formatted="false">Sťahovanie…</string>
+    <string name="download_progress" formatted="false">Stiahnuté %1$d%%</string>
+    <string name="chapter_progress" formatted="false">Strana: %1$d</string>
+    <string name="chapter_subtitle" formatted="false">Kapitola %1$s</string>
+    <string name="no_next_chapter" formatted="false">Ďalšia kapitola nebola nájdená</string>
+    <string name="no_previous_chapter" formatted="false">Predchádzajúca kapitola nebola nájdená</string>
+    <string name="decode_image_error" formatted="false">Obrázok sa nepodarilo dekódovať</string>
+    <string name="confirm_set_image_as_cover" formatted="false">Chcete použiť tento obrázok ako obal\?</string>
+    <string name="viewer_for_this_series" formatted="false">Prehliadač tejto série</string>
+    <string name="transition_finished" formatted="false">Dokončená:</string>
+    <string name="transition_current" formatted="false">Aktuálna:</string>
+    <string name="transition_next" formatted="false">Ďalšia:</string>
+    <string name="transition_previous" formatted="false">Predchádzajúcí:</string>
+    <string name="transition_no_next" formatted="false">Žiadna ďalšia kapitola</string>
+    <string name="transition_no_previous" formatted="false">Žiadna predchádzajúca kapitola</string>
+    <string name="transition_pages_loading" formatted="false">Načítání stránok…</string>
+    <string name="transition_pages_error" formatted="false">Chyba pri načítání stránok: %1$s</string>
+    <string name="migration_info" formatted="false">Klepnutím vyberte zdroj, z ktorého chcete migrovať</string>
+    <string name="migration_dialog_what_to_include" formatted="false">Vyberte data, ktoré chcete zahrnúť</string>
+    <string name="select" formatted="false">Vybrať</string>
+    <string name="migrate" formatted="false">Migrovať</string>
+    <string name="copy" formatted="false">Kopírovať</string>
+    <string name="download_queue_error" formatted="false">Kapitoly sa nepodarilo stiahnuť. Môžete to skúsiť znova v sekcii sťahovania</string>
+    <string name="notification_update_progress" formatted="false">Priebeh aktualizácie: %1$d/%2$d</string>
+    <string name="notification_new_chapters" formatted="false">Boli nájdené nové kapitoly</string>
+    <string name="notification_cover_update_failed" formatted="false">Chyba pri aktualizácii obalu</string>
+    <string name="notification_first_add_to_library" formatted="false">Predtým, ako to urobíte, pridajte do svojej knižnice mangu</string>
+    <string name="notification_not_connected_to_ac_title" formatted="false">Synchronizácia bola zrušená</string>
+    <string name="notification_not_connected_to_ac_body" formatted="false">Nie je pripojené k AC napájaniu</string>
+    <string name="notification_no_connection_title" formatted="false">Synchronizácia bola zrušená</string>
+    <string name="notification_no_connection_body" formatted="false">Pripojenie nie je k dispozícii</string>
+    <string name="file_select_cover" formatted="false">Vyberte obrázok obalu</string>
+    <string name="file_select_backup" formatted="false">Vyberte záložný súbor</string>
+    <string name="file_select_icon" formatted="false">Vyberte ikonu zástupca</string>
+    <string name="update_check_confirm" formatted="false">Stiahnuť</string>
+    <string name="update_check_ignore" formatted="false">Ignorovať</string>
+    <string name="update_check_no_new_updates" formatted="false">Žiadné nové aktualizácie</string>
+    <string name="update_check_look_for_updates" formatted="false">Vyhľadávanie aktualizácií…</string>
+    <string name="update_check_notification_file_download" formatted="false">Stiahnuť aktualizáciu</string>
+    <string name="update_check_notification_download_in_progress" formatted="false">Prebiehá stahovanie…</string>
+    <string name="update_check_notification_download_complete" formatted="false">Sťahovanie dokončené</string>
+    <string name="update_check_notification_download_error" formatted="false">Chyba sťahovania</string>
+    <string name="update_check_notification_update_available" formatted="false">Dostupná aktualizácia</string>
+    <string name="description_backdrop" formatted="false">Obrázok pozadí mangy</string>
+    <string name="description_cover" formatted="false">Obal mangy</string>
+    <string name="information_no_downloads" formatted="false">Žiadne sťahovanie</string>
+    <string name="information_no_recent" formatted="false">Žiadne nedávne kapitoly</string>
+    <string name="information_no_recent_manga" formatted="false">Žiadna nedávno čítaná manga</string>
+    <string name="information_empty_library" formatted="false">Vaša knižnica je prázdna, môžete si sem pridat niečo z katalógov.</string>
+    <string name="information_empty_category" formatted="false">Nemáte žiadne kategórie. Kliknite na tlačidlo plus a vytvorte nejakú na usporiadanie knižnice.</string>
+    <string name="download_notifier_downloader_title" formatted="false">Sťahovač</string>
+    <string name="download_notifier_title_error" formatted="false">Chyba</string>
+    <string name="download_notifier_unknown_error" formatted="false">Kapitolu sa nepodarilo stiahnuť z dôvodu neočakávanej chyby</string>
+    <string name="download_notifier_page_error" formatted="false">V adresári chýba stránka</string>
+    <string name="download_notifier_page_ready_error" formatted="false">Stránka nebola načtena</string>
+    <string name="download_notifier_text_only_wifi" formatted="false">WiFi pripojenie nie je dostupné</string>
+    <string name="download_notifier_no_network" formatted="false">Sieťové pripojenie nie je dostupné</string>
+    <string name="download_notifier_download_paused" formatted="false">Sťahovanie bolo pozastavené</string>
+    <string name="channel_common" formatted="false">Bežný</string>
+    <string name="channel_library" formatted="false">Knižnica</string>
+    <string name="channel_downloader" formatted="false">Sťahovač</string>
+    <string name="no_results_found" formatted="false">Neboli nájdené žiadne výsledky</string>
+    <string name="migration_selection_prompt" formatted="false">Vyberte zdroj zo ktorého chcete migrovat</string>
+    <string name="invalid_download_dir" formatted="false">Neplatný adresár sťahovania</string>
+    <string name="action_sort_latest_chapter" formatted="false">Najnovšia kapitola</string>
+    <string name="action_view_chapters" formatted="false">Zobraziť kapitoly</string>
+    <string name="action_cancel_all" formatted="false">Zrušiť všetky</string>
+    <string name="unlock_app" formatted="false">Odomknúť Tachiyomi</string>
+    <string name="action_hide" formatted="false">Skryť</string>
+    <string name="action_menu" formatted="false">Menu</string>
+    <string name="action_reorganize_by" formatted="false">Zmeniť poradie</string>
+    <string name="action_newest" formatted="false">Najnovšie</string>
+    <string name="action_oldest" formatted="false">Najstaršie</string>
+    <string name="action_move_to_top" formatted="false">Presunúť navrch</string>
 </resources>

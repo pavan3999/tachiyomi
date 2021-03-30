@@ -1,409 +1,409 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name">ชื่อ</string>
-    <string name="categories">หมวดหมู่</string>
-    <string name="manga">มังงะ</string>
-    <string name="chapters">ตอน</string>
-    <string name="track">ดังต่อไปนี้</string>
-    <string name="history">ประวัติศาสตร์</string>
-    <string name="label_settings">ตั้งค่า</string>
-    <string name="label_download_queue">คิวดาวน์โหลด</string>
-    <string name="label_library">ห้องสมุดของฉัน</string>
-    <string name="label_backup">การสำรองข้อมูล</string>
-    <string name="label_extensions">ส่วนขยาย</string>
-    <string name="label_extension_info">ข้อมูลส่วนขยาย</string>
-    <string name="action_settings">ตั้งค่า</string>
-    <string name="action_filter">ตัวกรอง</string>
-    <string name="label_recent_updates">อัพเดทห้องสมุด</string>
-    <string name="label_categories">ประเภท</string>
-    <string name="action_filter_downloaded">ดาวน์โหลดแล้ว</string>
-    <string name="action_filter_unread">ยังไม่ได้อ่าน</string>
-    <string name="action_filter_read">อ่าน</string>
-    <string name="action_filter_empty">ลบตัวกรอง</string>
-    <string name="action_sort_alpha">ตามตัวอักษร</string>
-    <string name="action_sort_total">จำนวนตอน</string>
-    <string name="action_sort_last_read">อ่านล่าสุด</string>
-    <string name="action_search">ค้นหา</string>
-    <string name="action_select_all">เลือกทั้งหมด</string>
-    <string name="action_mark_as_read">ตั้งเป็นอ่านแล้ว</string>
-    <string name="action_mark_as_unread">ตั้งเป็นยังไม่ได้อ่าน</string>
-    <string name="action_download">ดาวน์โหลด</string>
-    <string name="action_delete">ลบ</string>
-    <string name="action_update">อัพเดท</string>
-    <string name="action_update_library">อัพเดทห้องสมุด</string>
-    <string name="action_edit">แก้ไข</string>
-    <string name="action_add">เพิ่ม</string>
-    <string name="action_add_category">เพิ่มประเภท</string>
-    <string name="action_edit_categories">แก้ไขประเภท</string>
-    <string name="action_rename_category">เปลี่ยนชื่อประเภท</string>
-    <string name="action_edit_cover">แก้ไขรูปปก</string>
-    <string name="action_show_downloaded">ดาวน์โหลดแล้ว</string>
-    <string name="action_close">ปิด</string>
-    <string name="action_previous_chapter">ตอนที่แล้ว</string>
-    <string name="action_next_chapter">ตอนถัดไป</string>
-    <string name="action_retry">ลองอีกครั้ง</string>
-    <string name="action_move">ย้าย</string>
-    <string name="action_open_in_browser">เปิดในเบราว์เซอร์</string>
-    <string name="action_display_grid">ตาราง</string>
-    <string name="action_display_list">รายการ</string>
-    <string name="action_cancel">ยกเลิก</string>
-    <string name="action_install">ติดตั้ง</string>
-    <string name="action_save">บันทึก</string>
-    <string name="action_reset">รีเซ็ต</string>
-    <string name="action_create">สร้าง</string>
-    <string name="action_open">เปิด</string>
-    <string name="action_login">เข้าสู่ระบบ</string>
-    <string name="loading">กำลังดำเนินการ…</string>
-    <string name="short_recent_updates">อัพเดท</string>
-    <string name="pref_category_general">ทั่วไป</string>
-    <string name="pref_category_reader">ตัวอ่าน</string>
-    <string name="pref_category_advanced">ขั้นสูง</string>
-    <string name="pref_category_about">เกี่ยวกับ</string>
-    <string name="default_columns">ค่าเริ่มต้น</string>
-    <string name="update_1hour">ทุกชั่วโมง</string>
-    <string name="update_2hour">ทุก 2 ชั่วโมง</string>
-    <string name="update_3hour">ทุก 3 ชั่วโมง</string>
-    <string name="update_6hour">ทุก 6 ชั่วโมง</string>
-    <string name="update_12hour">ทุก 12 ชั่วโมง</string>
-    <string name="update_24hour">ทุกวัน</string>
-    <string name="update_48hour">ทุก 2 วัน</string>
-    <string name="update_weekly">ทุกสัปดาห์</string>
-    <string name="update_monthly">ทุกเดือน</string>
-    <string name="all">ทั้งหมด</string>
-    <string name="charging">กำลังชาร์จ</string>
-    <string name="pref_language">ภาษา</string>
-    <string name="system_default">ค่าเริ่มต้นของระบบ</string>
-    <string name="default_category_summary">ถามทุกครั้ง</string>
-    <string name="ext_details">รายละเอียด</string>
-    <string name="ext_update">อัพเดท</string>
-    <string name="ext_install">ติดตั้ง</string>
-    <string name="ext_pending">รอดำเนินการ</string>
-    <string name="ext_downloading">กำลังดาวน์โหลด</string>
-    <string name="ext_installing">กำลังติดตั้ง</string>
-    <string name="ext_installed">ติดตั้งแล้ว</string>
-    <string name="ext_language_info">ภาษา: %1$s</string>
-    <string name="filter_mode_default">ค่าเริ่มต้น</string>
-    <string name="pref_reader_navigation">การควบคุม</string>
-    <string name="pref_reader_theme">สีพื้นหลัง</string>
-    <string name="white_background">ขาว</string>
-    <string name="black_background">ดำ</string>
-    <string name="label_recent_manga">อ่านล่าสุด</string>
-    <string name="action_global_search">ค้นหา</string>
-    <string name="action_mark_previous_as_read">อ่านแล้ว</string>
-    <string name="label_help">ช่วยเหลือ</string>
-    <string name="label_migration">เปลี่ยนแหล่งข้อมูล</string>
-    <string name="action_filter_bookmarked">บุ๊คมาร์ค</string>
-    <string name="action_bookmark">บุ๊คมาร์ค</string>
-    <string name="action_remove_bookmark">ลบบุ๊คมาร์ค</string>
-    <string name="action_move_category">ย้ายไปที่ประเภท</string>
-    <string name="action_sort_up">เรียงขึ้น</string>
-    <string name="action_sort_down">เรียงลง</string>
-    <string name="action_next_unread">อ่านเรื่องที่ยังไม่ได้อ่าน</string>
-    <string name="action_start">เริ่มต้น</string>
-    <string name="action_stop">จุดจบ</string>
-    <string name="action_pause">หยุดพัก</string>
-    <string name="action_remove">ลบออก</string>
-    <string name="action_resume">เล่นต่อ</string>
-    <string name="action_display_mode">เปลี่ยนรูปแบบการแสดงผล</string>
-    <string name="action_display">การแสดงผล</string>
-    <string name="action_display_download_badge">ดาวน์โหลดป้าย</string>
-    <string name="action_sort">การจัดเรียง</string>
-    <string name="action_share">แชร์</string>
-    <string name="action_undo">ย้อนกลับ</string>
-    <string name="action_open_log">ประวัติ</string>
-    <string name="action_restore">ย้อนค่ากลับ</string>
-    <string name="app_not_available">โปรแกรมไม่พร้อม</string>
-    <string name="pref_category_downloads">ที่ดาวน์โหลด</string>
-    <string name="pref_category_tracking">การติดตาม</string>
-    <string name="pref_library_columns">จำนวนการ์ตูนแต่ละแถวแนวนอน</string>
-    <string name="portrait">แนวตั้ง</string>
-    <string name="landscape">แนวนอน</string>
-    <string name="pref_library_update_interval">ความถี่การปรับปรุงข้อมูลห้องสมุด</string>
-    <string name="update_never">คู่มือ</string>
-    <string name="pref_library_update_categories">หมวดหมู่ที่จะปรับปรุงข้อมูลทั้งหมด</string>
-    <string name="pref_library_update_restriction">จำกัดการปรับปรุงห้องสมุด</string>
-    <string name="pref_library_update_restriction_summary">ปรับปรุงตามเงื่อนไข</string>
-    <string name="wifi">Wi-Fi</string>
-    <string name="pref_update_only_non_completed">ปรับปรุงเฉพาะมังงะที่ดำเนินต่อ</string>
-    <string name="pref_auto_update_manga_sync">ซิงค์ตอนหลังการอ่าน</string>
-    <string name="pref_start_screen">เปิดหน้าแรก</string>
-    <string name="default_category">ค่าเรื่มต้นประเภท</string>
-    <string name="all_lang">ทั้งหมด</string>
-    <string name="ext_trust">เชื่อถือ</string>
-    <string name="ext_untrusted">ไม่น่าเชื่อถือ</string>
-    <string name="ext_uninstall">ลบการติดตั้ง</string>
-    <string name="ext_preferences">การตั้งค่า</string>
-    <string name="ext_available">ที่มี</string>
-    <string name="untrusted_extension">ส่วนขยายที่ไม่น่าเชื่อถือ</string>
-    <string name="untrusted_extension_message">ส่วนต่อขยายนี้ถูกรับรองจากใบรับรองที่ไม่น่าเชื่อถือ และมันไม่ทำงาน
+    <string name="name" formatted="false">ชื่อ</string>
+    <string name="categories" formatted="false">หมวดหมู่</string>
+    <string name="manga" formatted="false">มังงะ</string>
+    <string name="chapters" formatted="false">ตอน</string>
+    <string name="track" formatted="false">ดังต่อไปนี้</string>
+    <string name="history" formatted="false">ประวัติศาสตร์</string>
+    <string name="label_settings" formatted="false">ตั้งค่า</string>
+    <string name="label_download_queue" formatted="false">คิวดาวน์โหลด</string>
+    <string name="label_library" formatted="false">ห้องสมุดของฉัน</string>
+    <string name="label_backup" formatted="false">การสำรองข้อมูล</string>
+    <string name="label_extensions" formatted="false">ส่วนขยาย</string>
+    <string name="label_extension_info" formatted="false">ข้อมูลส่วนขยาย</string>
+    <string name="action_settings" formatted="false">ตั้งค่า</string>
+    <string name="action_filter" formatted="false">ตัวกรอง</string>
+    <string name="label_recent_updates" formatted="false">อัพเดทห้องสมุด</string>
+    <string name="label_categories" formatted="false">ประเภท</string>
+    <string name="action_filter_downloaded" formatted="false">ดาวน์โหลดแล้ว</string>
+    <string name="action_filter_unread" formatted="false">ยังไม่ได้อ่าน</string>
+    <string name="action_filter_read" formatted="false">อ่าน</string>
+    <string name="action_filter_empty" formatted="false">ลบตัวกรอง</string>
+    <string name="action_sort_alpha" formatted="false">ตามตัวอักษร</string>
+    <string name="action_sort_total" formatted="false">จำนวนตอน</string>
+    <string name="action_sort_last_read" formatted="false">อ่านล่าสุด</string>
+    <string name="action_search" formatted="false">ค้นหา</string>
+    <string name="action_select_all" formatted="false">เลือกทั้งหมด</string>
+    <string name="action_mark_as_read" formatted="false">ตั้งเป็นอ่านแล้ว</string>
+    <string name="action_mark_as_unread" formatted="false">ตั้งเป็นยังไม่ได้อ่าน</string>
+    <string name="action_download" formatted="false">ดาวน์โหลด</string>
+    <string name="action_delete" formatted="false">ลบ</string>
+    <string name="action_update" formatted="false">อัพเดท</string>
+    <string name="action_update_library" formatted="false">อัพเดทห้องสมุด</string>
+    <string name="action_edit" formatted="false">แก้ไข</string>
+    <string name="action_add" formatted="false">เพิ่ม</string>
+    <string name="action_add_category" formatted="false">เพิ่มประเภท</string>
+    <string name="action_edit_categories" formatted="false">แก้ไขประเภท</string>
+    <string name="action_rename_category" formatted="false">เปลี่ยนชื่อประเภท</string>
+    <string name="action_edit_cover" formatted="false">แก้ไขรูปปก</string>
+    <string name="action_show_downloaded" formatted="false">ดาวน์โหลดแล้ว</string>
+    <string name="action_close" formatted="false">ปิด</string>
+    <string name="action_previous_chapter" formatted="false">ตอนที่แล้ว</string>
+    <string name="action_next_chapter" formatted="false">ตอนถัดไป</string>
+    <string name="action_retry" formatted="false">ลองอีกครั้ง</string>
+    <string name="action_move" formatted="false">ย้าย</string>
+    <string name="action_open_in_browser" formatted="false">เปิดในเบราว์เซอร์</string>
+    <string name="action_display_grid" formatted="false">ตาราง</string>
+    <string name="action_display_list" formatted="false">รายการ</string>
+    <string name="action_cancel" formatted="false">ยกเลิก</string>
+    <string name="action_install" formatted="false">ติดตั้ง</string>
+    <string name="action_save" formatted="false">บันทึก</string>
+    <string name="action_reset" formatted="false">รีเซ็ต</string>
+    <string name="action_create" formatted="false">สร้าง</string>
+    <string name="action_open" formatted="false">เปิด</string>
+    <string name="action_login" formatted="false">เข้าสู่ระบบ</string>
+    <string name="loading" formatted="false">กำลังดำเนินการ…</string>
+    <string name="short_recent_updates" formatted="false">อัพเดท</string>
+    <string name="pref_category_general" formatted="false">ทั่วไป</string>
+    <string name="pref_category_reader" formatted="false">ตัวอ่าน</string>
+    <string name="pref_category_advanced" formatted="false">ขั้นสูง</string>
+    <string name="pref_category_about" formatted="false">เกี่ยวกับ</string>
+    <string name="default_columns" formatted="false">ค่าเริ่มต้น</string>
+    <string name="update_1hour" formatted="false">ทุกชั่วโมง</string>
+    <string name="update_2hour" formatted="false">ทุก 2 ชั่วโมง</string>
+    <string name="update_3hour" formatted="false">ทุก 3 ชั่วโมง</string>
+    <string name="update_6hour" formatted="false">ทุก 6 ชั่วโมง</string>
+    <string name="update_12hour" formatted="false">ทุก 12 ชั่วโมง</string>
+    <string name="update_24hour" formatted="false">ทุกวัน</string>
+    <string name="update_48hour" formatted="false">ทุก 2 วัน</string>
+    <string name="update_weekly" formatted="false">ทุกสัปดาห์</string>
+    <string name="update_monthly" formatted="false">ทุกเดือน</string>
+    <string name="all" formatted="false">ทั้งหมด</string>
+    <string name="charging" formatted="false">กำลังชาร์จ</string>
+    <string name="pref_language" formatted="false">ภาษา</string>
+    <string name="system_default" formatted="false">ค่าเริ่มต้นของระบบ</string>
+    <string name="default_category_summary" formatted="false">ถามทุกครั้ง</string>
+    <string name="ext_details" formatted="false">รายละเอียด</string>
+    <string name="ext_update" formatted="false">อัพเดท</string>
+    <string name="ext_install" formatted="false">ติดตั้ง</string>
+    <string name="ext_pending" formatted="false">รอดำเนินการ</string>
+    <string name="ext_downloading" formatted="false">กำลังดาวน์โหลด</string>
+    <string name="ext_installing" formatted="false">กำลังติดตั้ง</string>
+    <string name="ext_installed" formatted="false">ติดตั้งแล้ว</string>
+    <string name="ext_language_info" formatted="false">ภาษา: %1$s</string>
+    <string name="filter_mode_default" formatted="false">ค่าเริ่มต้น</string>
+    <string name="pref_reader_navigation" formatted="false">การควบคุม</string>
+    <string name="pref_reader_theme" formatted="false">สีพื้นหลัง</string>
+    <string name="white_background" formatted="false">ขาว</string>
+    <string name="black_background" formatted="false">ดำ</string>
+    <string name="label_recent_manga" formatted="false">อ่านล่าสุด</string>
+    <string name="action_global_search" formatted="false">ค้นหา</string>
+    <string name="action_mark_previous_as_read" formatted="false">อ่านแล้ว</string>
+    <string name="label_help" formatted="false">ช่วยเหลือ</string>
+    <string name="label_migration" formatted="false">เปลี่ยนแหล่งข้อมูล</string>
+    <string name="action_filter_bookmarked" formatted="false">บุ๊คมาร์ค</string>
+    <string name="action_bookmark" formatted="false">บุ๊คมาร์ค</string>
+    <string name="action_remove_bookmark" formatted="false">ลบบุ๊คมาร์ค</string>
+    <string name="action_move_category" formatted="false">ย้ายไปที่ประเภท</string>
+    <string name="action_sort_up" formatted="false">เรียงขึ้น</string>
+    <string name="action_sort_down" formatted="false">เรียงลง</string>
+    <string name="action_next_unread" formatted="false">อ่านเรื่องที่ยังไม่ได้อ่าน</string>
+    <string name="action_start" formatted="false">เริ่มต้น</string>
+    <string name="action_stop" formatted="false">จุดจบ</string>
+    <string name="action_pause" formatted="false">หยุดพัก</string>
+    <string name="action_remove" formatted="false">ลบออก</string>
+    <string name="action_resume" formatted="false">เล่นต่อ</string>
+    <string name="action_display_mode" formatted="false">เปลี่ยนรูปแบบการแสดงผล</string>
+    <string name="action_display" formatted="false">การแสดงผล</string>
+    <string name="action_display_download_badge" formatted="false">ดาวน์โหลดป้าย</string>
+    <string name="action_sort" formatted="false">การจัดเรียง</string>
+    <string name="action_share" formatted="false">แชร์</string>
+    <string name="action_undo" formatted="false">ย้อนกลับ</string>
+    <string name="action_open_log" formatted="false">ประวัติ</string>
+    <string name="action_restore" formatted="false">ย้อนค่ากลับ</string>
+    <string name="app_not_available" formatted="false">โปรแกรมไม่พร้อม</string>
+    <string name="pref_category_downloads" formatted="false">ที่ดาวน์โหลด</string>
+    <string name="pref_category_tracking" formatted="false">การติดตาม</string>
+    <string name="pref_library_columns" formatted="false">จำนวนการ์ตูนแต่ละแถวแนวนอน</string>
+    <string name="portrait" formatted="false">แนวตั้ง</string>
+    <string name="landscape" formatted="false">แนวนอน</string>
+    <string name="pref_library_update_interval" formatted="false">ความถี่การปรับปรุงข้อมูลห้องสมุด</string>
+    <string name="update_never" formatted="false">คู่มือ</string>
+    <string name="pref_library_update_categories" formatted="false">หมวดหมู่ที่จะปรับปรุงข้อมูลทั้งหมด</string>
+    <string name="pref_library_update_restriction" formatted="false">จำกัดการปรับปรุงห้องสมุด</string>
+    <string name="pref_library_update_restriction_summary" formatted="false">ปรับปรุงตามเงื่อนไข</string>
+    <string name="wifi" formatted="false">Wi-Fi</string>
+    <string name="pref_update_only_non_completed" formatted="false">ปรับปรุงเฉพาะมังงะที่ดำเนินต่อ</string>
+    <string name="pref_auto_update_manga_sync" formatted="false">ซิงค์ตอนหลังการอ่าน</string>
+    <string name="pref_start_screen" formatted="false">เปิดหน้าแรก</string>
+    <string name="default_category" formatted="false">ค่าเรื่มต้นประเภท</string>
+    <string name="all_lang" formatted="false">ทั้งหมด</string>
+    <string name="ext_trust" formatted="false">เชื่อถือ</string>
+    <string name="ext_untrusted" formatted="false">ไม่น่าเชื่อถือ</string>
+    <string name="ext_uninstall" formatted="false">ลบการติดตั้ง</string>
+    <string name="ext_preferences" formatted="false">การตั้งค่า</string>
+    <string name="ext_available" formatted="false">ที่มี</string>
+    <string name="untrusted_extension" formatted="false">ส่วนขยายที่ไม่น่าเชื่อถือ</string>
+    <string name="untrusted_extension_message" formatted="false">ส่วนต่อขยายนี้ถูกรับรองจากใบรับรองที่ไม่น่าเชื่อถือ และมันไม่ทำงาน
 \n
 \nส่วนต่อขยายที่ประสงค์ร้าย สามารถข้อมูลหนังสือรับรองทั้งหมดใน Tachiyomi หรือโปรแกรมอันตราย
 \n
 \nคุณยอมต้องยอมรับความเสี่ยง กรณีเชื่อถือใบรับรองนี้</string>
-    <string name="ext_version_info">เวอร์ชัน: %1$s</string>
-    <string name="ext_empty_preferences">ไม่มีการตั้งค่าสำหรับส่วนต่อขยายนี้</string>
-    <string name="pref_fullscreen">เต็มจอ</string>
-    <string name="pref_lock_orientation">ล๊อคหมุนจอ</string>
-    <string name="pref_page_transitions">เล่นเปลี่ยนแปลงหน้า</string>
-    <string name="pref_double_tap_anim_speed">เพื่อความเร็วภาพเคลื่อนไหว</string>
-    <string name="pref_show_page_number">แสดงเลขหน้า</string>
-    <string name="pref_crop_borders">ตัดขอบ</string>
-    <string name="pref_custom_brightness">ใช้ความสว่างแบบกำหนดเอง</string>
-    <string name="pref_custom_color_filter">ใช้ฟิลเตอร์สีแบบกำหนดเอง</string>
-    <string name="pref_keep_screen_on">เปิดหน้าจอไว้</string>
-    <string name="pref_read_with_volume_keys">ปุ่มปรับระดับเสียง</string>
-    <string name="pref_read_with_volume_keys_inverted">สลับด้าน ปุ่มปรับระดับเสียง</string>
-    <string name="pref_read_with_tapping">แตะ</string>
-    <string name="pref_viewer_type">ตัวแสดงเริ่มต้น</string>
-    <string name="default_viewer">ค่าเริ่มต้น</string>
-    <string name="left_to_right_viewer">จากซ้ายไปขวา</string>
-    <string name="right_to_left_viewer">จากขวาไปซ้าย</string>
-    <string name="vertical_viewer">แนวตั้ง</string>
-    <string name="webtoon_viewer">เว็บตูน</string>
-    <string name="pager_viewer">การแสดงหน้า</string>
-    <string name="pref_image_decoder">ตัวถอดรหัสภาพ</string>
-    <string name="pref_image_scale_type">ชนิดของมาตราส่วน</string>
-    <string name="scale_type_fit_screen">หน้าจอพอดี</string>
-    <string name="scale_type_stretch">ยืด</string>
-    <string name="scale_type_fit_width">พอดีกับความกว้าง</string>
-    <string name="scale_type_fit_height">พอดีกับความสูง</string>
-    <string name="scale_type_original_size">ขนาดดั้งเดิม</string>
-    <string name="scale_type_smart_fit">พอดีอย่างชาญฉลาด</string>
-    <string name="pref_zoom_start">ตำแหน่งเริ่มซูม</string>
-    <string name="zoom_start_automatic">อัตโนมัติ</string>
-    <string name="zoom_start_left">ซ้าย</string>
-    <string name="zoom_start_right">ขวา</string>
-    <string name="zoom_start_center">ตรงกลาง</string>
-    <string name="double_tap_anim_speed_0">ไม่ใช้ภาพเคลื่อนไหว</string>
-    <string name="double_tap_anim_speed_normal">ปกติ</string>
-    <string name="double_tap_anim_speed_fast">เร็ว</string>
-    <string name="pref_rotation_type">การหมุน</string>
-    <string name="rotation_free">ว่าง</string>
-    <string name="rotation_lock">ล็อค</string>
-    <string name="rotation_force_portrait">บังคับแนวตั้ง</string>
-    <string name="rotation_force_landscape">บังคับแนวนอน</string>
-    <string name="color_filter_r_value">R</string>
-    <string name="color_filter_g_value">กรัม</string>
-    <string name="color_filter_b_value">B</string>
-    <string name="color_filter_a_value">A</string>
-    <string name="pref_download_directory">ไดเรกทอรีดาวน์โหลด</string>
-    <string name="pref_download_only_over_wifi">ดาวน์โหลดผ่าน Wi-fi เท่านั้น</string>
-    <string name="pref_remove_after_marked_as_read">ลบเครื่องหมายว่าอ่านแล้ว</string>
-    <string name="pref_remove_after_read">ลบออกหลังจากอ่านแล้ว</string>
-    <string name="custom_dir">ไดเรกทอรีที่กำหนดเอง</string>
-    <string name="disabled">ปิดการใช้งาน</string>
-    <string name="last_read_chapter">บทที่อ่านล่าสุด</string>
-    <string name="second_to_last">2 บท ถึง บทสุดท้าย</string>
-    <string name="third_to_last">3 บท ถึง บทสุดท้าย</string>
-    <string name="fourth_to_last">4 บท ถึง บทสุดท้าย</string>
-    <string name="fifth_to_last">5 บท ถึง บทสุดท้าย</string>
-    <string name="pref_download_new">ดาวน์โหลดบทใหม่</string>
-    <string name="pref_download_new_categories">ประเภทที่จะรวมในการดาวน์โหลด</string>
-    <string name="services">บริการ</string>
-    <string name="backup">การสำรองข้อมูล</string>
-    <string name="pref_create_backup">สร้างการสำรองข้อมูล</string>
-    <string name="pref_create_backup_summ">สามารถใช้ในการเรียกคืนค่าห้องสมุดปัจจุบัน</string>
-    <string name="pref_restore_backup">เรียกคืนการสำรองข้อมูล</string>
-    <string name="pref_restore_backup_summ">เรียกคืนค่าห้องสมุดจากแฟ้มสำรองข้อมูล</string>
-    <string name="pref_backup_directory">ไดเรกทอรีการสำรองข้อมูล</string>
-    <string name="pref_backup_service_category">บริการ</string>
-    <string name="pref_backup_interval">ความถี่ในการสำรองข้อมูล</string>
-    <string name="pref_backup_slots">จำนวนการสำรองข้อมูลอัตโนมัติสูงสุด</string>
-    <string name="source_not_found">ไม่พบแหล่งที่มา</string>
-    <string name="backup_created">การสำรองข้อมูลที่สร้างขึ้น</string>
-    <string name="restore_completed">การคืนค่าเสร็จสมบูรณ์</string>
-    <string name="restore_completed_content">การคืนค่าเอา %1$s
+    <string name="ext_version_info" formatted="false">เวอร์ชัน: %1$s</string>
+    <string name="ext_empty_preferences" formatted="false">ไม่มีการตั้งค่าสำหรับส่วนต่อขยายนี้</string>
+    <string name="pref_fullscreen" formatted="false">เต็มจอ</string>
+    <string name="pref_lock_orientation" formatted="false">ล๊อคหมุนจอ</string>
+    <string name="pref_page_transitions" formatted="false">เล่นเปลี่ยนแปลงหน้า</string>
+    <string name="pref_double_tap_anim_speed" formatted="false">เพื่อความเร็วภาพเคลื่อนไหว</string>
+    <string name="pref_show_page_number" formatted="false">แสดงเลขหน้า</string>
+    <string name="pref_crop_borders" formatted="false">ตัดขอบ</string>
+    <string name="pref_custom_brightness" formatted="false">ใช้ความสว่างแบบกำหนดเอง</string>
+    <string name="pref_custom_color_filter" formatted="false">ใช้ฟิลเตอร์สีแบบกำหนดเอง</string>
+    <string name="pref_keep_screen_on" formatted="false">เปิดหน้าจอไว้</string>
+    <string name="pref_read_with_volume_keys" formatted="false">ปุ่มปรับระดับเสียง</string>
+    <string name="pref_read_with_volume_keys_inverted" formatted="false">สลับด้าน ปุ่มปรับระดับเสียง</string>
+    <string name="pref_read_with_tapping" formatted="false">แตะ</string>
+    <string name="pref_viewer_type" formatted="false">ตัวแสดงเริ่มต้น</string>
+    <string name="default_viewer" formatted="false">ค่าเริ่มต้น</string>
+    <string name="left_to_right_viewer" formatted="false">จากซ้ายไปขวา</string>
+    <string name="right_to_left_viewer" formatted="false">จากขวาไปซ้าย</string>
+    <string name="vertical_viewer" formatted="false">แนวตั้ง</string>
+    <string name="webtoon_viewer" formatted="false">เว็บตูน</string>
+    <string name="pager_viewer" formatted="false">การแสดงหน้า</string>
+    <string name="pref_image_decoder" formatted="false">ตัวถอดรหัสภาพ</string>
+    <string name="pref_image_scale_type" formatted="false">ชนิดของมาตราส่วน</string>
+    <string name="scale_type_fit_screen" formatted="false">หน้าจอพอดี</string>
+    <string name="scale_type_stretch" formatted="false">ยืด</string>
+    <string name="scale_type_fit_width" formatted="false">พอดีกับความกว้าง</string>
+    <string name="scale_type_fit_height" formatted="false">พอดีกับความสูง</string>
+    <string name="scale_type_original_size" formatted="false">ขนาดดั้งเดิม</string>
+    <string name="scale_type_smart_fit" formatted="false">พอดีอย่างชาญฉลาด</string>
+    <string name="pref_zoom_start" formatted="false">ตำแหน่งเริ่มซูม</string>
+    <string name="zoom_start_automatic" formatted="false">อัตโนมัติ</string>
+    <string name="zoom_start_left" formatted="false">ซ้าย</string>
+    <string name="zoom_start_right" formatted="false">ขวา</string>
+    <string name="zoom_start_center" formatted="false">ตรงกลาง</string>
+    <string name="double_tap_anim_speed_0" formatted="false">ไม่ใช้ภาพเคลื่อนไหว</string>
+    <string name="double_tap_anim_speed_normal" formatted="false">ปกติ</string>
+    <string name="double_tap_anim_speed_fast" formatted="false">เร็ว</string>
+    <string name="pref_rotation_type" formatted="false">การหมุน</string>
+    <string name="rotation_free" formatted="false">ว่าง</string>
+    <string name="rotation_lock" formatted="false">ล็อค</string>
+    <string name="rotation_force_portrait" formatted="false">บังคับแนวตั้ง</string>
+    <string name="rotation_force_landscape" formatted="false">บังคับแนวนอน</string>
+    <string name="color_filter_r_value" formatted="false">R</string>
+    <string name="color_filter_g_value" formatted="false">กรัม</string>
+    <string name="color_filter_b_value" formatted="false">B</string>
+    <string name="color_filter_a_value" formatted="false">A</string>
+    <string name="pref_download_directory" formatted="false">ไดเรกทอรีดาวน์โหลด</string>
+    <string name="pref_download_only_over_wifi" formatted="false">ดาวน์โหลดผ่าน Wi-fi เท่านั้น</string>
+    <string name="pref_remove_after_marked_as_read" formatted="false">ลบเครื่องหมายว่าอ่านแล้ว</string>
+    <string name="pref_remove_after_read" formatted="false">ลบออกหลังจากอ่านแล้ว</string>
+    <string name="custom_dir" formatted="false">ไดเรกทอรีที่กำหนดเอง</string>
+    <string name="disabled" formatted="false">ปิดการใช้งาน</string>
+    <string name="last_read_chapter" formatted="false">บทที่อ่านล่าสุด</string>
+    <string name="second_to_last" formatted="false">2 บท ถึง บทสุดท้าย</string>
+    <string name="third_to_last" formatted="false">3 บท ถึง บทสุดท้าย</string>
+    <string name="fourth_to_last" formatted="false">4 บท ถึง บทสุดท้าย</string>
+    <string name="fifth_to_last" formatted="false">5 บท ถึง บทสุดท้าย</string>
+    <string name="pref_download_new" formatted="false">ดาวน์โหลดบทใหม่</string>
+    <string name="pref_download_new_categories" formatted="false">ประเภทที่จะรวมในการดาวน์โหลด</string>
+    <string name="services" formatted="false">บริการ</string>
+    <string name="backup" formatted="false">การสำรองข้อมูล</string>
+    <string name="pref_create_backup" formatted="false">สร้างการสำรองข้อมูล</string>
+    <string name="pref_create_backup_summ" formatted="false">สามารถใช้ในการเรียกคืนค่าห้องสมุดปัจจุบัน</string>
+    <string name="pref_restore_backup" formatted="false">เรียกคืนการสำรองข้อมูล</string>
+    <string name="pref_restore_backup_summ" formatted="false">เรียกคืนค่าห้องสมุดจากแฟ้มสำรองข้อมูล</string>
+    <string name="pref_backup_directory" formatted="false">ไดเรกทอรีการสำรองข้อมูล</string>
+    <string name="pref_backup_service_category" formatted="false">บริการ</string>
+    <string name="pref_backup_interval" formatted="false">ความถี่ในการสำรองข้อมูล</string>
+    <string name="pref_backup_slots" formatted="false">จำนวนการสำรองข้อมูลอัตโนมัติสูงสุด</string>
+    <string name="source_not_found" formatted="false">ไม่พบแหล่งที่มา</string>
+    <string name="backup_created" formatted="false">การสำรองข้อมูลที่สร้างขึ้น</string>
+    <string name="restore_completed" formatted="false">การคืนค่าเสร็จสมบูรณ์</string>
+    <string name="restore_completed_content" formatted="false">การคืนค่าเอา %1$s
 \nพบข้อผิดพลาด %2$s</string>
-    <string name="backup_choice">คุณต้องการสำรองข้อมูลอะไร\?</string>
-    <string name="restoring_backup">กำลังคืนค่าการสำรองข้อมูล</string>
-    <string name="creating_backup">กำลังสร้างการสำรองข้อมูล</string>
-    <string name="pref_clear_chapter_cache">ล้างแคชของบท</string>
-    <string name="used_cache">ใช้แล้ว: %1$s</string>
-    <string name="cache_deleted">ล้างแคชแล้ว %1$d ไฟล์ถูกลบแล้ว</string>
-    <string name="cache_delete_error">เกิดข้อผิดพลาดขณะล้างแคช</string>
-    <string name="pref_clear_cookies">ล้างคุกกี้</string>
-    <string name="cookies_cleared">ล้างคุกกี้แล้ว</string>
-    <string name="choices_reset">รีเซ็ตตัวเลือกกล่องโต้ตอบ</string>
-    <string name="pref_clear_database">ล้างฐานข้อมูล</string>
-    <string name="pref_clear_database_summary">ลบมังงะและบทที่ไม่ได้อยู่ในห้องสมุดของคุณ</string>
-    <string name="clear_database_confirmation">คุณแน่ใจไหม\? อ่านบทและความคืบหน้าของมังงะที่ไม่ใช่ห้องสมุดจะหายไป</string>
-    <string name="clear_database_completed">รายการที่ลบแล้ว</string>
-    <string name="pref_refresh_library_metadata">รีเฟรชข้อมูลเมตาของไลบรารี</string>
-    <string name="pref_refresh_library_metadata_summary">การปรับปรุงครอบคลุมประเภทคำอธิบายและข้อมูลสถานะมังงะ</string>
-    <string name="pref_refresh_library_tracking">รีเฟรชข้อมูลเมตาของการติดตาม</string>
-    <string name="pref_refresh_library_tracking_summary">อัพเดตสถานะคะแนนและบทสุดท้ายที่อ่านจากบริการติดตาม</string>
-    <string name="version">เวอร์ชัน</string>
-    <string name="build_time">สร้างเวลา</string>
-    <string name="pref_enable_acra">ส่งรายงานความผิดพลาด</string>
-    <string name="pref_acra_summary">ช่วยแก้ไขข้อบกพร่องใดๆ ไม่มีข้อมูลที่สำคัญจะถูกส่ง</string>
-    <string name="login_title">เข้าสู่ระบบสำหรับ %1$s</string>
-    <string name="username">ชื่อผู้ใช้</string>
-    <string name="password">รหัส ผ่าน</string>
-    <string name="show_password">แสดงรหัสผ่าน</string>
-    <string name="login">ลงชื่อเข้าใช้</string>
-    <string name="login_success">เข้าสู่ระบบสำเร็จ</string>
-    <string name="invalid_login">ข้อผิดพลาดในการเข้าสู่ระบบ</string>
-    <string name="unknown_error">ข้อผิดพลาดที่ไม่รู้จัก</string>
-    <string name="library_search_hint">ชื่อเรื่องหรือผู้เขียน …</string>
-    <string name="updating_category">กำลังอัพเดตประเภท</string>
-    <string name="local_source_badge">ท้องถิ่น</string>
-    <string name="confirm_delete_manga">คุณแน่ใจหรือไม่ว่าคุณต้องการเอามังงะที่เลือกออก\?</string>
-    <string name="also_delete_chapters">ลบบทที่ดาวน์โหลดด้วย</string>
-    <string name="source_requires_login">แหล่งที่มานี้ต้องการให้คุณเข้าสู่ระบบ</string>
-    <string name="select_source">เลือกแหล่งที่มา</string>
-    <string name="no_valid_sources">กรุณาเปิดใช้งานอย่างน้อยหนึ่งแหล่งที่ถูกต้อง</string>
-    <string name="no_more_results">ไม่มีผลลัพธ์เพิ่มเติม</string>
-    <string name="local_source">มังงะภายในเครื่อง</string>
-    <string name="other_source">อื่น ๆ</string>
-    <string name="invalid_combination">ไม่สามารถเลือกค่าเริ่มต้นพร้อมกับหมวดหมู่อื่น ๆ ได้</string>
-    <string name="added_to_library">เพิ่มมังงะในห้องสมุดของคุณแล้ว</string>
-    <string name="action_global_search_hint">ค้นหาทั้งหมด…</string>
-    <string name="latest">ล่าสุด</string>
-    <string name="browse">เปิดดู</string>
-    <string name="manga_not_in_db">มังงะนี้ถูกลบออกจากฐานข้อมูล!</string>
-    <string name="manga_detail_tab">ข้อมูล</string>
-    <string name="description">คำอธิบาย</string>
-    <string name="ongoing">ยังดำเนินการอยู่</string>
-    <string name="unknown">ไม่ทราบ</string>
-    <string name="licensed">ลิขสิทธิ์</string>
-    <string name="remove_from_library">ลบออกจากห้องสมุด</string>
-    <string name="manga_info_full_title_label">ชื่อเรื่อง</string>
-    <string name="manga_added_library">เพิ่มไปยังห้องสมุด</string>
-    <string name="manga_removed_library">ลบออกจากห้องสมุด</string>
-    <string name="manga_info_author_label">ผู้เขียน</string>
-    <string name="manga_info_artist_label">ศิลปิน</string>
-    <string name="manga_info_chapters_label">บท</string>
-    <string name="manga_info_status_label">สถานะ</string>
-    <string name="manga_info_source_label">แหล่ง</string>
-    <string name="manga_info_genres_label">ชนิด</string>
-    <string name="delete_downloads_for_manga">ลบบทที่ดาวน์โหลดมาหรือไม่\?</string>
-    <string name="copied_to_clipboard">%1$s ถูกคัดลอกไปยังคลิปบอร์ด</string>
-    <string name="source_not_installed">ไม่ได้ติดตั้ง: %1$s</string>
-    <string name="manga_chapters_tab">บท</string>
-    <string name="manga_chapter_no_title">ไม่มีชื่อเรื่อง</string>
-    <string name="display_mode_chapter">บทที่ %1$s</string>
-    <string name="chapter_downloaded">ดาวน์โหลดแล้ว</string>
-    <string name="chapter_queued">อยู่ในคิวแล้ว</string>
-    <string name="chapter_downloading">กำลังดาวน์โหลด</string>
-    <string name="chapter_downloading_progress">กำลังดาวน์โหลด (%1$d/%2$d)</string>
-    <string name="chapter_error">เกิดข้อผิดพลาด</string>
-    <string name="chapter_paused">หยุดเล่นชั่วคราว</string>
-    <string name="fetch_chapters_error">เกิดข้อผิดพลาดขณะตรวจสอบจำนวนบท</string>
-    <string name="show_title">แสดงชื่อเรื่อง</string>
-    <string name="show_chapter_number">แสดงหมายเลขบท</string>
-    <string name="sorting_mode">โหมดการเรียงลำดับ</string>
-    <string name="sort_by_source">ตามแหล่งที่มา</string>
-    <string name="sort_by_number">ตามหมายเลขบท</string>
-    <string name="manga_download">ดาวน์โหลด</string>
-    <string name="custom_download">จำนวนดาวน์โหลดที่กำหนดเอง</string>
-    <string name="download_1">ดาวน์โหลดบทถัดไป</string>
-    <string name="download_5">ดาวน์โหลด 5 บทถัดไป</string>
-    <string name="download_10">ดาวน์โหลด 10 บทถัดไป</string>
-    <string name="download_custom">ดาวน์โหลดแบบกำหนดเอง</string>
-    <string name="download_all">ดาวน์โหลดทั้งหมด</string>
-    <string name="download_unread">ดาวน์โหลดที่ยังไม่ได้อ่าน</string>
-    <string name="confirm_delete_chapters">คุณแน่ใจหรือไม่ว่าคุณต้องการลบบทที่เลือก\?</string>
-    <string name="manga_tracking_tab">การติดตาม</string>
-    <string name="reading">การอ่าน</string>
-    <string name="completed">เสร็จสมบูรณ์</string>
-    <string name="dropped">ทิ้ง</string>
-    <string name="on_hold">รอสาย</string>
-    <string name="plan_to_read">วางแผนที่จะอ่าน</string>
-    <string name="repeating">อ่านอีกครั้ง</string>
-    <string name="score">คะแนน</string>
-    <string name="pref_read_with_long_tap">แตะนาน</string>
-    <string name="action_open_in_web_view">เปิดในมุมมองเว็บ</string>
-    <string name="pref_true_color">สี 32บิต</string>
-    <string name="pref_skip_read_chapters">ข้ามตอนที่อ่านแล้ว</string>
-    <string name="pref_color_filter_mode">แสดงตัวอักษรชัดเจน</string>
-    <string name="filter_mode_overlay">วางซ้อน</string>
-    <string name="filter_mode_screen">หน้าจอ</string>
-    <string name="filter_mode_lighten">ดอดจ์ / แบ่งเบา</string>
-    <string name="pref_library_update_prioritization">ลำดับการปรับปรุงห้องสมุด</string>
-    <string name="no_results_found">ไม่พบผลลัพธ์</string>
-    <string name="backup_restore_content">คืนค่าใช้แหล่งที่มาเพื่อดึงข้อมูลอาจมีค่าใช้จ่ายของผู้ให้บริการ
+    <string name="backup_choice" formatted="false">คุณต้องการสำรองข้อมูลอะไร\?</string>
+    <string name="restoring_backup" formatted="false">กำลังคืนค่าการสำรองข้อมูล</string>
+    <string name="creating_backup" formatted="false">กำลังสร้างการสำรองข้อมูล</string>
+    <string name="pref_clear_chapter_cache" formatted="false">ล้างแคชของบท</string>
+    <string name="used_cache" formatted="false">ใช้แล้ว: %1$s</string>
+    <string name="cache_deleted" formatted="false">ล้างแคชแล้ว %1$d ไฟล์ถูกลบแล้ว</string>
+    <string name="cache_delete_error" formatted="false">เกิดข้อผิดพลาดขณะล้างแคช</string>
+    <string name="pref_clear_cookies" formatted="false">ล้างคุกกี้</string>
+    <string name="cookies_cleared" formatted="false">ล้างคุกกี้แล้ว</string>
+    <string name="choices_reset" formatted="false">รีเซ็ตตัวเลือกกล่องโต้ตอบ</string>
+    <string name="pref_clear_database" formatted="false">ล้างฐานข้อมูล</string>
+    <string name="pref_clear_database_summary" formatted="false">ลบมังงะและบทที่ไม่ได้อยู่ในห้องสมุดของคุณ</string>
+    <string name="clear_database_confirmation" formatted="false">คุณแน่ใจไหม\? อ่านบทและความคืบหน้าของมังงะที่ไม่ใช่ห้องสมุดจะหายไป</string>
+    <string name="clear_database_completed" formatted="false">รายการที่ลบแล้ว</string>
+    <string name="pref_refresh_library_metadata" formatted="false">รีเฟรชข้อมูลเมตาของไลบรารี</string>
+    <string name="pref_refresh_library_metadata_summary" formatted="false">การปรับปรุงครอบคลุมประเภทคำอธิบายและข้อมูลสถานะมังงะ</string>
+    <string name="pref_refresh_library_tracking" formatted="false">รีเฟรชข้อมูลเมตาของการติดตาม</string>
+    <string name="pref_refresh_library_tracking_summary" formatted="false">อัพเดตสถานะคะแนนและบทสุดท้ายที่อ่านจากบริการติดตาม</string>
+    <string name="version" formatted="false">เวอร์ชัน</string>
+    <string name="build_time" formatted="false">สร้างเวลา</string>
+    <string name="pref_enable_acra" formatted="false">ส่งรายงานความผิดพลาด</string>
+    <string name="pref_acra_summary" formatted="false">ช่วยแก้ไขข้อบกพร่องใดๆ ไม่มีข้อมูลที่สำคัญจะถูกส่ง</string>
+    <string name="login_title" formatted="false">เข้าสู่ระบบสำหรับ %1$s</string>
+    <string name="username" formatted="false">ชื่อผู้ใช้</string>
+    <string name="password" formatted="false">รหัส ผ่าน</string>
+    <string name="show_password" formatted="false">แสดงรหัสผ่าน</string>
+    <string name="login" formatted="false">ลงชื่อเข้าใช้</string>
+    <string name="login_success" formatted="false">เข้าสู่ระบบสำเร็จ</string>
+    <string name="invalid_login" formatted="false">ข้อผิดพลาดในการเข้าสู่ระบบ</string>
+    <string name="unknown_error" formatted="false">ข้อผิดพลาดที่ไม่รู้จัก</string>
+    <string name="library_search_hint" formatted="false">ชื่อเรื่องหรือผู้เขียน …</string>
+    <string name="updating_category" formatted="false">กำลังอัพเดตประเภท</string>
+    <string name="local_source_badge" formatted="false">ท้องถิ่น</string>
+    <string name="confirm_delete_manga" formatted="false">คุณแน่ใจหรือไม่ว่าคุณต้องการเอามังงะที่เลือกออก\?</string>
+    <string name="also_delete_chapters" formatted="false">ลบบทที่ดาวน์โหลดด้วย</string>
+    <string name="source_requires_login" formatted="false">แหล่งที่มานี้ต้องการให้คุณเข้าสู่ระบบ</string>
+    <string name="select_source" formatted="false">เลือกแหล่งที่มา</string>
+    <string name="no_valid_sources" formatted="false">กรุณาเปิดใช้งานอย่างน้อยหนึ่งแหล่งที่ถูกต้อง</string>
+    <string name="no_more_results" formatted="false">ไม่มีผลลัพธ์เพิ่มเติม</string>
+    <string name="local_source" formatted="false">มังงะภายในเครื่อง</string>
+    <string name="other_source" formatted="false">อื่น ๆ</string>
+    <string name="invalid_combination" formatted="false">ไม่สามารถเลือกค่าเริ่มต้นพร้อมกับหมวดหมู่อื่น ๆ ได้</string>
+    <string name="added_to_library" formatted="false">เพิ่มมังงะในห้องสมุดของคุณแล้ว</string>
+    <string name="action_global_search_hint" formatted="false">ค้นหาทั้งหมด…</string>
+    <string name="latest" formatted="false">ล่าสุด</string>
+    <string name="browse" formatted="false">เปิดดู</string>
+    <string name="manga_not_in_db" formatted="false">มังงะนี้ถูกลบออกจากฐานข้อมูล!</string>
+    <string name="manga_detail_tab" formatted="false">ข้อมูล</string>
+    <string name="description" formatted="false">คำอธิบาย</string>
+    <string name="ongoing" formatted="false">ยังดำเนินการอยู่</string>
+    <string name="unknown" formatted="false">ไม่ทราบ</string>
+    <string name="licensed" formatted="false">ลิขสิทธิ์</string>
+    <string name="remove_from_library" formatted="false">ลบออกจากห้องสมุด</string>
+    <string name="manga_info_full_title_label" formatted="false">ชื่อเรื่อง</string>
+    <string name="manga_added_library" formatted="false">เพิ่มไปยังห้องสมุด</string>
+    <string name="manga_removed_library" formatted="false">ลบออกจากห้องสมุด</string>
+    <string name="manga_info_author_label" formatted="false">ผู้เขียน</string>
+    <string name="manga_info_artist_label" formatted="false">ศิลปิน</string>
+    <string name="manga_info_chapters_label" formatted="false">บท</string>
+    <string name="manga_info_status_label" formatted="false">สถานะ</string>
+    <string name="manga_info_source_label" formatted="false">แหล่ง</string>
+    <string name="manga_info_genres_label" formatted="false">ชนิด</string>
+    <string name="delete_downloads_for_manga" formatted="false">ลบบทที่ดาวน์โหลดมาหรือไม่\?</string>
+    <string name="copied_to_clipboard" formatted="false">%1$s ถูกคัดลอกไปยังคลิปบอร์ด</string>
+    <string name="source_not_installed" formatted="false">ไม่ได้ติดตั้ง: %1$s</string>
+    <string name="manga_chapters_tab" formatted="false">บท</string>
+    <string name="manga_chapter_no_title" formatted="false">ไม่มีชื่อเรื่อง</string>
+    <string name="display_mode_chapter" formatted="false">บทที่ %1$s</string>
+    <string name="chapter_downloaded" formatted="false">ดาวน์โหลดแล้ว</string>
+    <string name="chapter_queued" formatted="false">อยู่ในคิวแล้ว</string>
+    <string name="chapter_downloading" formatted="false">กำลังดาวน์โหลด</string>
+    <string name="chapter_downloading_progress" formatted="false">กำลังดาวน์โหลด (%1$d/%2$d)</string>
+    <string name="chapter_error" formatted="false">เกิดข้อผิดพลาด</string>
+    <string name="chapter_paused" formatted="false">หยุดเล่นชั่วคราว</string>
+    <string name="fetch_chapters_error" formatted="false">เกิดข้อผิดพลาดขณะตรวจสอบจำนวนบท</string>
+    <string name="show_title" formatted="false">แสดงชื่อเรื่อง</string>
+    <string name="show_chapter_number" formatted="false">แสดงหมายเลขบท</string>
+    <string name="sorting_mode" formatted="false">โหมดการเรียงลำดับ</string>
+    <string name="sort_by_source" formatted="false">ตามแหล่งที่มา</string>
+    <string name="sort_by_number" formatted="false">ตามหมายเลขบท</string>
+    <string name="manga_download" formatted="false">ดาวน์โหลด</string>
+    <string name="custom_download" formatted="false">จำนวนดาวน์โหลดที่กำหนดเอง</string>
+    <string name="download_1" formatted="false">ดาวน์โหลดบทถัดไป</string>
+    <string name="download_5" formatted="false">ดาวน์โหลด 5 บทถัดไป</string>
+    <string name="download_10" formatted="false">ดาวน์โหลด 10 บทถัดไป</string>
+    <string name="download_custom" formatted="false">ดาวน์โหลดแบบกำหนดเอง</string>
+    <string name="download_all" formatted="false">ดาวน์โหลดทั้งหมด</string>
+    <string name="download_unread" formatted="false">ดาวน์โหลดที่ยังไม่ได้อ่าน</string>
+    <string name="confirm_delete_chapters" formatted="false">คุณแน่ใจหรือไม่ว่าคุณต้องการลบบทที่เลือก\?</string>
+    <string name="manga_tracking_tab" formatted="false">การติดตาม</string>
+    <string name="reading" formatted="false">การอ่าน</string>
+    <string name="completed" formatted="false">เสร็จสมบูรณ์</string>
+    <string name="dropped" formatted="false">ทิ้ง</string>
+    <string name="on_hold" formatted="false">รอสาย</string>
+    <string name="plan_to_read" formatted="false">วางแผนที่จะอ่าน</string>
+    <string name="repeating" formatted="false">อ่านอีกครั้ง</string>
+    <string name="score" formatted="false">คะแนน</string>
+    <string name="pref_read_with_long_tap" formatted="false">แตะนาน</string>
+    <string name="action_open_in_web_view" formatted="false">เปิดในมุมมองเว็บ</string>
+    <string name="pref_true_color" formatted="false">สี 32บิต</string>
+    <string name="pref_skip_read_chapters" formatted="false">ข้ามตอนที่อ่านแล้ว</string>
+    <string name="pref_color_filter_mode" formatted="false">แสดงตัวอักษรชัดเจน</string>
+    <string name="filter_mode_overlay" formatted="false">วางซ้อน</string>
+    <string name="filter_mode_screen" formatted="false">หน้าจอ</string>
+    <string name="filter_mode_lighten" formatted="false">ดอดจ์ / แบ่งเบา</string>
+    <string name="pref_library_update_prioritization" formatted="false">ลำดับการปรับปรุงห้องสมุด</string>
+    <string name="no_results_found" formatted="false">ไม่พบผลลัพธ์</string>
+    <string name="backup_restore_content" formatted="false">คืนค่าใช้แหล่งที่มาเพื่อดึงข้อมูลอาจมีค่าใช้จ่ายของผู้ให้บริการ
 \nตรวจสอบให้แน่ใจว่าคุณได้เข้าสู่ระบบอย่างถูกต้องในแหล่งที่ต้องใช้ก่อนที่จะกู้</string>
-    <string name="title">ชื่อเรื่อง</string>
-    <string name="status">สถานะ</string>
-    <string name="track_status">สถานะ</string>
-    <string name="track_start_date">เริ่มต้นแล้ว</string>
-    <string name="track_type">ชนิด</string>
-    <string name="track_author">ผู้เขียน</string>
-    <string name="url_not_set">ไม่ได้ตั้งค่า URL ของมังงะ โปรดคลิกที่ชื่อและเลือกมังงะอีกครั้ง</string>
-    <string name="error_category_exists">หมวดหมู่ที่มีชื่อนี้มีอยู่แล้ว!</string>
-    <string name="snack_categories_deleted">หมวดหมู่ถูกลบ</string>
-    <string name="dialog_with_checkbox_remove_description">สิ่งนี้จะลบวันที่อ่านของบทนี้ คุณแน่ใจไหม\?</string>
-    <string name="dialog_with_checkbox_reset">รีเซ็ตบททั้งหมดสำหรับมังงะนี้</string>
-    <string name="snack_add_to_library">เพิ่มมังงะในห้องสมุด\?</string>
-    <string name="picture_saved">บันทึกรูปภาพแล้ว</string>
-    <string name="saving_picture">กำลังบันทึกรูปภาพ</string>
-    <string name="options">ตัวเลือก</string>
-    <string name="custom_filter">ตัวกรองที่กำหนดเอง</string>
-    <string name="set_as_cover">ตั้งเป็นปก</string>
-    <string name="cover_updated">อัปเดตปกแล้ว</string>
-    <string name="page_downloaded">คัดลอกหน้าไปยัง %1$s</string>
-    <string name="downloading">กำลังดาวน์โหลด…</string>
-    <string name="download_progress">ดาวน์โหลด %1$d%%</string>
-    <string name="chapter_progress">หน้า: %1$d</string>
-    <string name="chapter_subtitle">บทที่ %1$s</string>
-    <string name="no_next_chapter">ไม่พบบทถัดไป</string>
-    <string name="no_previous_chapter">ไม่พบบทก่อนหน้านี้</string>
-    <string name="decode_image_error">ไม่สามารถถอดรหัสรูปภาพได้</string>
-    <string name="confirm_set_image_as_cover">คุณต้องการที่จะตั้งค่าภาพเป็นภาพที่ปกใช่มั้ย\?</string>
-    <string name="viewer_for_this_series">ตัวแสดงสำหรับชุดนี้</string>
-    <string name="transition_finished">เสร็จแล้ว:</string>
-    <string name="transition_current">ปัจจุบัน:</string>
-    <string name="transition_next">ต่อไป:</string>
-    <string name="transition_previous">ก่อนหน้า:</string>
-    <string name="transition_no_next">ไม่มีบทต่อไป</string>
-    <string name="transition_no_previous">ไม่มีบทก่อนหน้านี้</string>
-    <string name="transition_pages_loading">กำลังโหลดหน้า …</string>
-    <string name="transition_pages_error">ไม่สามารถโหลดหน้าได้: %1$s</string>
-    <string name="migration_info">เลือกแหล่งที่มา</string>
-    <string name="migration_dialog_what_to_include">เลือกข้อมูลที่จะรวม</string>
-    <string name="select">เลือก</string>
-    <string name="migrate">โยกย้าย</string>
-    <string name="copy">คัดลอก</string>
-    <string name="download_queue_error">เกิดข้อผิดพลาดขณะดาวน์โหลดบท คุณสามารถลองอีกครั้งในส่วนการดาวน์โหลด</string>
-    <string name="notification_update_progress">ความคืบหน้าในการอัพเดต: %1$d/%2$d</string>
-    <string name="notification_new_chapters">พบบทใหม่</string>
-    <string name="notification_cover_update_failed">ไม่สามารถอัปเดตหน้าปก</string>
-    <string name="notification_first_add_to_library">กรุณาเพิ่มมังงะในห้องสมุดของคุณก่อนที่จะทำเช่นนี้</string>
-    <string name="notification_not_connected_to_ac_title">การซิงค์ถูกยกเลิก</string>
-    <string name="notification_not_connected_to_ac_body">ไม่ได้เชื่อมต่อกับแหล่งจ่ายไฟ</string>
-    <string name="notification_no_connection_title">การซิงค์ถูกยกเลิก</string>
-    <string name="notification_no_connection_body">การเชื่อมต่อไม่พร้อม</string>
-    <string name="file_select_cover">เลือกภาพหน้าปก</string>
-    <string name="file_select_backup">เลือกไฟล์สำรองข้อมูล</string>
-    <string name="file_select_icon">เลือกไอคอนทางลัด</string>
-    <string name="update_check_confirm">ดาวน์โหลด</string>
-    <string name="update_check_ignore">ไม่สนใจ</string>
-    <string name="update_check_no_new_updates">ไม่มีการอัปเดตใหม่</string>
-    <string name="update_check_look_for_updates">กำลังมองหาการปรับปรุง</string>
-    <string name="update_check_notification_file_download">ดาวน์โหลดการปรับปรุง</string>
-    <string name="update_check_notification_download_in_progress">กำลังดาวน์โหลด</string>
-    <string name="update_check_notification_download_complete">ดาวน์โหลดเสร็จสิ้น</string>
-    <string name="update_check_notification_download_error">ดาวน์โหลดเกิดข้อผิดพลาด</string>
-    <string name="update_check_notification_update_available">อัปเดตที่มีอยู่</string>
-    <string name="description_backdrop">ภาพฉากหลังของมังงะ</string>
-    <string name="description_cover">ปกของมังงะ</string>
-    <string name="information_no_downloads">ไม่มีการดาวน์โหลด</string>
-    <string name="information_no_recent">ไม่มีบทล่าสุด</string>
-    <string name="information_no_recent_manga">ไม่มีมังงะที่เพิ่งอ่าน</string>
-    <string name="information_empty_library">ห้องสมุดของคุณว่างเปล่า คุณสามารถเพิ่มชุดข้อมูลลงในคลังของคุณจากประเภท</string>
-    <string name="information_empty_category">คุณไม่มีหมวดหมู่ กดปุ่มเพิ่ม เพื่อเพิ่มหมวดหมู่สำหรับการจัดระเบียบห้องสมุดของคุณ</string>
-    <string name="download_notifier_downloader_title">การดาวน์โหลด</string>
-    <string name="download_notifier_title_error">เกิดข้อผิดพลาด</string>
-    <string name="download_notifier_unknown_error">เกิดข้อผิดพลาดที่ไม่คาดคิดขณะดาวน์โหลดบท</string>
-    <string name="download_notifier_page_error">หน้าหายไปในไดเรกทอรี</string>
-    <string name="download_notifier_page_ready_error">ไม่มีการโหลดหน้า</string>
-    <string name="download_notifier_text_only_wifi">ไม่มีการเชื่อมต่อ wifi</string>
-    <string name="download_notifier_no_network">ไม่มีการเชื่อมต่อเครือข่าย</string>
-    <string name="download_notifier_download_paused">ดาวน์โหลดหยุดชั่วคราว</string>
-    <string name="channel_common">ร่วมกัน</string>
-    <string name="channel_library">ห้องสมุด</string>
-    <string name="channel_downloader">การดาวน์โหลด</string>
-    <string name="filter_mode_multiply">หลากหลาย</string>
-    <string name="filter_mode_darken">มืดมิด</string>
-    <string name="migration_selection_prompt">เลือกแหล่งที่มา</string>
+    <string name="title" formatted="false">ชื่อเรื่อง</string>
+    <string name="status" formatted="false">สถานะ</string>
+    <string name="track_status" formatted="false">สถานะ</string>
+    <string name="track_start_date" formatted="false">เริ่มต้นแล้ว</string>
+    <string name="track_type" formatted="false">ชนิด</string>
+    <string name="track_author" formatted="false">ผู้เขียน</string>
+    <string name="url_not_set" formatted="false">ไม่ได้ตั้งค่า URL ของมังงะ โปรดคลิกที่ชื่อและเลือกมังงะอีกครั้ง</string>
+    <string name="error_category_exists" formatted="false">หมวดหมู่ที่มีชื่อนี้มีอยู่แล้ว!</string>
+    <string name="snack_categories_deleted" formatted="false">หมวดหมู่ถูกลบ</string>
+    <string name="dialog_with_checkbox_remove_description" formatted="false">สิ่งนี้จะลบวันที่อ่านของบทนี้ คุณแน่ใจไหม\?</string>
+    <string name="dialog_with_checkbox_reset" formatted="false">รีเซ็ตบททั้งหมดสำหรับมังงะนี้</string>
+    <string name="snack_add_to_library" formatted="false">เพิ่มมังงะในห้องสมุด\?</string>
+    <string name="picture_saved" formatted="false">บันทึกรูปภาพแล้ว</string>
+    <string name="saving_picture" formatted="false">กำลังบันทึกรูปภาพ</string>
+    <string name="options" formatted="false">ตัวเลือก</string>
+    <string name="custom_filter" formatted="false">ตัวกรองที่กำหนดเอง</string>
+    <string name="set_as_cover" formatted="false">ตั้งเป็นปก</string>
+    <string name="cover_updated" formatted="false">อัปเดตปกแล้ว</string>
+    <string name="page_downloaded" formatted="false">คัดลอกหน้าไปยัง %1$s</string>
+    <string name="downloading" formatted="false">กำลังดาวน์โหลด…</string>
+    <string name="download_progress" formatted="false">ดาวน์โหลด %1$d%%</string>
+    <string name="chapter_progress" formatted="false">หน้า: %1$d</string>
+    <string name="chapter_subtitle" formatted="false">บทที่ %1$s</string>
+    <string name="no_next_chapter" formatted="false">ไม่พบบทถัดไป</string>
+    <string name="no_previous_chapter" formatted="false">ไม่พบบทก่อนหน้านี้</string>
+    <string name="decode_image_error" formatted="false">ไม่สามารถถอดรหัสรูปภาพได้</string>
+    <string name="confirm_set_image_as_cover" formatted="false">คุณต้องการที่จะตั้งค่าภาพเป็นภาพที่ปกใช่มั้ย\?</string>
+    <string name="viewer_for_this_series" formatted="false">ตัวแสดงสำหรับชุดนี้</string>
+    <string name="transition_finished" formatted="false">เสร็จแล้ว:</string>
+    <string name="transition_current" formatted="false">ปัจจุบัน:</string>
+    <string name="transition_next" formatted="false">ต่อไป:</string>
+    <string name="transition_previous" formatted="false">ก่อนหน้า:</string>
+    <string name="transition_no_next" formatted="false">ไม่มีบทต่อไป</string>
+    <string name="transition_no_previous" formatted="false">ไม่มีบทก่อนหน้านี้</string>
+    <string name="transition_pages_loading" formatted="false">กำลังโหลดหน้า …</string>
+    <string name="transition_pages_error" formatted="false">ไม่สามารถโหลดหน้าได้: %1$s</string>
+    <string name="migration_info" formatted="false">เลือกแหล่งที่มา</string>
+    <string name="migration_dialog_what_to_include" formatted="false">เลือกข้อมูลที่จะรวม</string>
+    <string name="select" formatted="false">เลือก</string>
+    <string name="migrate" formatted="false">โยกย้าย</string>
+    <string name="copy" formatted="false">คัดลอก</string>
+    <string name="download_queue_error" formatted="false">เกิดข้อผิดพลาดขณะดาวน์โหลดบท คุณสามารถลองอีกครั้งในส่วนการดาวน์โหลด</string>
+    <string name="notification_update_progress" formatted="false">ความคืบหน้าในการอัพเดต: %1$d/%2$d</string>
+    <string name="notification_new_chapters" formatted="false">พบบทใหม่</string>
+    <string name="notification_cover_update_failed" formatted="false">ไม่สามารถอัปเดตหน้าปก</string>
+    <string name="notification_first_add_to_library" formatted="false">กรุณาเพิ่มมังงะในห้องสมุดของคุณก่อนที่จะทำเช่นนี้</string>
+    <string name="notification_not_connected_to_ac_title" formatted="false">การซิงค์ถูกยกเลิก</string>
+    <string name="notification_not_connected_to_ac_body" formatted="false">ไม่ได้เชื่อมต่อกับแหล่งจ่ายไฟ</string>
+    <string name="notification_no_connection_title" formatted="false">การซิงค์ถูกยกเลิก</string>
+    <string name="notification_no_connection_body" formatted="false">การเชื่อมต่อไม่พร้อม</string>
+    <string name="file_select_cover" formatted="false">เลือกภาพหน้าปก</string>
+    <string name="file_select_backup" formatted="false">เลือกไฟล์สำรองข้อมูล</string>
+    <string name="file_select_icon" formatted="false">เลือกไอคอนทางลัด</string>
+    <string name="update_check_confirm" formatted="false">ดาวน์โหลด</string>
+    <string name="update_check_ignore" formatted="false">ไม่สนใจ</string>
+    <string name="update_check_no_new_updates" formatted="false">ไม่มีการอัปเดตใหม่</string>
+    <string name="update_check_look_for_updates" formatted="false">กำลังมองหาการปรับปรุง</string>
+    <string name="update_check_notification_file_download" formatted="false">ดาวน์โหลดการปรับปรุง</string>
+    <string name="update_check_notification_download_in_progress" formatted="false">กำลังดาวน์โหลด</string>
+    <string name="update_check_notification_download_complete" formatted="false">ดาวน์โหลดเสร็จสิ้น</string>
+    <string name="update_check_notification_download_error" formatted="false">ดาวน์โหลดเกิดข้อผิดพลาด</string>
+    <string name="update_check_notification_update_available" formatted="false">อัปเดตที่มีอยู่</string>
+    <string name="description_backdrop" formatted="false">ภาพฉากหลังของมังงะ</string>
+    <string name="description_cover" formatted="false">ปกของมังงะ</string>
+    <string name="information_no_downloads" formatted="false">ไม่มีการดาวน์โหลด</string>
+    <string name="information_no_recent" formatted="false">ไม่มีบทล่าสุด</string>
+    <string name="information_no_recent_manga" formatted="false">ไม่มีมังงะที่เพิ่งอ่าน</string>
+    <string name="information_empty_library" formatted="false">ห้องสมุดของคุณว่างเปล่า คุณสามารถเพิ่มชุดข้อมูลลงในคลังของคุณจากประเภท</string>
+    <string name="information_empty_category" formatted="false">คุณไม่มีหมวดหมู่ กดปุ่มเพิ่ม เพื่อเพิ่มหมวดหมู่สำหรับการจัดระเบียบห้องสมุดของคุณ</string>
+    <string name="download_notifier_downloader_title" formatted="false">การดาวน์โหลด</string>
+    <string name="download_notifier_title_error" formatted="false">เกิดข้อผิดพลาด</string>
+    <string name="download_notifier_unknown_error" formatted="false">เกิดข้อผิดพลาดที่ไม่คาดคิดขณะดาวน์โหลดบท</string>
+    <string name="download_notifier_page_error" formatted="false">หน้าหายไปในไดเรกทอรี</string>
+    <string name="download_notifier_page_ready_error" formatted="false">ไม่มีการโหลดหน้า</string>
+    <string name="download_notifier_text_only_wifi" formatted="false">ไม่มีการเชื่อมต่อ wifi</string>
+    <string name="download_notifier_no_network" formatted="false">ไม่มีการเชื่อมต่อเครือข่าย</string>
+    <string name="download_notifier_download_paused" formatted="false">ดาวน์โหลดหยุดชั่วคราว</string>
+    <string name="channel_common" formatted="false">ร่วมกัน</string>
+    <string name="channel_library" formatted="false">ห้องสมุด</string>
+    <string name="channel_downloader" formatted="false">การดาวน์โหลด</string>
+    <string name="filter_mode_multiply" formatted="false">หลากหลาย</string>
+    <string name="filter_mode_darken" formatted="false">มืดมิด</string>
+    <string name="migration_selection_prompt" formatted="false">เลือกแหล่งที่มา</string>
 </resources>
