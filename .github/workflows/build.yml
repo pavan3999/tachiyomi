@@ -9,14 +9,14 @@ jobs:
       - name: Clone Repository (Latest)
         uses: actions/checkout@v2
         with:
-          repository: 'pavan3999-1/tachiyomi'
+          repository: 'pavan3999/tachiyomi'
           fetch-depth: 0
         if: github.event.inputs.git-ref == ''
       - name: Clone Repository (Custom Ref)
         uses: actions/checkout@v2
         if: github.event.inputs.git-ref != ''
         with:
-          repository: 'pavan3999-1/tachiyomi'
+          repository: 'pavan3999/tachiyomi'
           fetch-depth: 0
           ref: ${{ github.event.inputs.git-ref }}
 
@@ -112,9 +112,9 @@ on:
     paths-ignore:
       - '*.md'
       - '*.yml'
-    branches: [ 0.9.0 ]
+    branches: [ 0.10.0 ]
   pull_request:
     paths-ignore:
       - '*.md'
       - '*.yml'
-    branches: [ 0.9.0 ]
+    branches: [ 0.10.0 ]
