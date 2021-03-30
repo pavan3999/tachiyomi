@@ -1,174 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name" formatted="false">Név</string>
-    <string name="categories" formatted="false">Kategóriák</string>
-    <string name="manga" formatted="false">Manga</string>
-    <string name="chapters" formatted="false">Fejezetek</string>
-    <string name="track" formatted="false">Nyilvántartás</string>
-    <string name="history" formatted="false">Előzmények</string>
-    <string name="label_settings" formatted="false">Beállítások</string>
-    <string name="label_recent_manga" formatted="false">Legutóbb olvasott</string>
-    <string name="label_categories" formatted="false">Kategóriák</string>
-    <string name="label_backup" formatted="false">Biztonsági mentés</string>
-    <string name="action_settings" formatted="false">Beállítások</string>
-    <string name="action_search" formatted="false">Keresés</string>
-    <string name="action_show_downloaded" formatted="false">Letöltve</string>
-    <string name="action_close" formatted="false">Bezárás</string>
-    <string name="action_remove" formatted="false">Eltávolítás</string>
-    <string name="action_move" formatted="false">Áthelyezés</string>
-    <string name="action_open_in_browser" formatted="false">Megnyitás böngészőben</string>
-    <string name="action_display_grid" formatted="false">Rács</string>
-    <string name="action_display_list" formatted="false">Lista</string>
-    <string name="action_install" formatted="false">Telepítés</string>
-    <string name="action_share" formatted="false">Megosztás</string>
-    <string name="action_save" formatted="false">Mentés</string>
-    <string name="action_reset" formatted="false">Visszaállítás</string>
-    <string name="action_undo" formatted="false">Visszavonás</string>
-    <string name="action_login" formatted="false">Bejelentkezés</string>
-    <string name="loading" formatted="false">Betöltés…</string>
-    <string name="pref_category_general" formatted="false">Általános</string>
-    <string name="pref_category_reader" formatted="false">Olvasó</string>
-    <string name="pref_category_downloads" formatted="false">Letöltések</string>
-    <string name="pref_category_tracking" formatted="false">Nyilvántartás</string>
-    <string name="pref_category_advanced" formatted="false">Speciális</string>
-    <string name="pref_category_about" formatted="false">Névjegy</string>
-    <string name="pref_library_columns" formatted="false">Könyvtár: mangák száma soronként</string>
-    <string name="portrait" formatted="false">Álló</string>
-    <string name="landscape" formatted="false">Fekvő</string>
-    <string name="default_columns" formatted="false">Alapértelmezett</string>
-    <string name="pref_library_update_interval" formatted="false">Könyvtár frissítések gyakorisága</string>
-    <string name="update_never" formatted="false">Kézi</string>
-    <string name="update_1hour" formatted="false">Óránként</string>
-    <string name="update_2hour" formatted="false">2 óránként</string>
-    <string name="update_3hour" formatted="false">3 óránként</string>
-    <string name="update_6hour" formatted="false">6 óránként</string>
-    <string name="update_12hour" formatted="false">12 óránként</string>
-    <string name="update_24hour" formatted="false">Naponta</string>
-    <string name="update_48hour" formatted="false">2 naponta</string>
-    <string name="update_weekly" formatted="false">Hetente</string>
-    <string name="update_monthly" formatted="false">Havonta</string>
-    <string name="pref_library_update_categories" formatted="false">Globális frissítésben tartalmazott kategóriák</string>
-    <string name="all" formatted="false">Összes</string>
-    <string name="pref_library_update_restriction" formatted="false">Könyvtár frissítési korlátozások</string>
-    <string name="pref_library_update_restriction_summary" formatted="false">Frissítés csak akkor, ha a feltételek teljesülnek</string>
-    <string name="wifi" formatted="false">Wi-Fi</string>
-    <string name="charging" formatted="false">Töltés</string>
-    <string name="pref_update_only_non_completed" formatted="false">Csak a folyamatban lévő mangákat frissítse</string>
-    <string name="pref_start_screen" formatted="false">Kezdőképernyő</string>
-    <string name="pref_language" formatted="false">Nyelv</string>
-    <string name="system_default" formatted="false">Rendszer alapértelmezése</string>
-    <string name="default_category" formatted="false">Alapértelmezett kategória</string>
-    <string name="default_category_summary" formatted="false">Mindig kérdezze</string>
-    <string name="pref_fullscreen" formatted="false">Teljes képernyő</string>
-    <string name="pref_show_page_number" formatted="false">Oldalszám megjelenítése</string>
-    <string name="pref_keep_screen_on" formatted="false">Képernyő bekapcsolva tartása</string>
-    <string name="pref_reader_navigation" formatted="false">Lapozás</string>
-    <string name="pref_read_with_volume_keys" formatted="false">Hangerőszabályzó gombokkal</string>
-    <string name="pref_read_with_volume_keys_inverted" formatted="false">Gombok felcserélése</string>
-    <string name="pref_read_with_tapping" formatted="false">Koppintással</string>
-    <string name="pref_reader_theme" formatted="false">Háttérszín</string>
-    <string name="pref_image_decoder" formatted="false">Képdekódoló</string>
-    <string name="pref_download_directory" formatted="false">Letöltések könyvtára</string>
-    <string name="backup" formatted="false">Biztonsági mentés</string>
-    <string name="version" formatted="false">Verzió</string>
-    <string name="pref_enable_acra" formatted="false">Összeomlás-jelentések küldése</string>
-    <string name="completed" formatted="false">Befejezett</string>
-    <string name="dropped" formatted="false">Dobott</string>
-    <string name="plan_to_read" formatted="false">Tervezett</string>
-    <string name="score" formatted="false">Értékelés</string>
-    <string name="title" formatted="false">Cím</string>
-    <string name="status" formatted="false">Állapot</string>
-    <string name="options" formatted="false">Beállítások</string>
-    <string name="chapter_progress" formatted="false">%1$d oldal</string>
-    <string name="chapter_subtitle" formatted="false">%1$s. fejezet</string>
-    <string name="no_next_chapter" formatted="false">Nem található a következő fejezet</string>
-    <string name="no_previous_chapter" formatted="false">Nem található az előző fejezet</string>
-    <string name="download_notifier_no_network" formatted="false">A hálózat nem érhető el</string>
-    <string name="label_download_queue" formatted="false">Letöltési sor</string>
-    <string name="label_library" formatted="false">Könyvtár</string>
-    <string name="label_recent_updates" formatted="false">Könyvtár frissítések</string>
-    <string name="action_filter" formatted="false">Szűrők</string>
-    <string name="action_filter_downloaded" formatted="false">Letöltve</string>
-    <string name="action_filter_bookmarked" formatted="false">Könyvjelzőzve</string>
-    <string name="action_filter_unread" formatted="false">Olvasatlan</string>
-    <string name="action_filter_read" formatted="false">Olvasott</string>
-    <string name="action_filter_empty" formatted="false">Szűrők eltávolítása</string>
-    <string name="action_sort_alpha" formatted="false">Betűrendben</string>
-    <string name="action_sort_total" formatted="false">Összes fejezet</string>
-    <string name="action_sort_last_read" formatted="false">Legutóbb olvasott</string>
-    <string name="action_global_search" formatted="false">Globális keresés</string>
-    <string name="action_mark_as_read" formatted="false">Olvasottnak jelölés</string>
-    <string name="action_mark_as_unread" formatted="false">Olvasatlannak jelölés</string>
-    <string name="action_mark_previous_as_read" formatted="false">Előző olvasottnak jelölése</string>
-    <string name="action_download" formatted="false">Letöltés</string>
-    <string name="action_bookmark" formatted="false">Könyvjelzőzés</string>
-    <string name="action_remove_bookmark" formatted="false">Könyvjelző eltávolítása</string>
-    <string name="action_delete" formatted="false">Törlés</string>
-    <string name="action_update" formatted="false">Frissítés</string>
-    <string name="action_update_library" formatted="false">Könyvtár frissítése</string>
-    <string name="action_edit" formatted="false">Szerkesztés</string>
-    <string name="action_add" formatted="false">Hozzáadás</string>
-    <string name="action_add_category" formatted="false">Kategória hozzáadása</string>
-    <string name="action_edit_categories" formatted="false">Kategóriák szerkesztése</string>
-    <string name="action_rename_category" formatted="false">Kategória átnevezése</string>
-    <string name="action_move_category" formatted="false">Áthelyezés kategóriákba</string>
-    <string name="action_edit_cover" formatted="false">Borítókép szerkesztése</string>
-    <string name="action_sort_up" formatted="false">Rendezés növekvő sorrendben</string>
-    <string name="action_sort_down" formatted="false">Rendezés csökkenő sorrendben</string>
-    <string name="action_next_unread" formatted="false">Következő olvasatlan</string>
-    <string name="action_start" formatted="false">Kezdés</string>
-    <string name="action_stop" formatted="false">Megállítás</string>
-    <string name="action_pause" formatted="false">Szüneteltetés</string>
-    <string name="action_previous_chapter" formatted="false">Előző fejezet</string>
-    <string name="action_next_chapter" formatted="false">Következő fejezet</string>
-    <string name="action_retry" formatted="false">Újra</string>
-    <string name="action_resume" formatted="false">Folytatás</string>
-    <string name="action_display_mode" formatted="false">Megjelenítési mód módosítása</string>
-    <string name="action_display" formatted="false">Megjelenés</string>
-    <string name="action_sort" formatted="false">Rendezés</string>
-    <string name="chapter_downloading" formatted="false">Letöltődik</string>
-    <string name="chapter_queued" formatted="false">Várakozik</string>
-    <string name="action_select_all" formatted="false">Összes kijelölése</string>
-    <string name="action_cancel" formatted="false">Mégse</string>
-    <string name="action_open_log" formatted="false">Napló megnyitása</string>
-    <string name="action_create" formatted="false">Létrehozás</string>
-    <string name="action_restore" formatted="false">Visszaállítás</string>
-    <string name="action_open" formatted="false">Megnyitás</string>
-    <string name="app_not_available" formatted="false">Az alkalmazás nem érhető el</string>
-    <string name="short_recent_updates" formatted="false">Frissítések</string>
-    <string name="pref_auto_update_manga_sync" formatted="false">Olvasás után a fejezetek szinkronizálása</string>
-    <string name="pref_lock_orientation" formatted="false">Elforgatás zárolása</string>
-    <string name="pref_page_transitions" formatted="false">Áttűnés lapozáskor</string>
-    <string name="pref_crop_borders" formatted="false">Szegélyek vágása</string>
-    <string name="pref_custom_brightness" formatted="false">Egyéni fényerő használata</string>
-    <string name="pref_custom_color_filter" formatted="false">Egyéni színprofil használata</string>
-    <string name="white_background" formatted="false">Fehér</string>
-    <string name="black_background" formatted="false">Fekete</string>
-    <string name="pref_viewer_type" formatted="false">Alapértelmezett megjelenítő</string>
-    <string name="default_viewer" formatted="false">Alapértelmezett</string>
-    <string name="left_to_right_viewer" formatted="false">Balról jobbra</string>
-    <string name="right_to_left_viewer" formatted="false">Jobbról balra</string>
-    <string name="vertical_viewer" formatted="false">Függőlegesen</string>
-    <string name="webtoon_viewer" formatted="false">Folytonos</string>
-    <string name="scale_type_fit_screen" formatted="false">Képernyőhöz igazítás</string>
-    <string name="label_migration" formatted="false">Forrás váltása</string>
-    <string name="label_extensions" formatted="false">Bővítmények</string>
-    <string name="ext_untrusted" formatted="false">Nem megbízható</string>
-    <string name="ext_uninstall" formatted="false">Eltávolítás</string>
-    <string name="ext_preferences" formatted="false">Preferenciák</string>
-    <string name="all_lang" formatted="false">Összes</string>
-    <string name="label_extension_info" formatted="false">Bővítmény információ</string>
-    <string name="ext_details" formatted="false">Részletek</string>
-    <string name="ext_update" formatted="false">Frissítés</string>
-    <string name="ext_install" formatted="false">Telepítés</string>
-    <string name="ext_pending" formatted="false">Függőben</string>
-    <string name="ext_downloading" formatted="false">Letöltés</string>
-    <string name="ext_installing" formatted="false">Telepítés</string>
-    <string name="ext_installed" formatted="false">Telepítve</string>
-    <string name="ext_available" formatted="false">Elérhető</string>
-    <string name="action_open_in_web_view" formatted="false">Webnézet</string>
-    <string name="label_help" formatted="false">Segítség</string>
-    <string name="pref_library_update_prioritization" formatted="false">Könyvtár frissítési sorrend</string>
-    <string name="label_downloaded_only" formatted="false">Csak letöltött</string>
-    <string name="label_more" formatted="false">Több</string>
+    <string name="name">Név</string>
+    <string name="categories">Kategóriák</string>
+    <string name="manga">Manga</string>
+    <string name="chapters">Fejezetek</string>
+    <string name="track">Nyilvántartás</string>
+    <string name="history">Előzmények</string>
+    <string name="label_settings">Beállítások</string>
+    <string name="label_recent_manga">Legutóbb olvasott</string>
+    <string name="label_categories">Kategóriák</string>
+    <string name="label_backup">Biztonsági mentés</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="action_search">Keresés</string>
+    <string name="action_show_downloaded">Letöltve</string>
+    <string name="action_close">Bezárás</string>
+    <string name="action_remove">Eltávolítás</string>
+    <string name="action_move">Áthelyezés</string>
+    <string name="action_open_in_browser">Megnyitás böngészőben</string>
+    <string name="action_display_grid">Rács</string>
+    <string name="action_display_list">Lista</string>
+    <string name="action_install">Telepítés</string>
+    <string name="action_share">Megosztás</string>
+    <string name="action_save">Mentés</string>
+    <string name="action_reset">Visszaállítás</string>
+    <string name="action_undo">Visszavonás</string>
+    <string name="action_login">Bejelentkezés</string>
+    <string name="loading">Betöltés…</string>
+    <string name="pref_category_general">Általános</string>
+    <string name="pref_category_reader">Olvasó</string>
+    <string name="pref_category_downloads">Letöltések</string>
+    <string name="pref_category_tracking">Nyilvántartás</string>
+    <string name="pref_category_advanced">Speciális</string>
+    <string name="pref_category_about">Névjegy</string>
+    <string name="pref_library_columns">Könyvtár: mangák száma soronként</string>
+    <string name="portrait">Álló</string>
+    <string name="landscape">Fekvő</string>
+    <string name="default_columns">Alapértelmezett</string>
+    <string name="pref_library_update_interval">Könyvtár frissítések gyakorisága</string>
+    <string name="update_never">Kézi</string>
+    <string name="update_1hour">Óránként</string>
+    <string name="update_2hour">2 óránként</string>
+    <string name="update_3hour">3 óránként</string>
+    <string name="update_6hour">6 óránként</string>
+    <string name="update_12hour">12 óránként</string>
+    <string name="update_24hour">Naponta</string>
+    <string name="update_48hour">2 naponta</string>
+    <string name="update_weekly">Hetente</string>
+    <string name="update_monthly">Havonta</string>
+    <string name="pref_library_update_categories">Globális frissítésben tartalmazott kategóriák</string>
+    <string name="all">Összes</string>
+    <string name="pref_library_update_restriction">Könyvtár frissítési korlátozások</string>
+    <string name="pref_library_update_restriction_summary">Frissítés csak akkor, ha a feltételek teljesülnek</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="charging">Töltés</string>
+    <string name="pref_update_only_non_completed">Csak a folyamatban lévő mangákat frissítse</string>
+    <string name="pref_start_screen">Kezdőképernyő</string>
+    <string name="pref_language">Nyelv</string>
+    <string name="system_default">Rendszer alapértelmezése</string>
+    <string name="default_category">Alapértelmezett kategória</string>
+    <string name="default_category_summary">Mindig kérdezze</string>
+    <string name="pref_fullscreen">Teljes képernyő</string>
+    <string name="pref_show_page_number">Oldalszám megjelenítése</string>
+    <string name="pref_keep_screen_on">Képernyő bekapcsolva tartása</string>
+    <string name="pref_reader_navigation">Lapozás</string>
+    <string name="pref_read_with_volume_keys">Hangerőszabályzó gombokkal</string>
+    <string name="pref_read_with_volume_keys_inverted">Gombok felcserélése</string>
+    <string name="pref_read_with_tapping">Koppintással</string>
+    <string name="pref_reader_theme">Háttérszín</string>
+    <string name="pref_image_decoder">Képdekódoló</string>
+    <string name="pref_download_directory">Letöltések könyvtára</string>
+    <string name="backup">Biztonsági mentés</string>
+    <string name="version">Verzió</string>
+    <string name="pref_enable_acra">Összeomlás-jelentések küldése</string>
+    <string name="completed">Befejezett</string>
+    <string name="dropped">Dobott</string>
+    <string name="plan_to_read">Tervezett</string>
+    <string name="score">Értékelés</string>
+    <string name="title">Cím</string>
+    <string name="status">Állapot</string>
+    <string name="options">Beállítások</string>
+    <string name="chapter_progress">%1$d oldal</string>
+    <string name="chapter_subtitle">%1$s. fejezet</string>
+    <string name="no_next_chapter">Nem található a következő fejezet</string>
+    <string name="no_previous_chapter">Nem található az előző fejezet</string>
+    <string name="download_notifier_no_network">A hálózat nem érhető el</string>
+    <string name="label_download_queue">Letöltési sor</string>
+    <string name="label_library">Könyvtár</string>
+    <string name="label_recent_updates">Könyvtár frissítések</string>
+    <string name="action_filter">Szűrők</string>
+    <string name="action_filter_downloaded">Letöltve</string>
+    <string name="action_filter_bookmarked">Könyvjelzőzve</string>
+    <string name="action_filter_unread">Olvasatlan</string>
+    <string name="action_filter_read">Olvasott</string>
+    <string name="action_filter_empty">Szűrők eltávolítása</string>
+    <string name="action_sort_alpha">Betűrendben</string>
+    <string name="action_sort_total">Összes fejezet</string>
+    <string name="action_sort_last_read">Legutóbb olvasott</string>
+    <string name="action_global_search">Globális keresés</string>
+    <string name="action_mark_as_read">Olvasottnak jelölés</string>
+    <string name="action_mark_as_unread">Olvasatlannak jelölés</string>
+    <string name="action_mark_previous_as_read">Előző olvasottnak jelölése</string>
+    <string name="action_download">Letöltés</string>
+    <string name="action_bookmark">Könyvjelzőzés</string>
+    <string name="action_remove_bookmark">Könyvjelző eltávolítása</string>
+    <string name="action_delete">Törlés</string>
+    <string name="action_update">Frissítés</string>
+    <string name="action_update_library">Könyvtár frissítése</string>
+    <string name="action_edit">Szerkesztés</string>
+    <string name="action_add">Hozzáadás</string>
+    <string name="action_add_category">Kategória hozzáadása</string>
+    <string name="action_edit_categories">Kategóriák szerkesztése</string>
+    <string name="action_rename_category">Kategória átnevezése</string>
+    <string name="action_move_category">Áthelyezés kategóriákba</string>
+    <string name="action_edit_cover">Borítókép szerkesztése</string>
+    <string name="action_sort_up">Rendezés növekvő sorrendben</string>
+    <string name="action_sort_down">Rendezés csökkenő sorrendben</string>
+    <string name="action_next_unread">Következő olvasatlan</string>
+    <string name="action_start">Kezdés</string>
+    <string name="action_stop">Megállítás</string>
+    <string name="action_pause">Szüneteltetés</string>
+    <string name="action_previous_chapter">Előző fejezet</string>
+    <string name="action_next_chapter">Következő fejezet</string>
+    <string name="action_retry">Újra</string>
+    <string name="action_resume">Folytatás</string>
+    <string name="action_display_mode">Megjelenítési mód módosítása</string>
+    <string name="action_display">Megjelenés</string>
+    <string name="action_sort">Rendezés</string>
+    <string name="chapter_downloading">Letöltődik</string>
+    <string name="chapter_queued">Várakozik</string>
+    <string name="action_select_all">Összes kijelölése</string>
+    <string name="action_cancel">Mégse</string>
+    <string name="action_open_log">Napló megnyitása</string>
+    <string name="action_create">Létrehozás</string>
+    <string name="action_restore">Visszaállítás</string>
+    <string name="action_open">Megnyitás</string>
+    <string name="app_not_available">Az alkalmazás nem érhető el</string>
+    <string name="short_recent_updates">Frissítések</string>
+    <string name="pref_auto_update_manga_sync">Olvasás után a fejezetek szinkronizálása</string>
+    <string name="pref_lock_orientation">Elforgatás zárolása</string>
+    <string name="pref_page_transitions">Áttűnés lapozáskor</string>
+    <string name="pref_crop_borders">Szegélyek vágása</string>
+    <string name="pref_custom_brightness">Egyéni fényerő használata</string>
+    <string name="pref_custom_color_filter">Egyéni színprofil használata</string>
+    <string name="white_background">Fehér</string>
+    <string name="black_background">Fekete</string>
+    <string name="pref_viewer_type">Alapértelmezett megjelenítő</string>
+    <string name="default_viewer">Alapértelmezett</string>
+    <string name="left_to_right_viewer">Balról jobbra</string>
+    <string name="right_to_left_viewer">Jobbról balra</string>
+    <string name="vertical_viewer">Függőlegesen</string>
+    <string name="webtoon_viewer">Folytonos</string>
+    <string name="scale_type_fit_screen">Képernyőhöz igazítás</string>
+    <string name="label_migration">Forrás váltása</string>
+    <string name="label_extensions">Bővítmények</string>
+    <string name="ext_untrusted">Nem megbízható</string>
+    <string name="ext_uninstall">Eltávolítás</string>
+    <string name="ext_preferences">Preferenciák</string>
+    <string name="all_lang">Összes</string>
+    <string name="label_extension_info">Bővítmény információ</string>
+    <string name="ext_details">Részletek</string>
+    <string name="ext_update">Frissítés</string>
+    <string name="ext_install">Telepítés</string>
+    <string name="ext_pending">Függőben</string>
+    <string name="ext_downloading">Letöltés</string>
+    <string name="ext_installing">Telepítés</string>
+    <string name="ext_installed">Telepítve</string>
+    <string name="ext_available">Elérhető</string>
+    <string name="action_open_in_web_view">Webnézet</string>
+    <string name="label_help">Segítség</string>
+    <string name="pref_library_update_prioritization">Könyvtár frissítési sorrend</string>
+    <string name="label_downloaded_only">Csak letöltött</string>
+    <string name="label_more">Több</string>
 </resources>

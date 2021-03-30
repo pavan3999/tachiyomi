@@ -1,550 +1,550 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name" formatted="false">Namn</string>
-    <string name="categories" formatted="false">Kategorier</string>
-    <string name="manga" formatted="false">Manga</string>
-    <string name="chapters" formatted="false">Kapitel</string>
-    <string name="track" formatted="false">Spårning</string>
-    <string name="history" formatted="false">Historik</string>
-    <string name="label_settings" formatted="false">Inställningar</string>
-    <string name="label_download_queue" formatted="false">Nedladdningskö</string>
-    <string name="label_library" formatted="false">Bibliotek</string>
-    <string name="label_recent_manga" formatted="false">Historik</string>
-    <string name="label_recent_updates" formatted="false">Nytt</string>
-    <string name="label_categories" formatted="false">Kategorier</string>
-    <string name="label_backup" formatted="false">Säkerhetskopiering</string>
-    <string name="label_migration" formatted="false">Källmigrering</string>
-    <string name="label_extensions" formatted="false">Tillägg</string>
-    <string name="label_extension_info" formatted="false">Tilläggsinformation</string>
-    <string name="action_settings" formatted="false">Inställningar</string>
-    <string name="action_filter" formatted="false">Filter</string>
-    <string name="action_filter_downloaded" formatted="false">Nedladdat</string>
-    <string name="action_filter_bookmarked" formatted="false">Bokmärkt</string>
-    <string name="action_filter_unread" formatted="false">Oläst</string>
-    <string name="action_filter_read" formatted="false">Läst</string>
-    <string name="action_filter_empty" formatted="false">Ta bort filtret</string>
-    <string name="action_sort_alpha" formatted="false">Alfabetiskt</string>
-    <string name="action_sort_total" formatted="false">Totalt kapitel</string>
-    <string name="action_sort_last_read" formatted="false">Senast läst</string>
-    <string name="action_search" formatted="false">Sök</string>
-    <string name="action_global_search" formatted="false">Global sökning</string>
-    <string name="action_select_all" formatted="false">Välj alla</string>
-    <string name="action_mark_as_read" formatted="false">Markera som läst</string>
-    <string name="action_mark_as_unread" formatted="false">Markera som oläst</string>
-    <string name="action_mark_previous_as_read" formatted="false">Markera tidigare som läst</string>
-    <string name="action_download" formatted="false">Ladda ner</string>
-    <string name="action_bookmark" formatted="false">Bokmärke</string>
-    <string name="action_remove_bookmark" formatted="false">Radera bokmärke</string>
-    <string name="action_delete" formatted="false">Radera</string>
-    <string name="action_update" formatted="false">Uppdatera</string>
-    <string name="action_update_library" formatted="false">Uppdatera biblioteket</string>
-    <string name="action_edit" formatted="false">Redigera</string>
-    <string name="action_add" formatted="false">Lägg till</string>
-    <string name="action_add_category" formatted="false">Lägg till kategori</string>
-    <string name="action_edit_categories" formatted="false">Redigera kategorier</string>
-    <string name="action_rename_category" formatted="false">Byt namn på kategori</string>
-    <string name="action_move_category" formatted="false">Välj kategorier</string>
-    <string name="action_edit_cover" formatted="false">Redigera omslagsbilden</string>
-    <string name="action_sort_up" formatted="false">Sortera upp</string>
-    <string name="action_sort_down" formatted="false">Sortera ner</string>
-    <string name="action_show_downloaded" formatted="false">Nedladdat</string>
-    <string name="action_next_unread" formatted="false">Nästa olästa</string>
-    <string name="action_start" formatted="false">Start</string>
-    <string name="action_stop" formatted="false">Stop</string>
-    <string name="action_pause" formatted="false">Paus</string>
-    <string name="action_close" formatted="false">Stäng</string>
-    <string name="action_previous_chapter" formatted="false">Föregående kapitel</string>
-    <string name="action_next_chapter" formatted="false">Nästa kapitel</string>
-    <string name="action_retry" formatted="false">Försök igen</string>
-    <string name="action_remove" formatted="false">Ta bort</string>
-    <string name="action_resume" formatted="false">Återuppta</string>
-    <string name="action_move" formatted="false">Flytta</string>
-    <string name="action_open_in_browser" formatted="false">Öppna i webbläsaren</string>
-    <string name="action_display_mode" formatted="false">Visningsläge</string>
-    <string name="action_display" formatted="false">Visa</string>
-    <string name="action_display_grid" formatted="false">Rutnät</string>
-    <string name="action_display_list" formatted="false">Lista</string>
-    <string name="action_display_download_badge" formatted="false">Nedladdningsmärken</string>
-    <string name="action_cancel" formatted="false">Avbryt</string>
-    <string name="action_sort" formatted="false">Sortera</string>
-    <string name="action_install" formatted="false">Installera</string>
-    <string name="action_share" formatted="false">Dela</string>
-    <string name="action_save" formatted="false">Spara</string>
-    <string name="action_reset" formatted="false">Återställ</string>
-    <string name="action_undo" formatted="false">Ånga</string>
-    <string name="action_open_log" formatted="false">Öppna logg</string>
-    <string name="action_create" formatted="false">Skapa</string>
-    <string name="action_restore" formatted="false">Återställ</string>
-    <string name="action_open" formatted="false">Öppna</string>
-    <string name="action_login" formatted="false">Logga in</string>
-    <string name="loading" formatted="false">Laddar…</string>
-    <string name="app_not_available" formatted="false">Applikationen är inte tillgänglig</string>
-    <string name="short_recent_updates" formatted="false">Nytt</string>
-    <string name="pref_category_general" formatted="false">Allmänt</string>
-    <string name="pref_category_reader" formatted="false">Läsare</string>
-    <string name="pref_category_downloads" formatted="false">Nedladdningar</string>
-    <string name="pref_category_tracking" formatted="false">Spårning</string>
-    <string name="pref_category_advanced" formatted="false">Avancerat</string>
-    <string name="pref_category_about" formatted="false">Om appen</string>
-    <string name="pref_library_columns" formatted="false">Artiklar per rad</string>
-    <string name="portrait" formatted="false">Stående</string>
-    <string name="landscape" formatted="false">Liggande</string>
-    <string name="default_columns" formatted="false">Standard</string>
-    <string name="pref_library_update_interval" formatted="false">Uppdateringsfrekvens</string>
-    <string name="update_never" formatted="false">Manuell</string>
-    <string name="update_1hour" formatted="false">Varje timme</string>
-    <string name="update_2hour" formatted="false">Varannan timme</string>
-    <string name="update_3hour" formatted="false">Var tredje timme</string>
-    <string name="update_6hour" formatted="false">Var 6:e timme</string>
-    <string name="update_12hour" formatted="false">Var 12:e timme</string>
-    <string name="update_24hour" formatted="false">Dagligen</string>
-    <string name="update_48hour" formatted="false">Varannan dag</string>
-    <string name="update_weekly" formatted="false">Varje vecka</string>
-    <string name="update_monthly" formatted="false">Varje månad</string>
-    <string name="pref_library_update_categories" formatted="false">Kategorier för global uppdatering</string>
-    <string name="all" formatted="false">Alla</string>
-    <string name="pref_library_update_restriction" formatted="false">Uppdateringsrestriktioner</string>
-    <string name="pref_library_update_restriction_summary" formatted="false">Uppdatera endast när vilkoren är uppfyllda</string>
-    <string name="wifi" formatted="false">WiFi</string>
-    <string name="charging" formatted="false">Laddning</string>
-    <string name="pref_update_only_non_completed" formatted="false">Uppdatera endast pågående manga</string>
-    <string name="pref_auto_update_manga_sync" formatted="false">Synkronisera kapitel efter läsning</string>
-    <string name="pref_start_screen" formatted="false">Startskärm</string>
-    <string name="pref_language" formatted="false">Språk</string>
-    <string name="system_default" formatted="false">Standard</string>
-    <string name="default_category" formatted="false">Standardkategori</string>
-    <string name="default_category_summary" formatted="false">Fråga alltid</string>
-    <string name="all_lang" formatted="false">Alla</string>
-    <string name="ext_details" formatted="false">Detaljer</string>
-    <string name="ext_update" formatted="false">Uppdatera</string>
-    <string name="ext_install" formatted="false">Installera</string>
-    <string name="ext_pending" formatted="false">Väntade</string>
-    <string name="ext_downloading" formatted="false">Hämtar</string>
-    <string name="ext_installing" formatted="false">Installerar</string>
-    <string name="ext_installed" formatted="false">Installerad</string>
-    <string name="ext_trust" formatted="false">Förtroende</string>
-    <string name="ext_untrusted" formatted="false">Opålitlig</string>
-    <string name="ext_uninstall" formatted="false">Avinstallera</string>
-    <string name="ext_preferences" formatted="false">Inställningar</string>
-    <string name="ext_available" formatted="false">Tillgänglig</string>
-    <string name="untrusted_extension" formatted="false">Opålitlig extension</string>
-    <string name="untrusted_extension_message" formatted="false">Detta tillägg tecknades med ett otillförlitligt certifikat och var inte aktiverat.
+    <string name="name">Namn</string>
+    <string name="categories">Kategorier</string>
+    <string name="manga">Manga</string>
+    <string name="chapters">Kapitel</string>
+    <string name="track">Spårning</string>
+    <string name="history">Historik</string>
+    <string name="label_settings">Inställningar</string>
+    <string name="label_download_queue">Nedladdningskö</string>
+    <string name="label_library">Bibliotek</string>
+    <string name="label_recent_manga">Historik</string>
+    <string name="label_recent_updates">Nytt</string>
+    <string name="label_categories">Kategorier</string>
+    <string name="label_backup">Säkerhetskopiering</string>
+    <string name="label_migration">Källmigrering</string>
+    <string name="label_extensions">Tillägg</string>
+    <string name="label_extension_info">Tilläggsinformation</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_filter_downloaded">Nedladdat</string>
+    <string name="action_filter_bookmarked">Bokmärkt</string>
+    <string name="action_filter_unread">Oläst</string>
+    <string name="action_filter_read">Läst</string>
+    <string name="action_filter_empty">Ta bort filtret</string>
+    <string name="action_sort_alpha">Alfabetiskt</string>
+    <string name="action_sort_total">Totalt kapitel</string>
+    <string name="action_sort_last_read">Senast läst</string>
+    <string name="action_search">Sök</string>
+    <string name="action_global_search">Global sökning</string>
+    <string name="action_select_all">Välj alla</string>
+    <string name="action_mark_as_read">Markera som läst</string>
+    <string name="action_mark_as_unread">Markera som oläst</string>
+    <string name="action_mark_previous_as_read">Markera tidigare som läst</string>
+    <string name="action_download">Ladda ner</string>
+    <string name="action_bookmark">Bokmärke</string>
+    <string name="action_remove_bookmark">Radera bokmärke</string>
+    <string name="action_delete">Radera</string>
+    <string name="action_update">Uppdatera</string>
+    <string name="action_update_library">Uppdatera biblioteket</string>
+    <string name="action_edit">Redigera</string>
+    <string name="action_add">Lägg till</string>
+    <string name="action_add_category">Lägg till kategori</string>
+    <string name="action_edit_categories">Redigera kategorier</string>
+    <string name="action_rename_category">Byt namn på kategori</string>
+    <string name="action_move_category">Välj kategorier</string>
+    <string name="action_edit_cover">Redigera omslagsbilden</string>
+    <string name="action_sort_up">Sortera upp</string>
+    <string name="action_sort_down">Sortera ner</string>
+    <string name="action_show_downloaded">Nedladdat</string>
+    <string name="action_next_unread">Nästa olästa</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_pause">Paus</string>
+    <string name="action_close">Stäng</string>
+    <string name="action_previous_chapter">Föregående kapitel</string>
+    <string name="action_next_chapter">Nästa kapitel</string>
+    <string name="action_retry">Försök igen</string>
+    <string name="action_remove">Ta bort</string>
+    <string name="action_resume">Återuppta</string>
+    <string name="action_move">Flytta</string>
+    <string name="action_open_in_browser">Öppna i webbläsaren</string>
+    <string name="action_display_mode">Visningsläge</string>
+    <string name="action_display">Visa</string>
+    <string name="action_display_grid">Rutnät</string>
+    <string name="action_display_list">Lista</string>
+    <string name="action_display_download_badge">Nedladdningsmärken</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="action_sort">Sortera</string>
+    <string name="action_install">Installera</string>
+    <string name="action_share">Dela</string>
+    <string name="action_save">Spara</string>
+    <string name="action_reset">Återställ</string>
+    <string name="action_undo">Ånga</string>
+    <string name="action_open_log">Öppna logg</string>
+    <string name="action_create">Skapa</string>
+    <string name="action_restore">Återställ</string>
+    <string name="action_open">Öppna</string>
+    <string name="action_login">Logga in</string>
+    <string name="loading">Laddar…</string>
+    <string name="app_not_available">Applikationen är inte tillgänglig</string>
+    <string name="short_recent_updates">Nytt</string>
+    <string name="pref_category_general">Allmänt</string>
+    <string name="pref_category_reader">Läsare</string>
+    <string name="pref_category_downloads">Nedladdningar</string>
+    <string name="pref_category_tracking">Spårning</string>
+    <string name="pref_category_advanced">Avancerat</string>
+    <string name="pref_category_about">Om appen</string>
+    <string name="pref_library_columns">Artiklar per rad</string>
+    <string name="portrait">Stående</string>
+    <string name="landscape">Liggande</string>
+    <string name="default_columns">Standard</string>
+    <string name="pref_library_update_interval">Uppdateringsfrekvens</string>
+    <string name="update_never">Manuell</string>
+    <string name="update_1hour">Varje timme</string>
+    <string name="update_2hour">Varannan timme</string>
+    <string name="update_3hour">Var tredje timme</string>
+    <string name="update_6hour">Var 6:e timme</string>
+    <string name="update_12hour">Var 12:e timme</string>
+    <string name="update_24hour">Dagligen</string>
+    <string name="update_48hour">Varannan dag</string>
+    <string name="update_weekly">Varje vecka</string>
+    <string name="update_monthly">Varje månad</string>
+    <string name="pref_library_update_categories">Kategorier för global uppdatering</string>
+    <string name="all">Alla</string>
+    <string name="pref_library_update_restriction">Uppdateringsrestriktioner</string>
+    <string name="pref_library_update_restriction_summary">Uppdatera endast när vilkoren är uppfyllda</string>
+    <string name="wifi">WiFi</string>
+    <string name="charging">Laddning</string>
+    <string name="pref_update_only_non_completed">Uppdatera endast pågående manga</string>
+    <string name="pref_auto_update_manga_sync">Synkronisera kapitel efter läsning</string>
+    <string name="pref_start_screen">Startskärm</string>
+    <string name="pref_language">Språk</string>
+    <string name="system_default">Standard</string>
+    <string name="default_category">Standardkategori</string>
+    <string name="default_category_summary">Fråga alltid</string>
+    <string name="all_lang">Alla</string>
+    <string name="ext_details">Detaljer</string>
+    <string name="ext_update">Uppdatera</string>
+    <string name="ext_install">Installera</string>
+    <string name="ext_pending">Väntade</string>
+    <string name="ext_downloading">Hämtar</string>
+    <string name="ext_installing">Installerar</string>
+    <string name="ext_installed">Installerad</string>
+    <string name="ext_trust">Förtroende</string>
+    <string name="ext_untrusted">Opålitlig</string>
+    <string name="ext_uninstall">Avinstallera</string>
+    <string name="ext_preferences">Inställningar</string>
+    <string name="ext_available">Tillgänglig</string>
+    <string name="untrusted_extension">Opålitlig extension</string>
+    <string name="untrusted_extension_message">Detta tillägg tecknades med ett otillförlitligt certifikat och var inte aktiverat.
 \n
 \nEtt skadligt tillägg kan läsa inloggningsuppgifter som är lagrade i Tachiyomi eller utföra godtycklig kod.
 \n
 \nGenom att lita på detta certifikat accepterar du dessa risker.</string>
-    <string name="ext_version_info" formatted="false">Version: %1$s</string>
-    <string name="ext_language_info" formatted="false">Språk: %1$s</string>
-    <string name="ext_empty_preferences" formatted="false">Det finns inga inställningar för detta tillägg</string>
-    <string name="pref_fullscreen" formatted="false">Fullskärm</string>
-    <string name="pref_lock_orientation" formatted="false">Lås orientering</string>
-    <string name="pref_page_transitions" formatted="false">Sidövergångar</string>
-    <string name="pref_double_tap_anim_speed" formatted="false">Animationshastighet för dubbelklick</string>
-    <string name="pref_show_page_number" formatted="false">Visa sidnummer</string>
-    <string name="pref_crop_borders" formatted="false">Beskär kanter</string>
-    <string name="pref_custom_brightness" formatted="false">Använd egen ljusstyrka</string>
-    <string name="pref_custom_color_filter" formatted="false">Använd eget färgfilter</string>
-    <string name="pref_keep_screen_on" formatted="false">Håll skärmen på</string>
-    <string name="pref_reader_navigation" formatted="false">Navigering</string>
-    <string name="pref_read_with_volume_keys" formatted="false">Volymknapparna</string>
-    <string name="pref_read_with_volume_keys_inverted" formatted="false">Invertera volymknapparna</string>
-    <string name="pref_read_with_tapping" formatted="false">Skärmtryck</string>
-    <string name="pref_reader_theme" formatted="false">Bakgrundsfärg</string>
-    <string name="white_background" formatted="false">Vit</string>
-    <string name="black_background" formatted="false">Svart</string>
-    <string name="pref_viewer_type" formatted="false">Standardvisare</string>
-    <string name="default_viewer" formatted="false">Standard</string>
-    <string name="left_to_right_viewer" formatted="false">Vänster till höger</string>
-    <string name="right_to_left_viewer" formatted="false">Höger till vänster</string>
-    <string name="vertical_viewer" formatted="false">Vertikal</string>
-    <string name="webtoon_viewer" formatted="false">Webtoon</string>
-    <string name="pager_viewer" formatted="false">Sidläsare</string>
-    <string name="pref_image_decoder" formatted="false">Bildavkodare</string>
-    <string name="pref_image_scale_type" formatted="false">Skal typ</string>
-    <string name="scale_type_fit_screen" formatted="false">Passa skärmen</string>
-    <string name="scale_type_stretch" formatted="false">Sträck ut</string>
-    <string name="scale_type_fit_width" formatted="false">Passa bredd</string>
-    <string name="scale_type_fit_height" formatted="false">Passa höjd</string>
-    <string name="scale_type_original_size" formatted="false">Originalstorlek</string>
-    <string name="scale_type_smart_fit" formatted="false">Smart passning</string>
-    <string name="pref_zoom_start" formatted="false">Zoom start position</string>
-    <string name="zoom_start_automatic" formatted="false">Automatisk</string>
-    <string name="zoom_start_left" formatted="false">Vänster</string>
-    <string name="zoom_start_right" formatted="false">Höger</string>
-    <string name="zoom_start_center" formatted="false">Mitten</string>
-    <string name="double_tap_anim_speed_0" formatted="false">Ingen animering</string>
-    <string name="double_tap_anim_speed_normal" formatted="false">Normal</string>
-    <string name="double_tap_anim_speed_fast" formatted="false">Snabb</string>
-    <string name="pref_rotation_type" formatted="false">Rotering</string>
-    <string name="rotation_free" formatted="false">Upplåst</string>
-    <string name="rotation_lock" formatted="false">Lås</string>
-    <string name="rotation_force_portrait" formatted="false">Tvinga stående</string>
-    <string name="rotation_force_landscape" formatted="false">Tvinga liggande</string>
-    <string name="color_filter_r_value" formatted="false">R</string>
-    <string name="color_filter_g_value" formatted="false">G</string>
-    <string name="color_filter_b_value" formatted="false">B</string>
-    <string name="color_filter_a_value" formatted="false">A</string>
-    <string name="pref_download_directory" formatted="false">Nedladdningsplats</string>
-    <string name="pref_download_only_over_wifi" formatted="false">Ladda bara ner över WiFi</string>
-    <string name="pref_remove_after_marked_as_read" formatted="false">Ta bort när markerat som läst</string>
-    <string name="pref_remove_after_read" formatted="false">Ta bort efter läsning</string>
-    <string name="custom_dir" formatted="false">Anpassad plats</string>
-    <string name="disabled" formatted="false">Inaktiverad</string>
-    <string name="last_read_chapter" formatted="false">Senaste lästa kapitel</string>
-    <string name="second_to_last" formatted="false">Näst sista kapitel</string>
-    <string name="third_to_last" formatted="false">Tredje till sista kapitlet</string>
-    <string name="fourth_to_last" formatted="false">Fjärde till sista kapitlet</string>
-    <string name="fifth_to_last" formatted="false">Femte till sista kapitlet</string>
-    <string name="pref_download_new" formatted="false">Ladda ner nya kapitel</string>
-    <string name="pref_download_new_categories" formatted="false">Kategorier att inkludera i nedladdning</string>
-    <string name="services" formatted="false">Tjänster</string>
-    <string name="backup" formatted="false">Säkerhetskopiering</string>
-    <string name="pref_create_backup" formatted="false">Skapa säkerhetskopia</string>
-    <string name="pref_create_backup_summ" formatted="false">Kan användas för att återställa biblioteket</string>
-    <string name="pref_restore_backup" formatted="false">Återställ säkerhetskopia</string>
-    <string name="pref_restore_backup_summ" formatted="false">Återställ biblioteket från en säkerhetskopia</string>
-    <string name="pref_backup_directory" formatted="false">Säkerhetskopieringsplats</string>
-    <string name="pref_backup_service_category" formatted="false">Tjänst</string>
-    <string name="pref_backup_interval" formatted="false">Säkerhetskopieringsfrekvens</string>
-    <string name="pref_backup_slots" formatted="false">Max automatiska säkerhetskopior</string>
-    <string name="source_not_found" formatted="false">Källan hittades inte</string>
-    <string name="backup_created" formatted="false">Säkerhetskopia skapad</string>
-    <string name="restore_completed" formatted="false">Återställning slutförd</string>
-    <string name="restore_completed_content" formatted="false">Återställning tog %1$s med %2$s fel hittade</string>
-    <string name="backup_restore_content" formatted="false">Återställning använder källor för att hämta data, data kostnader kan tillkomma. 
+    <string name="ext_version_info">Version: %1$s</string>
+    <string name="ext_language_info">Språk: %1$s</string>
+    <string name="ext_empty_preferences">Det finns inga inställningar för detta tillägg</string>
+    <string name="pref_fullscreen">Fullskärm</string>
+    <string name="pref_lock_orientation">Lås orientering</string>
+    <string name="pref_page_transitions">Sidövergångar</string>
+    <string name="pref_double_tap_anim_speed">Animationshastighet för dubbelklick</string>
+    <string name="pref_show_page_number">Visa sidnummer</string>
+    <string name="pref_crop_borders">Beskär kanter</string>
+    <string name="pref_custom_brightness">Använd egen ljusstyrka</string>
+    <string name="pref_custom_color_filter">Använd eget färgfilter</string>
+    <string name="pref_keep_screen_on">Håll skärmen på</string>
+    <string name="pref_reader_navigation">Navigering</string>
+    <string name="pref_read_with_volume_keys">Volymknapparna</string>
+    <string name="pref_read_with_volume_keys_inverted">Invertera volymknapparna</string>
+    <string name="pref_read_with_tapping">Skärmtryck</string>
+    <string name="pref_reader_theme">Bakgrundsfärg</string>
+    <string name="white_background">Vit</string>
+    <string name="black_background">Svart</string>
+    <string name="pref_viewer_type">Standardvisare</string>
+    <string name="default_viewer">Standard</string>
+    <string name="left_to_right_viewer">Vänster till höger</string>
+    <string name="right_to_left_viewer">Höger till vänster</string>
+    <string name="vertical_viewer">Vertikal</string>
+    <string name="webtoon_viewer">Webtoon</string>
+    <string name="pager_viewer">Sidläsare</string>
+    <string name="pref_image_decoder">Bildavkodare</string>
+    <string name="pref_image_scale_type">Skal typ</string>
+    <string name="scale_type_fit_screen">Passa skärmen</string>
+    <string name="scale_type_stretch">Sträck ut</string>
+    <string name="scale_type_fit_width">Passa bredd</string>
+    <string name="scale_type_fit_height">Passa höjd</string>
+    <string name="scale_type_original_size">Originalstorlek</string>
+    <string name="scale_type_smart_fit">Smart passning</string>
+    <string name="pref_zoom_start">Zoom start position</string>
+    <string name="zoom_start_automatic">Automatisk</string>
+    <string name="zoom_start_left">Vänster</string>
+    <string name="zoom_start_right">Höger</string>
+    <string name="zoom_start_center">Mitten</string>
+    <string name="double_tap_anim_speed_0">Ingen animering</string>
+    <string name="double_tap_anim_speed_normal">Normal</string>
+    <string name="double_tap_anim_speed_fast">Snabb</string>
+    <string name="pref_rotation_type">Rotering</string>
+    <string name="rotation_free">Upplåst</string>
+    <string name="rotation_lock">Lås</string>
+    <string name="rotation_force_portrait">Tvinga stående</string>
+    <string name="rotation_force_landscape">Tvinga liggande</string>
+    <string name="color_filter_r_value">R</string>
+    <string name="color_filter_g_value">G</string>
+    <string name="color_filter_b_value">B</string>
+    <string name="color_filter_a_value">A</string>
+    <string name="pref_download_directory">Nedladdningsplats</string>
+    <string name="pref_download_only_over_wifi">Ladda bara ner över WiFi</string>
+    <string name="pref_remove_after_marked_as_read">Ta bort när markerat som läst</string>
+    <string name="pref_remove_after_read">Ta bort efter läsning</string>
+    <string name="custom_dir">Anpassad plats</string>
+    <string name="disabled">Inaktiverad</string>
+    <string name="last_read_chapter">Senaste lästa kapitel</string>
+    <string name="second_to_last">Näst sista kapitel</string>
+    <string name="third_to_last">Tredje till sista kapitlet</string>
+    <string name="fourth_to_last">Fjärde till sista kapitlet</string>
+    <string name="fifth_to_last">Femte till sista kapitlet</string>
+    <string name="pref_download_new">Ladda ner nya kapitel</string>
+    <string name="pref_download_new_categories">Kategorier att inkludera i nedladdning</string>
+    <string name="services">Tjänster</string>
+    <string name="backup">Säkerhetskopiering</string>
+    <string name="pref_create_backup">Skapa säkerhetskopia</string>
+    <string name="pref_create_backup_summ">Kan användas för att återställa biblioteket</string>
+    <string name="pref_restore_backup">Återställ säkerhetskopia</string>
+    <string name="pref_restore_backup_summ">Återställ biblioteket från en säkerhetskopia</string>
+    <string name="pref_backup_directory">Säkerhetskopieringsplats</string>
+    <string name="pref_backup_service_category">Tjänst</string>
+    <string name="pref_backup_interval">Säkerhetskopieringsfrekvens</string>
+    <string name="pref_backup_slots">Max automatiska säkerhetskopior</string>
+    <string name="source_not_found">Källan hittades inte</string>
+    <string name="backup_created">Säkerhetskopia skapad</string>
+    <string name="restore_completed">Återställning slutförd</string>
+    <string name="restore_completed_content">Återställning tog %1$s med %2$s fel hittade</string>
+    <string name="backup_restore_content">Återställning använder källor för att hämta data, data kostnader kan tillkomma. 
 \n
 \nSe till att du har installerat de nödvändiga tilläggen och är inloggad på de källor och spårningstjänsterna som kräver detta innan du återställer.</string>
-    <string name="backup_choice" formatted="false">Vad vill du säkerhetskopiera\?</string>
-    <string name="restoring_backup" formatted="false">Återställer säkerhetskopia</string>
-    <string name="creating_backup" formatted="false">Skapar säkerhetskopia</string>
-    <string name="pref_clear_chapter_cache" formatted="false">Rensa kapitelcache</string>
-    <string name="used_cache" formatted="false">Används: %1$s</string>
-    <string name="cache_deleted" formatted="false">Cache rensad. %1$d filer har tagits bort</string>
-    <string name="cache_delete_error" formatted="false">Ett fel uppstod medan cache rensades</string>
-    <string name="pref_clear_cookies" formatted="false">Radera cookies</string>
-    <string name="cookies_cleared" formatted="false">Cookies rensade</string>
-    <string name="choices_reset" formatted="false">Dialogval återställning</string>
-    <string name="pref_clear_database" formatted="false">Rensa databas</string>
-    <string name="pref_clear_database_summary" formatted="false">Radera manga och kapitel som inte finns i ditt bibliotek</string>
-    <string name="clear_database_confirmation" formatted="false">Är du säker\? Lästa kapitel och framsteg av icke-bibliotek manga kommer att gå förlorade</string>
-    <string name="clear_database_completed" formatted="false">Inlägg raderade</string>
-    <string name="pref_refresh_library_metadata" formatted="false">Uppdatera biblioteksmetadata</string>
-    <string name="pref_refresh_library_metadata_summary" formatted="false">Uppdaterar omslag, genrer, beskrivning och manga status information</string>
-    <string name="pref_refresh_library_tracking" formatted="false">Uppdatera spårningsmetadata</string>
-    <string name="pref_refresh_library_tracking_summary" formatted="false">Uppdaterar status, betyg och senaste kapitel läst från spårningstjänsterna</string>
-    <string name="version" formatted="false">Version</string>
-    <string name="build_time" formatted="false">Byggtid</string>
-    <string name="pref_enable_acra" formatted="false">Skicka kraschrapporter</string>
-    <string name="pref_acra_summary" formatted="false">Hjälper till att fixa eventuella buggar. Inga känsliga uppgifter skickas</string>
-    <string name="login_title" formatted="false">Logga in för %1$s</string>
-    <string name="username" formatted="false">Användarnamn</string>
-    <string name="password" formatted="false">Lösenord</string>
-    <string name="show_password" formatted="false">Visa lösenord</string>
-    <string name="login" formatted="false">Logga in</string>
-    <string name="login_success" formatted="false">Inloggad</string>
-    <string name="invalid_login" formatted="false">Inloggningsfel</string>
-    <string name="unknown_error" formatted="false">Okänt fel</string>
-    <string name="library_search_hint" formatted="false">Titel eller författare…</string>
-    <string name="updating_category" formatted="false">Uppdaterar kategori</string>
-    <string name="local_source_badge" formatted="false">Lokal</string>
-    <string name="confirm_delete_manga" formatted="false">Är du säker på att du vill ta bort vald manga\?</string>
-    <string name="also_delete_chapters" formatted="false">Radera även nedladdade kapitel</string>
-    <string name="source_requires_login" formatted="false">Denna källan kräver att du loggar in</string>
-    <string name="select_source" formatted="false">Välj en källa</string>
-    <string name="no_valid_sources" formatted="false">Vänligen aktivera minst en giltig källa</string>
-    <string name="no_more_results" formatted="false">Inga mer resultat</string>
-    <string name="local_source" formatted="false">Lokal källa</string>
-    <string name="other_source" formatted="false">Andra</string>
-    <string name="invalid_combination" formatted="false">Standard kan inte väljas med andra kategorier</string>
-    <string name="added_to_library" formatted="false">Mangan har lagts till i din bibliotek</string>
-    <string name="action_global_search_hint" formatted="false">Global sökning…</string>
-    <string name="latest" formatted="false">Senaste</string>
-    <string name="browse" formatted="false">Bläddra</string>
-    <string name="manga_not_in_db" formatted="false">Denna manga has tagits bort från databasen.</string>
-    <string name="manga_detail_tab" formatted="false">Info</string>
-    <string name="description" formatted="false">Beskrivning</string>
-    <string name="ongoing" formatted="false">Pågående</string>
-    <string name="unknown" formatted="false">Okänd</string>
-    <string name="licensed" formatted="false">Licensierad</string>
-    <string name="remove_from_library" formatted="false">Ta bort från biblioteket</string>
-    <string name="manga_info_full_title_label" formatted="false">Titel</string>
-    <string name="manga_added_library" formatted="false">Lades till i biblioteket</string>
-    <string name="manga_removed_library" formatted="false">Togs bort från biblioteket</string>
-    <string name="manga_info_author_label" formatted="false">Författare</string>
-    <string name="manga_info_artist_label" formatted="false">Artist</string>
-    <string name="manga_info_chapters_label" formatted="false">Kapitel</string>
-    <string name="manga_info_status_label" formatted="false">Status</string>
-    <string name="manga_info_source_label" formatted="false">Källa</string>
-    <string name="manga_info_genres_label" formatted="false">Genrer</string>
-    <string name="delete_downloads_for_manga" formatted="false">Ta bort nedladdade kapitel\?</string>
-    <string name="copied_to_clipboard" formatted="false">Kopierat till urklipp:
+    <string name="backup_choice">Vad vill du säkerhetskopiera\?</string>
+    <string name="restoring_backup">Återställer säkerhetskopia</string>
+    <string name="creating_backup">Skapar säkerhetskopia</string>
+    <string name="pref_clear_chapter_cache">Rensa kapitelcache</string>
+    <string name="used_cache">Används: %1$s</string>
+    <string name="cache_deleted">Cache rensad. %1$d filer har tagits bort</string>
+    <string name="cache_delete_error">Ett fel uppstod medan cache rensades</string>
+    <string name="pref_clear_cookies">Radera cookies</string>
+    <string name="cookies_cleared">Cookies rensade</string>
+    <string name="choices_reset">Dialogval återställning</string>
+    <string name="pref_clear_database">Rensa databas</string>
+    <string name="pref_clear_database_summary">Radera manga och kapitel som inte finns i ditt bibliotek</string>
+    <string name="clear_database_confirmation">Är du säker\? Lästa kapitel och framsteg av icke-bibliotek manga kommer att gå förlorade</string>
+    <string name="clear_database_completed">Inlägg raderade</string>
+    <string name="pref_refresh_library_metadata">Uppdatera biblioteksmetadata</string>
+    <string name="pref_refresh_library_metadata_summary">Uppdaterar omslag, genrer, beskrivning och manga status information</string>
+    <string name="pref_refresh_library_tracking">Uppdatera spårningsmetadata</string>
+    <string name="pref_refresh_library_tracking_summary">Uppdaterar status, betyg och senaste kapitel läst från spårningstjänsterna</string>
+    <string name="version">Version</string>
+    <string name="build_time">Byggtid</string>
+    <string name="pref_enable_acra">Skicka kraschrapporter</string>
+    <string name="pref_acra_summary">Hjälper till att fixa eventuella buggar. Inga känsliga uppgifter skickas</string>
+    <string name="login_title">Logga in för %1$s</string>
+    <string name="username">Användarnamn</string>
+    <string name="password">Lösenord</string>
+    <string name="show_password">Visa lösenord</string>
+    <string name="login">Logga in</string>
+    <string name="login_success">Inloggad</string>
+    <string name="invalid_login">Inloggningsfel</string>
+    <string name="unknown_error">Okänt fel</string>
+    <string name="library_search_hint">Titel eller författare…</string>
+    <string name="updating_category">Uppdaterar kategori</string>
+    <string name="local_source_badge">Lokal</string>
+    <string name="confirm_delete_manga">Är du säker på att du vill ta bort vald manga\?</string>
+    <string name="also_delete_chapters">Radera även nedladdade kapitel</string>
+    <string name="source_requires_login">Denna källan kräver att du loggar in</string>
+    <string name="select_source">Välj en källa</string>
+    <string name="no_valid_sources">Vänligen aktivera minst en giltig källa</string>
+    <string name="no_more_results">Inga mer resultat</string>
+    <string name="local_source">Lokal källa</string>
+    <string name="other_source">Andra</string>
+    <string name="invalid_combination">Standard kan inte väljas med andra kategorier</string>
+    <string name="added_to_library">Mangan har lagts till i din bibliotek</string>
+    <string name="action_global_search_hint">Global sökning…</string>
+    <string name="latest">Senaste</string>
+    <string name="browse">Bläddra</string>
+    <string name="manga_not_in_db">Denna manga has tagits bort från databasen.</string>
+    <string name="manga_detail_tab">Info</string>
+    <string name="description">Beskrivning</string>
+    <string name="ongoing">Pågående</string>
+    <string name="unknown">Okänd</string>
+    <string name="licensed">Licensierad</string>
+    <string name="remove_from_library">Ta bort från biblioteket</string>
+    <string name="manga_info_full_title_label">Titel</string>
+    <string name="manga_added_library">Lades till i biblioteket</string>
+    <string name="manga_removed_library">Togs bort från biblioteket</string>
+    <string name="manga_info_author_label">Författare</string>
+    <string name="manga_info_artist_label">Artist</string>
+    <string name="manga_info_chapters_label">Kapitel</string>
+    <string name="manga_info_status_label">Status</string>
+    <string name="manga_info_source_label">Källa</string>
+    <string name="manga_info_genres_label">Genrer</string>
+    <string name="delete_downloads_for_manga">Ta bort nedladdade kapitel\?</string>
+    <string name="copied_to_clipboard">Kopierat till urklipp:
 \n%1$s</string>
-    <string name="source_not_installed" formatted="false">Källa inte installerad: %1$s</string>
-    <string name="manga_chapters_tab" formatted="false">Kapitel</string>
-    <string name="manga_chapter_no_title" formatted="false">Ingen titel</string>
-    <string name="display_mode_chapter" formatted="false">Kapitel %1$s</string>
-    <string name="chapter_downloaded" formatted="false">Nedladdat</string>
-    <string name="chapter_queued" formatted="false">Köade</string>
-    <string name="chapter_downloading" formatted="false">Laddar ner</string>
-    <string name="chapter_downloading_progress" formatted="false">Laddar ner (%1$d/%2$d)</string>
-    <string name="chapter_error" formatted="false">Fel</string>
-    <string name="chapter_paused" formatted="false">Pausad</string>
-    <string name="fetch_chapters_error" formatted="false">Det gick inte att hämta kapitel</string>
-    <string name="show_title" formatted="false">Titel</string>
-    <string name="show_chapter_number" formatted="false">Kapitelnummer</string>
-    <string name="sorting_mode" formatted="false">Sorteringsläge</string>
-    <string name="sort_by_source" formatted="false">Efter källa</string>
-    <string name="sort_by_number" formatted="false">Efter kapitelnummer</string>
-    <string name="manga_download" formatted="false">Ladda ner</string>
-    <string name="custom_download" formatted="false">Ladda ner anpassat belopp</string>
-    <string name="download_1" formatted="false">Nästa kapitel</string>
-    <string name="download_5" formatted="false">Nästa 5 kapitel</string>
-    <string name="download_10" formatted="false">Nästa 10 kapitel</string>
-    <string name="download_custom" formatted="false">Anpassad</string>
-    <string name="download_all" formatted="false">Alla</string>
-    <string name="download_unread" formatted="false">Olästa</string>
-    <string name="confirm_delete_chapters" formatted="false">Är du säker på att du vill radera valda kapitel\?</string>
-    <string name="manga_tracking_tab" formatted="false">Spårning</string>
-    <string name="reading" formatted="false">Läser</string>
-    <string name="completed" formatted="false">Färdig</string>
-    <string name="dropped" formatted="false">Slutat läsa</string>
-    <string name="on_hold" formatted="false">Pausad</string>
-    <string name="plan_to_read" formatted="false">Planerar att läsa</string>
-    <string name="repeating" formatted="false">Läser om</string>
-    <string name="score" formatted="false">Betyg</string>
-    <string name="title" formatted="false">Titel</string>
-    <string name="status" formatted="false">Status</string>
-    <string name="track_status" formatted="false">Status</string>
-    <string name="track_start_date" formatted="false">Startad</string>
-    <string name="track_type" formatted="false">Typ</string>
-    <string name="track_author" formatted="false">Författare</string>
-    <string name="url_not_set" formatted="false">Manga URL är inte inställd, vänligen klicka på titeln och välj manga igen</string>
-    <string name="error_category_exists" formatted="false">En kategori med detta namn finns redan!</string>
-    <string name="snack_categories_deleted" formatted="false">Kategorier raderade</string>
-    <string name="dialog_with_checkbox_remove_description" formatted="false">Detta kommer att ta bort läs datumet för detta kapitel. Är du säker\?</string>
-    <string name="dialog_with_checkbox_reset" formatted="false">Återställ alla kapitel för denna manga</string>
-    <string name="snack_add_to_library" formatted="false">Lägg till manga i biblioteket\?</string>
-    <string name="picture_saved" formatted="false">Bild sparad</string>
-    <string name="saving_picture" formatted="false">Sparar bild</string>
-    <string name="options" formatted="false">Alternativ</string>
-    <string name="custom_filter" formatted="false">Anpassat filter</string>
-    <string name="set_as_cover" formatted="false">Ställ in som omslag</string>
-    <string name="cover_updated" formatted="false">Omslag uppdaterad</string>
-    <string name="page_downloaded" formatted="false">Sidan kopierades till %1$s</string>
-    <string name="downloading" formatted="false">Laddar ner…</string>
-    <string name="download_progress" formatted="false">Nedladdat %1$d%%</string>
-    <string name="chapter_progress" formatted="false">Sida: %1$d</string>
-    <string name="chapter_subtitle" formatted="false">Kapitel %1$s</string>
-    <string name="no_next_chapter" formatted="false">Nästa kapitel kunde inte hittas</string>
-    <string name="no_previous_chapter" formatted="false">Föregående kapitel kunde inte hittas</string>
-    <string name="decode_image_error" formatted="false">Bilden kunde inte laddas</string>
-    <string name="confirm_set_image_as_cover" formatted="false">Ställ in denna bilden som omslaget\?</string>
-    <string name="viewer_for_this_series" formatted="false">Visare för denna serie</string>
-    <string name="transition_finished" formatted="false">Färdig:</string>
-    <string name="transition_current" formatted="false">Nuvarande:</string>
-    <string name="transition_next" formatted="false">Nästa:</string>
-    <string name="transition_previous" formatted="false">Tidigare:</string>
-    <string name="transition_no_next" formatted="false">Det finns inget mer kapitel</string>
-    <string name="transition_no_previous" formatted="false">Det finns inget tidigare kapitel</string>
-    <string name="transition_pages_loading" formatted="false">Laddar sidor…</string>
-    <string name="transition_pages_error" formatted="false">Misslyckades att ladda sidor: %1$s</string>
-    <string name="migration_info" formatted="false">Tryck för att välja källa att migrera från</string>
-    <string name="migration_dialog_what_to_include" formatted="false">Välj data som ska inkluderas</string>
-    <string name="select" formatted="false">Välj</string>
-    <string name="migrate" formatted="false">Migrera</string>
-    <string name="copy" formatted="false">Kopiera</string>
-    <string name="download_queue_error" formatted="false">Kunde inte ladda ned kapitlen. Du kan försöka igen i nedladdningssektionen</string>
-    <string name="notification_update_progress" formatted="false">Uppdateringsframsteg: %1$d/%2$d</string>
-    <string name="notification_new_chapters" formatted="false">Nya kapitel hittades</string>
-    <string name="notification_cover_update_failed" formatted="false">Misslyckades att uppdatera omslag</string>
-    <string name="notification_first_add_to_library" formatted="false">Vänligen lägg till mangan i ditt bibliotek innan du gör detta</string>
-    <string name="notification_not_connected_to_ac_title" formatted="false">Synkronisering avbruten</string>
-    <string name="notification_not_connected_to_ac_body" formatted="false">Inte ansluten till nätström</string>
-    <string name="notification_no_connection_title" formatted="false">Synkronisering avbruten</string>
-    <string name="notification_no_connection_body" formatted="false">Anslutningen är inte tillänglig</string>
-    <string name="file_select_cover" formatted="false">Välj omslagsbild</string>
-    <string name="file_select_backup" formatted="false">Välj säkerhetskopia</string>
-    <string name="file_select_icon" formatted="false">Välj genvägsikon</string>
-    <string name="update_check_confirm" formatted="false">Ladda ner</string>
-    <string name="update_check_ignore" formatted="false">Ignorera</string>
-    <string name="update_check_no_new_updates" formatted="false">Inga nya uppdateringar tillgängliga</string>
-    <string name="update_check_look_for_updates" formatted="false">Söker efter uppdateringar…</string>
-    <string name="update_check_notification_file_download" formatted="false">Ladda ner uppdatering</string>
-    <string name="update_check_notification_download_in_progress" formatted="false">Laddar ner…</string>
-    <string name="update_check_notification_download_complete" formatted="false">Nedladdning färdig</string>
-    <string name="update_check_notification_download_error" formatted="false">Nedladdningsfel</string>
-    <string name="update_check_notification_update_available" formatted="false">Ny version tillgänglig!</string>
-    <string name="description_backdrop" formatted="false">Bakgrundsbild av mangan</string>
-    <string name="description_cover" formatted="false">Omslag av mangan</string>
-    <string name="information_no_downloads" formatted="false">Inga nedladdningar</string>
-    <string name="information_no_recent" formatted="false">Inga nya uppdateringar</string>
-    <string name="information_no_recent_manga" formatted="false">Inget nyligen läst</string>
-    <string name="information_empty_library" formatted="false">Biblioteket är tomt, lägg till serier i ditt bibliotek från \"Bläddra\".</string>
-    <string name="information_empty_category" formatted="false">Du har inga kategorier. Tryck på plus-knappen för att skapa en för att organisera ditt bibliotek.</string>
-    <string name="download_notifier_downloader_title" formatted="false">Nedladdare</string>
-    <string name="download_notifier_title_error" formatted="false">Fel</string>
-    <string name="download_notifier_unknown_error" formatted="false">Kunde inte ladda ned kapitel på grund av ett oförväntat fel</string>
-    <string name="download_notifier_page_error" formatted="false">En sida saknas i katalogen</string>
-    <string name="download_notifier_page_ready_error" formatted="false">En sida har inte laddats</string>
-    <string name="download_notifier_text_only_wifi" formatted="false">Ingen WiFi-anslutning tillgänglig</string>
-    <string name="download_notifier_no_network" formatted="false">Ingen nätverksanslutning tillgänglig</string>
-    <string name="download_notifier_download_paused" formatted="false">Nedladdning pausad</string>
-    <string name="channel_common" formatted="false">Vanlig</string>
-    <string name="channel_library" formatted="false">Bibliotek</string>
-    <string name="channel_downloader" formatted="false">Nedladdare</string>
-    <string name="action_open_in_web_view" formatted="false">Öppna i WebView</string>
-    <string name="pref_true_color" formatted="false">32-bitars färg</string>
-    <string name="pref_skip_read_chapters" formatted="false">Skippa lästa kapitel</string>
-    <string name="pref_read_with_long_tap" formatted="false">Långtrycksdialog</string>
-    <string name="pref_color_filter_mode" formatted="false">Färgfilterblandningsläge</string>
-    <string name="filter_mode_default" formatted="false">Standard</string>
-    <string name="filter_mode_overlay" formatted="false">Överlägg</string>
-    <string name="filter_mode_multiply" formatted="false">Multiplicera</string>
-    <string name="filter_mode_screen" formatted="false">Skärm</string>
-    <string name="filter_mode_lighten" formatted="false">Ljusna</string>
-    <string name="filter_mode_darken" formatted="false">Mörkna</string>
-    <string name="label_help" formatted="false">Hjälp</string>
-    <string name="pref_library_update_prioritization" formatted="false">Uppdateringsordning</string>
-    <string name="no_results_found" formatted="false">Inga resultat funna</string>
-    <string name="migration_selection_prompt" formatted="false">Välj en källa att migrera ifrån</string>
-    <string name="action_webview_back" formatted="false">Bakåt</string>
-    <string name="action_webview_forward" formatted="false">Framåt</string>
-    <string name="action_webview_refresh" formatted="false">Uppdatera</string>
-    <string name="pref_category_library" formatted="false">Bibliotek</string>
-    <string name="invalid_download_dir" formatted="false">Ogiltig nedladdningsplats</string>
-    <string name="ext_obsolete" formatted="false">Obsolet</string>
-    <string name="obsolete_extension_message" formatted="false">Detta tillägg är inte längre tillgänglig.</string>
-    <string name="pref_date_format" formatted="false">Datumformat</string>
-    <string name="pref_category_library_update" formatted="false">Uppdateringar</string>
-    <string name="pref_category_library_categories" formatted="false">Kategorier</string>
-    <string name="logout_title" formatted="false">Logga ut från %1$s\?</string>
-    <string name="logout" formatted="false">Logga ut</string>
-    <string name="logout_success" formatted="false">Du är nu utloggad</string>
-    <string name="currently_reading" formatted="false">Läser</string>
-    <string name="paused" formatted="false">Pausad</string>
-    <string name="want_to_read" formatted="false">Planerar att läsa</string>
-    <string name="label_more" formatted="false">Mer</string>
-    <string name="action_sort_latest_chapter" formatted="false">Senaste kapitel</string>
-    <string name="action_view_chapters" formatted="false">Visa kapitel</string>
-    <string name="action_cancel_all" formatted="false">Avbryt alla</string>
-    <string name="pref_theme_mode" formatted="false">Applikationstema</string>
-    <string name="theme_light" formatted="false">Ljus</string>
-    <string name="theme_dark" formatted="false">Mörk</string>
-    <string name="theme_system" formatted="false">Följ systemet</string>
-    <string name="pref_theme_dark" formatted="false">Mörk temavariant</string>
-    <string name="theme_dark_default" formatted="false">Standard</string>
-    <string name="theme_dark_blue" formatted="false">Mörkblå</string>
-    <string name="theme_dark_amoled" formatted="false">AMOLED svart</string>
-    <string name="pref_manage_notifications" formatted="false">Hantera aviseringar</string>
-    <string name="pref_category_security" formatted="false">Säkerhet</string>
-    <string name="lock_with_biometrics" formatted="false">Lås med biometri</string>
-    <string name="lock_when_idle" formatted="false">Lås vid inaktivitet</string>
-    <string name="lock_always" formatted="false">Alltid</string>
-    <string name="lock_never" formatted="false">Aldrig</string>
-    <plurals name="lock_after_mins" formatted="false">
-        <item quantity="one" formatted="false">Efter 1 minut</item>
-        <item quantity="other" formatted="false">Efter %1$s minuter</item>
+    <string name="source_not_installed">Källa inte installerad: %1$s</string>
+    <string name="manga_chapters_tab">Kapitel</string>
+    <string name="manga_chapter_no_title">Ingen titel</string>
+    <string name="display_mode_chapter">Kapitel %1$s</string>
+    <string name="chapter_downloaded">Nedladdat</string>
+    <string name="chapter_queued">Köade</string>
+    <string name="chapter_downloading">Laddar ner</string>
+    <string name="chapter_downloading_progress">Laddar ner (%1$d/%2$d)</string>
+    <string name="chapter_error">Fel</string>
+    <string name="chapter_paused">Pausad</string>
+    <string name="fetch_chapters_error">Det gick inte att hämta kapitel</string>
+    <string name="show_title">Titel</string>
+    <string name="show_chapter_number">Kapitelnummer</string>
+    <string name="sorting_mode">Sorteringsläge</string>
+    <string name="sort_by_source">Efter källa</string>
+    <string name="sort_by_number">Efter kapitelnummer</string>
+    <string name="manga_download">Ladda ner</string>
+    <string name="custom_download">Ladda ner anpassat belopp</string>
+    <string name="download_1">Nästa kapitel</string>
+    <string name="download_5">Nästa 5 kapitel</string>
+    <string name="download_10">Nästa 10 kapitel</string>
+    <string name="download_custom">Anpassad</string>
+    <string name="download_all">Alla</string>
+    <string name="download_unread">Olästa</string>
+    <string name="confirm_delete_chapters">Är du säker på att du vill radera valda kapitel\?</string>
+    <string name="manga_tracking_tab">Spårning</string>
+    <string name="reading">Läser</string>
+    <string name="completed">Färdig</string>
+    <string name="dropped">Slutat läsa</string>
+    <string name="on_hold">Pausad</string>
+    <string name="plan_to_read">Planerar att läsa</string>
+    <string name="repeating">Läser om</string>
+    <string name="score">Betyg</string>
+    <string name="title">Titel</string>
+    <string name="status">Status</string>
+    <string name="track_status">Status</string>
+    <string name="track_start_date">Startad</string>
+    <string name="track_type">Typ</string>
+    <string name="track_author">Författare</string>
+    <string name="url_not_set">Manga URL är inte inställd, vänligen klicka på titeln och välj manga igen</string>
+    <string name="error_category_exists">En kategori med detta namn finns redan!</string>
+    <string name="snack_categories_deleted">Kategorier raderade</string>
+    <string name="dialog_with_checkbox_remove_description">Detta kommer att ta bort läs datumet för detta kapitel. Är du säker\?</string>
+    <string name="dialog_with_checkbox_reset">Återställ alla kapitel för denna manga</string>
+    <string name="snack_add_to_library">Lägg till manga i biblioteket\?</string>
+    <string name="picture_saved">Bild sparad</string>
+    <string name="saving_picture">Sparar bild</string>
+    <string name="options">Alternativ</string>
+    <string name="custom_filter">Anpassat filter</string>
+    <string name="set_as_cover">Ställ in som omslag</string>
+    <string name="cover_updated">Omslag uppdaterad</string>
+    <string name="page_downloaded">Sidan kopierades till %1$s</string>
+    <string name="downloading">Laddar ner…</string>
+    <string name="download_progress">Nedladdat %1$d%%</string>
+    <string name="chapter_progress">Sida: %1$d</string>
+    <string name="chapter_subtitle">Kapitel %1$s</string>
+    <string name="no_next_chapter">Nästa kapitel kunde inte hittas</string>
+    <string name="no_previous_chapter">Föregående kapitel kunde inte hittas</string>
+    <string name="decode_image_error">Bilden kunde inte laddas</string>
+    <string name="confirm_set_image_as_cover">Ställ in denna bilden som omslaget\?</string>
+    <string name="viewer_for_this_series">Visare för denna serie</string>
+    <string name="transition_finished">Färdig:</string>
+    <string name="transition_current">Nuvarande:</string>
+    <string name="transition_next">Nästa:</string>
+    <string name="transition_previous">Tidigare:</string>
+    <string name="transition_no_next">Det finns inget mer kapitel</string>
+    <string name="transition_no_previous">Det finns inget tidigare kapitel</string>
+    <string name="transition_pages_loading">Laddar sidor…</string>
+    <string name="transition_pages_error">Misslyckades att ladda sidor: %1$s</string>
+    <string name="migration_info">Tryck för att välja källa att migrera från</string>
+    <string name="migration_dialog_what_to_include">Välj data som ska inkluderas</string>
+    <string name="select">Välj</string>
+    <string name="migrate">Migrera</string>
+    <string name="copy">Kopiera</string>
+    <string name="download_queue_error">Kunde inte ladda ned kapitlen. Du kan försöka igen i nedladdningssektionen</string>
+    <string name="notification_update_progress">Uppdateringsframsteg: %1$d/%2$d</string>
+    <string name="notification_new_chapters">Nya kapitel hittades</string>
+    <string name="notification_cover_update_failed">Misslyckades att uppdatera omslag</string>
+    <string name="notification_first_add_to_library">Vänligen lägg till mangan i ditt bibliotek innan du gör detta</string>
+    <string name="notification_not_connected_to_ac_title">Synkronisering avbruten</string>
+    <string name="notification_not_connected_to_ac_body">Inte ansluten till nätström</string>
+    <string name="notification_no_connection_title">Synkronisering avbruten</string>
+    <string name="notification_no_connection_body">Anslutningen är inte tillänglig</string>
+    <string name="file_select_cover">Välj omslagsbild</string>
+    <string name="file_select_backup">Välj säkerhetskopia</string>
+    <string name="file_select_icon">Välj genvägsikon</string>
+    <string name="update_check_confirm">Ladda ner</string>
+    <string name="update_check_ignore">Ignorera</string>
+    <string name="update_check_no_new_updates">Inga nya uppdateringar tillgängliga</string>
+    <string name="update_check_look_for_updates">Söker efter uppdateringar…</string>
+    <string name="update_check_notification_file_download">Ladda ner uppdatering</string>
+    <string name="update_check_notification_download_in_progress">Laddar ner…</string>
+    <string name="update_check_notification_download_complete">Nedladdning färdig</string>
+    <string name="update_check_notification_download_error">Nedladdningsfel</string>
+    <string name="update_check_notification_update_available">Ny version tillgänglig!</string>
+    <string name="description_backdrop">Bakgrundsbild av mangan</string>
+    <string name="description_cover">Omslag av mangan</string>
+    <string name="information_no_downloads">Inga nedladdningar</string>
+    <string name="information_no_recent">Inga nya uppdateringar</string>
+    <string name="information_no_recent_manga">Inget nyligen läst</string>
+    <string name="information_empty_library">Biblioteket är tomt, lägg till serier i ditt bibliotek från \"Bläddra\".</string>
+    <string name="information_empty_category">Du har inga kategorier. Tryck på plus-knappen för att skapa en för att organisera ditt bibliotek.</string>
+    <string name="download_notifier_downloader_title">Nedladdare</string>
+    <string name="download_notifier_title_error">Fel</string>
+    <string name="download_notifier_unknown_error">Kunde inte ladda ned kapitel på grund av ett oförväntat fel</string>
+    <string name="download_notifier_page_error">En sida saknas i katalogen</string>
+    <string name="download_notifier_page_ready_error">En sida har inte laddats</string>
+    <string name="download_notifier_text_only_wifi">Ingen WiFi-anslutning tillgänglig</string>
+    <string name="download_notifier_no_network">Ingen nätverksanslutning tillgänglig</string>
+    <string name="download_notifier_download_paused">Nedladdning pausad</string>
+    <string name="channel_common">Vanlig</string>
+    <string name="channel_library">Bibliotek</string>
+    <string name="channel_downloader">Nedladdare</string>
+    <string name="action_open_in_web_view">Öppna i WebView</string>
+    <string name="pref_true_color">32-bitars färg</string>
+    <string name="pref_skip_read_chapters">Skippa lästa kapitel</string>
+    <string name="pref_read_with_long_tap">Långtrycksdialog</string>
+    <string name="pref_color_filter_mode">Färgfilterblandningsläge</string>
+    <string name="filter_mode_default">Standard</string>
+    <string name="filter_mode_overlay">Överlägg</string>
+    <string name="filter_mode_multiply">Multiplicera</string>
+    <string name="filter_mode_screen">Skärm</string>
+    <string name="filter_mode_lighten">Ljusna</string>
+    <string name="filter_mode_darken">Mörkna</string>
+    <string name="label_help">Hjälp</string>
+    <string name="pref_library_update_prioritization">Uppdateringsordning</string>
+    <string name="no_results_found">Inga resultat funna</string>
+    <string name="migration_selection_prompt">Välj en källa att migrera ifrån</string>
+    <string name="action_webview_back">Bakåt</string>
+    <string name="action_webview_forward">Framåt</string>
+    <string name="action_webview_refresh">Uppdatera</string>
+    <string name="pref_category_library">Bibliotek</string>
+    <string name="invalid_download_dir">Ogiltig nedladdningsplats</string>
+    <string name="ext_obsolete">Obsolet</string>
+    <string name="obsolete_extension_message">Detta tillägg är inte längre tillgänglig.</string>
+    <string name="pref_date_format">Datumformat</string>
+    <string name="pref_category_library_update">Uppdateringar</string>
+    <string name="pref_category_library_categories">Kategorier</string>
+    <string name="logout_title">Logga ut från %1$s\?</string>
+    <string name="logout">Logga ut</string>
+    <string name="logout_success">Du är nu utloggad</string>
+    <string name="currently_reading">Läser</string>
+    <string name="paused">Pausad</string>
+    <string name="want_to_read">Planerar att läsa</string>
+    <string name="label_more">Mer</string>
+    <string name="action_sort_latest_chapter">Senaste kapitel</string>
+    <string name="action_view_chapters">Visa kapitel</string>
+    <string name="action_cancel_all">Avbryt alla</string>
+    <string name="pref_theme_mode">Applikationstema</string>
+    <string name="theme_light">Ljus</string>
+    <string name="theme_dark">Mörk</string>
+    <string name="theme_system">Följ systemet</string>
+    <string name="pref_theme_dark">Mörk temavariant</string>
+    <string name="theme_dark_default">Standard</string>
+    <string name="theme_dark_blue">Mörkblå</string>
+    <string name="theme_dark_amoled">AMOLED svart</string>
+    <string name="pref_manage_notifications">Hantera aviseringar</string>
+    <string name="pref_category_security">Säkerhet</string>
+    <string name="lock_with_biometrics">Lås med biometri</string>
+    <string name="lock_when_idle">Lås vid inaktivitet</string>
+    <string name="lock_always">Alltid</string>
+    <string name="lock_never">Aldrig</string>
+    <plurals name="lock_after_mins">
+        <item quantity="one">Efter 1 minut</item>
+        <item quantity="other">Efter %1$s minuter</item>
     </plurals>
-    <string name="secure_screen" formatted="false">Säker skärm</string>
-    <string name="ext_updates_pending" formatted="false">Uppdateringar väntar</string>
-    <string name="pref_cutout_short" formatted="false">Visa innehåll i utskärningsområdet</string>
-    <string name="information_cloudflare_bypass_failure" formatted="false">Det gick inte att kringgå Cloudflare</string>
-    <string name="information_webview_outdated" formatted="false">Uppdatera WebView-appen för bättre kompatibilitet</string>
-    <string name="channel_new_chapters" formatted="false">Kapiteluppdateringar</string>
-    <string name="unlock_app" formatted="false">Lås upp Tachiyomi</string>
-    <string name="secure_screen_summary" formatted="false">Dölj app-innehåll när du byter appar, och blockera skärmdumpar</string>
-    <string name="pref_category_display" formatted="false">Skärmvisning</string>
-    <plurals name="notification_chapters_generic" formatted="false">
-        <item quantity="one" formatted="false">1 nytt kapitel</item>
-        <item quantity="other" formatted="false">%1$d nya kapitel</item>
+    <string name="secure_screen">Säker skärm</string>
+    <string name="ext_updates_pending">Uppdateringar väntar</string>
+    <string name="pref_cutout_short">Visa innehåll i utskärningsområdet</string>
+    <string name="information_cloudflare_bypass_failure">Det gick inte att kringgå Cloudflare</string>
+    <string name="information_webview_outdated">Uppdatera WebView-appen för bättre kompatibilitet</string>
+    <string name="channel_new_chapters">Kapiteluppdateringar</string>
+    <string name="unlock_app">Lås upp Tachiyomi</string>
+    <string name="secure_screen_summary">Dölj app-innehåll när du byter appar, och blockera skärmdumpar</string>
+    <string name="pref_category_display">Skärmvisning</string>
+    <plurals name="notification_chapters_generic">
+        <item quantity="one">1 nytt kapitel</item>
+        <item quantity="other">%1$d nya kapitel</item>
     </plurals>
-    <string name="notification_chapters_single" formatted="false">Kapitel %1$s</string>
-    <string name="notification_chapters_single_and_more" formatted="false">Kapitel %1$s och %2$d till</string>
-    <string name="notification_chapters_multiple" formatted="false">Kapitlen %1$s</string>
-    <plurals name="notification_chapters_multiple_and_more" formatted="false">
-        <item quantity="one" formatted="false">Kapitel %1$s och 1 till</item>
-        <item quantity="other" formatted="false">Kapitlen %1$s och %2$d till</item>
+    <string name="notification_chapters_single">Kapitel %1$s</string>
+    <string name="notification_chapters_single_and_more">Kapitel %1$s och %2$d till</string>
+    <string name="notification_chapters_multiple">Kapitlen %1$s</string>
+    <plurals name="notification_chapters_multiple_and_more">
+        <item quantity="one">Kapitel %1$s och 1 till</item>
+        <item quantity="other">Kapitlen %1$s och %2$d till</item>
     </plurals>
-    <string name="action_hide" formatted="false">Dölj</string>
-    <string name="hide_notification_content" formatted="false">Dölj notisinnehåll</string>
-    <string name="notification_check_updates" formatted="false">Letar efter nya kapitel</string>
-    <string name="pref_disable_battery_optimization" formatted="false">Inaktivera batterioptimering</string>
-    <string name="pref_disable_battery_optimization_summary" formatted="false">Hjälper till med uppdateringar och säkerhetskopior i bakgrunden</string>
-    <string name="battery_optimization_disabled" formatted="false">Batterioptimering är redan inaktiverat</string>
-    <string name="email" formatted="false">E-postaddress</string>
-    <string name="pref_always_show_chapter_transition" formatted="false">Visa alltid kapitelövergång</string>
-    <plurals name="notification_new_chapters_summary" formatted="false">
-        <item quantity="one" formatted="false">För 1 titel</item>
-        <item quantity="other" formatted="false">För %d titlar</item>
+    <string name="action_hide">Dölj</string>
+    <string name="hide_notification_content">Dölj notisinnehåll</string>
+    <string name="notification_check_updates">Letar efter nya kapitel</string>
+    <string name="pref_disable_battery_optimization">Inaktivera batterioptimering</string>
+    <string name="pref_disable_battery_optimization_summary">Hjälper till med uppdateringar och säkerhetskopior i bakgrunden</string>
+    <string name="battery_optimization_disabled">Batterioptimering är redan inaktiverat</string>
+    <string name="email">E-postaddress</string>
+    <string name="pref_always_show_chapter_transition">Visa alltid kapitelövergång</string>
+    <plurals name="notification_new_chapters_summary">
+        <item quantity="one">För 1 titel</item>
+        <item quantity="other">För %d titlar</item>
     </plurals>
-    <string name="notices" formatted="false">Byggmeddelanden</string>
-    <string name="changelog" formatted="false">Ändringslogg</string>
-    <string name="pref_theme_light" formatted="false">Ljus temavariant</string>
-    <string name="theme_light_default" formatted="false">Standard</string>
-    <string name="theme_light_blue" formatted="false">Ljusblå</string>
-    <string name="action_menu" formatted="false">Meny</string>
-    <string name="action_reorganize_by" formatted="false">Ändra ordning</string>
-    <string name="action_newest" formatted="false">Nyaste</string>
-    <string name="action_oldest" formatted="false">Äldsta</string>
-    <string name="action_move_to_top" formatted="false">Flytta till toppen</string>
-    <string name="action_move_to_bottom" formatted="false">Flytta till botten</string>
-    <string name="channel_ext_updates" formatted="false">Tilläggsuppdateringar</string>
-    <plurals name="update_check_notification_ext_updates" formatted="false">
-        <item quantity="one" formatted="false">Tilläggsuppdatering tillgänglig</item>
-        <item quantity="other" formatted="false">%d tilläggsuppdateringar tillgängliga</item>
+    <string name="notices">Byggmeddelanden</string>
+    <string name="changelog">Ändringslogg</string>
+    <string name="pref_theme_light">Ljus temavariant</string>
+    <string name="theme_light_default">Standard</string>
+    <string name="theme_light_blue">Ljusblå</string>
+    <string name="action_menu">Meny</string>
+    <string name="action_reorganize_by">Ändra ordning</string>
+    <string name="action_newest">Nyaste</string>
+    <string name="action_oldest">Äldsta</string>
+    <string name="action_move_to_top">Flytta till toppen</string>
+    <string name="action_move_to_bottom">Flytta till botten</string>
+    <string name="channel_ext_updates">Tilläggsuppdateringar</string>
+    <plurals name="update_check_notification_ext_updates">
+        <item quantity="one">Tilläggsuppdatering tillgänglig</item>
+        <item quantity="other">%d tilläggsuppdateringar tillgängliga</item>
     </plurals>
-    <string name="updating_library" formatted="false">Uppdaterar biblioteket</string>
-    <string name="http_error_hint" formatted="false">Kontrollera webbplatsen i WebView</string>
-    <string name="pref_enable_automatic_extension_updates" formatted="false">Sök efter tilläggsuppdateringar</string>
-    <string name="action_sort_last_checked" formatted="false">Senast kontrollerad</string>
-    <string name="pref_category_reading" formatted="false">Läser</string>
-    <string name="pref_skip_filtered_chapters" formatted="false">Skippa filtrerade kapitel</string>
-    <string name="label_sources" formatted="false">Källor</string>
-    <string name="add_tracking" formatted="false">Lägg till spårning</string>
-    <string name="in_library" formatted="false">I biblioteket</string>
-    <string name="add_to_library" formatted="false">Lägg till i biblioteket</string>
-    <string name="pinned_sources" formatted="false">Nålad</string>
-    <string name="webtoon_side_padding_25" formatted="false">25 %</string>
-    <string name="webtoon_side_padding_20" formatted="false">20 %</string>
-    <string name="webtoon_side_padding_15" formatted="false">15 %</string>
-    <string name="webtoon_side_padding_10" formatted="false">10 %</string>
-    <string name="webtoon_side_padding_0" formatted="false">Ingen</string>
-    <string name="pref_webtoon_side_padding" formatted="false">Sidofyllning</string>
-    <string name="vertical_plus_viewer" formatted="false">Kontinuerlig vertikal</string>
-    <string name="action_unpin" formatted="false">Lossa</string>
-    <string name="action_pin" formatted="false">Nåla</string>
-    <string name="action_select_inverse" formatted="false">Välj omvänd</string>
-    <string name="manga_info_collapse" formatted="false">Visa mindre info</string>
-    <string name="manga_info_expand" formatted="false">Visa mer info</string>
-    <string name="manga_info_about_label" formatted="false">Info</string>
-    <string name="pref_confirm_exit" formatted="false">Bekräfta utgång</string>
-    <string name="confirm_exit" formatted="false">Tryck tillbaka igen för att gå ur</string>
-    <string name="channel_backup_restore" formatted="false">Säkerhetskopiering och återställning</string>
-    <string name="information_webview_required" formatted="false">WebView krävs för Tachiyomi</string>
-    <string name="recent_manga_time" formatted="false">Kapitel %1$s - %2$s</string>
-    <string name="error_invalid_date_supplied" formatted="false">Ogiltigt datum har angetts</string>
-    <string name="track_finished_reading_date" formatted="false">Avslutat läsdatum</string>
-    <string name="track_started_reading_date" formatted="false">Påbörjat läsdatum</string>
-    <string name="local_source_help_guide" formatted="false">Lokal källa guide</string>
-    <string name="last_used_source" formatted="false">Senast använd</string>
-    <string name="check_for_updates" formatted="false">Sök efter uppdateringar</string>
-    <string name="licenses" formatted="false">Open source-licenser</string>
-    <string name="website" formatted="false">Hemsida</string>
-    <string name="restoring_backup_canceled" formatted="false">Avbruten återställning</string>
-    <string name="restoring_backup_error" formatted="false">Återställning av säkerhetskopiering misslyckades</string>
-    <string name="restore_in_progress" formatted="false">Återställningen pågår redan</string>
-    <string name="creating_backup_error" formatted="false">Säkerhetskopiering misslyckades</string>
-    <string name="backup_in_progress" formatted="false">Säkerhetskopiering pågår redan</string>
-    <string name="restore_duration" formatted="false">%02d minuter, %02d sekunder</string>
-    <string name="label_downloaded_only" formatted="false">Endast nedladdat</string>
-    <string name="manga_info_latest_data_label" formatted="false">Uppdaterad</string>
-    <string name="manga_info_last_chapter_label" formatted="false">Sista kapitlet</string>
-    <string name="downloaded_only_summary" formatted="false">Filtrerar all manga i ditt bibliotek</string>
-    <string name="channel_backup_restore_complete" formatted="false">Färdig</string>
-    <string name="channel_backup_restore_progress" formatted="false">Förlopp</string>
-    <plurals name="download_queue_summary" formatted="false">
-        <item quantity="one" formatted="false">1 återstående</item>
-        <item quantity="other" formatted="false">%1$s återstående</item>
+    <string name="updating_library">Uppdaterar biblioteket</string>
+    <string name="http_error_hint">Kontrollera webbplatsen i WebView</string>
+    <string name="pref_enable_automatic_extension_updates">Sök efter tilläggsuppdateringar</string>
+    <string name="action_sort_last_checked">Senast kontrollerad</string>
+    <string name="pref_category_reading">Läser</string>
+    <string name="pref_skip_filtered_chapters">Skippa filtrerade kapitel</string>
+    <string name="label_sources">Källor</string>
+    <string name="add_tracking">Lägg till spårning</string>
+    <string name="in_library">I biblioteket</string>
+    <string name="add_to_library">Lägg till i biblioteket</string>
+    <string name="pinned_sources">Nålad</string>
+    <string name="webtoon_side_padding_25">25 %</string>
+    <string name="webtoon_side_padding_20">20 %</string>
+    <string name="webtoon_side_padding_15">15 %</string>
+    <string name="webtoon_side_padding_10">10 %</string>
+    <string name="webtoon_side_padding_0">Ingen</string>
+    <string name="pref_webtoon_side_padding">Sidofyllning</string>
+    <string name="vertical_plus_viewer">Kontinuerlig vertikal</string>
+    <string name="action_unpin">Lossa</string>
+    <string name="action_pin">Nåla</string>
+    <string name="action_select_inverse">Välj omvänd</string>
+    <string name="manga_info_collapse">Visa mindre info</string>
+    <string name="manga_info_expand">Visa mer info</string>
+    <string name="manga_info_about_label">Info</string>
+    <string name="pref_confirm_exit">Bekräfta utgång</string>
+    <string name="confirm_exit">Tryck tillbaka igen för att gå ur</string>
+    <string name="channel_backup_restore">Säkerhetskopiering och återställning</string>
+    <string name="information_webview_required">WebView krävs för Tachiyomi</string>
+    <string name="recent_manga_time">Kapitel %1$s - %2$s</string>
+    <string name="error_invalid_date_supplied">Ogiltigt datum har angetts</string>
+    <string name="track_finished_reading_date">Avslutat läsdatum</string>
+    <string name="track_started_reading_date">Påbörjat läsdatum</string>
+    <string name="local_source_help_guide">Lokal källa guide</string>
+    <string name="last_used_source">Senast använd</string>
+    <string name="check_for_updates">Sök efter uppdateringar</string>
+    <string name="licenses">Open source-licenser</string>
+    <string name="website">Hemsida</string>
+    <string name="restoring_backup_canceled">Avbruten återställning</string>
+    <string name="restoring_backup_error">Återställning av säkerhetskopiering misslyckades</string>
+    <string name="restore_in_progress">Återställningen pågår redan</string>
+    <string name="creating_backup_error">Säkerhetskopiering misslyckades</string>
+    <string name="backup_in_progress">Säkerhetskopiering pågår redan</string>
+    <string name="restore_duration">%02d minuter, %02d sekunder</string>
+    <string name="label_downloaded_only">Endast nedladdat</string>
+    <string name="manga_info_latest_data_label">Uppdaterad</string>
+    <string name="manga_info_last_chapter_label">Sista kapitlet</string>
+    <string name="downloaded_only_summary">Filtrerar all manga i ditt bibliotek</string>
+    <string name="channel_backup_restore_complete">Färdig</string>
+    <string name="channel_backup_restore_progress">Förlopp</string>
+    <plurals name="download_queue_summary">
+        <item quantity="one">1 återstående</item>
+        <item quantity="other">%1$s återstående</item>
     </plurals>
-    <string name="pref_search_pinned_sources_only" formatted="false">Inkludera endast fästa källor</string>
+    <string name="pref_search_pinned_sources_only">Inkludera endast fästa källor</string>
 </resources>

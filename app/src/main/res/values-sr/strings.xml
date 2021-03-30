@@ -1,524 +1,524 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name" formatted="false">Ime</string>
-    <string name="categories" formatted="false">Kategorije</string>
-    <string name="manga" formatted="false">Manga</string>
-    <string name="chapters" formatted="false">Poglavlje</string>
-    <string name="track" formatted="false">Praćenje</string>
-    <string name="history" formatted="false">Istorija</string>
-    <string name="label_settings" formatted="false">Podešavanja</string>
-    <string name="label_download_queue" formatted="false">Redosled preuzimanja</string>
-    <string name="label_library" formatted="false">Biblioteka</string>
-    <string name="label_recent_manga" formatted="false">Istorija</string>
-    <string name="label_recent_updates" formatted="false">Apdejti</string>
-    <string name="label_categories" formatted="false">Kategorije</string>
-    <string name="label_backup" formatted="false">Rezerva</string>
-    <string name="label_migration" formatted="false">Migracija izvora</string>
-    <string name="label_extensions" formatted="false">Dodaci</string>
-    <string name="label_extension_info" formatted="false">Informacije o dodatku</string>
-    <string name="action_settings" formatted="false">Podešavanja</string>
-    <string name="action_filter" formatted="false">Filter</string>
-    <string name="action_filter_downloaded" formatted="false">Preuzeto</string>
-    <string name="action_filter_bookmarked" formatted="false">Zabilježeno</string>
-    <string name="action_filter_unread" formatted="false">Nepročitano</string>
-    <string name="action_filter_read" formatted="false">Pročitano</string>
-    <string name="action_filter_empty" formatted="false">Ukloni filter</string>
-    <string name="action_sort_alpha" formatted="false">Alfabetno</string>
-    <string name="action_sort_total" formatted="false">Ukupno poglavlja</string>
-    <string name="action_sort_last_read" formatted="false">Zadnje čitano</string>
-    <string name="action_search" formatted="false">Pretraži</string>
-    <string name="action_global_search" formatted="false">Pretraži globalno</string>
-    <string name="action_select_all" formatted="false">Izaberi sve</string>
-    <string name="action_mark_as_read" formatted="false">Označi kao pročitano</string>
-    <string name="action_mark_as_unread" formatted="false">Označi kao nepročitano</string>
-    <string name="action_mark_previous_as_read" formatted="false">Označi prijošnje kao pročitano</string>
-    <string name="action_download" formatted="false">Preuzmi</string>
-    <string name="action_bookmark" formatted="false">Označi</string>
-    <string name="action_remove_bookmark" formatted="false">Ukloni oznaku</string>
-    <string name="action_delete" formatted="false">Obriši</string>
-    <string name="action_update" formatted="false">Ažuriraj</string>
-    <string name="action_update_library" formatted="false">Ažuriraj biblioteku</string>
-    <string name="action_edit" formatted="false">Uredi</string>
-    <string name="action_add" formatted="false">Dodaj</string>
-    <string name="action_add_category" formatted="false">Dodaj kategoriju</string>
-    <string name="action_edit_categories" formatted="false">Uredi kategorije</string>
-    <string name="action_rename_category" formatted="false">Preimenuj kategoriju</string>
-    <string name="action_move_category" formatted="false">Izaberi kategorije</string>
-    <string name="action_edit_cover" formatted="false">Promeni naslovnu sliku</string>
-    <string name="action_sort_up" formatted="false">Sortiraj odozgo</string>
-    <string name="action_sort_down" formatted="false">Sortiraj odozdo</string>
-    <string name="action_show_downloaded" formatted="false">Preuzeto</string>
-    <string name="action_next_unread" formatted="false">Sledeće nepročitano</string>
-    <string name="action_start" formatted="false">Počni</string>
-    <string name="action_stop" formatted="false">Zaustavi</string>
-    <string name="action_pause" formatted="false">Pauziraj</string>
-    <string name="action_close" formatted="false">Zatvori</string>
-    <string name="action_previous_chapter" formatted="false">Prijašnje poglavlje</string>
-    <string name="action_next_chapter" formatted="false">Naredno poglavlje</string>
-    <string name="action_retry" formatted="false">Pokušaj ponovo</string>
-    <string name="action_remove" formatted="false">Obriši</string>
-    <string name="action_resume" formatted="false">Nastavi</string>
-    <string name="action_move" formatted="false">Premesti</string>
-    <string name="action_open_in_browser" formatted="false">Otvori u pretraživaču</string>
-    <string name="action_display_mode" formatted="false">Vrsta displeja</string>
-    <string name="action_display" formatted="false">Ekran</string>
-    <string name="action_display_grid" formatted="false">Mreža</string>
-    <string name="action_display_list" formatted="false">Lista</string>
-    <string name="action_display_download_badge" formatted="false">Oznake preuzimanja</string>
-    <string name="action_cancel" formatted="false">Prekini</string>
-    <string name="action_sort" formatted="false">Sortiraj</string>
-    <string name="action_install" formatted="false">Instaliraj</string>
-    <string name="action_share" formatted="false">Podeli</string>
-    <string name="action_save" formatted="false">Sačuvaj</string>
-    <string name="action_reset" formatted="false">Resetuj</string>
-    <string name="action_undo" formatted="false">Vrati nazad</string>
-    <string name="action_open_log" formatted="false">Otvori zapisnik</string>
-    <string name="action_create" formatted="false">Napravi</string>
-    <string name="action_restore" formatted="false">Povrati</string>
-    <string name="action_open" formatted="false">Otvori</string>
-    <string name="action_login" formatted="false">Prijavi se</string>
-    <string name="loading" formatted="false">Učitavanje…</string>
-    <string name="app_not_available" formatted="false">Aplikacija nije dostupna</string>
-    <string name="short_recent_updates" formatted="false">Ažuriranja</string>
-    <string name="pref_category_general" formatted="false">Opšte</string>
-    <string name="pref_category_reader" formatted="false">Čitač</string>
-    <string name="pref_category_downloads" formatted="false">Preuzimanja</string>
-    <string name="pref_category_tracking" formatted="false">Praćenja</string>
-    <string name="pref_category_advanced" formatted="false">Napredno</string>
-    <string name="pref_category_about" formatted="false">O</string>
-    <string name="pref_library_columns" formatted="false">Broj Manga po redu u biblioteci</string>
-    <string name="portrait" formatted="false">Vertikalno</string>
-    <string name="landscape" formatted="false">Horizontalno</string>
-    <string name="default_columns" formatted="false">Podrazumevano</string>
-    <string name="pref_library_update_interval" formatted="false">Učestalost ažuriranja biblioteke</string>
-    <string name="update_never" formatted="false">Ručno</string>
-    <string name="update_1hour" formatted="false">Jednočasovno</string>
-    <string name="update_2hour" formatted="false">Dvočasovno</string>
-    <string name="update_3hour" formatted="false">Tročasovno</string>
-    <string name="update_6hour" formatted="false">Šestočasovno</string>
-    <string name="update_12hour" formatted="false">Dvanestočasovno</string>
-    <string name="update_24hour" formatted="false">Dnevno</string>
-    <string name="update_48hour" formatted="false">Svaka 2 dana</string>
-    <string name="update_weekly" formatted="false">Nedeljno</string>
-    <string name="update_monthly" formatted="false">Mjesečno</string>
-    <string name="pref_library_update_categories" formatted="false">Kategorije koje su ubrajane u globalnom ažuriranju</string>
-    <string name="all" formatted="false">Sve</string>
-    <string name="pref_library_update_restriction" formatted="false">Restrikcije ažuriranja biblioteke</string>
-    <string name="pref_library_update_restriction_summary" formatted="false">Ažuriraj samo kada su uslovi zadovoljeni</string>
-    <string name="wifi" formatted="false">Wi-Fi</string>
-    <string name="charging" formatted="false">Punjenje</string>
-    <string name="pref_update_only_non_completed" formatted="false">Samo ažuriraj mangu koja je u toku</string>
-    <string name="pref_auto_update_manga_sync" formatted="false">Sinhronizuj poglavlja nakon čitanja</string>
-    <string name="pref_start_screen" formatted="false">Početni ekran</string>
-    <string name="pref_language" formatted="false">Jezik</string>
-    <string name="system_default" formatted="false">Podrazumevani</string>
-    <string name="default_category" formatted="false">Podrazumevana kategorija</string>
-    <string name="default_category_summary" formatted="false">Uvijek pitaj</string>
-    <string name="all_lang" formatted="false">Sve</string>
-    <string name="ext_details" formatted="false">Detalji</string>
-    <string name="ext_update" formatted="false">Ažuriraj</string>
-    <string name="ext_install" formatted="false">Instaliraj</string>
-    <string name="ext_pending" formatted="false">U toku</string>
-    <string name="ext_downloading" formatted="false">Preuzima se</string>
-    <string name="ext_installing" formatted="false">Instaliranje</string>
-    <string name="ext_installed" formatted="false">Instalirano</string>
-    <string name="ext_trust" formatted="false">Veruj</string>
-    <string name="ext_untrusted" formatted="false">Ne veruj</string>
-    <string name="ext_uninstall" formatted="false">Izbriši</string>
-    <string name="ext_preferences" formatted="false">Prefrence</string>
-    <string name="ext_available" formatted="false">Dostupno</string>
-    <string name="untrusted_extension" formatted="false">Nepouzdan dodatak</string>
-    <string name="untrusted_extension_message" formatted="false">Ova ekstenzija je potpisana nepovjerljivim sertifikatima i nije aktivirana,.
+    <string name="name">Ime</string>
+    <string name="categories">Kategorije</string>
+    <string name="manga">Manga</string>
+    <string name="chapters">Poglavlje</string>
+    <string name="track">Praćenje</string>
+    <string name="history">Istorija</string>
+    <string name="label_settings">Podešavanja</string>
+    <string name="label_download_queue">Redosled preuzimanja</string>
+    <string name="label_library">Biblioteka</string>
+    <string name="label_recent_manga">Istorija</string>
+    <string name="label_recent_updates">Apdejti</string>
+    <string name="label_categories">Kategorije</string>
+    <string name="label_backup">Rezerva</string>
+    <string name="label_migration">Migracija izvora</string>
+    <string name="label_extensions">Dodaci</string>
+    <string name="label_extension_info">Informacije o dodatku</string>
+    <string name="action_settings">Podešavanja</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_filter_downloaded">Preuzeto</string>
+    <string name="action_filter_bookmarked">Zabilježeno</string>
+    <string name="action_filter_unread">Nepročitano</string>
+    <string name="action_filter_read">Pročitano</string>
+    <string name="action_filter_empty">Ukloni filter</string>
+    <string name="action_sort_alpha">Alfabetno</string>
+    <string name="action_sort_total">Ukupno poglavlja</string>
+    <string name="action_sort_last_read">Zadnje čitano</string>
+    <string name="action_search">Pretraži</string>
+    <string name="action_global_search">Pretraži globalno</string>
+    <string name="action_select_all">Izaberi sve</string>
+    <string name="action_mark_as_read">Označi kao pročitano</string>
+    <string name="action_mark_as_unread">Označi kao nepročitano</string>
+    <string name="action_mark_previous_as_read">Označi prijošnje kao pročitano</string>
+    <string name="action_download">Preuzmi</string>
+    <string name="action_bookmark">Označi</string>
+    <string name="action_remove_bookmark">Ukloni oznaku</string>
+    <string name="action_delete">Obriši</string>
+    <string name="action_update">Ažuriraj</string>
+    <string name="action_update_library">Ažuriraj biblioteku</string>
+    <string name="action_edit">Uredi</string>
+    <string name="action_add">Dodaj</string>
+    <string name="action_add_category">Dodaj kategoriju</string>
+    <string name="action_edit_categories">Uredi kategorije</string>
+    <string name="action_rename_category">Preimenuj kategoriju</string>
+    <string name="action_move_category">Izaberi kategorije</string>
+    <string name="action_edit_cover">Promeni naslovnu sliku</string>
+    <string name="action_sort_up">Sortiraj odozgo</string>
+    <string name="action_sort_down">Sortiraj odozdo</string>
+    <string name="action_show_downloaded">Preuzeto</string>
+    <string name="action_next_unread">Sledeće nepročitano</string>
+    <string name="action_start">Počni</string>
+    <string name="action_stop">Zaustavi</string>
+    <string name="action_pause">Pauziraj</string>
+    <string name="action_close">Zatvori</string>
+    <string name="action_previous_chapter">Prijašnje poglavlje</string>
+    <string name="action_next_chapter">Naredno poglavlje</string>
+    <string name="action_retry">Pokušaj ponovo</string>
+    <string name="action_remove">Obriši</string>
+    <string name="action_resume">Nastavi</string>
+    <string name="action_move">Premesti</string>
+    <string name="action_open_in_browser">Otvori u pretraživaču</string>
+    <string name="action_display_mode">Vrsta displeja</string>
+    <string name="action_display">Ekran</string>
+    <string name="action_display_grid">Mreža</string>
+    <string name="action_display_list">Lista</string>
+    <string name="action_display_download_badge">Oznake preuzimanja</string>
+    <string name="action_cancel">Prekini</string>
+    <string name="action_sort">Sortiraj</string>
+    <string name="action_install">Instaliraj</string>
+    <string name="action_share">Podeli</string>
+    <string name="action_save">Sačuvaj</string>
+    <string name="action_reset">Resetuj</string>
+    <string name="action_undo">Vrati nazad</string>
+    <string name="action_open_log">Otvori zapisnik</string>
+    <string name="action_create">Napravi</string>
+    <string name="action_restore">Povrati</string>
+    <string name="action_open">Otvori</string>
+    <string name="action_login">Prijavi se</string>
+    <string name="loading">Učitavanje…</string>
+    <string name="app_not_available">Aplikacija nije dostupna</string>
+    <string name="short_recent_updates">Ažuriranja</string>
+    <string name="pref_category_general">Opšte</string>
+    <string name="pref_category_reader">Čitač</string>
+    <string name="pref_category_downloads">Preuzimanja</string>
+    <string name="pref_category_tracking">Praćenja</string>
+    <string name="pref_category_advanced">Napredno</string>
+    <string name="pref_category_about">O</string>
+    <string name="pref_library_columns">Broj Manga po redu u biblioteci</string>
+    <string name="portrait">Vertikalno</string>
+    <string name="landscape">Horizontalno</string>
+    <string name="default_columns">Podrazumevano</string>
+    <string name="pref_library_update_interval">Učestalost ažuriranja biblioteke</string>
+    <string name="update_never">Ručno</string>
+    <string name="update_1hour">Jednočasovno</string>
+    <string name="update_2hour">Dvočasovno</string>
+    <string name="update_3hour">Tročasovno</string>
+    <string name="update_6hour">Šestočasovno</string>
+    <string name="update_12hour">Dvanestočasovno</string>
+    <string name="update_24hour">Dnevno</string>
+    <string name="update_48hour">Svaka 2 dana</string>
+    <string name="update_weekly">Nedeljno</string>
+    <string name="update_monthly">Mjesečno</string>
+    <string name="pref_library_update_categories">Kategorije koje su ubrajane u globalnom ažuriranju</string>
+    <string name="all">Sve</string>
+    <string name="pref_library_update_restriction">Restrikcije ažuriranja biblioteke</string>
+    <string name="pref_library_update_restriction_summary">Ažuriraj samo kada su uslovi zadovoljeni</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="charging">Punjenje</string>
+    <string name="pref_update_only_non_completed">Samo ažuriraj mangu koja je u toku</string>
+    <string name="pref_auto_update_manga_sync">Sinhronizuj poglavlja nakon čitanja</string>
+    <string name="pref_start_screen">Početni ekran</string>
+    <string name="pref_language">Jezik</string>
+    <string name="system_default">Podrazumevani</string>
+    <string name="default_category">Podrazumevana kategorija</string>
+    <string name="default_category_summary">Uvijek pitaj</string>
+    <string name="all_lang">Sve</string>
+    <string name="ext_details">Detalji</string>
+    <string name="ext_update">Ažuriraj</string>
+    <string name="ext_install">Instaliraj</string>
+    <string name="ext_pending">U toku</string>
+    <string name="ext_downloading">Preuzima se</string>
+    <string name="ext_installing">Instaliranje</string>
+    <string name="ext_installed">Instalirano</string>
+    <string name="ext_trust">Veruj</string>
+    <string name="ext_untrusted">Ne veruj</string>
+    <string name="ext_uninstall">Izbriši</string>
+    <string name="ext_preferences">Prefrence</string>
+    <string name="ext_available">Dostupno</string>
+    <string name="untrusted_extension">Nepouzdan dodatak</string>
+    <string name="untrusted_extension_message">Ova ekstenzija je potpisana nepovjerljivim sertifikatima i nije aktivirana,.
 \n 
 \nŠtetne ekstenzije mogu čitati podatke o prijavi sačuvane u Tachiyomi-u ili pokrenuti proizvoljan kod. 
 \n 
 \nVerujući ovom sertifikatu vi prihvatate ove rizike.</string>
-    <string name="ext_version_info" formatted="false">Verzija: %1$s</string>
-    <string name="ext_language_info" formatted="false">Jezik: %1$s</string>
-    <string name="ext_empty_preferences" formatted="false">Nema prefrenca za podešavanje na ovom dodatku</string>
-    <string name="pref_fullscreen" formatted="false">Ceo ekran</string>
-    <string name="pref_lock_orientation" formatted="false">Zaključaj orjentaciju</string>
-    <string name="pref_page_transitions" formatted="false">Prelaz stranica</string>
-    <string name="pref_double_tap_anim_speed" formatted="false">Brzina animacije dvoklika</string>
-    <string name="pref_show_page_number" formatted="false">Prikaži broj stranice</string>
-    <string name="pref_crop_borders" formatted="false">Iseci krajeve</string>
-    <string name="pref_custom_brightness" formatted="false">Koristi posebnu osvjetljenost</string>
-    <string name="pref_custom_color_filter" formatted="false">Koristi poseban filter boja</string>
-    <string name="pref_keep_screen_on" formatted="false">Ostavi ekran upaljen</string>
-    <string name="pref_reader_navigation" formatted="false">Navigacija</string>
-    <string name="pref_read_with_volume_keys" formatted="false">Dugmići za zvuk</string>
-    <string name="pref_read_with_volume_keys_inverted" formatted="false">Invertuj dugmiće za zvuk</string>
-    <string name="pref_read_with_tapping" formatted="false">Tapkanje</string>
-    <string name="pref_reader_theme" formatted="false">Boja pozadine</string>
-    <string name="white_background" formatted="false">Bela</string>
-    <string name="black_background" formatted="false">Crna</string>
-    <string name="pref_viewer_type" formatted="false">Podrazumevani pregledač</string>
-    <string name="default_viewer" formatted="false">Podrazumevano</string>
-    <string name="left_to_right_viewer" formatted="false">S leva na desno</string>
-    <string name="right_to_left_viewer" formatted="false">S desna na levo</string>
-    <string name="vertical_viewer" formatted="false">Verticalno</string>
-    <string name="webtoon_viewer" formatted="false">Webtoon</string>
-    <string name="pager_viewer" formatted="false">Stranično</string>
-    <string name="pref_image_decoder" formatted="false">Dekoder slika</string>
-    <string name="pref_image_scale_type" formatted="false">Tip skaliranja</string>
-    <string name="scale_type_fit_screen" formatted="false">Popuni ekran</string>
-    <string name="scale_type_stretch" formatted="false">Razvuci</string>
-    <string name="scale_type_fit_width" formatted="false">Popuni širinu</string>
-    <string name="scale_type_fit_height" formatted="false">Popuni visinu</string>
-    <string name="scale_type_original_size" formatted="false">Originalna veličina</string>
-    <string name="scale_type_smart_fit" formatted="false">Pametno popunjavanje</string>
-    <string name="pref_zoom_start" formatted="false">Uvećana početna pozicija</string>
-    <string name="zoom_start_automatic" formatted="false">Automatsko</string>
-    <string name="zoom_start_left" formatted="false">Levo</string>
-    <string name="zoom_start_right" formatted="false">Desno</string>
-    <string name="zoom_start_center" formatted="false">Sredina</string>
-    <string name="double_tap_anim_speed_0" formatted="false">Bez animacija</string>
-    <string name="double_tap_anim_speed_normal" formatted="false">Normalno</string>
-    <string name="double_tap_anim_speed_fast" formatted="false">Brzo</string>
-    <string name="pref_rotation_type" formatted="false">Rotacija</string>
-    <string name="rotation_free" formatted="false">Slovodno</string>
-    <string name="rotation_lock" formatted="false">Zaključano</string>
-    <string name="rotation_force_portrait" formatted="false">Forsirano vertikalno</string>
-    <string name="rotation_force_landscape" formatted="false">Forsirano horizontalno</string>
-    <string name="color_filter_r_value" formatted="false">"R "</string>
-    <string name="color_filter_g_value" formatted="false">G</string>
-    <string name="color_filter_b_value" formatted="false">B</string>
-    <string name="color_filter_a_value" formatted="false">A</string>
-    <string name="pref_download_directory" formatted="false">Lokacija preuzimanja</string>
-    <string name="pref_download_only_over_wifi" formatted="false">Preuzimaj samo putem Wi-Fi -a</string>
-    <string name="pref_remove_after_marked_as_read" formatted="false">Obriši kada je označeno kao pročitano</string>
-    <string name="pref_remove_after_read" formatted="false">Obriši nakon čitanja</string>
-    <string name="custom_dir" formatted="false">Posebna lokacija</string>
-    <string name="disabled" formatted="false">Onemogućeno</string>
-    <string name="last_read_chapter" formatted="false">Poslednje pročitano poglavlje</string>
-    <string name="second_to_last" formatted="false">Predzadnje pročitano poglavlje</string>
-    <string name="third_to_last" formatted="false">Pred-predzadnje pročitano poglavlje</string>
-    <string name="fourth_to_last" formatted="false">Četiri prije pročitanog poglavlja</string>
-    <string name="fifth_to_last" formatted="false">Pet do pročitanog poglavlja</string>
-    <string name="pref_download_new" formatted="false">Preuzmi nova poglavlja</string>
-    <string name="pref_download_new_categories" formatted="false">Kategorije ubrajane u preuzimanju</string>
-    <string name="services" formatted="false">Servisi</string>
-    <string name="backup" formatted="false">Rezerna kopija</string>
-    <string name="pref_create_backup" formatted="false">Napravi rezernu kopiju</string>
-    <string name="pref_create_backup_summ" formatted="false">Može biti korišćeno da vrati trenutnu biblioteku</string>
-    <string name="pref_restore_backup" formatted="false">Vrati rezernu kopiju</string>
-    <string name="pref_restore_backup_summ" formatted="false">Vrati biblioteku iz fajla rezerne kopije</string>
-    <string name="pref_backup_directory" formatted="false">Lokacija sa bezbednim kopijama</string>
-    <string name="pref_backup_service_category" formatted="false">Servis</string>
-    <string name="pref_backup_interval" formatted="false">Učestalost pravljenja rezernih kopija</string>
-    <string name="pref_backup_slots" formatted="false">Maksimalano automatskih rezernih kopija</string>
-    <string name="source_not_found" formatted="false">Izvor nije pronađen</string>
-    <string name="backup_created" formatted="false">Rezerna kopija napravljena</string>
-    <string name="restore_completed" formatted="false">Vraćanje završeno</string>
-    <string name="restore_completed_content" formatted="false">Vraćanju trebalo %1$s, %2$s grešaka pronađeno</string>
-    <string name="backup_restore_content" formatted="false">Vraćanja koriste izvore da preuzima podatke, troškovi prenošenja se mogu primeniti.
+    <string name="ext_version_info">Verzija: %1$s</string>
+    <string name="ext_language_info">Jezik: %1$s</string>
+    <string name="ext_empty_preferences">Nema prefrenca za podešavanje na ovom dodatku</string>
+    <string name="pref_fullscreen">Ceo ekran</string>
+    <string name="pref_lock_orientation">Zaključaj orjentaciju</string>
+    <string name="pref_page_transitions">Prelaz stranica</string>
+    <string name="pref_double_tap_anim_speed">Brzina animacije dvoklika</string>
+    <string name="pref_show_page_number">Prikaži broj stranice</string>
+    <string name="pref_crop_borders">Iseci krajeve</string>
+    <string name="pref_custom_brightness">Koristi posebnu osvjetljenost</string>
+    <string name="pref_custom_color_filter">Koristi poseban filter boja</string>
+    <string name="pref_keep_screen_on">Ostavi ekran upaljen</string>
+    <string name="pref_reader_navigation">Navigacija</string>
+    <string name="pref_read_with_volume_keys">Dugmići za zvuk</string>
+    <string name="pref_read_with_volume_keys_inverted">Invertuj dugmiće za zvuk</string>
+    <string name="pref_read_with_tapping">Tapkanje</string>
+    <string name="pref_reader_theme">Boja pozadine</string>
+    <string name="white_background">Bela</string>
+    <string name="black_background">Crna</string>
+    <string name="pref_viewer_type">Podrazumevani pregledač</string>
+    <string name="default_viewer">Podrazumevano</string>
+    <string name="left_to_right_viewer">S leva na desno</string>
+    <string name="right_to_left_viewer">S desna na levo</string>
+    <string name="vertical_viewer">Verticalno</string>
+    <string name="webtoon_viewer">Webtoon</string>
+    <string name="pager_viewer">Stranično</string>
+    <string name="pref_image_decoder">Dekoder slika</string>
+    <string name="pref_image_scale_type">Tip skaliranja</string>
+    <string name="scale_type_fit_screen">Popuni ekran</string>
+    <string name="scale_type_stretch">Razvuci</string>
+    <string name="scale_type_fit_width">Popuni širinu</string>
+    <string name="scale_type_fit_height">Popuni visinu</string>
+    <string name="scale_type_original_size">Originalna veličina</string>
+    <string name="scale_type_smart_fit">Pametno popunjavanje</string>
+    <string name="pref_zoom_start">Uvećana početna pozicija</string>
+    <string name="zoom_start_automatic">Automatsko</string>
+    <string name="zoom_start_left">Levo</string>
+    <string name="zoom_start_right">Desno</string>
+    <string name="zoom_start_center">Sredina</string>
+    <string name="double_tap_anim_speed_0">Bez animacija</string>
+    <string name="double_tap_anim_speed_normal">Normalno</string>
+    <string name="double_tap_anim_speed_fast">Brzo</string>
+    <string name="pref_rotation_type">Rotacija</string>
+    <string name="rotation_free">Slovodno</string>
+    <string name="rotation_lock">Zaključano</string>
+    <string name="rotation_force_portrait">Forsirano vertikalno</string>
+    <string name="rotation_force_landscape">Forsirano horizontalno</string>
+    <string name="color_filter_r_value">"R "</string>
+    <string name="color_filter_g_value">G</string>
+    <string name="color_filter_b_value">B</string>
+    <string name="color_filter_a_value">A</string>
+    <string name="pref_download_directory">Lokacija preuzimanja</string>
+    <string name="pref_download_only_over_wifi">Preuzimaj samo putem Wi-Fi -a</string>
+    <string name="pref_remove_after_marked_as_read">Obriši kada je označeno kao pročitano</string>
+    <string name="pref_remove_after_read">Obriši nakon čitanja</string>
+    <string name="custom_dir">Posebna lokacija</string>
+    <string name="disabled">Onemogućeno</string>
+    <string name="last_read_chapter">Poslednje pročitano poglavlje</string>
+    <string name="second_to_last">Predzadnje pročitano poglavlje</string>
+    <string name="third_to_last">Pred-predzadnje pročitano poglavlje</string>
+    <string name="fourth_to_last">Četiri prije pročitanog poglavlja</string>
+    <string name="fifth_to_last">Pet do pročitanog poglavlja</string>
+    <string name="pref_download_new">Preuzmi nova poglavlja</string>
+    <string name="pref_download_new_categories">Kategorije ubrajane u preuzimanju</string>
+    <string name="services">Servisi</string>
+    <string name="backup">Rezerna kopija</string>
+    <string name="pref_create_backup">Napravi rezernu kopiju</string>
+    <string name="pref_create_backup_summ">Može biti korišćeno da vrati trenutnu biblioteku</string>
+    <string name="pref_restore_backup">Vrati rezernu kopiju</string>
+    <string name="pref_restore_backup_summ">Vrati biblioteku iz fajla rezerne kopije</string>
+    <string name="pref_backup_directory">Lokacija sa bezbednim kopijama</string>
+    <string name="pref_backup_service_category">Servis</string>
+    <string name="pref_backup_interval">Učestalost pravljenja rezernih kopija</string>
+    <string name="pref_backup_slots">Maksimalano automatskih rezernih kopija</string>
+    <string name="source_not_found">Izvor nije pronađen</string>
+    <string name="backup_created">Rezerna kopija napravljena</string>
+    <string name="restore_completed">Vraćanje završeno</string>
+    <string name="restore_completed_content">Vraćanju trebalo %1$s, %2$s grešaka pronađeno</string>
+    <string name="backup_restore_content">Vraćanja koriste izvore da preuzima podatke, troškovi prenošenja se mogu primeniti.
 \n
 \nProvjerite jeste li instalirali sva potrebna proširenja i prijavljeni ste u izvore i usluge praćenja prije vraćanja.</string>
-    <string name="backup_choice" formatted="false">\?Šta želite da stavite u rezernu kopiju\?</string>
-    <string name="restoring_backup" formatted="false">Vraćanje rezerne kopije</string>
-    <string name="creating_backup" formatted="false">Pravljenje rezerne kopije</string>
-    <string name="pref_clear_chapter_cache" formatted="false">Izbriši keš poglavlja</string>
-    <string name="used_cache" formatted="false">Koristio: %1$s</string>
-    <string name="cache_deleted" formatted="false">Keš izbrisan, %1$d fajlova je izbrisano</string>
-    <string name="cache_delete_error" formatted="false">Greška se desila tokom brisanja keša</string>
-    <string name="pref_clear_cookies" formatted="false">Izbriši kolačiće</string>
-    <string name="cookies_cleared" formatted="false">Kolačići izbrisani</string>
-    <string name="choices_reset" formatted="false">Izbori dialoga resetovani</string>
-    <string name="pref_clear_database" formatted="false">Izbriši baze podataka</string>
-    <string name="pref_clear_database_summary" formatted="false">Izbriši mange i poglavlja koji nisu u vašoj biblioteci</string>
-    <string name="clear_database_confirmation" formatted="false">Da li ste sigurni\? Pročitana poglavlja i progres manga koje nisu u biblioteci će biti izgubljen</string>
-    <string name="clear_database_completed" formatted="false">Unosi izbrisani</string>
-    <string name="pref_refresh_library_metadata" formatted="false">Osvježi metada biblioteke</string>
-    <string name="pref_refresh_library_metadata_summary" formatted="false">Ažuriraj naslovnice, žanrove, deskripcije i status informacije o mangama</string>
-    <string name="pref_refresh_library_tracking" formatted="false">Osvježi metadatu praćenja</string>
-    <string name="pref_refresh_library_tracking_summary" formatted="false">Ažuriraj status, ocenu i poslednje poglavlje pročitano na izvorima praćenja</string>
-    <string name="version" formatted="false">Verzija</string>
-    <string name="build_time" formatted="false">Vrijema pravljenja</string>
-    <string name="pref_enable_acra" formatted="false">Pošalji izveštaje grešaka</string>
-    <string name="pref_acra_summary" formatted="false">Pomozi u popravljanju bugova. Nijedan sensitivan podatak neće biti poslat</string>
-    <string name="login_title" formatted="false">Prijavi se do %1$s</string>
-    <string name="username" formatted="false">Korisničko ime</string>
-    <string name="password" formatted="false">Lozinka</string>
-    <string name="show_password" formatted="false">Prikaži lozinku</string>
-    <string name="login" formatted="false">Prijavi se</string>
-    <string name="login_success" formatted="false">Prijavljeni ste</string>
-    <string name="invalid_login" formatted="false">Neuspešno prijavljivanje</string>
-    <string name="unknown_error" formatted="false">Nepoznata greška</string>
-    <string name="library_search_hint" formatted="false">Ime ili autor…</string>
-    <string name="updating_category" formatted="false">Ažuriranje kategorije</string>
-    <string name="local_source_badge" formatted="false">Lokalno</string>
-    <string name="confirm_delete_manga" formatted="false">Da li ste sigurni da želite da uklonite označenu mangu\?</string>
-    <string name="also_delete_chapters" formatted="false">Takođe obriši preuzeta poglavlja</string>
-    <string name="source_requires_login" formatted="false">Na ovom izvoru je potrebno prijaviti se</string>
-    <string name="select_source" formatted="false">Izaberi izvor</string>
-    <string name="no_valid_sources" formatted="false">Molimo izaberite bar jedan validan izvor</string>
-    <string name="no_more_results" formatted="false">Nema više rezultata</string>
-    <string name="local_source" formatted="false">Lokalni izvori</string>
-    <string name="other_source" formatted="false">Ostalo</string>
-    <string name="invalid_combination" formatted="false">Opšte je nemoguće označiti sa ostalim kategorijama</string>
-    <string name="added_to_library" formatted="false">Ova manga je dodata u biblioteku</string>
-    <string name="action_global_search_hint" formatted="false">Globalno pretraživanje…</string>
-    <string name="latest" formatted="false">Poslednje</string>
-    <string name="browse" formatted="false">Pretraži</string>
-    <string name="manga_not_in_db" formatted="false">Ova manga je uklonjena iz baze podataka.</string>
-    <string name="manga_detail_tab" formatted="false">Informacije</string>
-    <string name="description" formatted="false">Deskripcija</string>
-    <string name="ongoing" formatted="false">U toku</string>
-    <string name="unknown" formatted="false">Nepoznato</string>
-    <string name="licensed" formatted="false">Licencirana</string>
-    <string name="remove_from_library" formatted="false">Obriši iz biblioteke</string>
-    <string name="manga_info_full_title_label" formatted="false">Ime</string>
-    <string name="manga_added_library" formatted="false">Dodato u biblioteku</string>
-    <string name="manga_removed_library" formatted="false">Uklonjeno iz biblioteke</string>
-    <string name="manga_info_author_label" formatted="false">Autor</string>
-    <string name="manga_info_artist_label" formatted="false">Umjetnik</string>
-    <string name="manga_info_chapters_label" formatted="false">Poglavlja</string>
-    <string name="manga_info_status_label" formatted="false">Status</string>
-    <string name="manga_info_source_label" formatted="false">Izvor</string>
-    <string name="manga_info_genres_label" formatted="false">Žanr</string>
-    <string name="delete_downloads_for_manga" formatted="false">Obriši preuzeta poglavlja\?</string>
-    <string name="copied_to_clipboard" formatted="false">Kopirano
+    <string name="backup_choice">\?Šta želite da stavite u rezernu kopiju\?</string>
+    <string name="restoring_backup">Vraćanje rezerne kopije</string>
+    <string name="creating_backup">Pravljenje rezerne kopije</string>
+    <string name="pref_clear_chapter_cache">Izbriši keš poglavlja</string>
+    <string name="used_cache">Koristio: %1$s</string>
+    <string name="cache_deleted">Keš izbrisan, %1$d fajlova je izbrisano</string>
+    <string name="cache_delete_error">Greška se desila tokom brisanja keša</string>
+    <string name="pref_clear_cookies">Izbriši kolačiće</string>
+    <string name="cookies_cleared">Kolačići izbrisani</string>
+    <string name="choices_reset">Izbori dialoga resetovani</string>
+    <string name="pref_clear_database">Izbriši baze podataka</string>
+    <string name="pref_clear_database_summary">Izbriši mange i poglavlja koji nisu u vašoj biblioteci</string>
+    <string name="clear_database_confirmation">Da li ste sigurni\? Pročitana poglavlja i progres manga koje nisu u biblioteci će biti izgubljen</string>
+    <string name="clear_database_completed">Unosi izbrisani</string>
+    <string name="pref_refresh_library_metadata">Osvježi metada biblioteke</string>
+    <string name="pref_refresh_library_metadata_summary">Ažuriraj naslovnice, žanrove, deskripcije i status informacije o mangama</string>
+    <string name="pref_refresh_library_tracking">Osvježi metadatu praćenja</string>
+    <string name="pref_refresh_library_tracking_summary">Ažuriraj status, ocenu i poslednje poglavlje pročitano na izvorima praćenja</string>
+    <string name="version">Verzija</string>
+    <string name="build_time">Vrijema pravljenja</string>
+    <string name="pref_enable_acra">Pošalji izveštaje grešaka</string>
+    <string name="pref_acra_summary">Pomozi u popravljanju bugova. Nijedan sensitivan podatak neće biti poslat</string>
+    <string name="login_title">Prijavi se do %1$s</string>
+    <string name="username">Korisničko ime</string>
+    <string name="password">Lozinka</string>
+    <string name="show_password">Prikaži lozinku</string>
+    <string name="login">Prijavi se</string>
+    <string name="login_success">Prijavljeni ste</string>
+    <string name="invalid_login">Neuspešno prijavljivanje</string>
+    <string name="unknown_error">Nepoznata greška</string>
+    <string name="library_search_hint">Ime ili autor…</string>
+    <string name="updating_category">Ažuriranje kategorije</string>
+    <string name="local_source_badge">Lokalno</string>
+    <string name="confirm_delete_manga">Da li ste sigurni da želite da uklonite označenu mangu\?</string>
+    <string name="also_delete_chapters">Takođe obriši preuzeta poglavlja</string>
+    <string name="source_requires_login">Na ovom izvoru je potrebno prijaviti se</string>
+    <string name="select_source">Izaberi izvor</string>
+    <string name="no_valid_sources">Molimo izaberite bar jedan validan izvor</string>
+    <string name="no_more_results">Nema više rezultata</string>
+    <string name="local_source">Lokalni izvori</string>
+    <string name="other_source">Ostalo</string>
+    <string name="invalid_combination">Opšte je nemoguće označiti sa ostalim kategorijama</string>
+    <string name="added_to_library">Ova manga je dodata u biblioteku</string>
+    <string name="action_global_search_hint">Globalno pretraživanje…</string>
+    <string name="latest">Poslednje</string>
+    <string name="browse">Pretraži</string>
+    <string name="manga_not_in_db">Ova manga je uklonjena iz baze podataka.</string>
+    <string name="manga_detail_tab">Informacije</string>
+    <string name="description">Deskripcija</string>
+    <string name="ongoing">U toku</string>
+    <string name="unknown">Nepoznato</string>
+    <string name="licensed">Licencirana</string>
+    <string name="remove_from_library">Obriši iz biblioteke</string>
+    <string name="manga_info_full_title_label">Ime</string>
+    <string name="manga_added_library">Dodato u biblioteku</string>
+    <string name="manga_removed_library">Uklonjeno iz biblioteke</string>
+    <string name="manga_info_author_label">Autor</string>
+    <string name="manga_info_artist_label">Umjetnik</string>
+    <string name="manga_info_chapters_label">Poglavlja</string>
+    <string name="manga_info_status_label">Status</string>
+    <string name="manga_info_source_label">Izvor</string>
+    <string name="manga_info_genres_label">Žanr</string>
+    <string name="delete_downloads_for_manga">Obriši preuzeta poglavlja\?</string>
+    <string name="copied_to_clipboard">Kopirano
 \n%1$s</string>
-    <string name="source_not_installed" formatted="false">Izvor nije instaliran: %1$s</string>
-    <string name="manga_chapters_tab" formatted="false">Poglavlja</string>
-    <string name="manga_chapter_no_title" formatted="false">Nema naslova</string>
-    <string name="display_mode_chapter" formatted="false">Poglavlje %1$s</string>
-    <string name="chapter_downloaded" formatted="false">Preuzeto</string>
-    <string name="chapter_queued" formatted="false">U redu za preuzimanje</string>
-    <string name="chapter_downloading" formatted="false">Preuzima se</string>
-    <string name="chapter_downloading_progress" formatted="false">Preuzimam (%1$d/%2$d)</string>
-    <string name="chapter_error" formatted="false">Greška</string>
-    <string name="chapter_paused" formatted="false">Pauzirano</string>
-    <string name="fetch_chapters_error" formatted="false">Ne mogu se dobiti poglavlja</string>
-    <string name="show_title" formatted="false">Naslov</string>
-    <string name="show_chapter_number" formatted="false">Broj poglavlja</string>
-    <string name="sorting_mode" formatted="false">Model sortiranja</string>
-    <string name="pref_read_with_long_tap" formatted="false">Dialog kod dugog pritiska</string>
-    <string name="sort_by_source" formatted="false">Prema izvoru</string>
-    <string name="sort_by_number" formatted="false">Prema broju poglavlja</string>
-    <string name="manga_download" formatted="false">Preuzmi</string>
-    <string name="custom_download" formatted="false">Preuzmi određen broj</string>
-    <string name="download_1" formatted="false">Sledeće poglavlje</string>
-    <string name="download_5" formatted="false">Sledećih 5 poglavlja</string>
-    <string name="download_10" formatted="false">Sledećih 10 poglavlja</string>
-    <string name="download_custom" formatted="false">Određeno</string>
-    <string name="download_all" formatted="false">Sve</string>
-    <string name="download_unread" formatted="false">Nepročitano</string>
-    <string name="confirm_delete_chapters" formatted="false">Da li ste sigurni da želite da obrišete sledeća poglavlja\?</string>
-    <string name="action_open_in_web_view" formatted="false">Otvori u Web pregledu</string>
-    <string name="pref_true_color" formatted="false">32-bitna boja</string>
-    <string name="pref_skip_read_chapters" formatted="false">Preskoči poglavlja označena kao pročitana</string>
-    <string name="filter_mode_default" formatted="false">Normalno</string>
-    <string name="filter_mode_multiply" formatted="false">Umnoži</string>
-    <string name="filter_mode_screen" formatted="false">Ekran</string>
-    <string name="label_help" formatted="false">Pomoć</string>
-    <string name="no_results_found" formatted="false">Nema pronadjenih rezultata</string>
-    <string name="action_webview_back" formatted="false">Nazad</string>
-    <string name="action_webview_forward" formatted="false">Napred</string>
-    <string name="action_webview_refresh" formatted="false">Osveži</string>
-    <string name="pref_category_library" formatted="false">Biblioteka</string>
-    <string name="obsolete_extension_message" formatted="false">Ova ekstenzija nije više dostupna.</string>
-    <string name="pref_date_format" formatted="false">Format datuma</string>
-    <string name="pref_category_library_update" formatted="false">Apdejti</string>
-    <string name="pref_category_library_categories" formatted="false">Kategorije</string>
-    <string name="logout_title" formatted="false">Izloguj se od %1$s\?</string>
-    <string name="logout" formatted="false">Izloguj se</string>
-    <string name="logout_success" formatted="false">Sada ste izlogovani</string>
-    <string name="label_more" formatted="false">Još</string>
-    <string name="action_sort_latest_chapter" formatted="false">Poslednje poglavlje</string>
-    <string name="action_view_chapters" formatted="false">Pogledaj poglavlja</string>
-    <string name="action_cancel_all" formatted="false">Otkaži sve</string>
-    <string name="pref_theme_mode" formatted="false">Tema aplikacije</string>
-    <string name="theme_light" formatted="false">Svetlo</string>
-    <string name="theme_dark" formatted="false">Tamno</string>
-    <string name="theme_system" formatted="false">Prati sistem</string>
-    <string name="pref_theme_dark" formatted="false">Varijanta tamne teme</string>
-    <string name="theme_dark_default" formatted="false">Normalno</string>
-    <string name="theme_dark_blue" formatted="false">Tamno plavo</string>
-    <string name="theme_dark_amoled" formatted="false">AMOLED crno</string>
-    <string name="pref_manage_notifications" formatted="false">Podesi notifikacije</string>
-    <string name="pref_category_security" formatted="false">Bezbednost</string>
-    <string name="lock_when_idle" formatted="false">Zaključaj kada nekorišćeno</string>
-    <string name="lock_always" formatted="false">Uvek</string>
-    <string name="lock_never" formatted="false">Nikad</string>
-    <plurals name="lock_after_mins" formatted="false">
-        <item quantity="one" formatted="false">Posle 1 minut</item>
-        <item quantity="few" formatted="false">Posle %1$s minuta</item>
-        <item quantity="other" formatted="false">Posle %1$s minuta</item>
+    <string name="source_not_installed">Izvor nije instaliran: %1$s</string>
+    <string name="manga_chapters_tab">Poglavlja</string>
+    <string name="manga_chapter_no_title">Nema naslova</string>
+    <string name="display_mode_chapter">Poglavlje %1$s</string>
+    <string name="chapter_downloaded">Preuzeto</string>
+    <string name="chapter_queued">U redu za preuzimanje</string>
+    <string name="chapter_downloading">Preuzima se</string>
+    <string name="chapter_downloading_progress">Preuzimam (%1$d/%2$d)</string>
+    <string name="chapter_error">Greška</string>
+    <string name="chapter_paused">Pauzirano</string>
+    <string name="fetch_chapters_error">Ne mogu se dobiti poglavlja</string>
+    <string name="show_title">Naslov</string>
+    <string name="show_chapter_number">Broj poglavlja</string>
+    <string name="sorting_mode">Model sortiranja</string>
+    <string name="pref_read_with_long_tap">Dialog kod dugog pritiska</string>
+    <string name="sort_by_source">Prema izvoru</string>
+    <string name="sort_by_number">Prema broju poglavlja</string>
+    <string name="manga_download">Preuzmi</string>
+    <string name="custom_download">Preuzmi određen broj</string>
+    <string name="download_1">Sledeće poglavlje</string>
+    <string name="download_5">Sledećih 5 poglavlja</string>
+    <string name="download_10">Sledećih 10 poglavlja</string>
+    <string name="download_custom">Određeno</string>
+    <string name="download_all">Sve</string>
+    <string name="download_unread">Nepročitano</string>
+    <string name="confirm_delete_chapters">Da li ste sigurni da želite da obrišete sledeća poglavlja\?</string>
+    <string name="action_open_in_web_view">Otvori u Web pregledu</string>
+    <string name="pref_true_color">32-bitna boja</string>
+    <string name="pref_skip_read_chapters">Preskoči poglavlja označena kao pročitana</string>
+    <string name="filter_mode_default">Normalno</string>
+    <string name="filter_mode_multiply">Umnoži</string>
+    <string name="filter_mode_screen">Ekran</string>
+    <string name="label_help">Pomoć</string>
+    <string name="no_results_found">Nema pronadjenih rezultata</string>
+    <string name="action_webview_back">Nazad</string>
+    <string name="action_webview_forward">Napred</string>
+    <string name="action_webview_refresh">Osveži</string>
+    <string name="pref_category_library">Biblioteka</string>
+    <string name="obsolete_extension_message">Ova ekstenzija nije više dostupna.</string>
+    <string name="pref_date_format">Format datuma</string>
+    <string name="pref_category_library_update">Apdejti</string>
+    <string name="pref_category_library_categories">Kategorije</string>
+    <string name="logout_title">Izloguj se od %1$s\?</string>
+    <string name="logout">Izloguj se</string>
+    <string name="logout_success">Sada ste izlogovani</string>
+    <string name="label_more">Još</string>
+    <string name="action_sort_latest_chapter">Poslednje poglavlje</string>
+    <string name="action_view_chapters">Pogledaj poglavlja</string>
+    <string name="action_cancel_all">Otkaži sve</string>
+    <string name="pref_theme_mode">Tema aplikacije</string>
+    <string name="theme_light">Svetlo</string>
+    <string name="theme_dark">Tamno</string>
+    <string name="theme_system">Prati sistem</string>
+    <string name="pref_theme_dark">Varijanta tamne teme</string>
+    <string name="theme_dark_default">Normalno</string>
+    <string name="theme_dark_blue">Tamno plavo</string>
+    <string name="theme_dark_amoled">AMOLED crno</string>
+    <string name="pref_manage_notifications">Podesi notifikacije</string>
+    <string name="pref_category_security">Bezbednost</string>
+    <string name="lock_when_idle">Zaključaj kada nekorišćeno</string>
+    <string name="lock_always">Uvek</string>
+    <string name="lock_never">Nikad</string>
+    <plurals name="lock_after_mins">
+        <item quantity="one">Posle 1 minut</item>
+        <item quantity="few">Posle %1$s minuta</item>
+        <item quantity="other">Posle %1$s minuta</item>
     </plurals>
-    <string name="secure_screen" formatted="false">Bezbedan ekran</string>
-    <string name="ext_updates_pending" formatted="false">Apdejti koji čekaju</string>
-    <string name="unlock_app" formatted="false">Otključaj Tachiyomi</string>
-    <string name="pref_category_display" formatted="false">Prikaži</string>
-    <string name="action_hide" formatted="false">Sakri</string>
-    <string name="hide_notification_content" formatted="false">Sakri notifikacije</string>
-    <string name="pref_disable_battery_optimization" formatted="false">Isključi optimizaciju korišćenja baterije</string>
-    <string name="battery_optimization_disabled" formatted="false">Optimizacija potročnje baterije je već isključena</string>
-    <string name="email" formatted="false">Imejl adresa</string>
-    <string name="information_empty_library" formatted="false">Tvoja biblioteka je prazna, dodaj neku serijal iz izvora.</string>
-    <string name="information_no_recent_manga" formatted="false">Nema nedavno čitane mange</string>
-    <string name="information_no_recent" formatted="false">Nema nedavnih poglavlja</string>
-    <string name="information_no_downloads" formatted="false">Nema preuzimanja</string>
-    <string name="label_sources" formatted="false">Izvori</string>
-    <string name="pref_enable_automatic_extension_updates" formatted="false">Provjeri da li ima ažuriranja dodataka</string>
-    <string name="ext_obsolete" formatted="false">Zastarjelo</string>
-    <string name="pref_library_update_prioritization" formatted="false">Red ažuriranja biblioteke</string>
-    <string name="secure_screen_summary" formatted="false">Sakrij prikaz aplikacije kada mijenjate aplikaciju i blokiraj screenshot-ove</string>
-    <string name="lock_with_biometrics" formatted="false">Biometrijski zaključaj</string>
-    <string name="pref_confirm_exit" formatted="false">Potvrdi izlaz</string>
-    <string name="theme_light_blue" formatted="false">Svetlo plava</string>
-    <string name="theme_light_default" formatted="false">Podrazumevano</string>
-    <string name="pref_theme_light" formatted="false">Varijanta svetle teme</string>
-    <string name="action_move_to_bottom" formatted="false">Premesti na dno</string>
-    <string name="action_move_to_top" formatted="false">Premesti na vrh</string>
-    <string name="action_oldest" formatted="false">Najstarije</string>
-    <string name="action_newest" formatted="false">Najnovije</string>
-    <string name="action_reorganize_by" formatted="false">Presloži</string>
-    <string name="action_unpin" formatted="false">Ukolni oznaku</string>
-    <string name="action_pin" formatted="false">Označi</string>
-    <string name="action_select_inverse" formatted="false">Izaberi obrnuto</string>
-    <string name="action_sort_last_checked" formatted="false">Zadnje pregledano</string>
-    <string name="action_menu" formatted="false">Meni</string>
-    <string name="confirm_exit" formatted="false">Pritisnite nazad ponovo da bi izašli</string>
-    <string name="label_downloaded_only" formatted="false">Samo preuzeto</string>
-    <string name="information_empty_category" formatted="false">Nemate kategorija. Pritisnite dugme plus da bi ste napravili novu kategoriju radi organizacije biblioteke.</string>
-    <string name="notification_chapters_multiple" formatted="false">%1$s Poglavlja</string>
-    <string name="notification_chapters_single_and_more" formatted="false">Poglavlje %1$s i još %2$d</string>
-    <plurals name="notification_chapters_generic" formatted="false">
-        <item quantity="one" formatted="false">1 novo poglavlje</item>
-        <item quantity="few" formatted="false">%1$d novih poglavlja</item>
-        <item quantity="other" formatted="false">%1$d novih poglavlja</item>
+    <string name="secure_screen">Bezbedan ekran</string>
+    <string name="ext_updates_pending">Apdejti koji čekaju</string>
+    <string name="unlock_app">Otključaj Tachiyomi</string>
+    <string name="pref_category_display">Prikaži</string>
+    <string name="action_hide">Sakri</string>
+    <string name="hide_notification_content">Sakri notifikacije</string>
+    <string name="pref_disable_battery_optimization">Isključi optimizaciju korišćenja baterije</string>
+    <string name="battery_optimization_disabled">Optimizacija potročnje baterije je već isključena</string>
+    <string name="email">Imejl adresa</string>
+    <string name="information_empty_library">Tvoja biblioteka je prazna, dodaj neku serijal iz izvora.</string>
+    <string name="information_no_recent_manga">Nema nedavno čitane mange</string>
+    <string name="information_no_recent">Nema nedavnih poglavlja</string>
+    <string name="information_no_downloads">Nema preuzimanja</string>
+    <string name="label_sources">Izvori</string>
+    <string name="pref_enable_automatic_extension_updates">Provjeri da li ima ažuriranja dodataka</string>
+    <string name="ext_obsolete">Zastarjelo</string>
+    <string name="pref_library_update_prioritization">Red ažuriranja biblioteke</string>
+    <string name="secure_screen_summary">Sakrij prikaz aplikacije kada mijenjate aplikaciju i blokiraj screenshot-ove</string>
+    <string name="lock_with_biometrics">Biometrijski zaključaj</string>
+    <string name="pref_confirm_exit">Potvrdi izlaz</string>
+    <string name="theme_light_blue">Svetlo plava</string>
+    <string name="theme_light_default">Podrazumevano</string>
+    <string name="pref_theme_light">Varijanta svetle teme</string>
+    <string name="action_move_to_bottom">Premesti na dno</string>
+    <string name="action_move_to_top">Premesti na vrh</string>
+    <string name="action_oldest">Najstarije</string>
+    <string name="action_newest">Najnovije</string>
+    <string name="action_reorganize_by">Presloži</string>
+    <string name="action_unpin">Ukolni oznaku</string>
+    <string name="action_pin">Označi</string>
+    <string name="action_select_inverse">Izaberi obrnuto</string>
+    <string name="action_sort_last_checked">Zadnje pregledano</string>
+    <string name="action_menu">Meni</string>
+    <string name="confirm_exit">Pritisnite nazad ponovo da bi izašli</string>
+    <string name="label_downloaded_only">Samo preuzeto</string>
+    <string name="information_empty_category">Nemate kategorija. Pritisnite dugme plus da bi ste napravili novu kategoriju radi organizacije biblioteke.</string>
+    <string name="notification_chapters_multiple">%1$s Poglavlja</string>
+    <string name="notification_chapters_single_and_more">Poglavlje %1$s i još %2$d</string>
+    <plurals name="notification_chapters_generic">
+        <item quantity="one">1 novo poglavlje</item>
+        <item quantity="few">%1$d novih poglavlja</item>
+        <item quantity="other">%1$d novih poglavlja</item>
     </plurals>
-    <string name="notification_chapters_single" formatted="false">Poglavlje %1$s</string>
-    <plurals name="notification_new_chapters_summary" formatted="false">
-        <item quantity="one" formatted="false">Za 1 naslov</item>
-        <item quantity="few" formatted="false">Za %d naslova</item>
-        <item quantity="other" formatted="false">Za %d naslova</item>
+    <string name="notification_chapters_single">Poglavlje %1$s</string>
+    <plurals name="notification_new_chapters_summary">
+        <item quantity="one">Za 1 naslov</item>
+        <item quantity="few">Za %d naslova</item>
+        <item quantity="other">Za %d naslova</item>
     </plurals>
-    <string name="notification_new_chapters" formatted="false">Pronađena su nova poglavlja</string>
-    <string name="notification_update_progress" formatted="false">Ažurirajte napredak: %1$d/%2$d</string>
-    <string name="notification_check_updates" formatted="false">Proveravam za nova poglavlja</string>
-    <string name="download_queue_error" formatted="false">Poglavlja ne mogu da se preuzmu. Pokušajte ponovo u odeljku za preuzimanje</string>
-    <string name="copy" formatted="false">Kopiraj</string>
-    <string name="migrate" formatted="false">Migriraj</string>
-    <string name="select" formatted="false">Izaberite</string>
-    <string name="migration_selection_prompt" formatted="false">Izaberite izvor sa koga ćete migrirati</string>
-    <string name="migration_dialog_what_to_include" formatted="false">Izaberite podatke koje želite da uključite</string>
-    <string name="migration_info" formatted="false">Tapnite za odabir izvora sa kojeg ćete migrirati</string>
-    <string name="recent_manga_time" formatted="false">Pog. %1$s - %2$s</string>
-    <string name="updating_library" formatted="false">Ažuriranje biblioteke</string>
-    <string name="transition_pages_error" formatted="false">Učitavanje stranica nije uspelo: %1$s</string>
-    <string name="transition_pages_loading" formatted="false">Učitavan stranice…</string>
-    <string name="transition_no_previous" formatted="false">Nema prethodnog poglavlja</string>
-    <string name="transition_no_next" formatted="false">Nema sledećeg poglavlja</string>
-    <string name="transition_previous" formatted="false">Prethodno:</string>
-    <string name="transition_next" formatted="false">Sledeće:</string>
-    <string name="transition_current" formatted="false">Trenutno:</string>
-    <string name="transition_finished" formatted="false">Gotovo:</string>
-    <string name="viewer_for_this_series" formatted="false">Pregledač za ovu seriju</string>
-    <string name="confirm_set_image_as_cover" formatted="false">Koristite ovu sliku kao naslovnu\?</string>
-    <string name="decode_image_error" formatted="false">Slika se ne može učitati</string>
-    <string name="no_previous_chapter" formatted="false">Prethodno poglavlje nije pronađeno</string>
-    <string name="no_next_chapter" formatted="false">Sledeće poglavlje nije pronađeno</string>
-    <string name="chapter_subtitle" formatted="false">Poglavlje: %1$s</string>
-    <string name="chapter_progress" formatted="false">Strana: %1$d</string>
-    <string name="download_progress" formatted="false">Preuzeto %1$d%%</string>
-    <string name="downloading" formatted="false">Preuzimanje…</string>
-    <string name="page_downloaded" formatted="false">Strana kopirana u %1$s</string>
-    <string name="custom_filter" formatted="false">Prilagođeni filter</string>
-    <string name="options" formatted="false">Podešavanja</string>
-    <string name="saving_picture" formatted="false">Čuvam sliku</string>
-    <string name="picture_saved" formatted="false">Slika sačuvana</string>
-    <string name="dialog_with_checkbox_reset" formatted="false">Resetujte sva poglavlja ove mange</string>
-    <string name="dialog_with_checkbox_remove_description" formatted="false">Ovo će ukloniti datum čitanja ovog poglavlja. Da li ste sigurni\?</string>
-    <string name="snack_categories_deleted" formatted="false">Kategorija obrisana</string>
-    <string name="error_category_exists" formatted="false">Kategorija sa ovim imenom već postoji!</string>
-    <string name="url_not_set" formatted="false">Manga URL nije postavljen, kliknite na naslov i ponovo odaberite mangu</string>
-    <string name="error_invalid_date_supplied" formatted="false">Netačni datum je unet</string>
-    <string name="track_author" formatted="false">Autor</string>
-    <string name="track_type" formatted="false">Tip</string>
-    <string name="track_finished_reading_date" formatted="false">Datum završetka čitanja</string>
-    <string name="track_started_reading_date" formatted="false">Datum početka čitanja</string>
-    <string name="track_start_date" formatted="false">Započeo</string>
-    <string name="track_status" formatted="false">Status</string>
-    <string name="status" formatted="false">Status</string>
-    <string name="title" formatted="false">Naslov</string>
-    <string name="score" formatted="false">Rezultat</string>
-    <string name="repeating" formatted="false">Ponovo Čitanje</string>
-    <string name="plan_to_read" formatted="false">Planirano za čitanje</string>
-    <string name="paused" formatted="false">Pauzirano</string>
-    <string name="on_hold" formatted="false">Na čekanju</string>
-    <string name="dropped" formatted="false">Odbačeno</string>
-    <string name="completed" formatted="false">Završeno</string>
-    <string name="currently_reading" formatted="false">Trenutno čita</string>
-    <string name="reading" formatted="false">Čitanje</string>
-    <string name="add_tracking" formatted="false">Dodaj praćenje</string>
-    <string name="manga_tracking_tab" formatted="false">Praćenje</string>
-    <string name="invalid_download_dir" formatted="false">Nevažeća lokacija za preuzimanje</string>
-    <string name="snack_add_to_library" formatted="false">Dodati mangu u biblioteku\?</string>
-    <string name="manga_info_collapse" formatted="false">Prikazi manje informacija</string>
-    <string name="manga_info_expand" formatted="false">Prikazi više informacija</string>
-    <string name="manga_info_about_label" formatted="false">Info</string>
-    <string name="manga_info_latest_data_label" formatted="false">Ažurirano</string>
-    <string name="manga_info_last_chapter_label" formatted="false">Zadnje poglavlje</string>
-    <string name="in_library" formatted="false">U biblioteci</string>
-    <string name="add_to_library" formatted="false">Dodaj u biblioteku</string>
-    <string name="local_source_help_guide" formatted="false">Vodič za lokalni izvor</string>
-    <string name="pinned_sources" formatted="false">Zakačeno</string>
-    <string name="last_used_source" formatted="false">Zadnje korišćeno</string>
-    <string name="http_error_hint" formatted="false">Proveri vebsajt u WebView</string>
-    <string name="downloaded_only_summary" formatted="false">Filtrira svu mangu u vašoj biblioteci</string>
-    <string name="check_for_updates" formatted="false">Proveri ažuriranja</string>
-    <string name="changelog" formatted="false">Šta je novo</string>
-    <string name="website" formatted="false">Sajt</string>
-    <string name="restoring_backup_canceled" formatted="false">Otkazano vraćanje kopije</string>
-    <string name="restoring_backup_error" formatted="false">Greška u vraćanju rezervne kopije</string>
-    <string name="restore_in_progress" formatted="false">Vraćanje je u toku</string>
-    <string name="creating_backup_error" formatted="false">Greška u pravljenju rezervne kopije</string>
-    <string name="backup_in_progress" formatted="false">Rezervna kopija se već pravi</string>
-    <string name="restore_duration" formatted="false">%02d minuta, %02d sekudi</string>
-    <string name="webtoon_side_padding_25" formatted="false">25%</string>
-    <string name="webtoon_side_padding_20" formatted="false">20%</string>
-    <string name="webtoon_side_padding_15" formatted="false">15%</string>
-    <string name="webtoon_side_padding_10" formatted="false">10%</string>
-    <string name="webtoon_side_padding_0" formatted="false">Ništa</string>
-    <string name="pref_webtoon_side_padding" formatted="false">Ispunjenje strane</string>
-    <string name="pref_category_reading" formatted="false">Čitanje</string>
-    <string name="pref_always_show_chapter_transition" formatted="false">Uvek pokaži tranziciju poglavlja</string>
-    <string name="vertical_plus_viewer" formatted="false">Kontinuirana vertikala</string>
-    <string name="pref_skip_filtered_chapters" formatted="false">Preskoči filtrirana poglavlja</string>
-    <string name="pref_cutout_short" formatted="false">Prikaži sadržaj u isečku</string>
-    <string name="set_as_cover" formatted="false">Postavi kao naslov</string>
-    <string name="want_to_read" formatted="false">Želim da čitam</string>
-    <string name="pref_disable_battery_optimization_summary" formatted="false">Pomaže kod pozadinskog ažuriranja biblioteke i rezervne kopije</string>
-    <string name="download_notifier_title_error" formatted="false">Greška</string>
-    <string name="download_notifier_downloader_title" formatted="false">Preuzimač</string>
-    <string name="information_webview_outdated" formatted="false">Ažurirajte aplikaciju \"WebView\" za bolju kompatibilnost</string>
-    <string name="information_webview_required" formatted="false">WebView je potreban za Tachiyomi</string>
-    <string name="information_cloudflare_bypass_failure" formatted="false">Neuspelo zaobilaženje Cloudflare</string>
-    <string name="description_cover" formatted="false">Naslovna slika mange</string>
-    <string name="description_backdrop" formatted="false">Pozadinska slika mange</string>
-    <plurals name="update_check_notification_ext_updates" formatted="false">
-        <item quantity="one" formatted="false">Dostupno je ažuriranje proširenja</item>
-        <item quantity="few" formatted="false">%d dostupnih ispravki za proširenje</item>
-        <item quantity="other" formatted="false">%d dostupnih ispravki za proširenje</item>
+    <string name="notification_new_chapters">Pronađena su nova poglavlja</string>
+    <string name="notification_update_progress">Ažurirajte napredak: %1$d/%2$d</string>
+    <string name="notification_check_updates">Proveravam za nova poglavlja</string>
+    <string name="download_queue_error">Poglavlja ne mogu da se preuzmu. Pokušajte ponovo u odeljku za preuzimanje</string>
+    <string name="copy">Kopiraj</string>
+    <string name="migrate">Migriraj</string>
+    <string name="select">Izaberite</string>
+    <string name="migration_selection_prompt">Izaberite izvor sa koga ćete migrirati</string>
+    <string name="migration_dialog_what_to_include">Izaberite podatke koje želite da uključite</string>
+    <string name="migration_info">Tapnite za odabir izvora sa kojeg ćete migrirati</string>
+    <string name="recent_manga_time">Pog. %1$s - %2$s</string>
+    <string name="updating_library">Ažuriranje biblioteke</string>
+    <string name="transition_pages_error">Učitavanje stranica nije uspelo: %1$s</string>
+    <string name="transition_pages_loading">Učitavan stranice…</string>
+    <string name="transition_no_previous">Nema prethodnog poglavlja</string>
+    <string name="transition_no_next">Nema sledećeg poglavlja</string>
+    <string name="transition_previous">Prethodno:</string>
+    <string name="transition_next">Sledeće:</string>
+    <string name="transition_current">Trenutno:</string>
+    <string name="transition_finished">Gotovo:</string>
+    <string name="viewer_for_this_series">Pregledač za ovu seriju</string>
+    <string name="confirm_set_image_as_cover">Koristite ovu sliku kao naslovnu\?</string>
+    <string name="decode_image_error">Slika se ne može učitati</string>
+    <string name="no_previous_chapter">Prethodno poglavlje nije pronađeno</string>
+    <string name="no_next_chapter">Sledeće poglavlje nije pronađeno</string>
+    <string name="chapter_subtitle">Poglavlje: %1$s</string>
+    <string name="chapter_progress">Strana: %1$d</string>
+    <string name="download_progress">Preuzeto %1$d%%</string>
+    <string name="downloading">Preuzimanje…</string>
+    <string name="page_downloaded">Strana kopirana u %1$s</string>
+    <string name="custom_filter">Prilagođeni filter</string>
+    <string name="options">Podešavanja</string>
+    <string name="saving_picture">Čuvam sliku</string>
+    <string name="picture_saved">Slika sačuvana</string>
+    <string name="dialog_with_checkbox_reset">Resetujte sva poglavlja ove mange</string>
+    <string name="dialog_with_checkbox_remove_description">Ovo će ukloniti datum čitanja ovog poglavlja. Da li ste sigurni\?</string>
+    <string name="snack_categories_deleted">Kategorija obrisana</string>
+    <string name="error_category_exists">Kategorija sa ovim imenom već postoji!</string>
+    <string name="url_not_set">Manga URL nije postavljen, kliknite na naslov i ponovo odaberite mangu</string>
+    <string name="error_invalid_date_supplied">Netačni datum je unet</string>
+    <string name="track_author">Autor</string>
+    <string name="track_type">Tip</string>
+    <string name="track_finished_reading_date">Datum završetka čitanja</string>
+    <string name="track_started_reading_date">Datum početka čitanja</string>
+    <string name="track_start_date">Započeo</string>
+    <string name="track_status">Status</string>
+    <string name="status">Status</string>
+    <string name="title">Naslov</string>
+    <string name="score">Rezultat</string>
+    <string name="repeating">Ponovo Čitanje</string>
+    <string name="plan_to_read">Planirano za čitanje</string>
+    <string name="paused">Pauzirano</string>
+    <string name="on_hold">Na čekanju</string>
+    <string name="dropped">Odbačeno</string>
+    <string name="completed">Završeno</string>
+    <string name="currently_reading">Trenutno čita</string>
+    <string name="reading">Čitanje</string>
+    <string name="add_tracking">Dodaj praćenje</string>
+    <string name="manga_tracking_tab">Praćenje</string>
+    <string name="invalid_download_dir">Nevažeća lokacija za preuzimanje</string>
+    <string name="snack_add_to_library">Dodati mangu u biblioteku\?</string>
+    <string name="manga_info_collapse">Prikazi manje informacija</string>
+    <string name="manga_info_expand">Prikazi više informacija</string>
+    <string name="manga_info_about_label">Info</string>
+    <string name="manga_info_latest_data_label">Ažurirano</string>
+    <string name="manga_info_last_chapter_label">Zadnje poglavlje</string>
+    <string name="in_library">U biblioteci</string>
+    <string name="add_to_library">Dodaj u biblioteku</string>
+    <string name="local_source_help_guide">Vodič za lokalni izvor</string>
+    <string name="pinned_sources">Zakačeno</string>
+    <string name="last_used_source">Zadnje korišćeno</string>
+    <string name="http_error_hint">Proveri vebsajt u WebView</string>
+    <string name="downloaded_only_summary">Filtrira svu mangu u vašoj biblioteci</string>
+    <string name="check_for_updates">Proveri ažuriranja</string>
+    <string name="changelog">Šta je novo</string>
+    <string name="website">Sajt</string>
+    <string name="restoring_backup_canceled">Otkazano vraćanje kopije</string>
+    <string name="restoring_backup_error">Greška u vraćanju rezervne kopije</string>
+    <string name="restore_in_progress">Vraćanje je u toku</string>
+    <string name="creating_backup_error">Greška u pravljenju rezervne kopije</string>
+    <string name="backup_in_progress">Rezervna kopija se već pravi</string>
+    <string name="restore_duration">%02d minuta, %02d sekudi</string>
+    <string name="webtoon_side_padding_25">25%</string>
+    <string name="webtoon_side_padding_20">20%</string>
+    <string name="webtoon_side_padding_15">15%</string>
+    <string name="webtoon_side_padding_10">10%</string>
+    <string name="webtoon_side_padding_0">Ništa</string>
+    <string name="pref_webtoon_side_padding">Ispunjenje strane</string>
+    <string name="pref_category_reading">Čitanje</string>
+    <string name="pref_always_show_chapter_transition">Uvek pokaži tranziciju poglavlja</string>
+    <string name="vertical_plus_viewer">Kontinuirana vertikala</string>
+    <string name="pref_skip_filtered_chapters">Preskoči filtrirana poglavlja</string>
+    <string name="pref_cutout_short">Prikaži sadržaj u isečku</string>
+    <string name="set_as_cover">Postavi kao naslov</string>
+    <string name="want_to_read">Želim da čitam</string>
+    <string name="pref_disable_battery_optimization_summary">Pomaže kod pozadinskog ažuriranja biblioteke i rezervne kopije</string>
+    <string name="download_notifier_title_error">Greška</string>
+    <string name="download_notifier_downloader_title">Preuzimač</string>
+    <string name="information_webview_outdated">Ažurirajte aplikaciju \"WebView\" za bolju kompatibilnost</string>
+    <string name="information_webview_required">WebView je potreban za Tachiyomi</string>
+    <string name="information_cloudflare_bypass_failure">Neuspelo zaobilaženje Cloudflare</string>
+    <string name="description_cover">Naslovna slika mange</string>
+    <string name="description_backdrop">Pozadinska slika mange</string>
+    <plurals name="update_check_notification_ext_updates">
+        <item quantity="one">Dostupno je ažuriranje proširenja</item>
+        <item quantity="few">%d dostupnih ispravki za proširenje</item>
+        <item quantity="other">%d dostupnih ispravki za proširenje</item>
     </plurals>
-    <string name="update_check_notification_update_available" formatted="false">Nova verzija je dostupna!</string>
-    <string name="update_check_notification_download_error" formatted="false">Greška u preuzimanju</string>
-    <string name="update_check_notification_download_complete" formatted="false">Preuzimanje je dovršeno</string>
-    <string name="update_check_notification_download_in_progress" formatted="false">Preuzimanje…</string>
-    <string name="update_check_notification_file_download" formatted="false">Preuzmi ažuriranje</string>
-    <string name="update_check_look_for_updates" formatted="false">Traženje ispravki…</string>
-    <string name="update_check_no_new_updates" formatted="false">Nisu dostupne nove ispravke</string>
-    <string name="update_check_ignore" formatted="false">Ignoriši</string>
-    <string name="update_check_confirm" formatted="false">Preuzmi</string>
-    <string name="file_select_icon" formatted="false">Izaberite ikonu prečice</string>
-    <string name="file_select_backup" formatted="false">Izaberite datoteku rezervne kopije</string>
-    <string name="file_select_cover" formatted="false">Izaberite naslovnu sliku</string>
-    <string name="notification_no_connection_body" formatted="false">Veza nije dostupna</string>
-    <string name="notification_no_connection_title" formatted="false">Sinhronizacija otkazana</string>
-    <string name="notification_not_connected_to_ac_body" formatted="false">Nije priključeno na napajanje</string>
-    <string name="notification_not_connected_to_ac_title" formatted="false">Sinhronizacija otkazana</string>
-    <string name="notification_first_add_to_library" formatted="false">Molimo dodajte mangu u svoju biblioteku pre nego što to uradite</string>
-    <string name="notification_cover_update_failed" formatted="false">Ažuriranje omota nije uspelo</string>
+    <string name="update_check_notification_update_available">Nova verzija je dostupna!</string>
+    <string name="update_check_notification_download_error">Greška u preuzimanju</string>
+    <string name="update_check_notification_download_complete">Preuzimanje je dovršeno</string>
+    <string name="update_check_notification_download_in_progress">Preuzimanje…</string>
+    <string name="update_check_notification_file_download">Preuzmi ažuriranje</string>
+    <string name="update_check_look_for_updates">Traženje ispravki…</string>
+    <string name="update_check_no_new_updates">Nisu dostupne nove ispravke</string>
+    <string name="update_check_ignore">Ignoriši</string>
+    <string name="update_check_confirm">Preuzmi</string>
+    <string name="file_select_icon">Izaberite ikonu prečice</string>
+    <string name="file_select_backup">Izaberite datoteku rezervne kopije</string>
+    <string name="file_select_cover">Izaberite naslovnu sliku</string>
+    <string name="notification_no_connection_body">Veza nije dostupna</string>
+    <string name="notification_no_connection_title">Sinhronizacija otkazana</string>
+    <string name="notification_not_connected_to_ac_body">Nije priključeno na napajanje</string>
+    <string name="notification_not_connected_to_ac_title">Sinhronizacija otkazana</string>
+    <string name="notification_first_add_to_library">Molimo dodajte mangu u svoju biblioteku pre nego što to uradite</string>
+    <string name="notification_cover_update_failed">Ažuriranje omota nije uspelo</string>
 </resources>

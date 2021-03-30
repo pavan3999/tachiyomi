@@ -1,484 +1,484 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name" formatted="false">الاسم</string>
-    <string name="categories" formatted="false">التصنيفات</string>
-    <string name="manga" formatted="false">المانغا</string>
-    <string name="chapters" formatted="false">الفصول</string>
-    <string name="track" formatted="false">التتبع</string>
-    <string name="history" formatted="false">السجل</string>
-    <string name="label_settings" formatted="false">اﻹعدادات</string>
-    <string name="label_download_queue" formatted="false">لائحة التنزيل</string>
-    <string name="label_library" formatted="false">مكتبتي</string>
-    <string name="label_recent_manga" formatted="false">السجل</string>
-    <string name="label_recent_updates" formatted="false">التحديثات</string>
-    <string name="label_categories" formatted="false">التصنيفات</string>
-    <string name="label_backup" formatted="false">النسخ الاحتياطي</string>
-    <string name="action_settings" formatted="false">اﻹعدادات</string>
-    <string name="action_filter" formatted="false">الفلتر</string>
-    <string name="action_filter_downloaded" formatted="false">مكتملة التحميل</string>
-    <string name="action_filter_bookmarked" formatted="false">المحفوظة</string>
-    <string name="action_filter_unread" formatted="false">الغير مقروءة</string>
-    <string name="action_filter_read" formatted="false">المقروءة</string>
-    <string name="action_filter_empty" formatted="false">إزالة الفلتر</string>
-    <string name="action_sort_alpha" formatted="false">أبجديًا</string>
-    <string name="action_sort_total" formatted="false">عدد الفصول</string>
-    <string name="action_sort_last_read" formatted="false">آخر قراءة</string>
-    <string name="action_search" formatted="false">بحث</string>
-    <string name="action_select_all" formatted="false">اختر الكل</string>
-    <string name="action_mark_as_read" formatted="false">تحديد كمقروء</string>
-    <string name="action_mark_as_unread" formatted="false">تحديد كغير مقروء</string>
-    <string name="action_mark_previous_as_read" formatted="false">تحديد السابق كمقروء</string>
-    <string name="action_download" formatted="false">تحميل</string>
-    <string name="action_bookmark" formatted="false">الإشارة المرجعية</string>
-    <string name="action_remove_bookmark" formatted="false">إزالة الإشارة المرجعية</string>
-    <string name="action_delete" formatted="false">حذف</string>
-    <string name="action_update" formatted="false">تحديث</string>
-    <string name="action_update_library" formatted="false">تحديث المكتبة</string>
-    <string name="action_edit" formatted="false">تعديل</string>
-    <string name="action_add" formatted="false">إضافة</string>
-    <string name="action_add_category" formatted="false">إضافة فئة</string>
-    <string name="action_edit_categories" formatted="false">تعديل الفئات</string>
-    <string name="action_rename_category" formatted="false">إعادة تسمية الفئة</string>
-    <string name="action_move_category" formatted="false">حدد الفئات</string>
-    <string name="action_edit_cover" formatted="false">تعديل صورة الغلاف</string>
-    <string name="action_sort_down" formatted="false">الترتيب لأسفل</string>
-    <string name="action_sort_up" formatted="false">الترتيب لأعلى</string>
-    <string name="action_show_downloaded" formatted="false">مكتملة التحميل</string>
-    <string name="action_next_unread" formatted="false">الغير مقروءة التالية</string>
-    <string name="action_start" formatted="false">بدء</string>
-    <string name="action_stop" formatted="false">إيقاف</string>
-    <string name="action_pause" formatted="false">إيقاف موقت</string>
-    <string name="action_close" formatted="false">إغلاق</string>
-    <string name="action_previous_chapter" formatted="false">الفصل السابق</string>
-    <string name="action_next_chapter" formatted="false">الفصل التالى</string>
-    <string name="action_retry" formatted="false">إعادة المحاولة</string>
-    <string name="action_remove" formatted="false">إزالة</string>
-    <string name="action_resume" formatted="false">استئناف</string>
-    <string name="action_move" formatted="false">نقل</string>
-    <string name="action_open_in_browser" formatted="false">فتح فى المتصفح</string>
-    <string name="action_display_mode" formatted="false">تغيير طريقة العرض</string>
-    <string name="action_display" formatted="false">طريقة العرض</string>
-    <string name="action_display_grid" formatted="false">بطائق</string>
-    <string name="action_display_list" formatted="false">قائمة</string>
-    <string name="action_cancel" formatted="false">إلغاء</string>
-    <string name="action_sort" formatted="false">فرز</string>
-    <string name="action_install" formatted="false">تثبيت</string>
-    <string name="action_share" formatted="false">مشاركة</string>
-    <string name="action_save" formatted="false">حفظ</string>
-    <string name="action_reset" formatted="false">إعادة تعيين</string>
-    <string name="action_undo" formatted="false">تراجع</string>
-    <string name="action_open_log" formatted="false">فتح السجل</string>
-    <string name="action_create" formatted="false">إنشاء</string>
-    <string name="action_restore" formatted="false">استعادة</string>
-    <string name="loading" formatted="false">جار التحميل…</string>
-    <string name="app_not_available" formatted="false">التطبيق غير متوفر</string>
-    <string name="short_recent_updates" formatted="false">التحديثات</string>
-    <string name="pref_category_general" formatted="false">عام</string>
-    <string name="pref_category_reader" formatted="false">قارئ المانجا</string>
-    <string name="pref_category_downloads" formatted="false">التحميلات</string>
-    <string name="pref_category_tracking" formatted="false">التتبع</string>
-    <string name="pref_category_advanced" formatted="false">اﻹعدادات المتقدمة</string>
-    <string name="pref_category_about" formatted="false">حول التطبيق</string>
-    <string name="pref_library_columns" formatted="false">عدد المانجا في كل صف</string>
-    <string name="portrait" formatted="false">أفقى</string>
-    <string name="landscape" formatted="false">رأسي</string>
-    <string name="default_columns" formatted="false">الافتراضي</string>
-    <string name="pref_library_update_interval" formatted="false">فترة تحديث المكتبة</string>
-    <string name="update_never" formatted="false">يدويا</string>
-    <string name="update_1hour" formatted="false">كل ساعة</string>
-    <string name="update_2hour" formatted="false">كل ساعتين</string>
-    <string name="update_3hour" formatted="false">كل ٣ ساعات</string>
-    <string name="update_6hour" formatted="false">كل ٦ ساعات</string>
-    <string name="update_12hour" formatted="false">كل ١٢ ساعة</string>
-    <string name="update_24hour" formatted="false">يوميا</string>
-    <string name="update_48hour" formatted="false">كل يومان</string>
-    <string name="update_weekly" formatted="false">أسبوعيا</string>
-    <string name="update_monthly" formatted="false">شهريا</string>
-    <string name="pref_library_update_categories" formatted="false">الفئات المتضمنة فى التحديث الشامل</string>
-    <string name="all" formatted="false">الكل</string>
-    <string name="pref_library_update_restriction" formatted="false">قيود تحديثات المكتبة</string>
-    <string name="pref_library_update_restriction_summary" formatted="false">تحديث فقط عندما يتم استيفاء الشروط</string>
-    <string name="wifi" formatted="false">الواي فاى Wi-Fi</string>
-    <string name="charging" formatted="false">أثناء الشحن</string>
-    <string name="pref_update_only_non_completed" formatted="false">تحديث المانجا المستمرة فقط</string>
-    <string name="pref_auto_update_manga_sync" formatted="false">مزامنة الفصول بعد القراءة</string>
-    <string name="pref_start_screen" formatted="false">شاشة البداية</string>
-    <string name="pref_language" formatted="false">اللغة</string>
-    <string name="system_default" formatted="false">الافتراضي</string>
-    <string name="default_category" formatted="false">الفئة الافتراضية</string>
-    <string name="default_category_summary" formatted="false">السؤال دائما</string>
-    <string name="pref_fullscreen" formatted="false">وضع الشاشة الكاملة</string>
-    <string name="pref_lock_orientation" formatted="false">قفل التدوير</string>
-    <string name="pref_page_transitions" formatted="false">الانتقال بين الصفحات</string>
-    <string name="pref_show_page_number" formatted="false">عرض رقم الصفحة</string>
-    <string name="pref_crop_borders" formatted="false">اقتصاص الحدود</string>
-    <string name="pref_custom_brightness" formatted="false">سطوع مخصص</string>
-    <string name="pref_custom_color_filter" formatted="false">فلتر ألوان مخصص</string>
-    <string name="pref_keep_screen_on" formatted="false">ابقاء الشاشة مفتوحة</string>
-    <string name="pref_reader_navigation" formatted="false">التنقل</string>
-    <string name="pref_read_with_volume_keys" formatted="false">بأزرار الصوت</string>
-    <string name="pref_read_with_volume_keys_inverted" formatted="false">بأزرار الصوت المعكوسة</string>
-    <string name="pref_read_with_tapping" formatted="false">بالنقر</string>
-    <string name="pref_reader_theme" formatted="false">لون الخلفية</string>
-    <string name="white_background" formatted="false">أبيض</string>
-    <string name="black_background" formatted="false">أسود</string>
-    <string name="pref_viewer_type" formatted="false">العرض الافتراضي</string>
-    <string name="default_viewer" formatted="false">الافتراضي</string>
-    <string name="left_to_right_viewer" formatted="false">من اليسار لليمين</string>
-    <string name="right_to_left_viewer" formatted="false">من اليمين لليسار</string>
-    <string name="vertical_viewer" formatted="false">عموديا</string>
-    <string name="webtoon_viewer" formatted="false">ويبتون</string>
-    <string name="pref_image_decoder" formatted="false">معالج تشفير الصور</string>
-    <string name="pref_image_scale_type" formatted="false">كيفية ضبط الأبعاد</string>
-    <string name="scale_type_fit_screen" formatted="false">ملائمة الشاشة</string>
-    <string name="scale_type_stretch" formatted="false">التمدد</string>
-    <string name="scale_type_fit_width" formatted="false">ملائمة العرض</string>
-    <string name="scale_type_fit_height" formatted="false">ملائمة الطول</string>
-    <string name="scale_type_original_size" formatted="false">الحجم اﻷصلى</string>
-    <string name="scale_type_smart_fit" formatted="false">الملائمة الذكية</string>
-    <string name="pref_zoom_start" formatted="false">موضع بدء التكبير</string>
-    <string name="zoom_start_automatic" formatted="false">تلقائي</string>
-    <string name="zoom_start_left" formatted="false">اليسار</string>
-    <string name="zoom_start_right" formatted="false">اليمين</string>
-    <string name="zoom_start_center" formatted="false">المركز</string>
-    <string name="pref_rotation_type" formatted="false">الدوران</string>
-    <string name="rotation_free" formatted="false">حر</string>
-    <string name="rotation_lock" formatted="false">مغلق</string>
-    <string name="rotation_force_portrait" formatted="false">الوضع اﻷفقي اﻹجباري</string>
-    <string name="rotation_force_landscape" formatted="false">الوضع الرأسي اﻹجباري</string>
-    <string name="pref_download_directory" formatted="false">مسار التحميلات</string>
-    <string name="pref_download_only_over_wifi" formatted="false">التحميل عبر الواي فاي فقط</string>
-    <string name="pref_remove_after_marked_as_read" formatted="false">الحذف عند التحديد كمقروءة</string>
-    <string name="pref_remove_after_read" formatted="false">الحذف بعد إكمال القراءة</string>
-    <string name="custom_dir" formatted="false">مجلد مخصص</string>
-    <string name="disabled" formatted="false">معطل</string>
-    <string name="last_read_chapter" formatted="false">آخر فصل مقروء</string>
-    <string name="second_to_last" formatted="false">من الفصل الثاني إلى اﻷخير</string>
-    <string name="third_to_last" formatted="false">‪من الفصل الثالث إلى اﻷخير</string>
-    <string name="fourth_to_last" formatted="false">من الفصل الرابع إلى اﻷخير</string>
-    <string name="fifth_to_last" formatted="false">من الفصل الخامس إلى اﻷخير</string>
-    <string name="pref_download_new" formatted="false">تحميل الفصول الجديدة</string>
-    <string name="pref_download_new_categories" formatted="false">الفئات المتضمنة فى التحميل</string>
-    <string name="services" formatted="false">الخدمات</string>
-    <string name="backup" formatted="false">النسخ الاحتياطي</string>
-    <string name="pref_create_backup" formatted="false">إنشاء نسخة احتياطية</string>
-    <string name="pref_create_backup_summ" formatted="false">يمكن استخدامها لاستعادة المكتبة الحالية</string>
-    <string name="pref_restore_backup" formatted="false">استعادة النسخة الاحتياطية</string>
-    <string name="pref_restore_backup_summ" formatted="false">استعادة المكتبة من ملف نسخة احتياطية</string>
-    <string name="pref_backup_directory" formatted="false">مجلد النسخ الاحتياطي</string>
-    <string name="pref_backup_service_category" formatted="false">الخدمة</string>
-    <string name="pref_backup_interval" formatted="false">معدل النسخ الاحتياطي</string>
-    <string name="pref_backup_slots" formatted="false">أقصي عدد للنسخ الاحتياطية التلقائية</string>
-    <string name="source_not_found" formatted="false">لم يتم إيجاد المصدر</string>
-    <string name="backup_created" formatted="false">تم إنشاء النسخة الاحتياطية</string>
-    <string name="restore_completed" formatted="false">اكتملت الاستعادة</string>
-    <string name="restore_completed_content" formatted="false">تم في %1$s و وجد %2$s خطأ</string>
-    <string name="backup_restore_content" formatted="false">عملية الاستعادة تستخدم المصادر لجلب البيانات، قد يتم تطبيق تكاليف مزود الخدمة. 
+    <string name="name">الاسم</string>
+    <string name="categories">التصنيفات</string>
+    <string name="manga">المانغا</string>
+    <string name="chapters">الفصول</string>
+    <string name="track">التتبع</string>
+    <string name="history">السجل</string>
+    <string name="label_settings">اﻹعدادات</string>
+    <string name="label_download_queue">لائحة التنزيل</string>
+    <string name="label_library">مكتبتي</string>
+    <string name="label_recent_manga">السجل</string>
+    <string name="label_recent_updates">التحديثات</string>
+    <string name="label_categories">التصنيفات</string>
+    <string name="label_backup">النسخ الاحتياطي</string>
+    <string name="action_settings">اﻹعدادات</string>
+    <string name="action_filter">الفلتر</string>
+    <string name="action_filter_downloaded">مكتملة التحميل</string>
+    <string name="action_filter_bookmarked">المحفوظة</string>
+    <string name="action_filter_unread">الغير مقروءة</string>
+    <string name="action_filter_read">المقروءة</string>
+    <string name="action_filter_empty">إزالة الفلتر</string>
+    <string name="action_sort_alpha">أبجديًا</string>
+    <string name="action_sort_total">عدد الفصول</string>
+    <string name="action_sort_last_read">آخر قراءة</string>
+    <string name="action_search">بحث</string>
+    <string name="action_select_all">اختر الكل</string>
+    <string name="action_mark_as_read">تحديد كمقروء</string>
+    <string name="action_mark_as_unread">تحديد كغير مقروء</string>
+    <string name="action_mark_previous_as_read">تحديد السابق كمقروء</string>
+    <string name="action_download">تحميل</string>
+    <string name="action_bookmark">الإشارة المرجعية</string>
+    <string name="action_remove_bookmark">إزالة الإشارة المرجعية</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_update">تحديث</string>
+    <string name="action_update_library">تحديث المكتبة</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_add">إضافة</string>
+    <string name="action_add_category">إضافة فئة</string>
+    <string name="action_edit_categories">تعديل الفئات</string>
+    <string name="action_rename_category">إعادة تسمية الفئة</string>
+    <string name="action_move_category">حدد الفئات</string>
+    <string name="action_edit_cover">تعديل صورة الغلاف</string>
+    <string name="action_sort_down">الترتيب لأسفل</string>
+    <string name="action_sort_up">الترتيب لأعلى</string>
+    <string name="action_show_downloaded">مكتملة التحميل</string>
+    <string name="action_next_unread">الغير مقروءة التالية</string>
+    <string name="action_start">بدء</string>
+    <string name="action_stop">إيقاف</string>
+    <string name="action_pause">إيقاف موقت</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_previous_chapter">الفصل السابق</string>
+    <string name="action_next_chapter">الفصل التالى</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_remove">إزالة</string>
+    <string name="action_resume">استئناف</string>
+    <string name="action_move">نقل</string>
+    <string name="action_open_in_browser">فتح فى المتصفح</string>
+    <string name="action_display_mode">تغيير طريقة العرض</string>
+    <string name="action_display">طريقة العرض</string>
+    <string name="action_display_grid">بطائق</string>
+    <string name="action_display_list">قائمة</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_sort">فرز</string>
+    <string name="action_install">تثبيت</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_reset">إعادة تعيين</string>
+    <string name="action_undo">تراجع</string>
+    <string name="action_open_log">فتح السجل</string>
+    <string name="action_create">إنشاء</string>
+    <string name="action_restore">استعادة</string>
+    <string name="loading">جار التحميل…</string>
+    <string name="app_not_available">التطبيق غير متوفر</string>
+    <string name="short_recent_updates">التحديثات</string>
+    <string name="pref_category_general">عام</string>
+    <string name="pref_category_reader">قارئ المانجا</string>
+    <string name="pref_category_downloads">التحميلات</string>
+    <string name="pref_category_tracking">التتبع</string>
+    <string name="pref_category_advanced">اﻹعدادات المتقدمة</string>
+    <string name="pref_category_about">حول التطبيق</string>
+    <string name="pref_library_columns">عدد المانجا في كل صف</string>
+    <string name="portrait">أفقى</string>
+    <string name="landscape">رأسي</string>
+    <string name="default_columns">الافتراضي</string>
+    <string name="pref_library_update_interval">فترة تحديث المكتبة</string>
+    <string name="update_never">يدويا</string>
+    <string name="update_1hour">كل ساعة</string>
+    <string name="update_2hour">كل ساعتين</string>
+    <string name="update_3hour">كل ٣ ساعات</string>
+    <string name="update_6hour">كل ٦ ساعات</string>
+    <string name="update_12hour">كل ١٢ ساعة</string>
+    <string name="update_24hour">يوميا</string>
+    <string name="update_48hour">كل يومان</string>
+    <string name="update_weekly">أسبوعيا</string>
+    <string name="update_monthly">شهريا</string>
+    <string name="pref_library_update_categories">الفئات المتضمنة فى التحديث الشامل</string>
+    <string name="all">الكل</string>
+    <string name="pref_library_update_restriction">قيود تحديثات المكتبة</string>
+    <string name="pref_library_update_restriction_summary">تحديث فقط عندما يتم استيفاء الشروط</string>
+    <string name="wifi">الواي فاى Wi-Fi</string>
+    <string name="charging">أثناء الشحن</string>
+    <string name="pref_update_only_non_completed">تحديث المانجا المستمرة فقط</string>
+    <string name="pref_auto_update_manga_sync">مزامنة الفصول بعد القراءة</string>
+    <string name="pref_start_screen">شاشة البداية</string>
+    <string name="pref_language">اللغة</string>
+    <string name="system_default">الافتراضي</string>
+    <string name="default_category">الفئة الافتراضية</string>
+    <string name="default_category_summary">السؤال دائما</string>
+    <string name="pref_fullscreen">وضع الشاشة الكاملة</string>
+    <string name="pref_lock_orientation">قفل التدوير</string>
+    <string name="pref_page_transitions">الانتقال بين الصفحات</string>
+    <string name="pref_show_page_number">عرض رقم الصفحة</string>
+    <string name="pref_crop_borders">اقتصاص الحدود</string>
+    <string name="pref_custom_brightness">سطوع مخصص</string>
+    <string name="pref_custom_color_filter">فلتر ألوان مخصص</string>
+    <string name="pref_keep_screen_on">ابقاء الشاشة مفتوحة</string>
+    <string name="pref_reader_navigation">التنقل</string>
+    <string name="pref_read_with_volume_keys">بأزرار الصوت</string>
+    <string name="pref_read_with_volume_keys_inverted">بأزرار الصوت المعكوسة</string>
+    <string name="pref_read_with_tapping">بالنقر</string>
+    <string name="pref_reader_theme">لون الخلفية</string>
+    <string name="white_background">أبيض</string>
+    <string name="black_background">أسود</string>
+    <string name="pref_viewer_type">العرض الافتراضي</string>
+    <string name="default_viewer">الافتراضي</string>
+    <string name="left_to_right_viewer">من اليسار لليمين</string>
+    <string name="right_to_left_viewer">من اليمين لليسار</string>
+    <string name="vertical_viewer">عموديا</string>
+    <string name="webtoon_viewer">ويبتون</string>
+    <string name="pref_image_decoder">معالج تشفير الصور</string>
+    <string name="pref_image_scale_type">كيفية ضبط الأبعاد</string>
+    <string name="scale_type_fit_screen">ملائمة الشاشة</string>
+    <string name="scale_type_stretch">التمدد</string>
+    <string name="scale_type_fit_width">ملائمة العرض</string>
+    <string name="scale_type_fit_height">ملائمة الطول</string>
+    <string name="scale_type_original_size">الحجم اﻷصلى</string>
+    <string name="scale_type_smart_fit">الملائمة الذكية</string>
+    <string name="pref_zoom_start">موضع بدء التكبير</string>
+    <string name="zoom_start_automatic">تلقائي</string>
+    <string name="zoom_start_left">اليسار</string>
+    <string name="zoom_start_right">اليمين</string>
+    <string name="zoom_start_center">المركز</string>
+    <string name="pref_rotation_type">الدوران</string>
+    <string name="rotation_free">حر</string>
+    <string name="rotation_lock">مغلق</string>
+    <string name="rotation_force_portrait">الوضع اﻷفقي اﻹجباري</string>
+    <string name="rotation_force_landscape">الوضع الرأسي اﻹجباري</string>
+    <string name="pref_download_directory">مسار التحميلات</string>
+    <string name="pref_download_only_over_wifi">التحميل عبر الواي فاي فقط</string>
+    <string name="pref_remove_after_marked_as_read">الحذف عند التحديد كمقروءة</string>
+    <string name="pref_remove_after_read">الحذف بعد إكمال القراءة</string>
+    <string name="custom_dir">مجلد مخصص</string>
+    <string name="disabled">معطل</string>
+    <string name="last_read_chapter">آخر فصل مقروء</string>
+    <string name="second_to_last">من الفصل الثاني إلى اﻷخير</string>
+    <string name="third_to_last">‪من الفصل الثالث إلى اﻷخير</string>
+    <string name="fourth_to_last">من الفصل الرابع إلى اﻷخير</string>
+    <string name="fifth_to_last">من الفصل الخامس إلى اﻷخير</string>
+    <string name="pref_download_new">تحميل الفصول الجديدة</string>
+    <string name="pref_download_new_categories">الفئات المتضمنة فى التحميل</string>
+    <string name="services">الخدمات</string>
+    <string name="backup">النسخ الاحتياطي</string>
+    <string name="pref_create_backup">إنشاء نسخة احتياطية</string>
+    <string name="pref_create_backup_summ">يمكن استخدامها لاستعادة المكتبة الحالية</string>
+    <string name="pref_restore_backup">استعادة النسخة الاحتياطية</string>
+    <string name="pref_restore_backup_summ">استعادة المكتبة من ملف نسخة احتياطية</string>
+    <string name="pref_backup_directory">مجلد النسخ الاحتياطي</string>
+    <string name="pref_backup_service_category">الخدمة</string>
+    <string name="pref_backup_interval">معدل النسخ الاحتياطي</string>
+    <string name="pref_backup_slots">أقصي عدد للنسخ الاحتياطية التلقائية</string>
+    <string name="source_not_found">لم يتم إيجاد المصدر</string>
+    <string name="backup_created">تم إنشاء النسخة الاحتياطية</string>
+    <string name="restore_completed">اكتملت الاستعادة</string>
+    <string name="restore_completed_content">تم في %1$s و وجد %2$s خطأ</string>
+    <string name="backup_restore_content">عملية الاستعادة تستخدم المصادر لجلب البيانات، قد يتم تطبيق تكاليف مزود الخدمة. 
 \nتأكد من تثبيت كافة اﻹضافات الضرورية وتسجيل الدخول لخدمات التتبع المطلوبة قبل عملية الاستعادة.</string>
-    <string name="backup_choice" formatted="false">ما الذي تريد نسخه احتياطيا؟</string>
-    <string name="restoring_backup" formatted="false">جار استعادة النسخة الاحتياطية</string>
-    <string name="creating_backup" formatted="false">جار إنشاء النسخة الاحتياطية</string>
-    <string name="action_global_search" formatted="false">بحث شامل</string>
-    <string name="action_open" formatted="false">فتح</string>
-    <string name="action_login" formatted="false">تسجيل الدخول</string>
-    <string name="color_filter_r_value" formatted="false">R</string>
-    <string name="color_filter_g_value" formatted="false">G</string>
-    <string name="color_filter_b_value" formatted="false">B</string>
-    <string name="color_filter_a_value" formatted="false">A</string>
-    <string name="pref_clear_chapter_cache" formatted="false">مسح الذاكرة المؤقتة للفصل</string>
-    <string name="used_cache" formatted="false">المستخدمة: %1$s</string>
-    <string name="cache_deleted" formatted="false">تم محو الذاكرة المؤقتة. %1$d ملف تم محوه</string>
-    <string name="cache_delete_error" formatted="false">حدث خطأ أثناء محو ذاكرة التخزين المؤقت</string>
-    <string name="pref_clear_cookies" formatted="false">محو ملفات تعريف الارتباط</string>
-    <string name="cookies_cleared" formatted="false">تم محو ملفات تعريف الارتباط</string>
-    <string name="choices_reset" formatted="false">إعادة ضبط خيارات الحوار</string>
-    <string name="pref_clear_database" formatted="false">محو قاعدة البيانات</string>
-    <string name="pref_clear_database_summary" formatted="false">مسح المانجا والفصول التى ليست فى مكتبتك</string>
-    <string name="clear_database_confirmation" formatted="false">هل أنت متأكد؟ الفصول المقروءة ومستوي التقدم للمانجا الغير موجودة فى مكتبتك سيتم فقده</string>
-    <string name="clear_database_completed" formatted="false">تم حذف المدخلات</string>
-    <string name="pref_refresh_library_metadata" formatted="false">تحديث البيانات الوصفية للمكتبة</string>
-    <string name="pref_refresh_library_metadata_summary" formatted="false">تحديث اﻷغلفة، التصنيفات، الوصف ومعلومات حالة المانجا</string>
-    <string name="pref_refresh_library_tracking" formatted="false">تحديث البيانات الوصفية للتتبع</string>
-    <string name="pref_refresh_library_tracking_summary" formatted="false">تحديث الحالة، والتقييم وآخر فصل عن طريق خدمات التتبع</string>
-    <string name="version" formatted="false">اﻹصدار</string>
-    <string name="build_time" formatted="false">تاريخ ووقت البناء</string>
-    <string name="pref_enable_acra" formatted="false">إرسال تقارير الأعطال</string>
-    <string name="pref_acra_summary" formatted="false">هذا يساعد فى حل أى مشاكل، لن يتم إرسال أية بيانات حساسة</string>
-    <string name="login_title" formatted="false">تسجيل الدخول إلى %1$s</string>
-    <string name="username" formatted="false">اسم المستخدم</string>
-    <string name="password" formatted="false">كلمة المرور</string>
-    <string name="show_password" formatted="false">عرض كلمة المرور</string>
-    <string name="login" formatted="false">تسجيل الدخول</string>
-    <string name="login_success" formatted="false">تم تسجيل الدخول</string>
-    <string name="invalid_login" formatted="false">فشل تسجيل الدخول</string>
-    <string name="unknown_error" formatted="false">خطأ غير معروف</string>
-    <string name="library_search_hint" formatted="false">العنوان أو المؤلف…</string>
-    <string name="updating_category" formatted="false">جار تحديث الفئات</string>
-    <string name="confirm_delete_manga" formatted="false">هل أنت متأكد أنك ترغب فى مسح المانجا المحددة؟</string>
-    <string name="also_delete_chapters" formatted="false">مسح الفصول المحمله أيضا</string>
-    <string name="source_requires_login" formatted="false">يتطلب هذا المصدر تسجيل الدخول</string>
-    <string name="select_source" formatted="false">اختر مصدر</string>
-    <string name="no_valid_sources" formatted="false">من فضلك قم بتفعيل مصدر صالح واحد على الأقل</string>
-    <string name="no_more_results" formatted="false">لا يوجد نتائج أخرى</string>
-    <string name="local_source" formatted="false">مصدر محلي</string>
-    <string name="other_source" formatted="false">أخرى</string>
-    <string name="invalid_combination" formatted="false">لا يمكن تحديد الإعداد الافتراضي مع الفئات الأخرى</string>
-    <string name="added_to_library" formatted="false">تم إضافة المانجا إلى مكتبتك</string>
-    <string name="action_global_search_hint" formatted="false">البحث الشامل…</string>
-    <string name="latest" formatted="false">اﻷخيرة</string>
-    <string name="browse" formatted="false">تصفح</string>
-    <string name="manga_not_in_db" formatted="false">تمت إزالت هذه المانجا من قاعدة البيانات.</string>
-    <string name="manga_detail_tab" formatted="false">معلومات</string>
-    <string name="description" formatted="false">الوصف</string>
-    <string name="ongoing" formatted="false">المستمرة</string>
-    <string name="unknown" formatted="false">الغير معروف</string>
-    <string name="licensed" formatted="false">المرخصة</string>
-    <string name="remove_from_library" formatted="false">إزالة من المكتبة</string>
-    <string name="manga_info_author_label" formatted="false">المؤلف</string>
-    <string name="manga_info_artist_label" formatted="false">الفنان</string>
-    <string name="manga_info_chapters_label" formatted="false">الفصول</string>
-    <string name="manga_info_status_label" formatted="false">الحالة</string>
-    <string name="manga_info_source_label" formatted="false">المصدر</string>
-    <string name="manga_info_genres_label" formatted="false">التصنيفات</string>
-    <string name="delete_downloads_for_manga" formatted="false">حذف الفصول المحمله؟</string>
-    <string name="manga_chapters_tab" formatted="false">الفصول</string>
-    <string name="manga_chapter_no_title" formatted="false">بدون عنوان</string>
-    <string name="display_mode_chapter" formatted="false">الفصل %1$s</string>
-    <string name="chapter_downloaded" formatted="false">المحمله</string>
-    <string name="chapter_queued" formatted="false">المنتظرة</string>
-    <string name="chapter_downloading" formatted="false">جاري التحميل</string>
-    <string name="chapter_downloading_progress" formatted="false">جاري التحميل (%1$d/%2$d)</string>
-    <string name="chapter_error" formatted="false">خطأ</string>
-    <string name="chapter_paused" formatted="false">المتوقفة</string>
-    <string name="fetch_chapters_error" formatted="false">فشل جلب الفصول</string>
-    <string name="show_title" formatted="false">العنوان</string>
-    <string name="show_chapter_number" formatted="false">رقم الفصل</string>
-    <string name="sorting_mode" formatted="false">كيفية الفرز</string>
-    <string name="sort_by_source" formatted="false">حسب المصدر</string>
-    <string name="sort_by_number" formatted="false">حسب رقم الفصل</string>
-    <string name="manga_download" formatted="false">تحميل</string>
-    <string name="download_1" formatted="false">الفصل التالي</string>
-    <string name="download_5" formatted="false">الفصول الخمسة التالية</string>
-    <string name="download_10" formatted="false">الفصول العشرة التالية</string>
-    <string name="download_all" formatted="false">الكل</string>
-    <string name="download_unread" formatted="false">غير المقروءة</string>
-    <string name="confirm_delete_chapters" formatted="false">هل أنت متأكد من أنك تريد حذف الفصول المحددة؟</string>
-    <string name="manga_tracking_tab" formatted="false">التتبع</string>
-    <string name="reading" formatted="false">أقرأها</string>
-    <string name="completed" formatted="false">مكتملة</string>
-    <string name="dropped" formatted="false">متروكة</string>
-    <string name="on_hold" formatted="false">في الانتظار</string>
-    <string name="plan_to_read" formatted="false">أنوي قرأتها</string>
-    <string name="score" formatted="false">التقييم</string>
-    <string name="title" formatted="false">العنوان</string>
-    <string name="status" formatted="false">الحالة</string>
-    <string name="error_category_exists" formatted="false">توجد بالفعل فئة بهذا الاسم!</string>
-    <string name="snack_categories_deleted" formatted="false">تم حذف الفئات</string>
-    <string name="dialog_with_checkbox_remove_description" formatted="false">سيؤدي هذا إلى إزالة تاريخ قراءة هذا الفصل. هل أنت متأكد؟</string>
-    <string name="dialog_with_checkbox_reset" formatted="false">إعادة تعيين جميع الفصول لهذه المانجا</string>
-    <string name="snack_add_to_library" formatted="false">إضافة المانجا إلى المكتبة؟</string>
-    <string name="picture_saved" formatted="false">تم حفظ الصورة</string>
-    <string name="saving_picture" formatted="false">جار حفظ الصورة</string>
-    <string name="options" formatted="false">الخيارات</string>
-    <string name="custom_filter" formatted="false">فلتر مخصص</string>
-    <string name="set_as_cover" formatted="false">تعيين كغلاف</string>
-    <string name="cover_updated" formatted="false">تم تحديث الغلاف</string>
-    <string name="page_downloaded" formatted="false">تم نسخ الصفحة إلى %1$s</string>
-    <string name="downloading" formatted="false">جارى التحميل…</string>
-    <string name="download_progress" formatted="false">تم التحميل %1$d%%</string>
-    <string name="chapter_progress" formatted="false">الصفحة: %1$d</string>
-    <string name="chapter_subtitle" formatted="false">الفصل %1$s</string>
-    <string name="no_next_chapter" formatted="false">لم يتم العثور على الفصل التالي</string>
-    <string name="no_previous_chapter" formatted="false">لم يتم العثور على الفصل السابق</string>
-    <string name="decode_image_error" formatted="false">لم يمكن تحميل الصورة</string>
-    <string name="confirm_set_image_as_cover" formatted="false">هل تريد استخدام هذه الصورة كغلاف؟</string>
-    <string name="viewer_for_this_series" formatted="false">العارض لهذه السلسلة</string>
-    <string name="download_queue_error" formatted="false">فشل تحميل الفصول. يمكنك إعادة المحاولة في قسم التحميلات</string>
-    <string name="notification_update_progress" formatted="false">تقدم التحديث: %1$d/%2$d</string>
-    <string name="notification_new_chapters" formatted="false">تم إيجاد فصول جديدة</string>
-    <string name="notification_cover_update_failed" formatted="false">فشل تحديث الغلاف</string>
-    <string name="notification_first_add_to_library" formatted="false">من فضلك أضف المانجا إلى مكتبتك قبل القيام بذلك</string>
-    <string name="notification_not_connected_to_ac_title" formatted="false">تم إلغاء المزامنة</string>
-    <string name="notification_not_connected_to_ac_body" formatted="false">غير متصل بمصدر الطاقة</string>
-    <string name="notification_no_connection_title" formatted="false">تم إلغاء المزامنة</string>
-    <string name="notification_no_connection_body" formatted="false">الاتصال غير متوفر</string>
-    <string name="file_select_cover" formatted="false">اختر صورة الغلاف</string>
-    <string name="file_select_backup" formatted="false">اختر ملف النسخ الاحتياطي</string>
-    <string name="file_select_icon" formatted="false">اختر أيقونة الاختصار</string>
-    <string name="update_check_confirm" formatted="false">تحميل</string>
-    <string name="update_check_ignore" formatted="false">تجاهل</string>
-    <string name="update_check_no_new_updates" formatted="false">لا تتوفر تحديثات جديدة</string>
-    <string name="update_check_look_for_updates" formatted="false">البحث عن التحديثات…</string>
-    <string name="update_check_notification_file_download" formatted="false">تحميل التحديث</string>
-    <string name="update_check_notification_download_in_progress" formatted="false">جار التحميل…</string>
-    <string name="update_check_notification_download_complete" formatted="false">اكتمل التحميل</string>
-    <string name="update_check_notification_download_error" formatted="false">حدث خطأ فى التحميل</string>
-    <string name="update_check_notification_update_available" formatted="false">يتوفر تحديث</string>
-    <string name="description_backdrop" formatted="false">خلفية المانجا</string>
-    <string name="description_cover" formatted="false">غلاف المانجا</string>
-    <string name="information_no_downloads" formatted="false">لا توجد تحميلات</string>
-    <string name="information_no_recent" formatted="false">لا توجد فصول حديثة</string>
-    <string name="information_no_recent_manga" formatted="false">لا توجد مانجا مقروءة مؤخرا</string>
-    <string name="information_empty_library" formatted="false">مكتبتك فارغة، أضف سلسلة إلى مكتبتك من المصادر.</string>
-    <string name="download_notifier_downloader_title" formatted="false">مدير التحميل</string>
-    <string name="download_notifier_title_error" formatted="false">خطأ</string>
-    <string name="download_notifier_unknown_error" formatted="false">فشل تحميل الفصل بسبب حدوث خطأ غير متوقع</string>
-    <string name="download_notifier_page_error" formatted="false">هناك صفحة مفقودة في المجلد</string>
-    <string name="download_notifier_page_ready_error" formatted="false">لم يتم تحميل الصفحة</string>
-    <string name="download_notifier_text_only_wifi" formatted="false">لا يتوفر اتصال واي فاي</string>
-    <string name="download_notifier_no_network" formatted="false">لا يتوفر اتصال بالشبكة</string>
-    <string name="download_notifier_download_paused" formatted="false">تم إيقاف التحميل مؤقتا</string>
-    <string name="channel_common" formatted="false">عام</string>
-    <string name="channel_library" formatted="false">المكتبة</string>
-    <string name="channel_downloader" formatted="false">مدير التحميل</string>
-    <string name="label_migration" formatted="false">تغيير المصدر</string>
-    <string name="label_extensions" formatted="false">اﻹضافات</string>
-    <string name="label_extension_info" formatted="false">معلومات اﻹضافة</string>
-    <string name="action_display_download_badge" formatted="false">شارات لعدد الفصول المحملة</string>
-    <string name="all_lang" formatted="false">الكل</string>
-    <string name="ext_details" formatted="false">التفاصيل</string>
-    <string name="ext_update" formatted="false">تحديث</string>
-    <string name="ext_install" formatted="false">تثبيت</string>
-    <string name="ext_pending" formatted="false">المُعلقة</string>
-    <string name="ext_downloading" formatted="false">جارى التحميل</string>
-    <string name="ext_installing" formatted="false">جاري التثبيت</string>
-    <string name="ext_installed" formatted="false">تم التثبيت</string>
-    <string name="ext_trust" formatted="false">الثقة</string>
-    <string name="ext_untrusted" formatted="false">غير موثوق فيه</string>
-    <string name="ext_uninstall" formatted="false">إلغاء التثبيت</string>
-    <string name="ext_preferences" formatted="false">التفضيلات</string>
-    <string name="ext_available" formatted="false">المتاحة</string>
-    <string name="untrusted_extension" formatted="false">إضافة غير موثوق بها</string>
-    <string name="untrusted_extension_message" formatted="false">هذه اﻹضافة موقعة بشهادة غير موثوق بها ولم يتم تفعيلها. 
+    <string name="backup_choice">ما الذي تريد نسخه احتياطيا؟</string>
+    <string name="restoring_backup">جار استعادة النسخة الاحتياطية</string>
+    <string name="creating_backup">جار إنشاء النسخة الاحتياطية</string>
+    <string name="action_global_search">بحث شامل</string>
+    <string name="action_open">فتح</string>
+    <string name="action_login">تسجيل الدخول</string>
+    <string name="color_filter_r_value">R</string>
+    <string name="color_filter_g_value">G</string>
+    <string name="color_filter_b_value">B</string>
+    <string name="color_filter_a_value">A</string>
+    <string name="pref_clear_chapter_cache">مسح الذاكرة المؤقتة للفصل</string>
+    <string name="used_cache">المستخدمة: %1$s</string>
+    <string name="cache_deleted">تم محو الذاكرة المؤقتة. %1$d ملف تم محوه</string>
+    <string name="cache_delete_error">حدث خطأ أثناء محو ذاكرة التخزين المؤقت</string>
+    <string name="pref_clear_cookies">محو ملفات تعريف الارتباط</string>
+    <string name="cookies_cleared">تم محو ملفات تعريف الارتباط</string>
+    <string name="choices_reset">إعادة ضبط خيارات الحوار</string>
+    <string name="pref_clear_database">محو قاعدة البيانات</string>
+    <string name="pref_clear_database_summary">مسح المانجا والفصول التى ليست فى مكتبتك</string>
+    <string name="clear_database_confirmation">هل أنت متأكد؟ الفصول المقروءة ومستوي التقدم للمانجا الغير موجودة فى مكتبتك سيتم فقده</string>
+    <string name="clear_database_completed">تم حذف المدخلات</string>
+    <string name="pref_refresh_library_metadata">تحديث البيانات الوصفية للمكتبة</string>
+    <string name="pref_refresh_library_metadata_summary">تحديث اﻷغلفة، التصنيفات، الوصف ومعلومات حالة المانجا</string>
+    <string name="pref_refresh_library_tracking">تحديث البيانات الوصفية للتتبع</string>
+    <string name="pref_refresh_library_tracking_summary">تحديث الحالة، والتقييم وآخر فصل عن طريق خدمات التتبع</string>
+    <string name="version">اﻹصدار</string>
+    <string name="build_time">تاريخ ووقت البناء</string>
+    <string name="pref_enable_acra">إرسال تقارير الأعطال</string>
+    <string name="pref_acra_summary">هذا يساعد فى حل أى مشاكل، لن يتم إرسال أية بيانات حساسة</string>
+    <string name="login_title">تسجيل الدخول إلى %1$s</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="show_password">عرض كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_success">تم تسجيل الدخول</string>
+    <string name="invalid_login">فشل تسجيل الدخول</string>
+    <string name="unknown_error">خطأ غير معروف</string>
+    <string name="library_search_hint">العنوان أو المؤلف…</string>
+    <string name="updating_category">جار تحديث الفئات</string>
+    <string name="confirm_delete_manga">هل أنت متأكد أنك ترغب فى مسح المانجا المحددة؟</string>
+    <string name="also_delete_chapters">مسح الفصول المحمله أيضا</string>
+    <string name="source_requires_login">يتطلب هذا المصدر تسجيل الدخول</string>
+    <string name="select_source">اختر مصدر</string>
+    <string name="no_valid_sources">من فضلك قم بتفعيل مصدر صالح واحد على الأقل</string>
+    <string name="no_more_results">لا يوجد نتائج أخرى</string>
+    <string name="local_source">مصدر محلي</string>
+    <string name="other_source">أخرى</string>
+    <string name="invalid_combination">لا يمكن تحديد الإعداد الافتراضي مع الفئات الأخرى</string>
+    <string name="added_to_library">تم إضافة المانجا إلى مكتبتك</string>
+    <string name="action_global_search_hint">البحث الشامل…</string>
+    <string name="latest">اﻷخيرة</string>
+    <string name="browse">تصفح</string>
+    <string name="manga_not_in_db">تمت إزالت هذه المانجا من قاعدة البيانات.</string>
+    <string name="manga_detail_tab">معلومات</string>
+    <string name="description">الوصف</string>
+    <string name="ongoing">المستمرة</string>
+    <string name="unknown">الغير معروف</string>
+    <string name="licensed">المرخصة</string>
+    <string name="remove_from_library">إزالة من المكتبة</string>
+    <string name="manga_info_author_label">المؤلف</string>
+    <string name="manga_info_artist_label">الفنان</string>
+    <string name="manga_info_chapters_label">الفصول</string>
+    <string name="manga_info_status_label">الحالة</string>
+    <string name="manga_info_source_label">المصدر</string>
+    <string name="manga_info_genres_label">التصنيفات</string>
+    <string name="delete_downloads_for_manga">حذف الفصول المحمله؟</string>
+    <string name="manga_chapters_tab">الفصول</string>
+    <string name="manga_chapter_no_title">بدون عنوان</string>
+    <string name="display_mode_chapter">الفصل %1$s</string>
+    <string name="chapter_downloaded">المحمله</string>
+    <string name="chapter_queued">المنتظرة</string>
+    <string name="chapter_downloading">جاري التحميل</string>
+    <string name="chapter_downloading_progress">جاري التحميل (%1$d/%2$d)</string>
+    <string name="chapter_error">خطأ</string>
+    <string name="chapter_paused">المتوقفة</string>
+    <string name="fetch_chapters_error">فشل جلب الفصول</string>
+    <string name="show_title">العنوان</string>
+    <string name="show_chapter_number">رقم الفصل</string>
+    <string name="sorting_mode">كيفية الفرز</string>
+    <string name="sort_by_source">حسب المصدر</string>
+    <string name="sort_by_number">حسب رقم الفصل</string>
+    <string name="manga_download">تحميل</string>
+    <string name="download_1">الفصل التالي</string>
+    <string name="download_5">الفصول الخمسة التالية</string>
+    <string name="download_10">الفصول العشرة التالية</string>
+    <string name="download_all">الكل</string>
+    <string name="download_unread">غير المقروءة</string>
+    <string name="confirm_delete_chapters">هل أنت متأكد من أنك تريد حذف الفصول المحددة؟</string>
+    <string name="manga_tracking_tab">التتبع</string>
+    <string name="reading">أقرأها</string>
+    <string name="completed">مكتملة</string>
+    <string name="dropped">متروكة</string>
+    <string name="on_hold">في الانتظار</string>
+    <string name="plan_to_read">أنوي قرأتها</string>
+    <string name="score">التقييم</string>
+    <string name="title">العنوان</string>
+    <string name="status">الحالة</string>
+    <string name="error_category_exists">توجد بالفعل فئة بهذا الاسم!</string>
+    <string name="snack_categories_deleted">تم حذف الفئات</string>
+    <string name="dialog_with_checkbox_remove_description">سيؤدي هذا إلى إزالة تاريخ قراءة هذا الفصل. هل أنت متأكد؟</string>
+    <string name="dialog_with_checkbox_reset">إعادة تعيين جميع الفصول لهذه المانجا</string>
+    <string name="snack_add_to_library">إضافة المانجا إلى المكتبة؟</string>
+    <string name="picture_saved">تم حفظ الصورة</string>
+    <string name="saving_picture">جار حفظ الصورة</string>
+    <string name="options">الخيارات</string>
+    <string name="custom_filter">فلتر مخصص</string>
+    <string name="set_as_cover">تعيين كغلاف</string>
+    <string name="cover_updated">تم تحديث الغلاف</string>
+    <string name="page_downloaded">تم نسخ الصفحة إلى %1$s</string>
+    <string name="downloading">جارى التحميل…</string>
+    <string name="download_progress">تم التحميل %1$d%%</string>
+    <string name="chapter_progress">الصفحة: %1$d</string>
+    <string name="chapter_subtitle">الفصل %1$s</string>
+    <string name="no_next_chapter">لم يتم العثور على الفصل التالي</string>
+    <string name="no_previous_chapter">لم يتم العثور على الفصل السابق</string>
+    <string name="decode_image_error">لم يمكن تحميل الصورة</string>
+    <string name="confirm_set_image_as_cover">هل تريد استخدام هذه الصورة كغلاف؟</string>
+    <string name="viewer_for_this_series">العارض لهذه السلسلة</string>
+    <string name="download_queue_error">فشل تحميل الفصول. يمكنك إعادة المحاولة في قسم التحميلات</string>
+    <string name="notification_update_progress">تقدم التحديث: %1$d/%2$d</string>
+    <string name="notification_new_chapters">تم إيجاد فصول جديدة</string>
+    <string name="notification_cover_update_failed">فشل تحديث الغلاف</string>
+    <string name="notification_first_add_to_library">من فضلك أضف المانجا إلى مكتبتك قبل القيام بذلك</string>
+    <string name="notification_not_connected_to_ac_title">تم إلغاء المزامنة</string>
+    <string name="notification_not_connected_to_ac_body">غير متصل بمصدر الطاقة</string>
+    <string name="notification_no_connection_title">تم إلغاء المزامنة</string>
+    <string name="notification_no_connection_body">الاتصال غير متوفر</string>
+    <string name="file_select_cover">اختر صورة الغلاف</string>
+    <string name="file_select_backup">اختر ملف النسخ الاحتياطي</string>
+    <string name="file_select_icon">اختر أيقونة الاختصار</string>
+    <string name="update_check_confirm">تحميل</string>
+    <string name="update_check_ignore">تجاهل</string>
+    <string name="update_check_no_new_updates">لا تتوفر تحديثات جديدة</string>
+    <string name="update_check_look_for_updates">البحث عن التحديثات…</string>
+    <string name="update_check_notification_file_download">تحميل التحديث</string>
+    <string name="update_check_notification_download_in_progress">جار التحميل…</string>
+    <string name="update_check_notification_download_complete">اكتمل التحميل</string>
+    <string name="update_check_notification_download_error">حدث خطأ فى التحميل</string>
+    <string name="update_check_notification_update_available">يتوفر تحديث</string>
+    <string name="description_backdrop">خلفية المانجا</string>
+    <string name="description_cover">غلاف المانجا</string>
+    <string name="information_no_downloads">لا توجد تحميلات</string>
+    <string name="information_no_recent">لا توجد فصول حديثة</string>
+    <string name="information_no_recent_manga">لا توجد مانجا مقروءة مؤخرا</string>
+    <string name="information_empty_library">مكتبتك فارغة، أضف سلسلة إلى مكتبتك من المصادر.</string>
+    <string name="download_notifier_downloader_title">مدير التحميل</string>
+    <string name="download_notifier_title_error">خطأ</string>
+    <string name="download_notifier_unknown_error">فشل تحميل الفصل بسبب حدوث خطأ غير متوقع</string>
+    <string name="download_notifier_page_error">هناك صفحة مفقودة في المجلد</string>
+    <string name="download_notifier_page_ready_error">لم يتم تحميل الصفحة</string>
+    <string name="download_notifier_text_only_wifi">لا يتوفر اتصال واي فاي</string>
+    <string name="download_notifier_no_network">لا يتوفر اتصال بالشبكة</string>
+    <string name="download_notifier_download_paused">تم إيقاف التحميل مؤقتا</string>
+    <string name="channel_common">عام</string>
+    <string name="channel_library">المكتبة</string>
+    <string name="channel_downloader">مدير التحميل</string>
+    <string name="label_migration">تغيير المصدر</string>
+    <string name="label_extensions">اﻹضافات</string>
+    <string name="label_extension_info">معلومات اﻹضافة</string>
+    <string name="action_display_download_badge">شارات لعدد الفصول المحملة</string>
+    <string name="all_lang">الكل</string>
+    <string name="ext_details">التفاصيل</string>
+    <string name="ext_update">تحديث</string>
+    <string name="ext_install">تثبيت</string>
+    <string name="ext_pending">المُعلقة</string>
+    <string name="ext_downloading">جارى التحميل</string>
+    <string name="ext_installing">جاري التثبيت</string>
+    <string name="ext_installed">تم التثبيت</string>
+    <string name="ext_trust">الثقة</string>
+    <string name="ext_untrusted">غير موثوق فيه</string>
+    <string name="ext_uninstall">إلغاء التثبيت</string>
+    <string name="ext_preferences">التفضيلات</string>
+    <string name="ext_available">المتاحة</string>
+    <string name="untrusted_extension">إضافة غير موثوق بها</string>
+    <string name="untrusted_extension_message">هذه اﻹضافة موقعة بشهادة غير موثوق بها ولم يتم تفعيلها. 
 \n 
 \nيمكن لأي إضافة خبيثة قراءة بيانات اعتماد تسجيل الدخول المخزنة في تاتشييومي أو تنفيذ تعليمات برمجية عشوائية. 
 \n 
 \nبالثقة في هذه الشهادة تقبل هذه المخاطر.</string>
-    <string name="ext_version_info" formatted="false">الإصدار %1$s</string>
-    <string name="ext_language_info" formatted="false">اللغة: %1$s</string>
-    <string name="ext_empty_preferences" formatted="false">لا توجد تفضيلات خاصة بهذه اﻹضافة لتعديلها</string>
-    <string name="pref_double_tap_anim_speed" formatted="false">سرعة مؤثر النقر المزدوج</string>
-    <string name="pager_viewer" formatted="false">عارض الصفحات</string>
-    <string name="double_tap_anim_speed_0" formatted="false">لا مؤثرات</string>
-    <string name="double_tap_anim_speed_normal" formatted="false">طبيعي</string>
-    <string name="double_tap_anim_speed_fast" formatted="false">سريع</string>
-    <string name="local_source_badge" formatted="false">محلّي</string>
-    <string name="manga_info_full_title_label" formatted="false">العنوان</string>
-    <string name="manga_added_library" formatted="false">تم الإضافة إلى المكتبة</string>
-    <string name="manga_removed_library" formatted="false">تم الإزالة من المكتبة</string>
-    <string name="copied_to_clipboard" formatted="false">نُسخ إلى الحافظة:
+    <string name="ext_version_info">الإصدار %1$s</string>
+    <string name="ext_language_info">اللغة: %1$s</string>
+    <string name="ext_empty_preferences">لا توجد تفضيلات خاصة بهذه اﻹضافة لتعديلها</string>
+    <string name="pref_double_tap_anim_speed">سرعة مؤثر النقر المزدوج</string>
+    <string name="pager_viewer">عارض الصفحات</string>
+    <string name="double_tap_anim_speed_0">لا مؤثرات</string>
+    <string name="double_tap_anim_speed_normal">طبيعي</string>
+    <string name="double_tap_anim_speed_fast">سريع</string>
+    <string name="local_source_badge">محلّي</string>
+    <string name="manga_info_full_title_label">العنوان</string>
+    <string name="manga_added_library">تم الإضافة إلى المكتبة</string>
+    <string name="manga_removed_library">تم الإزالة من المكتبة</string>
+    <string name="copied_to_clipboard">نُسخ إلى الحافظة:
 \n%1$s</string>
-    <string name="source_not_installed" formatted="false">المصدر غير مثبت: %1$s</string>
-    <string name="custom_download" formatted="false">تحميل مقدار مخصص</string>
-    <string name="download_custom" formatted="false">مخصص</string>
-    <string name="repeating" formatted="false">إعادة القراءة</string>
-    <string name="track_status" formatted="false">الحالة</string>
-    <string name="track_start_date" formatted="false">تم البدء فيها</string>
-    <string name="track_type" formatted="false">النوع</string>
-    <string name="track_author" formatted="false">المؤلف</string>
-    <string name="url_not_set" formatted="false">لم يتم تعيين رابط المانجا، برجاء الضغط على العنوان وتحديد مانجا مرة أخرى</string>
-    <string name="migration_info" formatted="false">اضغط لتحديد مصدر للترحيل منه</string>
-    <string name="migration_dialog_what_to_include" formatted="false">اختيار بيانات لتضمينها</string>
-    <string name="select" formatted="false">تحديد</string>
-    <string name="migrate" formatted="false">ترحيل</string>
-    <string name="copy" formatted="false">نسخ</string>
-    <string name="information_empty_category" formatted="false">لا توجد لديك أي فئات. اضغط زر اﻹضافة لإنشاء واحد لتنظيم المكتبة الخاصة بك.</string>
-    <string name="transition_finished" formatted="false">تمَّ الانتهاء من:</string>
-    <string name="transition_current" formatted="false">الحالي:</string>
-    <string name="transition_next" formatted="false">التّالي:</string>
-    <string name="transition_previous" formatted="false">السّابق:</string>
-    <string name="transition_no_next" formatted="false">لا يوجدُ فصل تالي</string>
-    <string name="transition_no_previous" formatted="false">لا يوجدُ فصل سابق</string>
-    <string name="transition_pages_loading" formatted="false">جار تحميل الصّفحات…</string>
-    <string name="transition_pages_error" formatted="false">فشل تحميل الصّفحات: %1$s</string>
-    <string name="pref_read_with_long_tap" formatted="false">معلومات بضغطة مستمرة</string>
-    <string name="action_open_in_web_view" formatted="false">فتح في عرض الويب</string>
-    <string name="pref_true_color" formatted="false">ألوان 32bit</string>
-    <string name="pref_skip_read_chapters" formatted="false">تخطي الفصول المقروءة</string>
-    <string name="filter_mode_default" formatted="false">أساسي</string>
-    <string name="filter_mode_overlay" formatted="false">غطاء الغطاء</string>
-    <string name="filter_mode_multiply" formatted="false">مضاعفة</string>
-    <string name="filter_mode_screen" formatted="false">الشاشة</string>
-    <string name="label_help" formatted="false">مساعدة</string>
-    <string name="pref_library_update_prioritization" formatted="false">ترتيب تحديث المكتبة</string>
-    <string name="pref_color_filter_mode" formatted="false">فلتر الألوان ”وضع مزج الألوان“</string>
-    <string name="filter_mode_lighten" formatted="false">مراوغة / تفتيح</string>
-    <string name="filter_mode_darken" formatted="false">حرق / تغميق</string>
-    <string name="no_results_found" formatted="false">لا توجد نتائج</string>
-    <string name="migration_selection_prompt" formatted="false">اختيار مصدر للترحيل من</string>
-    <string name="action_webview_back" formatted="false">عودة</string>
-    <string name="action_webview_forward" formatted="false">تقدم</string>
-    <string name="action_webview_refresh" formatted="false">تحديث</string>
-    <string name="pref_category_library" formatted="false">المكتبة</string>
-    <string name="invalid_download_dir" formatted="false">موقع تحميل غير صالح</string>
-    <string name="label_more" formatted="false">مزيد</string>
-    <string name="unlock_app" formatted="false">افتح تاتشييومي</string>
-    <string name="action_move_to_top" formatted="false">إنتقل إلى الأعلى</string>
-    <string name="action_oldest" formatted="false">الأقدم</string>
-    <string name="action_newest" formatted="false">الأجدد</string>
-    <string name="action_reorganize_by" formatted="false">تسجيل</string>
-    <string name="action_cancel_all" formatted="false">إلغاء الكل</string>
-    <string name="action_hide" formatted="false">إخفاء</string>
-    <string name="action_view_chapters" formatted="false">عرض الفصول</string>
-    <string name="action_sort_latest_chapter" formatted="false">أحدث الفصول</string>
-    <string name="action_sort_last_checked" formatted="false">المحدثة أخيرًا</string>
-    <string name="action_menu" formatted="false">القائمة</string>
-    <string name="label_sources" formatted="false">المصادر</string>
-    <string name="action_move_to_bottom" formatted="false">إنتقل إلى الأسفل</string>
-    <string name="lock_never" formatted="false">أبدًا</string>
-    <string name="lock_always" formatted="false">دائما</string>
-    <string name="lock_when_idle" formatted="false">قفل في حالة السكون</string>
-    <string name="lock_with_biometrics" formatted="false">قفل باستخدام البصمة/قارئ الوجه/رمز الهاتف</string>
-    <string name="pref_category_security" formatted="false">إعدادات الأمان</string>
-    <string name="pref_manage_notifications" formatted="false">ادارة الإشعارات</string>
-    <string name="pref_date_format" formatted="false">طريقة عرض التاريخ</string>
-    <string name="theme_dark_amoled" formatted="false">أسود AMOLED</string>
-    <string name="theme_dark_blue" formatted="false">أزرق غامق</string>
-    <string name="theme_dark_default" formatted="false">الافتراضي</string>
-    <string name="pref_theme_dark" formatted="false">تخصيصات المظهر الداكن</string>
-    <string name="theme_light_blue" formatted="false">أزرق فاتح</string>
-    <string name="theme_light_default" formatted="false">الافتراضي</string>
-    <string name="pref_theme_light" formatted="false">تخصيصات المظهر الفاتح</string>
-    <string name="theme_system" formatted="false">اتبع مظهر النظام</string>
-    <string name="theme_dark" formatted="false">داكن</string>
-    <string name="theme_light" formatted="false">فاتح</string>
-    <string name="pref_theme_mode" formatted="false">مظهر التطبيق</string>
-    <string name="changelog" formatted="false">الفئات</string>
-    <string name="battery_optimization_disabled" formatted="false">تم الغاء وضع تحسين البطارية مسبقا</string>
-    <string name="pref_disable_battery_optimization_summary" formatted="false">يساعد في عملية تحديث المكتبة والنسخ الاحتياطي في الخلفية</string>
-    <string name="pref_disable_battery_optimization" formatted="false">اطفاء وضع تحسين البطارية</string>
-    <string name="pref_category_reading" formatted="false">اعدادات القرآءة</string>
-    <string name="pref_always_show_chapter_transition" formatted="false">اظهار فواصل الانتقال بين الفصول</string>
-    <string name="pref_skip_filtered_chapters" formatted="false">تخطي الفصول المفلترة</string>
-    <string name="pref_cutout_short" formatted="false">اظهار محتوى المناطق المقطوعة</string>
-    <string name="pref_enable_automatic_extension_updates" formatted="false">التحقق من التحديثات للإضافات</string>
-    <string name="obsolete_extension_message" formatted="false">هذه الإضافة لم تعد متوفرة.</string>
-    <string name="ext_obsolete" formatted="false">قديم جدًا</string>
-    <string name="ext_updates_pending" formatted="false">التحديثات معلقة</string>
-    <string name="pref_category_library_categories" formatted="false">الفئات</string>
-    <string name="pref_category_library_update" formatted="false">التحديثات</string>
-    <string name="pref_category_display" formatted="false">اعدادات العرض</string>
-    <string name="hide_notification_content" formatted="false">اخفاء محتوى الإشعارات</string>
-    <string name="secure_screen_summary" formatted="false">إخفاء محتوى الشاشة عند تغير التطبيقات و منع لقط الشاشة</string>
-    <string name="secure_screen" formatted="false">الشاشة الآمنة</string>
-    <string name="label_downloaded_only" formatted="false">المُحمل فقط</string>
-    <string name="check_for_updates" formatted="false">البحث عن تحديثات</string>
-    <string name="licenses" formatted="false">الرخصات مفتوحة المصدر</string>
-    <string name="website" formatted="false">الموقع</string>
-    <string name="restoring_backup_canceled" formatted="false">تم الغاء الاستعادة</string>
-    <string name="restoring_backup_error" formatted="false">فشل استعادة النسخ الاحتياطي</string>
-    <string name="restore_in_progress" formatted="false">الاستعادة قيد التقدم بالفعل</string>
-    <string name="creating_backup_error" formatted="false">فشل النسخ الاحتياطي</string>
-    <string name="backup_in_progress" formatted="false">النسخ الاحتياطي قيد التقدم بالفعل</string>
-    <string name="restore_duration" formatted="false">%02d دقيقة و %02d ثانية</string>
-    <string name="webtoon_side_padding_25" formatted="false">25%</string>
-    <string name="webtoon_side_padding_20" formatted="false">20%</string>
-    <string name="webtoon_side_padding_15" formatted="false">15%</string>
-    <string name="webtoon_side_padding_10" formatted="false">10%</string>
-    <string name="webtoon_side_padding_0" formatted="false">بلا</string>
-    <string name="pref_confirm_exit" formatted="false">تأكيد الخروج</string>
-    <string name="action_unpin" formatted="false">إلغاء التثبيت</string>
-    <string name="action_pin" formatted="false">تثبيت</string>
-    <string name="action_select_inverse" formatted="false">عكس التحديد</string>
-    <string name="confirm_exit" formatted="false">اضغط رجوع مرة أخرى للخروج</string>
+    <string name="source_not_installed">المصدر غير مثبت: %1$s</string>
+    <string name="custom_download">تحميل مقدار مخصص</string>
+    <string name="download_custom">مخصص</string>
+    <string name="repeating">إعادة القراءة</string>
+    <string name="track_status">الحالة</string>
+    <string name="track_start_date">تم البدء فيها</string>
+    <string name="track_type">النوع</string>
+    <string name="track_author">المؤلف</string>
+    <string name="url_not_set">لم يتم تعيين رابط المانجا، برجاء الضغط على العنوان وتحديد مانجا مرة أخرى</string>
+    <string name="migration_info">اضغط لتحديد مصدر للترحيل منه</string>
+    <string name="migration_dialog_what_to_include">اختيار بيانات لتضمينها</string>
+    <string name="select">تحديد</string>
+    <string name="migrate">ترحيل</string>
+    <string name="copy">نسخ</string>
+    <string name="information_empty_category">لا توجد لديك أي فئات. اضغط زر اﻹضافة لإنشاء واحد لتنظيم المكتبة الخاصة بك.</string>
+    <string name="transition_finished">تمَّ الانتهاء من:</string>
+    <string name="transition_current">الحالي:</string>
+    <string name="transition_next">التّالي:</string>
+    <string name="transition_previous">السّابق:</string>
+    <string name="transition_no_next">لا يوجدُ فصل تالي</string>
+    <string name="transition_no_previous">لا يوجدُ فصل سابق</string>
+    <string name="transition_pages_loading">جار تحميل الصّفحات…</string>
+    <string name="transition_pages_error">فشل تحميل الصّفحات: %1$s</string>
+    <string name="pref_read_with_long_tap">معلومات بضغطة مستمرة</string>
+    <string name="action_open_in_web_view">فتح في عرض الويب</string>
+    <string name="pref_true_color">ألوان 32bit</string>
+    <string name="pref_skip_read_chapters">تخطي الفصول المقروءة</string>
+    <string name="filter_mode_default">أساسي</string>
+    <string name="filter_mode_overlay">غطاء الغطاء</string>
+    <string name="filter_mode_multiply">مضاعفة</string>
+    <string name="filter_mode_screen">الشاشة</string>
+    <string name="label_help">مساعدة</string>
+    <string name="pref_library_update_prioritization">ترتيب تحديث المكتبة</string>
+    <string name="pref_color_filter_mode">فلتر الألوان ”وضع مزج الألوان“</string>
+    <string name="filter_mode_lighten">مراوغة / تفتيح</string>
+    <string name="filter_mode_darken">حرق / تغميق</string>
+    <string name="no_results_found">لا توجد نتائج</string>
+    <string name="migration_selection_prompt">اختيار مصدر للترحيل من</string>
+    <string name="action_webview_back">عودة</string>
+    <string name="action_webview_forward">تقدم</string>
+    <string name="action_webview_refresh">تحديث</string>
+    <string name="pref_category_library">المكتبة</string>
+    <string name="invalid_download_dir">موقع تحميل غير صالح</string>
+    <string name="label_more">مزيد</string>
+    <string name="unlock_app">افتح تاتشييومي</string>
+    <string name="action_move_to_top">إنتقل إلى الأعلى</string>
+    <string name="action_oldest">الأقدم</string>
+    <string name="action_newest">الأجدد</string>
+    <string name="action_reorganize_by">تسجيل</string>
+    <string name="action_cancel_all">إلغاء الكل</string>
+    <string name="action_hide">إخفاء</string>
+    <string name="action_view_chapters">عرض الفصول</string>
+    <string name="action_sort_latest_chapter">أحدث الفصول</string>
+    <string name="action_sort_last_checked">المحدثة أخيرًا</string>
+    <string name="action_menu">القائمة</string>
+    <string name="label_sources">المصادر</string>
+    <string name="action_move_to_bottom">إنتقل إلى الأسفل</string>
+    <string name="lock_never">أبدًا</string>
+    <string name="lock_always">دائما</string>
+    <string name="lock_when_idle">قفل في حالة السكون</string>
+    <string name="lock_with_biometrics">قفل باستخدام البصمة/قارئ الوجه/رمز الهاتف</string>
+    <string name="pref_category_security">إعدادات الأمان</string>
+    <string name="pref_manage_notifications">ادارة الإشعارات</string>
+    <string name="pref_date_format">طريقة عرض التاريخ</string>
+    <string name="theme_dark_amoled">أسود AMOLED</string>
+    <string name="theme_dark_blue">أزرق غامق</string>
+    <string name="theme_dark_default">الافتراضي</string>
+    <string name="pref_theme_dark">تخصيصات المظهر الداكن</string>
+    <string name="theme_light_blue">أزرق فاتح</string>
+    <string name="theme_light_default">الافتراضي</string>
+    <string name="pref_theme_light">تخصيصات المظهر الفاتح</string>
+    <string name="theme_system">اتبع مظهر النظام</string>
+    <string name="theme_dark">داكن</string>
+    <string name="theme_light">فاتح</string>
+    <string name="pref_theme_mode">مظهر التطبيق</string>
+    <string name="changelog">الفئات</string>
+    <string name="battery_optimization_disabled">تم الغاء وضع تحسين البطارية مسبقا</string>
+    <string name="pref_disable_battery_optimization_summary">يساعد في عملية تحديث المكتبة والنسخ الاحتياطي في الخلفية</string>
+    <string name="pref_disable_battery_optimization">اطفاء وضع تحسين البطارية</string>
+    <string name="pref_category_reading">اعدادات القرآءة</string>
+    <string name="pref_always_show_chapter_transition">اظهار فواصل الانتقال بين الفصول</string>
+    <string name="pref_skip_filtered_chapters">تخطي الفصول المفلترة</string>
+    <string name="pref_cutout_short">اظهار محتوى المناطق المقطوعة</string>
+    <string name="pref_enable_automatic_extension_updates">التحقق من التحديثات للإضافات</string>
+    <string name="obsolete_extension_message">هذه الإضافة لم تعد متوفرة.</string>
+    <string name="ext_obsolete">قديم جدًا</string>
+    <string name="ext_updates_pending">التحديثات معلقة</string>
+    <string name="pref_category_library_categories">الفئات</string>
+    <string name="pref_category_library_update">التحديثات</string>
+    <string name="pref_category_display">اعدادات العرض</string>
+    <string name="hide_notification_content">اخفاء محتوى الإشعارات</string>
+    <string name="secure_screen_summary">إخفاء محتوى الشاشة عند تغير التطبيقات و منع لقط الشاشة</string>
+    <string name="secure_screen">الشاشة الآمنة</string>
+    <string name="label_downloaded_only">المُحمل فقط</string>
+    <string name="check_for_updates">البحث عن تحديثات</string>
+    <string name="licenses">الرخصات مفتوحة المصدر</string>
+    <string name="website">الموقع</string>
+    <string name="restoring_backup_canceled">تم الغاء الاستعادة</string>
+    <string name="restoring_backup_error">فشل استعادة النسخ الاحتياطي</string>
+    <string name="restore_in_progress">الاستعادة قيد التقدم بالفعل</string>
+    <string name="creating_backup_error">فشل النسخ الاحتياطي</string>
+    <string name="backup_in_progress">النسخ الاحتياطي قيد التقدم بالفعل</string>
+    <string name="restore_duration">%02d دقيقة و %02d ثانية</string>
+    <string name="webtoon_side_padding_25">25%</string>
+    <string name="webtoon_side_padding_20">20%</string>
+    <string name="webtoon_side_padding_15">15%</string>
+    <string name="webtoon_side_padding_10">10%</string>
+    <string name="webtoon_side_padding_0">بلا</string>
+    <string name="pref_confirm_exit">تأكيد الخروج</string>
+    <string name="action_unpin">إلغاء التثبيت</string>
+    <string name="action_pin">تثبيت</string>
+    <string name="action_select_inverse">عكس التحديد</string>
+    <string name="confirm_exit">اضغط رجوع مرة أخرى للخروج</string>
 </resources>

@@ -1,550 +1,550 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name" formatted="false">Nùmene</string>
-    <string name="categories" formatted="false">Categorias</string>
-    <string name="manga" formatted="false">Manga</string>
-    <string name="chapters" formatted="false">Capìtulos</string>
-    <string name="track" formatted="false">Arrastamentu</string>
-    <string name="history" formatted="false">Cronologia</string>
-    <string name="label_settings" formatted="false">Impostatziones</string>
-    <string name="label_download_queue" formatted="false">Fila de sos iscarrigamentos</string>
-    <string name="label_library" formatted="false">Biblioteca</string>
-    <string name="label_recent_manga" formatted="false">Cronologia</string>
-    <string name="label_recent_updates" formatted="false">Agiornamentos</string>
-    <string name="label_categories" formatted="false">Categorias</string>
-    <string name="label_backup" formatted="false">Còpia de seguresa</string>
-    <string name="label_migration" formatted="false">Tramudòngiu de sas mitzas</string>
-    <string name="label_extensions" formatted="false">Estensiones</string>
-    <string name="label_extension_info" formatted="false">Informatziones de s\'estensione</string>
-    <string name="action_settings" formatted="false">Impostatziones</string>
-    <string name="action_filter" formatted="false">Filtru</string>
-    <string name="action_filter_downloaded" formatted="false">Iscarrigados</string>
-    <string name="action_filter_bookmarked" formatted="false">Sinnados</string>
-    <string name="action_filter_unread" formatted="false">Non lèghidos</string>
-    <string name="action_filter_read" formatted="false">Lèghidos</string>
-    <string name="action_filter_empty" formatted="false">Boga su filtru</string>
-    <string name="action_sort_alpha" formatted="false">Alfabeticamente</string>
-    <string name="action_sort_total" formatted="false">Capìtulos totales</string>
-    <string name="action_sort_last_read" formatted="false">Ùrtimos lèghidos</string>
-    <string name="action_search" formatted="false">Chirca</string>
-    <string name="action_global_search" formatted="false">Chirca globale</string>
-    <string name="action_select_all" formatted="false">Ischerta totu</string>
-    <string name="action_mark_as_read" formatted="false">Sinna comente lèghidu</string>
-    <string name="action_mark_as_unread" formatted="false">Sinna comente non lèghidu</string>
-    <string name="action_mark_previous_as_read" formatted="false">Sinna sos antepostos comente lèghidos</string>
-    <string name="action_download" formatted="false">Iscàrriga</string>
-    <string name="action_bookmark" formatted="false">Annanghe unu sinnalibru</string>
-    <string name="action_remove_bookmark" formatted="false">Boga su sinnalibru</string>
-    <string name="action_delete" formatted="false">Iscantzella</string>
-    <string name="action_update" formatted="false">Agiorna</string>
-    <string name="action_update_library" formatted="false">Agiorna sa biblioteca</string>
-    <string name="action_edit" formatted="false">Modìfica</string>
-    <string name="action_add" formatted="false">Annanghe</string>
-    <string name="action_add_category" formatted="false">Annanghe una categoria</string>
-    <string name="action_edit_categories" formatted="false">Modìfica sas categorias</string>
-    <string name="action_rename_category" formatted="false">Cambia su nùmene de sa categoria</string>
-    <string name="action_move_category" formatted="false">Imposta sas categorias</string>
-    <string name="action_edit_cover" formatted="false">Muda s\'immàgine de cobertedda</string>
-    <string name="action_sort_up" formatted="false">Òrdina in manera chi artziet</string>
-    <string name="action_sort_down" formatted="false">Òrdina in manera chi achirret</string>
-    <string name="action_show_downloaded" formatted="false">Iscarrigados</string>
-    <string name="action_next_unread" formatted="false">Non lèghidu imbeniente</string>
-    <string name="action_start" formatted="false">Incumintza</string>
-    <string name="action_stop" formatted="false">Firma</string>
-    <string name="action_pause" formatted="false">Pone in pàusa</string>
-    <string name="action_close" formatted="false">Serra</string>
-    <string name="action_previous_chapter" formatted="false">Capìtulu antepostu</string>
-    <string name="action_next_chapter" formatted="false">Capìtulu imbeniente</string>
-    <string name="action_retry" formatted="false">Torra a proare</string>
-    <string name="action_remove" formatted="false">Boga</string>
-    <string name="action_resume" formatted="false">Sighi</string>
-    <string name="action_move" formatted="false">Tràmuda</string>
-    <string name="action_open_in_browser" formatted="false">Aberi in s\'esploradore (browser)</string>
-    <string name="action_display_mode" formatted="false">Modalidade de visualizatzione</string>
-    <string name="action_display" formatted="false">Visualizatzione</string>
-    <string name="action_display_grid" formatted="false">Grìllia</string>
-    <string name="action_display_list" formatted="false">Lista</string>
-    <string name="action_display_download_badge" formatted="false">Iconas de sos iscarrigamentos</string>
-    <string name="action_cancel" formatted="false">Annulla</string>
-    <string name="action_sort" formatted="false">Òrdina</string>
-    <string name="action_install" formatted="false">Installa</string>
-    <string name="action_share" formatted="false">Cumpartzi</string>
-    <string name="action_save" formatted="false">Sarva</string>
-    <string name="action_reset" formatted="false">Torra a impostare</string>
-    <string name="action_undo" formatted="false">Iscontza</string>
-    <string name="action_open_log" formatted="false">Aberi su registru</string>
-    <string name="action_create" formatted="false">Crea</string>
-    <string name="action_restore" formatted="false">Riprìstina</string>
-    <string name="action_open" formatted="false">Aberi</string>
-    <string name="action_login" formatted="false">Intra</string>
-    <string name="loading" formatted="false">Carrighende…</string>
-    <string name="app_not_available" formatted="false">Aplicatzione non disponìbile</string>
-    <string name="short_recent_updates" formatted="false">Agiornamentos</string>
-    <string name="pref_category_general" formatted="false">Generales</string>
-    <string name="pref_category_reader" formatted="false">Leghidore</string>
-    <string name="pref_category_downloads" formatted="false">Iscarrigamentos</string>
-    <string name="pref_category_tracking" formatted="false">Arrastamentu</string>
-    <string name="pref_category_advanced" formatted="false">Avantzadas</string>
-    <string name="pref_category_about" formatted="false">Informatziones</string>
-    <string name="pref_library_columns" formatted="false">Elementos pro riga</string>
-    <string name="portrait" formatted="false">Orientamentu verticale</string>
-    <string name="landscape" formatted="false">Orientamentu orizontale</string>
-    <string name="default_columns" formatted="false">Predefinidu</string>
-    <string name="pref_library_update_interval" formatted="false">Frecuèntzia de agiornamentu de sa biblioteca</string>
-    <string name="update_never" formatted="false">Manuale</string>
-    <string name="update_1hour" formatted="false">Cada ora</string>
-    <string name="update_2hour" formatted="false">Cada 2 oras</string>
-    <string name="update_3hour" formatted="false">Cada 3 oras</string>
-    <string name="update_6hour" formatted="false">Cada 6 oras</string>
-    <string name="update_12hour" formatted="false">Cada 12 oras</string>
-    <string name="update_24hour" formatted="false">Cada die</string>
-    <string name="update_48hour" formatted="false">Cada 2 dies</string>
-    <string name="update_weekly" formatted="false">Cada chida</string>
-    <string name="update_monthly" formatted="false">Cada mese</string>
-    <string name="pref_library_update_categories" formatted="false">Categorias de incluire in s\'agiornamentu globale</string>
-    <string name="all" formatted="false">Totus</string>
-    <string name="pref_library_update_restriction" formatted="false">Restritziones a s\'agiornamentu de sa biblioteca</string>
-    <string name="pref_library_update_restriction_summary" formatted="false">Agiorna petzi cando sas cunditziones benint rispetadas</string>
-    <string name="wifi" formatted="false">Wi-Fi</string>
-    <string name="charging" formatted="false">Carrighende</string>
-    <string name="pref_update_only_non_completed" formatted="false">Agiorna sos manga in cursu ebbia</string>
-    <string name="pref_auto_update_manga_sync" formatted="false">Sincroniza sos capìtulos a pustis de sa leghidura</string>
-    <string name="pref_start_screen" formatted="false">Ischermada de incumintzu</string>
-    <string name="pref_language" formatted="false">Limba</string>
-    <string name="system_default" formatted="false">Predefinida</string>
-    <string name="default_category" formatted="false">Categoria predefinida</string>
-    <string name="default_category_summary" formatted="false">Pedi semper</string>
-    <string name="all_lang" formatted="false">Totus</string>
-    <string name="ext_details" formatted="false">Detàllios</string>
-    <string name="ext_update" formatted="false">Agiorna</string>
-    <string name="ext_install" formatted="false">Installa</string>
-    <string name="ext_pending" formatted="false">Isetende</string>
-    <string name="ext_downloading" formatted="false">Iscarrighende</string>
-    <string name="ext_installing" formatted="false">Installende</string>
-    <string name="ext_installed" formatted="false">Installadas</string>
-    <string name="ext_trust" formatted="false">Mi fido</string>
-    <string name="ext_untrusted" formatted="false">Nun mi fido</string>
-    <string name="ext_uninstall" formatted="false">Disinstalla</string>
-    <string name="ext_preferences" formatted="false">Preferèntzias</string>
-    <string name="ext_available" formatted="false">Disponìbile</string>
-    <string name="untrusted_extension" formatted="false">Estensione non afidàbile</string>
-    <string name="untrusted_extension_message" formatted="false">Custa estensione est istada firmada cun unu tzertificadu chi no est afidàbile e no est istada ativada.
+    <string name="name">Nùmene</string>
+    <string name="categories">Categorias</string>
+    <string name="manga">Manga</string>
+    <string name="chapters">Capìtulos</string>
+    <string name="track">Arrastamentu</string>
+    <string name="history">Cronologia</string>
+    <string name="label_settings">Impostatziones</string>
+    <string name="label_download_queue">Fila de sos iscarrigamentos</string>
+    <string name="label_library">Biblioteca</string>
+    <string name="label_recent_manga">Cronologia</string>
+    <string name="label_recent_updates">Agiornamentos</string>
+    <string name="label_categories">Categorias</string>
+    <string name="label_backup">Còpia de seguresa</string>
+    <string name="label_migration">Tramudòngiu de sas mitzas</string>
+    <string name="label_extensions">Estensiones</string>
+    <string name="label_extension_info">Informatziones de s\'estensione</string>
+    <string name="action_settings">Impostatziones</string>
+    <string name="action_filter">Filtru</string>
+    <string name="action_filter_downloaded">Iscarrigados</string>
+    <string name="action_filter_bookmarked">Sinnados</string>
+    <string name="action_filter_unread">Non lèghidos</string>
+    <string name="action_filter_read">Lèghidos</string>
+    <string name="action_filter_empty">Boga su filtru</string>
+    <string name="action_sort_alpha">Alfabeticamente</string>
+    <string name="action_sort_total">Capìtulos totales</string>
+    <string name="action_sort_last_read">Ùrtimos lèghidos</string>
+    <string name="action_search">Chirca</string>
+    <string name="action_global_search">Chirca globale</string>
+    <string name="action_select_all">Ischerta totu</string>
+    <string name="action_mark_as_read">Sinna comente lèghidu</string>
+    <string name="action_mark_as_unread">Sinna comente non lèghidu</string>
+    <string name="action_mark_previous_as_read">Sinna sos antepostos comente lèghidos</string>
+    <string name="action_download">Iscàrriga</string>
+    <string name="action_bookmark">Annanghe unu sinnalibru</string>
+    <string name="action_remove_bookmark">Boga su sinnalibru</string>
+    <string name="action_delete">Iscantzella</string>
+    <string name="action_update">Agiorna</string>
+    <string name="action_update_library">Agiorna sa biblioteca</string>
+    <string name="action_edit">Modìfica</string>
+    <string name="action_add">Annanghe</string>
+    <string name="action_add_category">Annanghe una categoria</string>
+    <string name="action_edit_categories">Modìfica sas categorias</string>
+    <string name="action_rename_category">Cambia su nùmene de sa categoria</string>
+    <string name="action_move_category">Imposta sas categorias</string>
+    <string name="action_edit_cover">Muda s\'immàgine de cobertedda</string>
+    <string name="action_sort_up">Òrdina in manera chi artziet</string>
+    <string name="action_sort_down">Òrdina in manera chi achirret</string>
+    <string name="action_show_downloaded">Iscarrigados</string>
+    <string name="action_next_unread">Non lèghidu imbeniente</string>
+    <string name="action_start">Incumintza</string>
+    <string name="action_stop">Firma</string>
+    <string name="action_pause">Pone in pàusa</string>
+    <string name="action_close">Serra</string>
+    <string name="action_previous_chapter">Capìtulu antepostu</string>
+    <string name="action_next_chapter">Capìtulu imbeniente</string>
+    <string name="action_retry">Torra a proare</string>
+    <string name="action_remove">Boga</string>
+    <string name="action_resume">Sighi</string>
+    <string name="action_move">Tràmuda</string>
+    <string name="action_open_in_browser">Aberi in s\'esploradore (browser)</string>
+    <string name="action_display_mode">Modalidade de visualizatzione</string>
+    <string name="action_display">Visualizatzione</string>
+    <string name="action_display_grid">Grìllia</string>
+    <string name="action_display_list">Lista</string>
+    <string name="action_display_download_badge">Iconas de sos iscarrigamentos</string>
+    <string name="action_cancel">Annulla</string>
+    <string name="action_sort">Òrdina</string>
+    <string name="action_install">Installa</string>
+    <string name="action_share">Cumpartzi</string>
+    <string name="action_save">Sarva</string>
+    <string name="action_reset">Torra a impostare</string>
+    <string name="action_undo">Iscontza</string>
+    <string name="action_open_log">Aberi su registru</string>
+    <string name="action_create">Crea</string>
+    <string name="action_restore">Riprìstina</string>
+    <string name="action_open">Aberi</string>
+    <string name="action_login">Intra</string>
+    <string name="loading">Carrighende…</string>
+    <string name="app_not_available">Aplicatzione non disponìbile</string>
+    <string name="short_recent_updates">Agiornamentos</string>
+    <string name="pref_category_general">Generales</string>
+    <string name="pref_category_reader">Leghidore</string>
+    <string name="pref_category_downloads">Iscarrigamentos</string>
+    <string name="pref_category_tracking">Arrastamentu</string>
+    <string name="pref_category_advanced">Avantzadas</string>
+    <string name="pref_category_about">Informatziones</string>
+    <string name="pref_library_columns">Elementos pro riga</string>
+    <string name="portrait">Orientamentu verticale</string>
+    <string name="landscape">Orientamentu orizontale</string>
+    <string name="default_columns">Predefinidu</string>
+    <string name="pref_library_update_interval">Frecuèntzia de agiornamentu de sa biblioteca</string>
+    <string name="update_never">Manuale</string>
+    <string name="update_1hour">Cada ora</string>
+    <string name="update_2hour">Cada 2 oras</string>
+    <string name="update_3hour">Cada 3 oras</string>
+    <string name="update_6hour">Cada 6 oras</string>
+    <string name="update_12hour">Cada 12 oras</string>
+    <string name="update_24hour">Cada die</string>
+    <string name="update_48hour">Cada 2 dies</string>
+    <string name="update_weekly">Cada chida</string>
+    <string name="update_monthly">Cada mese</string>
+    <string name="pref_library_update_categories">Categorias de incluire in s\'agiornamentu globale</string>
+    <string name="all">Totus</string>
+    <string name="pref_library_update_restriction">Restritziones a s\'agiornamentu de sa biblioteca</string>
+    <string name="pref_library_update_restriction_summary">Agiorna petzi cando sas cunditziones benint rispetadas</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="charging">Carrighende</string>
+    <string name="pref_update_only_non_completed">Agiorna sos manga in cursu ebbia</string>
+    <string name="pref_auto_update_manga_sync">Sincroniza sos capìtulos a pustis de sa leghidura</string>
+    <string name="pref_start_screen">Ischermada de incumintzu</string>
+    <string name="pref_language">Limba</string>
+    <string name="system_default">Predefinida</string>
+    <string name="default_category">Categoria predefinida</string>
+    <string name="default_category_summary">Pedi semper</string>
+    <string name="all_lang">Totus</string>
+    <string name="ext_details">Detàllios</string>
+    <string name="ext_update">Agiorna</string>
+    <string name="ext_install">Installa</string>
+    <string name="ext_pending">Isetende</string>
+    <string name="ext_downloading">Iscarrighende</string>
+    <string name="ext_installing">Installende</string>
+    <string name="ext_installed">Installadas</string>
+    <string name="ext_trust">Mi fido</string>
+    <string name="ext_untrusted">Nun mi fido</string>
+    <string name="ext_uninstall">Disinstalla</string>
+    <string name="ext_preferences">Preferèntzias</string>
+    <string name="ext_available">Disponìbile</string>
+    <string name="untrusted_extension">Estensione non afidàbile</string>
+    <string name="untrusted_extension_message">Custa estensione est istada firmada cun unu tzertificadu chi no est afidàbile e no est istada ativada.
 \n
 \nUn\'estensione mala diat pòdere lèghere totu sas informatziones de atzessu sarvadas in Tachiyomi o fàghere eseguire còdighe arbitràriu.
 \n
 \nPonende fidùtzia in custu tzertificadu atzetas custos arriscos.</string>
-    <string name="ext_version_info" formatted="false">Versione: %1$s</string>
-    <string name="ext_language_info" formatted="false">Limba: %1$s</string>
-    <string name="ext_empty_preferences" formatted="false">Non bi sunt preferèntzias de modificare pro custa estensione</string>
-    <string name="pref_fullscreen" formatted="false">Ischermu intreu</string>
-    <string name="pref_lock_orientation" formatted="false">Bloca s\'orientamentu</string>
-    <string name="pref_page_transitions" formatted="false">Transitziones de sas pàginas</string>
-    <string name="pref_double_tap_anim_speed" formatted="false">Lestresa de s\'animatzione de su tocu dòpiu</string>
-    <string name="pref_show_page_number" formatted="false">Ammustra su nùmeru de sa pàgina</string>
-    <string name="pref_crop_borders" formatted="false">Sega sos oros</string>
-    <string name="pref_custom_brightness" formatted="false">Imprea una luminosidade personalizada</string>
-    <string name="pref_custom_color_filter" formatted="false">Imprea unu filtru de colore personalizadu</string>
-    <string name="pref_keep_screen_on" formatted="false">Mantene s\'ischermu allutu</string>
-    <string name="pref_reader_navigation" formatted="false">Navigatzione</string>
-    <string name="pref_read_with_volume_keys" formatted="false">Teclas de su volume</string>
-    <string name="pref_read_with_volume_keys_inverted" formatted="false">Fùrria sas teclas de su volume</string>
-    <string name="pref_read_with_tapping" formatted="false">Tocu sìngulu</string>
-    <string name="pref_read_with_long_tap" formatted="false">Ventana cun su tocu longu</string>
-    <string name="pref_reader_theme" formatted="false">Colore de isfundu</string>
-    <string name="white_background" formatted="false">Arbu/biancu</string>
-    <string name="black_background" formatted="false">Nieddu</string>
-    <string name="pref_viewer_type" formatted="false">Òrdine de leghidura</string>
-    <string name="default_viewer" formatted="false">Predefinidu</string>
-    <string name="left_to_right_viewer" formatted="false">Dae manca a destra</string>
-    <string name="right_to_left_viewer" formatted="false">Dae destra a manca</string>
-    <string name="vertical_viewer" formatted="false">Verticale</string>
-    <string name="webtoon_viewer" formatted="false">Webtoon</string>
-    <string name="pager_viewer" formatted="false">Impaginadore</string>
-    <string name="pref_image_decoder" formatted="false">Decodificadore de immàgines</string>
-    <string name="pref_image_scale_type" formatted="false">Casta de iscala</string>
-    <string name="scale_type_fit_screen" formatted="false">Adata a s\'ischermu</string>
-    <string name="scale_type_stretch" formatted="false">Prena s\'ischermu</string>
-    <string name="scale_type_fit_width" formatted="false">Adata a sa largària</string>
-    <string name="scale_type_fit_height" formatted="false">Adata a s\'artària</string>
-    <string name="scale_type_original_size" formatted="false">Mannària originale</string>
-    <string name="scale_type_smart_fit" formatted="false">Adatamentu intelligente</string>
-    <string name="pref_zoom_start" formatted="false">Positzione incumintzu ismanniamentu</string>
-    <string name="zoom_start_automatic" formatted="false">Automàtica</string>
-    <string name="zoom_start_left" formatted="false">A manca</string>
-    <string name="zoom_start_right" formatted="false">A destra</string>
-    <string name="zoom_start_center" formatted="false">In su tzentru</string>
-    <string name="double_tap_anim_speed_0" formatted="false">Peruna animatzione</string>
-    <string name="double_tap_anim_speed_normal" formatted="false">Normale</string>
-    <string name="double_tap_anim_speed_fast" formatted="false">Lestra</string>
-    <string name="pref_rotation_type" formatted="false">Rotatzione</string>
-    <string name="rotation_free" formatted="false">Lìbera</string>
-    <string name="rotation_lock" formatted="false">Blocada</string>
-    <string name="rotation_force_portrait" formatted="false">Bloca in verticale</string>
-    <string name="rotation_force_landscape" formatted="false">Bloca in orizontale</string>
-    <string name="color_filter_r_value" formatted="false">R</string>
-    <string name="color_filter_g_value" formatted="false">G</string>
-    <string name="color_filter_b_value" formatted="false">B</string>
-    <string name="color_filter_a_value" formatted="false">A</string>
-    <string name="pref_download_directory" formatted="false">Cartella de sos iscarrigamentos</string>
-    <string name="pref_download_only_over_wifi" formatted="false">Iscàrriga petzi impreende su WiFi</string>
-    <string name="pref_remove_after_marked_as_read" formatted="false">Iscantzella cando est marcadu comente non lèghidu</string>
-    <string name="pref_remove_after_read" formatted="false">Iscantzella a pustis de sa leghidura</string>
-    <string name="custom_dir" formatted="false">Cartella personalizada</string>
-    <string name="disabled" formatted="false">Disabilitadu</string>
-    <string name="last_read_chapter" formatted="false">Leghe s\'ùrtimu capìtulu</string>
-    <string name="second_to_last" formatted="false">Penùrtimu capìtulu</string>
-    <string name="third_to_last" formatted="false">Tertzùrtimu capìtulu</string>
-    <string name="fourth_to_last" formatted="false">Cuartùrtimu capìtulu</string>
-    <string name="fifth_to_last" formatted="false">Cuintùrtimu capìtulu</string>
-    <string name="pref_download_new" formatted="false">Iscàrriga sos capìtulos noos</string>
-    <string name="pref_download_new_categories" formatted="false">Categorias de incluire in s\'iscarrigamentu</string>
-    <string name="services" formatted="false">Servìtzios</string>
-    <string name="backup" formatted="false">Còpia de seguresa</string>
-    <string name="pref_create_backup" formatted="false">Crea una còpia de seguresa</string>
-    <string name="pref_create_backup_summ" formatted="false">Podet èssere impreada pro ripristinare sa biblioteca atuale</string>
-    <string name="pref_restore_backup" formatted="false">Riprìstina una còpia de seguresa</string>
-    <string name="pref_restore_backup_summ" formatted="false">Riprìstina sa biblioteca dae una còpia de seguresa</string>
-    <string name="pref_backup_directory" formatted="false">Cartella de sa còpia de seguresa</string>
-    <string name="pref_backup_service_category" formatted="false">Servìtziu</string>
-    <string name="pref_backup_interval" formatted="false">Frecuèntzia de sarvatàgiu de sas còpias de seguresa</string>
-    <string name="pref_backup_slots" formatted="false">Nùmeru màssimu de còpias automàticas</string>
-    <string name="source_not_found" formatted="false">Mitza no agatada</string>
-    <string name="backup_created" formatted="false">Còpia de seguresa creada</string>
-    <string name="restore_completed" formatted="false">Riprìstinu acabadu</string>
-    <string name="restore_completed_content" formatted="false">Acabadu in %1$s cun %2$s errores</string>
-    <string name="backup_restore_content" formatted="false">Su riprìstinu impreat sas mitzas pro otènnere sos datos, bi diant pòdere èssere costos de s\'operadore. 
+    <string name="ext_version_info">Versione: %1$s</string>
+    <string name="ext_language_info">Limba: %1$s</string>
+    <string name="ext_empty_preferences">Non bi sunt preferèntzias de modificare pro custa estensione</string>
+    <string name="pref_fullscreen">Ischermu intreu</string>
+    <string name="pref_lock_orientation">Bloca s\'orientamentu</string>
+    <string name="pref_page_transitions">Transitziones de sas pàginas</string>
+    <string name="pref_double_tap_anim_speed">Lestresa de s\'animatzione de su tocu dòpiu</string>
+    <string name="pref_show_page_number">Ammustra su nùmeru de sa pàgina</string>
+    <string name="pref_crop_borders">Sega sos oros</string>
+    <string name="pref_custom_brightness">Imprea una luminosidade personalizada</string>
+    <string name="pref_custom_color_filter">Imprea unu filtru de colore personalizadu</string>
+    <string name="pref_keep_screen_on">Mantene s\'ischermu allutu</string>
+    <string name="pref_reader_navigation">Navigatzione</string>
+    <string name="pref_read_with_volume_keys">Teclas de su volume</string>
+    <string name="pref_read_with_volume_keys_inverted">Fùrria sas teclas de su volume</string>
+    <string name="pref_read_with_tapping">Tocu sìngulu</string>
+    <string name="pref_read_with_long_tap">Ventana cun su tocu longu</string>
+    <string name="pref_reader_theme">Colore de isfundu</string>
+    <string name="white_background">Arbu/biancu</string>
+    <string name="black_background">Nieddu</string>
+    <string name="pref_viewer_type">Òrdine de leghidura</string>
+    <string name="default_viewer">Predefinidu</string>
+    <string name="left_to_right_viewer">Dae manca a destra</string>
+    <string name="right_to_left_viewer">Dae destra a manca</string>
+    <string name="vertical_viewer">Verticale</string>
+    <string name="webtoon_viewer">Webtoon</string>
+    <string name="pager_viewer">Impaginadore</string>
+    <string name="pref_image_decoder">Decodificadore de immàgines</string>
+    <string name="pref_image_scale_type">Casta de iscala</string>
+    <string name="scale_type_fit_screen">Adata a s\'ischermu</string>
+    <string name="scale_type_stretch">Prena s\'ischermu</string>
+    <string name="scale_type_fit_width">Adata a sa largària</string>
+    <string name="scale_type_fit_height">Adata a s\'artària</string>
+    <string name="scale_type_original_size">Mannària originale</string>
+    <string name="scale_type_smart_fit">Adatamentu intelligente</string>
+    <string name="pref_zoom_start">Positzione incumintzu ismanniamentu</string>
+    <string name="zoom_start_automatic">Automàtica</string>
+    <string name="zoom_start_left">A manca</string>
+    <string name="zoom_start_right">A destra</string>
+    <string name="zoom_start_center">In su tzentru</string>
+    <string name="double_tap_anim_speed_0">Peruna animatzione</string>
+    <string name="double_tap_anim_speed_normal">Normale</string>
+    <string name="double_tap_anim_speed_fast">Lestra</string>
+    <string name="pref_rotation_type">Rotatzione</string>
+    <string name="rotation_free">Lìbera</string>
+    <string name="rotation_lock">Blocada</string>
+    <string name="rotation_force_portrait">Bloca in verticale</string>
+    <string name="rotation_force_landscape">Bloca in orizontale</string>
+    <string name="color_filter_r_value">R</string>
+    <string name="color_filter_g_value">G</string>
+    <string name="color_filter_b_value">B</string>
+    <string name="color_filter_a_value">A</string>
+    <string name="pref_download_directory">Cartella de sos iscarrigamentos</string>
+    <string name="pref_download_only_over_wifi">Iscàrriga petzi impreende su WiFi</string>
+    <string name="pref_remove_after_marked_as_read">Iscantzella cando est marcadu comente non lèghidu</string>
+    <string name="pref_remove_after_read">Iscantzella a pustis de sa leghidura</string>
+    <string name="custom_dir">Cartella personalizada</string>
+    <string name="disabled">Disabilitadu</string>
+    <string name="last_read_chapter">Leghe s\'ùrtimu capìtulu</string>
+    <string name="second_to_last">Penùrtimu capìtulu</string>
+    <string name="third_to_last">Tertzùrtimu capìtulu</string>
+    <string name="fourth_to_last">Cuartùrtimu capìtulu</string>
+    <string name="fifth_to_last">Cuintùrtimu capìtulu</string>
+    <string name="pref_download_new">Iscàrriga sos capìtulos noos</string>
+    <string name="pref_download_new_categories">Categorias de incluire in s\'iscarrigamentu</string>
+    <string name="services">Servìtzios</string>
+    <string name="backup">Còpia de seguresa</string>
+    <string name="pref_create_backup">Crea una còpia de seguresa</string>
+    <string name="pref_create_backup_summ">Podet èssere impreada pro ripristinare sa biblioteca atuale</string>
+    <string name="pref_restore_backup">Riprìstina una còpia de seguresa</string>
+    <string name="pref_restore_backup_summ">Riprìstina sa biblioteca dae una còpia de seguresa</string>
+    <string name="pref_backup_directory">Cartella de sa còpia de seguresa</string>
+    <string name="pref_backup_service_category">Servìtziu</string>
+    <string name="pref_backup_interval">Frecuèntzia de sarvatàgiu de sas còpias de seguresa</string>
+    <string name="pref_backup_slots">Nùmeru màssimu de còpias automàticas</string>
+    <string name="source_not_found">Mitza no agatada</string>
+    <string name="backup_created">Còpia de seguresa creada</string>
+    <string name="restore_completed">Riprìstinu acabadu</string>
+    <string name="restore_completed_content">Acabadu in %1$s cun %2$s errores</string>
+    <string name="backup_restore_content">Su riprìstinu impreat sas mitzas pro otènnere sos datos, bi diant pòdere èssere costos de s\'operadore. 
 \n
 \nAssegura·ti de àere installadu totu sas estensiones netzessàrias e de àere fatu s\'atzessu a sas mitzas e a sos servìtzios de arrastamentu in antis de ripristinare.</string>
-    <string name="backup_choice" formatted="false">De ite cheres fàghere una còpia de seguresa\?</string>
-    <string name="restoring_backup" formatted="false">Ripristinende sa còpia de seguresa</string>
-    <string name="creating_backup" formatted="false">Creende sa còpia de seguresa</string>
-    <string name="pref_clear_chapter_cache" formatted="false">Isbòida sa memòria temporànea de sos capìtulos</string>
-    <string name="used_cache" formatted="false">Impreados: %1$s</string>
-    <string name="cache_deleted" formatted="false">Memòria temporànea isbodiada. %1$d documentos sunt istados iscantzellados</string>
-    <string name="cache_delete_error" formatted="false">B\'at àpidu un\'errore durante s\'isbodiamentu de sa memòria temporànea</string>
-    <string name="pref_clear_cookies" formatted="false">Iscantzella sos cookies</string>
-    <string name="cookies_cleared" formatted="false">Cookies iscantzellados</string>
-    <string name="choices_reset" formatted="false">Reseta sos issèberos de diàlogu</string>
-    <string name="pref_clear_database" formatted="false">Isbòida sa base de datos</string>
-    <string name="pref_clear_database_summary" formatted="false">Iscantzella sos manga e sos capìtulos chi non sunt in sa biblioteca tua</string>
-    <string name="clear_database_confirmation" formatted="false">Seguru ses\? Sos capìtulos lèghidos e su progressu de sos mangas chi non sunt in sa biblioteca s\'ant a pèrdere</string>
-    <string name="clear_database_completed" formatted="false">Boghes iscantzelladas</string>
-    <string name="pref_refresh_library_metadata" formatted="false">Agiorna sos metadatos de sa biblioteca</string>
-    <string name="pref_refresh_library_metadata_summary" formatted="false">Agiornat sas coberteddas, sos gèneres, sa descritzione e sas informatziones de istadu de sos manga</string>
-    <string name="pref_refresh_library_tracking" formatted="false">Agiorna sos metadatos de arrastamentu</string>
-    <string name="pref_refresh_library_tracking_summary" formatted="false">Agiornat s\'istadu, su votu e s\'ùrtimu capìtulu lèghidu dae sos servìtzios de arrastamentu</string>
-    <string name="version" formatted="false">Versione</string>
-    <string name="build_time" formatted="false">Data de compilatzione</string>
-    <string name="pref_enable_acra" formatted="false">Imbia raportos a pitzu de sos arrestos anòmalos</string>
-    <string name="pref_acra_summary" formatted="false">Agiudat a acontzare cale si siat faddina. Perunu datu sensìbile at a èssere imbiadu</string>
-    <string name="login_title" formatted="false">Intra in %1$s</string>
-    <string name="username" formatted="false">Nùmene impreadore</string>
-    <string name="password" formatted="false">Crae de intrada</string>
-    <string name="show_password" formatted="false">Ammustra sa crae</string>
-    <string name="login" formatted="false">Intra</string>
-    <string name="login_success" formatted="false">Ses intradu</string>
-    <string name="invalid_login" formatted="false">Intrada fallida</string>
-    <string name="unknown_error" formatted="false">Errore disconnotu</string>
-    <string name="library_search_hint" formatted="false">Tìtulu o autore…</string>
-    <string name="updating_category" formatted="false">Agiornende sa categoria</string>
-    <string name="local_source_badge" formatted="false">Locale</string>
-    <string name="confirm_delete_manga" formatted="false">Ses seguru de chèrrere bogare sos manga ischertados\?</string>
-    <string name="also_delete_chapters" formatted="false">Iscantzella fintzas sos capìtulos iscarrigados</string>
-    <string name="source_requires_login" formatted="false">Custa mitza ti pedit de fàghere s\'atzessu</string>
-    <string name="select_source" formatted="false">Ischerta una mitza</string>
-    <string name="no_valid_sources" formatted="false">Pro praghere abìlita a su mancu una mitza vàlida</string>
-    <string name="no_more_results" formatted="false">Non bi sunt àteros risultados</string>
-    <string name="local_source" formatted="false">Mitza locale</string>
-    <string name="other_source" formatted="false">Àteru</string>
-    <string name="invalid_combination" formatted="false">Predefinidu non podet èssere ischertadu cun àteras categorias</string>
-    <string name="added_to_library" formatted="false">Su manga est istadu annantu a sa biblioteca tua</string>
-    <string name="action_global_search_hint" formatted="false">Chirca globale…</string>
-    <string name="latest" formatted="false">Ùrtimos</string>
-    <string name="browse" formatted="false">Esplora</string>
-    <string name="manga_not_in_db" formatted="false">Custu manga est istadu bogadu dae sa base de datos.</string>
-    <string name="manga_detail_tab" formatted="false">Informatziones</string>
-    <string name="description" formatted="false">Descritzione</string>
-    <string name="ongoing" formatted="false">In cursu</string>
-    <string name="unknown" formatted="false">Disconnotu</string>
-    <string name="licensed" formatted="false">Cuntzessu in litzèntzia</string>
-    <string name="remove_from_library" formatted="false">Boga dae sa biblioteca</string>
-    <string name="manga_info_full_title_label" formatted="false">Tìtulu</string>
-    <string name="manga_added_library" formatted="false">Annantu a sa biblioteca</string>
-    <string name="manga_removed_library" formatted="false">Bogadu dae sa biblioteca</string>
-    <string name="manga_info_author_label" formatted="false">Autore</string>
-    <string name="manga_info_artist_label" formatted="false">Artista</string>
-    <string name="manga_info_chapters_label" formatted="false">Capìtulos</string>
-    <string name="manga_info_status_label" formatted="false">Istadu</string>
-    <string name="manga_info_source_label" formatted="false">Mitza</string>
-    <string name="manga_info_genres_label" formatted="false">Gèneres</string>
-    <string name="delete_downloads_for_manga" formatted="false">Iscantzellare sos capìtulos iscarrigados\?</string>
-    <string name="copied_to_clipboard" formatted="false">Copiadu in punta de billete:
+    <string name="backup_choice">De ite cheres fàghere una còpia de seguresa\?</string>
+    <string name="restoring_backup">Ripristinende sa còpia de seguresa</string>
+    <string name="creating_backup">Creende sa còpia de seguresa</string>
+    <string name="pref_clear_chapter_cache">Isbòida sa memòria temporànea de sos capìtulos</string>
+    <string name="used_cache">Impreados: %1$s</string>
+    <string name="cache_deleted">Memòria temporànea isbodiada. %1$d documentos sunt istados iscantzellados</string>
+    <string name="cache_delete_error">B\'at àpidu un\'errore durante s\'isbodiamentu de sa memòria temporànea</string>
+    <string name="pref_clear_cookies">Iscantzella sos cookies</string>
+    <string name="cookies_cleared">Cookies iscantzellados</string>
+    <string name="choices_reset">Reseta sos issèberos de diàlogu</string>
+    <string name="pref_clear_database">Isbòida sa base de datos</string>
+    <string name="pref_clear_database_summary">Iscantzella sos manga e sos capìtulos chi non sunt in sa biblioteca tua</string>
+    <string name="clear_database_confirmation">Seguru ses\? Sos capìtulos lèghidos e su progressu de sos mangas chi non sunt in sa biblioteca s\'ant a pèrdere</string>
+    <string name="clear_database_completed">Boghes iscantzelladas</string>
+    <string name="pref_refresh_library_metadata">Agiorna sos metadatos de sa biblioteca</string>
+    <string name="pref_refresh_library_metadata_summary">Agiornat sas coberteddas, sos gèneres, sa descritzione e sas informatziones de istadu de sos manga</string>
+    <string name="pref_refresh_library_tracking">Agiorna sos metadatos de arrastamentu</string>
+    <string name="pref_refresh_library_tracking_summary">Agiornat s\'istadu, su votu e s\'ùrtimu capìtulu lèghidu dae sos servìtzios de arrastamentu</string>
+    <string name="version">Versione</string>
+    <string name="build_time">Data de compilatzione</string>
+    <string name="pref_enable_acra">Imbia raportos a pitzu de sos arrestos anòmalos</string>
+    <string name="pref_acra_summary">Agiudat a acontzare cale si siat faddina. Perunu datu sensìbile at a èssere imbiadu</string>
+    <string name="login_title">Intra in %1$s</string>
+    <string name="username">Nùmene impreadore</string>
+    <string name="password">Crae de intrada</string>
+    <string name="show_password">Ammustra sa crae</string>
+    <string name="login">Intra</string>
+    <string name="login_success">Ses intradu</string>
+    <string name="invalid_login">Intrada fallida</string>
+    <string name="unknown_error">Errore disconnotu</string>
+    <string name="library_search_hint">Tìtulu o autore…</string>
+    <string name="updating_category">Agiornende sa categoria</string>
+    <string name="local_source_badge">Locale</string>
+    <string name="confirm_delete_manga">Ses seguru de chèrrere bogare sos manga ischertados\?</string>
+    <string name="also_delete_chapters">Iscantzella fintzas sos capìtulos iscarrigados</string>
+    <string name="source_requires_login">Custa mitza ti pedit de fàghere s\'atzessu</string>
+    <string name="select_source">Ischerta una mitza</string>
+    <string name="no_valid_sources">Pro praghere abìlita a su mancu una mitza vàlida</string>
+    <string name="no_more_results">Non bi sunt àteros risultados</string>
+    <string name="local_source">Mitza locale</string>
+    <string name="other_source">Àteru</string>
+    <string name="invalid_combination">Predefinidu non podet èssere ischertadu cun àteras categorias</string>
+    <string name="added_to_library">Su manga est istadu annantu a sa biblioteca tua</string>
+    <string name="action_global_search_hint">Chirca globale…</string>
+    <string name="latest">Ùrtimos</string>
+    <string name="browse">Esplora</string>
+    <string name="manga_not_in_db">Custu manga est istadu bogadu dae sa base de datos.</string>
+    <string name="manga_detail_tab">Informatziones</string>
+    <string name="description">Descritzione</string>
+    <string name="ongoing">In cursu</string>
+    <string name="unknown">Disconnotu</string>
+    <string name="licensed">Cuntzessu in litzèntzia</string>
+    <string name="remove_from_library">Boga dae sa biblioteca</string>
+    <string name="manga_info_full_title_label">Tìtulu</string>
+    <string name="manga_added_library">Annantu a sa biblioteca</string>
+    <string name="manga_removed_library">Bogadu dae sa biblioteca</string>
+    <string name="manga_info_author_label">Autore</string>
+    <string name="manga_info_artist_label">Artista</string>
+    <string name="manga_info_chapters_label">Capìtulos</string>
+    <string name="manga_info_status_label">Istadu</string>
+    <string name="manga_info_source_label">Mitza</string>
+    <string name="manga_info_genres_label">Gèneres</string>
+    <string name="delete_downloads_for_manga">Iscantzellare sos capìtulos iscarrigados\?</string>
+    <string name="copied_to_clipboard">Copiadu in punta de billete:
 \n%1$s</string>
-    <string name="source_not_installed" formatted="false">Mitza no installada: %1$s</string>
-    <string name="manga_chapters_tab" formatted="false">Capìtulos</string>
-    <string name="manga_chapter_no_title" formatted="false">Chene tìtulu</string>
-    <string name="display_mode_chapter" formatted="false">Capìtulu %1$s</string>
-    <string name="chapter_downloaded" formatted="false">Iscarrigadu</string>
-    <string name="chapter_queued" formatted="false">In isetu</string>
-    <string name="chapter_downloading" formatted="false">Iscarrighende</string>
-    <string name="chapter_downloading_progress" formatted="false">Iscarrighende (%1$d/%2$d)</string>
-    <string name="chapter_error" formatted="false">Errore</string>
-    <string name="chapter_paused" formatted="false">In pàusa</string>
-    <string name="fetch_chapters_error" formatted="false">Recùperu de sos capìtulos fallidu</string>
-    <string name="show_title" formatted="false">Tìtulu</string>
-    <string name="show_chapter_number" formatted="false">Nùmeru de capìtulu</string>
-    <string name="sorting_mode" formatted="false">Modalidade de ordinamentu</string>
-    <string name="sort_by_source" formatted="false">Pro mitza</string>
-    <string name="sort_by_number" formatted="false">Pro nùmeru de capìtulu</string>
-    <string name="manga_download" formatted="false">Iscàrriga</string>
-    <string name="custom_download" formatted="false">Iscàrriga una cantidade personalizada</string>
-    <string name="download_1" formatted="false">Capìtulu imbeniente</string>
-    <string name="download_5" formatted="false">Sos 5 capìtulos imbenientes</string>
-    <string name="download_10" formatted="false">Sos 10 capìtulos imbenientes</string>
-    <string name="download_custom" formatted="false">Personalizadu</string>
-    <string name="download_all" formatted="false">Totu</string>
-    <string name="download_unread" formatted="false">Non lèghidos</string>
-    <string name="confirm_delete_chapters" formatted="false">Ses seguru de chèrrere iscantzellare sos capìtulos ischertados\?</string>
-    <string name="manga_tracking_tab" formatted="false">Arrastamentu</string>
-    <string name="reading" formatted="false">Leghende</string>
-    <string name="completed" formatted="false">Acabadu</string>
-    <string name="dropped" formatted="false">Abbandonadu</string>
-    <string name="on_hold" formatted="false">In pàusa</string>
-    <string name="plan_to_read" formatted="false">De lèghere</string>
-    <string name="repeating" formatted="false">Leghende torra</string>
-    <string name="score" formatted="false">Votu</string>
-    <string name="title" formatted="false">Tìtulu</string>
-    <string name="status" formatted="false">Istadu</string>
-    <string name="track_status" formatted="false">Istadu</string>
-    <string name="track_start_date" formatted="false">Incumintzadu</string>
-    <string name="track_type" formatted="false">Casta</string>
-    <string name="track_author" formatted="false">Autore</string>
-    <string name="url_not_set" formatted="false">S\'URL de su manga no est impostadu, pro praghere incarca in su tìtulu e ischerta torra su manga</string>
-    <string name="error_category_exists" formatted="false">Esistit giai una categoria cun custu nùmene!</string>
-    <string name="snack_categories_deleted" formatted="false">Categorias iscantzelladas</string>
-    <string name="dialog_with_checkbox_remove_description" formatted="false">Custu at a bogare sa data de leghidura de custu capìtulu. Seguru ses\?</string>
-    <string name="dialog_with_checkbox_reset" formatted="false">Reseta totu sos capìtulos pro custu manga</string>
-    <string name="snack_add_to_library" formatted="false">Annànghere custu manga a sa biblioteca\?</string>
-    <string name="picture_saved" formatted="false">Immàgine sarvada</string>
-    <string name="saving_picture" formatted="false">Sarvende s\'immàgine</string>
-    <string name="options" formatted="false">Optziones</string>
-    <string name="custom_filter" formatted="false">Filtru personalizadu</string>
-    <string name="set_as_cover" formatted="false">Imposta comente cobertedda</string>
-    <string name="cover_updated" formatted="false">Cobertedda agiornada</string>
-    <string name="page_downloaded" formatted="false">Pàgina copiada in %1$s</string>
-    <string name="downloading" formatted="false">Iscarrighende…</string>
-    <string name="download_progress" formatted="false">Iscarrigadu %1$d%%</string>
-    <string name="chapter_progress" formatted="false">Pàgina: %1$d</string>
-    <string name="chapter_subtitle" formatted="false">Capìtulu %1$s</string>
-    <string name="no_next_chapter" formatted="false">Capìtulu imbeniente no agatadu</string>
-    <string name="no_previous_chapter" formatted="false">Capìtulu antepostu no agatadu</string>
-    <string name="decode_image_error" formatted="false">No est istadu possìbile carrigare s\'immàgine</string>
-    <string name="confirm_set_image_as_cover" formatted="false">Cheres impostare custa immàgine comente cobertedda\?</string>
-    <string name="viewer_for_this_series" formatted="false">Visualizadore pro custa sèrie</string>
-    <string name="transition_finished" formatted="false">Acabadu:</string>
-    <string name="transition_current" formatted="false">Atuale:</string>
-    <string name="transition_next" formatted="false">Imbeniente:</string>
-    <string name="transition_previous" formatted="false">Antepostu:</string>
-    <string name="transition_no_next" formatted="false">Non b\'at unu capìtulu imbeniente</string>
-    <string name="transition_no_previous" formatted="false">Non b\'at unu capìtulu antepostu</string>
-    <string name="transition_pages_loading" formatted="false">Carrighende pàginas…</string>
-    <string name="transition_pages_error" formatted="false">Carrigamentu de pàginas fallidu: %1$s</string>
-    <string name="migration_info" formatted="false">Toca pro ischertare sa mitza dae sa cale migrare</string>
-    <string name="migration_dialog_what_to_include" formatted="false">Ischerta sos datos de incluire</string>
-    <string name="select" formatted="false">Ischerta</string>
-    <string name="migrate" formatted="false">Mìgra</string>
-    <string name="copy" formatted="false">Còpia</string>
-    <string name="download_queue_error" formatted="false">Iscarrigamentu de sos capìtulos fallidu. Podes torrare a proare in sa setzione de sos iscarrigamentos</string>
-    <string name="notification_update_progress" formatted="false">Progressu de s\'agiornamentu: %1$d/%2$d</string>
-    <string name="notification_new_chapters" formatted="false">Capìtulos noos agatados</string>
-    <string name="notification_cover_update_failed" formatted="false">Agiornamentu de sa cobertedda fallidu</string>
-    <string name="notification_first_add_to_library" formatted="false">Pro praghere annanghe su manga a sa biblioteca tua in antis de fàghere custu</string>
-    <string name="notification_not_connected_to_ac_title" formatted="false">Sincronizatzione annullada</string>
-    <string name="notification_not_connected_to_ac_body" formatted="false">Non connessu a s\'alimentatzione</string>
-    <string name="notification_no_connection_title" formatted="false">Sincronizatzione annullada</string>
-    <string name="notification_no_connection_body" formatted="false">Connessione non disponìbile</string>
-    <string name="file_select_cover" formatted="false">Ischerta s\'immàgine de cobertedda</string>
-    <string name="file_select_backup" formatted="false">Ischerta sa còpia de seguresa</string>
-    <string name="file_select_icon" formatted="false">Ischerta s\'icona de s\'incurtzadura</string>
-    <string name="update_check_confirm" formatted="false">Iscàrriga</string>
-    <string name="update_check_ignore" formatted="false">Ignora</string>
-    <string name="update_check_no_new_updates" formatted="false">Non bi sunt agiornamentos disponìbiles noos</string>
-    <string name="update_check_look_for_updates" formatted="false">Chirchende agiornamentos…</string>
-    <string name="update_check_notification_file_download" formatted="false">Iscàrriga s\'agiornamentu</string>
-    <string name="update_check_notification_download_in_progress" formatted="false">Iscarrighende…</string>
-    <string name="update_check_notification_download_complete" formatted="false">Iscarrigamentu acabadu</string>
-    <string name="update_check_notification_download_error" formatted="false">Errore de iscarrigamentu</string>
-    <string name="update_check_notification_update_available" formatted="false">Versione noa a disponimentu!</string>
-    <string name="description_backdrop" formatted="false">Immàgine de isfundu de su manga</string>
-    <string name="description_cover" formatted="false">Cobertedda de su manga</string>
-    <string name="information_no_downloads" formatted="false">Perunu iscarrigamentu</string>
-    <string name="information_no_recent" formatted="false">Perunu agiornamentu reghente</string>
-    <string name="information_no_recent_manga" formatted="false">Nudda de lèghidu dae pagu</string>
-    <string name="information_empty_library" formatted="false">Sa biblioteca tua est bòida, annanghe sèries a sa biblioteca tua dae Esplora.</string>
-    <string name="information_empty_category" formatted="false">Non tenes categorias. Incarca su butone de su \"prus\" pro nde creare una pro organizare sa biblioteca tua.</string>
-    <string name="download_notifier_downloader_title" formatted="false">Iscarrigadore</string>
-    <string name="download_notifier_title_error" formatted="false">Errore</string>
-    <string name="download_notifier_unknown_error" formatted="false">Iscarrigamentu de su capìtulu fallidu pro more de un\'errore imprevistu</string>
-    <string name="download_notifier_page_error" formatted="false">Una pàgina mancat in sa cartella</string>
-    <string name="download_notifier_page_ready_error" formatted="false">Una pàgina no est istada carrigada</string>
-    <string name="download_notifier_text_only_wifi" formatted="false">Peruna connessione Wi-Fi disponìbile</string>
-    <string name="download_notifier_no_network" formatted="false">Peruna connessione de retza disponìbile</string>
-    <string name="download_notifier_download_paused" formatted="false">Iscarrigamentu in pàusa</string>
-    <string name="channel_common" formatted="false">Comunu</string>
-    <string name="channel_library" formatted="false">Biblioteca</string>
-    <string name="channel_downloader" formatted="false">Iscarrigadore</string>
-    <string name="action_open_in_web_view" formatted="false">Aberi in sa vista web</string>
-    <string name="pref_true_color" formatted="false">Colore a 32 bit</string>
-    <string name="pref_skip_read_chapters" formatted="false">Brinca sos capìtulos marcados comente lèghidos</string>
-    <string name="pref_color_filter_mode" formatted="false">Modalidade de fusione de su filtru colore</string>
-    <string name="filter_mode_default" formatted="false">Predefinidu</string>
-    <string name="filter_mode_overlay" formatted="false">Istratu superiore</string>
-    <string name="filter_mode_multiply" formatted="false">Multìplica</string>
-    <string name="filter_mode_screen" formatted="false">Ischermu</string>
-    <string name="filter_mode_lighten" formatted="false">Istransi / Acrari</string>
-    <string name="filter_mode_darken" formatted="false">Brùsia / Iscuri</string>
-    <string name="label_help" formatted="false">Agiudu</string>
-    <string name="pref_library_update_prioritization" formatted="false">Òrdine de agiornamentu de sa biblioteca</string>
-    <string name="no_results_found" formatted="false">Perunu resultadu agadadu</string>
-    <string name="migration_selection_prompt" formatted="false">Ischerta una mitza dae sa cale tramudare</string>
-    <string name="action_webview_back" formatted="false">In segus</string>
-    <string name="action_webview_forward" formatted="false">In antis</string>
-    <string name="action_webview_refresh" formatted="false">Annoa</string>
-    <string name="pref_category_library" formatted="false">Biblioteca</string>
-    <string name="invalid_download_dir" formatted="false">Cartella de iscarrigamentu non vàlida</string>
-    <string name="ext_obsolete" formatted="false">Obsoleta</string>
-    <string name="obsolete_extension_message" formatted="false">Cust\'estensione no est prus disponìbile.</string>
-    <string name="pref_date_format" formatted="false">Formadu de sa data</string>
-    <string name="pref_category_library_update" formatted="false">Agiornamentos</string>
-    <string name="pref_category_library_categories" formatted="false">Categorias</string>
-    <string name="logout_title" formatted="false">Essire dae %1$s\?</string>
-    <string name="logout" formatted="false">Essi</string>
-    <string name="logout_success" formatted="false">Ses essidu</string>
-    <string name="currently_reading" formatted="false">Leghende como</string>
-    <string name="paused" formatted="false">In pàusa</string>
-    <string name="want_to_read" formatted="false">Chi chèrgio lèghere</string>
-    <string name="label_more" formatted="false">Àteru</string>
-    <string name="action_sort_latest_chapter" formatted="false">Ùrtimu capìtulu</string>
-    <string name="action_view_chapters" formatted="false">Pòmpia sos capìtulos</string>
-    <string name="action_cancel_all" formatted="false">Annulla totu</string>
-    <string name="pref_theme_mode" formatted="false">Tema de s\'aplicatzione</string>
-    <string name="theme_light" formatted="false">Craru</string>
-    <string name="theme_dark" formatted="false">Iscuru</string>
-    <string name="theme_system" formatted="false">Sighi su sistema</string>
-    <string name="pref_theme_dark" formatted="false">Variante de su tema iscuru</string>
-    <string name="theme_dark_default" formatted="false">Predefinidu</string>
-    <string name="theme_dark_blue" formatted="false">Biaitu iscuru</string>
-    <string name="theme_dark_amoled" formatted="false">Nieddu AMOLED</string>
-    <string name="pref_manage_notifications" formatted="false">Amministra sas notìficas</string>
-    <string name="pref_category_security" formatted="false">Seguresa</string>
-    <string name="lock_with_biometrics" formatted="false">Bloca cun sa biometria</string>
-    <string name="lock_when_idle" formatted="false">Bloca cando no est ativu</string>
-    <string name="lock_always" formatted="false">Semper</string>
-    <string name="lock_never" formatted="false">Mai</string>
-    <plurals name="lock_after_mins" formatted="false">
-        <item quantity="one" formatted="false">A pustis de 1 minutu</item>
-        <item quantity="other" formatted="false">A pustis de %1$s minutos</item>
+    <string name="source_not_installed">Mitza no installada: %1$s</string>
+    <string name="manga_chapters_tab">Capìtulos</string>
+    <string name="manga_chapter_no_title">Chene tìtulu</string>
+    <string name="display_mode_chapter">Capìtulu %1$s</string>
+    <string name="chapter_downloaded">Iscarrigadu</string>
+    <string name="chapter_queued">In isetu</string>
+    <string name="chapter_downloading">Iscarrighende</string>
+    <string name="chapter_downloading_progress">Iscarrighende (%1$d/%2$d)</string>
+    <string name="chapter_error">Errore</string>
+    <string name="chapter_paused">In pàusa</string>
+    <string name="fetch_chapters_error">Recùperu de sos capìtulos fallidu</string>
+    <string name="show_title">Tìtulu</string>
+    <string name="show_chapter_number">Nùmeru de capìtulu</string>
+    <string name="sorting_mode">Modalidade de ordinamentu</string>
+    <string name="sort_by_source">Pro mitza</string>
+    <string name="sort_by_number">Pro nùmeru de capìtulu</string>
+    <string name="manga_download">Iscàrriga</string>
+    <string name="custom_download">Iscàrriga una cantidade personalizada</string>
+    <string name="download_1">Capìtulu imbeniente</string>
+    <string name="download_5">Sos 5 capìtulos imbenientes</string>
+    <string name="download_10">Sos 10 capìtulos imbenientes</string>
+    <string name="download_custom">Personalizadu</string>
+    <string name="download_all">Totu</string>
+    <string name="download_unread">Non lèghidos</string>
+    <string name="confirm_delete_chapters">Ses seguru de chèrrere iscantzellare sos capìtulos ischertados\?</string>
+    <string name="manga_tracking_tab">Arrastamentu</string>
+    <string name="reading">Leghende</string>
+    <string name="completed">Acabadu</string>
+    <string name="dropped">Abbandonadu</string>
+    <string name="on_hold">In pàusa</string>
+    <string name="plan_to_read">De lèghere</string>
+    <string name="repeating">Leghende torra</string>
+    <string name="score">Votu</string>
+    <string name="title">Tìtulu</string>
+    <string name="status">Istadu</string>
+    <string name="track_status">Istadu</string>
+    <string name="track_start_date">Incumintzadu</string>
+    <string name="track_type">Casta</string>
+    <string name="track_author">Autore</string>
+    <string name="url_not_set">S\'URL de su manga no est impostadu, pro praghere incarca in su tìtulu e ischerta torra su manga</string>
+    <string name="error_category_exists">Esistit giai una categoria cun custu nùmene!</string>
+    <string name="snack_categories_deleted">Categorias iscantzelladas</string>
+    <string name="dialog_with_checkbox_remove_description">Custu at a bogare sa data de leghidura de custu capìtulu. Seguru ses\?</string>
+    <string name="dialog_with_checkbox_reset">Reseta totu sos capìtulos pro custu manga</string>
+    <string name="snack_add_to_library">Annànghere custu manga a sa biblioteca\?</string>
+    <string name="picture_saved">Immàgine sarvada</string>
+    <string name="saving_picture">Sarvende s\'immàgine</string>
+    <string name="options">Optziones</string>
+    <string name="custom_filter">Filtru personalizadu</string>
+    <string name="set_as_cover">Imposta comente cobertedda</string>
+    <string name="cover_updated">Cobertedda agiornada</string>
+    <string name="page_downloaded">Pàgina copiada in %1$s</string>
+    <string name="downloading">Iscarrighende…</string>
+    <string name="download_progress">Iscarrigadu %1$d%%</string>
+    <string name="chapter_progress">Pàgina: %1$d</string>
+    <string name="chapter_subtitle">Capìtulu %1$s</string>
+    <string name="no_next_chapter">Capìtulu imbeniente no agatadu</string>
+    <string name="no_previous_chapter">Capìtulu antepostu no agatadu</string>
+    <string name="decode_image_error">No est istadu possìbile carrigare s\'immàgine</string>
+    <string name="confirm_set_image_as_cover">Cheres impostare custa immàgine comente cobertedda\?</string>
+    <string name="viewer_for_this_series">Visualizadore pro custa sèrie</string>
+    <string name="transition_finished">Acabadu:</string>
+    <string name="transition_current">Atuale:</string>
+    <string name="transition_next">Imbeniente:</string>
+    <string name="transition_previous">Antepostu:</string>
+    <string name="transition_no_next">Non b\'at unu capìtulu imbeniente</string>
+    <string name="transition_no_previous">Non b\'at unu capìtulu antepostu</string>
+    <string name="transition_pages_loading">Carrighende pàginas…</string>
+    <string name="transition_pages_error">Carrigamentu de pàginas fallidu: %1$s</string>
+    <string name="migration_info">Toca pro ischertare sa mitza dae sa cale migrare</string>
+    <string name="migration_dialog_what_to_include">Ischerta sos datos de incluire</string>
+    <string name="select">Ischerta</string>
+    <string name="migrate">Mìgra</string>
+    <string name="copy">Còpia</string>
+    <string name="download_queue_error">Iscarrigamentu de sos capìtulos fallidu. Podes torrare a proare in sa setzione de sos iscarrigamentos</string>
+    <string name="notification_update_progress">Progressu de s\'agiornamentu: %1$d/%2$d</string>
+    <string name="notification_new_chapters">Capìtulos noos agatados</string>
+    <string name="notification_cover_update_failed">Agiornamentu de sa cobertedda fallidu</string>
+    <string name="notification_first_add_to_library">Pro praghere annanghe su manga a sa biblioteca tua in antis de fàghere custu</string>
+    <string name="notification_not_connected_to_ac_title">Sincronizatzione annullada</string>
+    <string name="notification_not_connected_to_ac_body">Non connessu a s\'alimentatzione</string>
+    <string name="notification_no_connection_title">Sincronizatzione annullada</string>
+    <string name="notification_no_connection_body">Connessione non disponìbile</string>
+    <string name="file_select_cover">Ischerta s\'immàgine de cobertedda</string>
+    <string name="file_select_backup">Ischerta sa còpia de seguresa</string>
+    <string name="file_select_icon">Ischerta s\'icona de s\'incurtzadura</string>
+    <string name="update_check_confirm">Iscàrriga</string>
+    <string name="update_check_ignore">Ignora</string>
+    <string name="update_check_no_new_updates">Non bi sunt agiornamentos disponìbiles noos</string>
+    <string name="update_check_look_for_updates">Chirchende agiornamentos…</string>
+    <string name="update_check_notification_file_download">Iscàrriga s\'agiornamentu</string>
+    <string name="update_check_notification_download_in_progress">Iscarrighende…</string>
+    <string name="update_check_notification_download_complete">Iscarrigamentu acabadu</string>
+    <string name="update_check_notification_download_error">Errore de iscarrigamentu</string>
+    <string name="update_check_notification_update_available">Versione noa a disponimentu!</string>
+    <string name="description_backdrop">Immàgine de isfundu de su manga</string>
+    <string name="description_cover">Cobertedda de su manga</string>
+    <string name="information_no_downloads">Perunu iscarrigamentu</string>
+    <string name="information_no_recent">Perunu agiornamentu reghente</string>
+    <string name="information_no_recent_manga">Nudda de lèghidu dae pagu</string>
+    <string name="information_empty_library">Sa biblioteca tua est bòida, annanghe sèries a sa biblioteca tua dae Esplora.</string>
+    <string name="information_empty_category">Non tenes categorias. Incarca su butone de su \"prus\" pro nde creare una pro organizare sa biblioteca tua.</string>
+    <string name="download_notifier_downloader_title">Iscarrigadore</string>
+    <string name="download_notifier_title_error">Errore</string>
+    <string name="download_notifier_unknown_error">Iscarrigamentu de su capìtulu fallidu pro more de un\'errore imprevistu</string>
+    <string name="download_notifier_page_error">Una pàgina mancat in sa cartella</string>
+    <string name="download_notifier_page_ready_error">Una pàgina no est istada carrigada</string>
+    <string name="download_notifier_text_only_wifi">Peruna connessione Wi-Fi disponìbile</string>
+    <string name="download_notifier_no_network">Peruna connessione de retza disponìbile</string>
+    <string name="download_notifier_download_paused">Iscarrigamentu in pàusa</string>
+    <string name="channel_common">Comunu</string>
+    <string name="channel_library">Biblioteca</string>
+    <string name="channel_downloader">Iscarrigadore</string>
+    <string name="action_open_in_web_view">Aberi in sa vista web</string>
+    <string name="pref_true_color">Colore a 32 bit</string>
+    <string name="pref_skip_read_chapters">Brinca sos capìtulos marcados comente lèghidos</string>
+    <string name="pref_color_filter_mode">Modalidade de fusione de su filtru colore</string>
+    <string name="filter_mode_default">Predefinidu</string>
+    <string name="filter_mode_overlay">Istratu superiore</string>
+    <string name="filter_mode_multiply">Multìplica</string>
+    <string name="filter_mode_screen">Ischermu</string>
+    <string name="filter_mode_lighten">Istransi / Acrari</string>
+    <string name="filter_mode_darken">Brùsia / Iscuri</string>
+    <string name="label_help">Agiudu</string>
+    <string name="pref_library_update_prioritization">Òrdine de agiornamentu de sa biblioteca</string>
+    <string name="no_results_found">Perunu resultadu agadadu</string>
+    <string name="migration_selection_prompt">Ischerta una mitza dae sa cale tramudare</string>
+    <string name="action_webview_back">In segus</string>
+    <string name="action_webview_forward">In antis</string>
+    <string name="action_webview_refresh">Annoa</string>
+    <string name="pref_category_library">Biblioteca</string>
+    <string name="invalid_download_dir">Cartella de iscarrigamentu non vàlida</string>
+    <string name="ext_obsolete">Obsoleta</string>
+    <string name="obsolete_extension_message">Cust\'estensione no est prus disponìbile.</string>
+    <string name="pref_date_format">Formadu de sa data</string>
+    <string name="pref_category_library_update">Agiornamentos</string>
+    <string name="pref_category_library_categories">Categorias</string>
+    <string name="logout_title">Essire dae %1$s\?</string>
+    <string name="logout">Essi</string>
+    <string name="logout_success">Ses essidu</string>
+    <string name="currently_reading">Leghende como</string>
+    <string name="paused">In pàusa</string>
+    <string name="want_to_read">Chi chèrgio lèghere</string>
+    <string name="label_more">Àteru</string>
+    <string name="action_sort_latest_chapter">Ùrtimu capìtulu</string>
+    <string name="action_view_chapters">Pòmpia sos capìtulos</string>
+    <string name="action_cancel_all">Annulla totu</string>
+    <string name="pref_theme_mode">Tema de s\'aplicatzione</string>
+    <string name="theme_light">Craru</string>
+    <string name="theme_dark">Iscuru</string>
+    <string name="theme_system">Sighi su sistema</string>
+    <string name="pref_theme_dark">Variante de su tema iscuru</string>
+    <string name="theme_dark_default">Predefinidu</string>
+    <string name="theme_dark_blue">Biaitu iscuru</string>
+    <string name="theme_dark_amoled">Nieddu AMOLED</string>
+    <string name="pref_manage_notifications">Amministra sas notìficas</string>
+    <string name="pref_category_security">Seguresa</string>
+    <string name="lock_with_biometrics">Bloca cun sa biometria</string>
+    <string name="lock_when_idle">Bloca cando no est ativu</string>
+    <string name="lock_always">Semper</string>
+    <string name="lock_never">Mai</string>
+    <plurals name="lock_after_mins">
+        <item quantity="one">A pustis de 1 minutu</item>
+        <item quantity="other">A pustis de %1$s minutos</item>
     </plurals>
-    <string name="secure_screen" formatted="false">Ischermu seguru</string>
-    <string name="ext_updates_pending" formatted="false">Agiornamentos in suspesu</string>
-    <string name="pref_cutout_short" formatted="false">Ammustra sos cuntenutos in s\'àrea de retàlliu</string>
-    <string name="information_cloudflare_bypass_failure" formatted="false">Isfrancamentu de Cloudflare fallidu</string>
-    <string name="information_webview_outdated" formatted="false">Agiorna s\'aplicatzione de WebView pro otènnere una cumpatibilidade prus manna</string>
-    <string name="channel_new_chapters" formatted="false">Agiornamentos de sos capìtulos</string>
-    <string name="unlock_app" formatted="false">Isbloca Tachiyomi</string>
-    <string name="secure_screen_summary" formatted="false">Cua sos cuntenutos de s\'aplicatzione cando mudas de aplicatzione e bloca sas ischermadas</string>
-    <string name="pref_category_display" formatted="false">Visualizatzione</string>
-    <plurals name="notification_chapters_generic" formatted="false">
-        <item quantity="one" formatted="false">1 capìtulu nou</item>
-        <item quantity="other" formatted="false">%1$d capìtulos noos</item>
+    <string name="secure_screen">Ischermu seguru</string>
+    <string name="ext_updates_pending">Agiornamentos in suspesu</string>
+    <string name="pref_cutout_short">Ammustra sos cuntenutos in s\'àrea de retàlliu</string>
+    <string name="information_cloudflare_bypass_failure">Isfrancamentu de Cloudflare fallidu</string>
+    <string name="information_webview_outdated">Agiorna s\'aplicatzione de WebView pro otènnere una cumpatibilidade prus manna</string>
+    <string name="channel_new_chapters">Agiornamentos de sos capìtulos</string>
+    <string name="unlock_app">Isbloca Tachiyomi</string>
+    <string name="secure_screen_summary">Cua sos cuntenutos de s\'aplicatzione cando mudas de aplicatzione e bloca sas ischermadas</string>
+    <string name="pref_category_display">Visualizatzione</string>
+    <plurals name="notification_chapters_generic">
+        <item quantity="one">1 capìtulu nou</item>
+        <item quantity="other">%1$d capìtulos noos</item>
     </plurals>
-    <string name="notification_chapters_single" formatted="false">Capìtulu %1$s</string>
-    <string name="notification_chapters_single_and_more" formatted="false">Capìtulu %1$s e àteros %2$d</string>
-    <string name="notification_chapters_multiple" formatted="false">Capìtulos %1$s</string>
-    <plurals name="notification_chapters_multiple_and_more" formatted="false">
-        <item quantity="one" formatted="false">Capìtulos %1$s e 1 àteru</item>
-        <item quantity="other" formatted="false">Capìtulos %1$s e àteros %2$d</item>
+    <string name="notification_chapters_single">Capìtulu %1$s</string>
+    <string name="notification_chapters_single_and_more">Capìtulu %1$s e àteros %2$d</string>
+    <string name="notification_chapters_multiple">Capìtulos %1$s</string>
+    <plurals name="notification_chapters_multiple_and_more">
+        <item quantity="one">Capìtulos %1$s e 1 àteru</item>
+        <item quantity="other">Capìtulos %1$s e àteros %2$d</item>
     </plurals>
-    <string name="action_hide" formatted="false">Cua</string>
-    <string name="hide_notification_content" formatted="false">Cua su cuntenutu de sas notìficas</string>
-    <string name="notification_check_updates" formatted="false">Chirchende capìtulos noos</string>
-    <string name="pref_disable_battery_optimization" formatted="false">Disabìlita s\'otimizatzione de sa bateria</string>
-    <string name="pref_disable_battery_optimization_summary" formatted="false">Agiudat cun sos agiornamentos de sa biblioteca e sas còpias de seguresa</string>
-    <string name="battery_optimization_disabled" formatted="false">S\'otimizatzione de sa bateria est giai disabilitada</string>
-    <string name="email" formatted="false">Indiritzu de posta eletrònica</string>
-    <string name="pref_always_show_chapter_transition" formatted="false">Ammustra semper sa transitzione de capìtulu</string>
-    <plurals name="notification_new_chapters_summary" formatted="false">
-        <item quantity="one" formatted="false">Pro 1 tìtulu</item>
-        <item quantity="other" formatted="false">Pro %d tìtulos</item>
+    <string name="action_hide">Cua</string>
+    <string name="hide_notification_content">Cua su cuntenutu de sas notìficas</string>
+    <string name="notification_check_updates">Chirchende capìtulos noos</string>
+    <string name="pref_disable_battery_optimization">Disabìlita s\'otimizatzione de sa bateria</string>
+    <string name="pref_disable_battery_optimization_summary">Agiudat cun sos agiornamentos de sa biblioteca e sas còpias de seguresa</string>
+    <string name="battery_optimization_disabled">S\'otimizatzione de sa bateria est giai disabilitada</string>
+    <string name="email">Indiritzu de posta eletrònica</string>
+    <string name="pref_always_show_chapter_transition">Ammustra semper sa transitzione de capìtulu</string>
+    <plurals name="notification_new_chapters_summary">
+        <item quantity="one">Pro 1 tìtulu</item>
+        <item quantity="other">Pro %d tìtulos</item>
     </plurals>
-    <string name="notices" formatted="false">Avisos de versiones de anteprima</string>
-    <string name="changelog" formatted="false">Registru de sas modìficas</string>
-    <string name="pref_theme_light" formatted="false">Variatzione de su tema craru</string>
-    <string name="theme_light_default" formatted="false">Predefinidu</string>
-    <string name="theme_light_blue" formatted="false">Biaitu craru</string>
-    <string name="action_menu" formatted="false">Menù</string>
-    <string name="action_reorganize_by" formatted="false">Riòrdina</string>
-    <string name="action_newest" formatted="false">Prus noos</string>
-    <string name="action_oldest" formatted="false">Prus betzos</string>
-    <string name="action_move_to_top" formatted="false">Manda a pitzus</string>
-    <string name="action_move_to_bottom" formatted="false">Manda a fundu</string>
-    <string name="action_sort_last_checked" formatted="false">Ùrtima chirca</string>
-    <string name="pref_enable_automatic_extension_updates" formatted="false">Chirca agiornamentos de sas estensiones</string>
-    <plurals name="update_check_notification_ext_updates" formatted="false">
-        <item quantity="one" formatted="false">B\'at un\'agiornamentu disponìbile pro un\'estensione</item>
-        <item quantity="other" formatted="false">B\'ant agiornamentos disponìbiles pro %d estensiones</item>
+    <string name="notices">Avisos de versiones de anteprima</string>
+    <string name="changelog">Registru de sas modìficas</string>
+    <string name="pref_theme_light">Variatzione de su tema craru</string>
+    <string name="theme_light_default">Predefinidu</string>
+    <string name="theme_light_blue">Biaitu craru</string>
+    <string name="action_menu">Menù</string>
+    <string name="action_reorganize_by">Riòrdina</string>
+    <string name="action_newest">Prus noos</string>
+    <string name="action_oldest">Prus betzos</string>
+    <string name="action_move_to_top">Manda a pitzus</string>
+    <string name="action_move_to_bottom">Manda a fundu</string>
+    <string name="action_sort_last_checked">Ùrtima chirca</string>
+    <string name="pref_enable_automatic_extension_updates">Chirca agiornamentos de sas estensiones</string>
+    <plurals name="update_check_notification_ext_updates">
+        <item quantity="one">B\'at un\'agiornamentu disponìbile pro un\'estensione</item>
+        <item quantity="other">B\'ant agiornamentos disponìbiles pro %d estensiones</item>
     </plurals>
-    <string name="channel_ext_updates" formatted="false">Agiornamentos de sas estensiones</string>
-    <string name="http_error_hint" formatted="false">Verìfica su situ web cun sa visualizatzione web</string>
-    <string name="updating_library" formatted="false">Agiornende sa biblioteca</string>
-    <string name="pref_category_reading" formatted="false">Leghende</string>
-    <string name="pref_skip_filtered_chapters" formatted="false">Brinca sos capìtulos filtrados</string>
-    <string name="label_sources" formatted="false">Mitzas</string>
-    <string name="pref_webtoon_side_padding" formatted="false">Distantziamentu laterale</string>
-    <string name="webtoon_side_padding_0" formatted="false">Perunu</string>
-    <string name="webtoon_side_padding_25" formatted="false">25%</string>
-    <string name="webtoon_side_padding_20" formatted="false">20%</string>
-    <string name="webtoon_side_padding_15" formatted="false">15%</string>
-    <string name="webtoon_side_padding_10" formatted="false">10%</string>
-    <string name="vertical_plus_viewer" formatted="false">Verticale sighidu</string>
-    <string name="action_select_inverse" formatted="false">Fùrria s\'ischertada</string>
-    <string name="pinned_sources" formatted="false">Apicadu</string>
-    <string name="action_unpin" formatted="false">Boga</string>
-    <string name="action_pin" formatted="false">Apica</string>
-    <string name="add_tracking" formatted="false">Annanghe arrastamentu</string>
-    <string name="in_library" formatted="false">In sa biblioteca</string>
-    <string name="add_to_library" formatted="false">Annanghe a sa biblioteca</string>
-    <string name="manga_info_collapse" formatted="false">Ammustra prus pagu informatziones</string>
-    <string name="manga_info_expand" formatted="false">Ammustra prus informatziones</string>
-    <string name="manga_info_about_label" formatted="false">Informatziones</string>
-    <string name="information_webview_required" formatted="false">Pro Tachiyomi b\'at bisòngiu de WebView</string>
-    <string name="licenses" formatted="false">Litzèntzias a mitza aberta</string>
-    <string name="website" formatted="false">Situ web</string>
-    <string name="pref_confirm_exit" formatted="false">Cunfirma s\'essida</string>
-    <string name="confirm_exit" formatted="false">Incarca in segus torra pro essire</string>
-    <string name="label_downloaded_only" formatted="false">Iscarrigados ebbia</string>
-    <string name="channel_backup_restore" formatted="false">Còpia de seguresa e riprìstinu</string>
-    <string name="recent_manga_time" formatted="false">Cap. %1$s - %2$s</string>
-    <string name="error_invalid_date_supplied" formatted="false">Sa data frunida no est vàlida</string>
-    <string name="track_finished_reading_date" formatted="false">Data de acabu de sa leghidura</string>
-    <string name="track_started_reading_date" formatted="false">Data de incumentzu de sa leghidura</string>
-    <string name="last_used_source" formatted="false">Ùrtima impreada</string>
-    <string name="check_for_updates" formatted="false">Chirca agiornamentos</string>
-    <string name="restoring_backup_canceled" formatted="false">Riprìstinu annulladu</string>
-    <string name="restoring_backup_error" formatted="false">Riprìstinu de sa còpia de seguresa fallidu</string>
-    <string name="restore_in_progress" formatted="false">Su riprìstinu est giai in cursu</string>
-    <string name="creating_backup_error" formatted="false">Còpia de seguresa fallida</string>
-    <string name="backup_in_progress" formatted="false">Sa còpia de seguresa est giai in cursu</string>
-    <string name="restore_duration" formatted="false">%02d min e %02d seg</string>
-    <string name="local_source_help_guide" formatted="false">Ghia de sas mitzas locales</string>
-    <string name="manga_info_latest_data_label" formatted="false">Agiornadu</string>
-    <string name="manga_info_last_chapter_label" formatted="false">Ùrtimu capìtulu</string>
-    <string name="downloaded_only_summary" formatted="false">Filtrat totu sos manga in sa biblioteca tua</string>
-    <string name="pref_search_pinned_sources_only" formatted="false">Inclue petzi sas mitzas apicadas</string>
-    <plurals name="download_queue_summary" formatted="false">
-        <item quantity="one" formatted="false">Nd\'abarrat 1</item>
-        <item quantity="other" formatted="false">Nd\'abarrant %1$s</item>
+    <string name="channel_ext_updates">Agiornamentos de sas estensiones</string>
+    <string name="http_error_hint">Verìfica su situ web cun sa visualizatzione web</string>
+    <string name="updating_library">Agiornende sa biblioteca</string>
+    <string name="pref_category_reading">Leghende</string>
+    <string name="pref_skip_filtered_chapters">Brinca sos capìtulos filtrados</string>
+    <string name="label_sources">Mitzas</string>
+    <string name="pref_webtoon_side_padding">Distantziamentu laterale</string>
+    <string name="webtoon_side_padding_0">Perunu</string>
+    <string name="webtoon_side_padding_25">25%</string>
+    <string name="webtoon_side_padding_20">20%</string>
+    <string name="webtoon_side_padding_15">15%</string>
+    <string name="webtoon_side_padding_10">10%</string>
+    <string name="vertical_plus_viewer">Verticale sighidu</string>
+    <string name="action_select_inverse">Fùrria s\'ischertada</string>
+    <string name="pinned_sources">Apicadu</string>
+    <string name="action_unpin">Boga</string>
+    <string name="action_pin">Apica</string>
+    <string name="add_tracking">Annanghe arrastamentu</string>
+    <string name="in_library">In sa biblioteca</string>
+    <string name="add_to_library">Annanghe a sa biblioteca</string>
+    <string name="manga_info_collapse">Ammustra prus pagu informatziones</string>
+    <string name="manga_info_expand">Ammustra prus informatziones</string>
+    <string name="manga_info_about_label">Informatziones</string>
+    <string name="information_webview_required">Pro Tachiyomi b\'at bisòngiu de WebView</string>
+    <string name="licenses">Litzèntzias a mitza aberta</string>
+    <string name="website">Situ web</string>
+    <string name="pref_confirm_exit">Cunfirma s\'essida</string>
+    <string name="confirm_exit">Incarca in segus torra pro essire</string>
+    <string name="label_downloaded_only">Iscarrigados ebbia</string>
+    <string name="channel_backup_restore">Còpia de seguresa e riprìstinu</string>
+    <string name="recent_manga_time">Cap. %1$s - %2$s</string>
+    <string name="error_invalid_date_supplied">Sa data frunida no est vàlida</string>
+    <string name="track_finished_reading_date">Data de acabu de sa leghidura</string>
+    <string name="track_started_reading_date">Data de incumentzu de sa leghidura</string>
+    <string name="last_used_source">Ùrtima impreada</string>
+    <string name="check_for_updates">Chirca agiornamentos</string>
+    <string name="restoring_backup_canceled">Riprìstinu annulladu</string>
+    <string name="restoring_backup_error">Riprìstinu de sa còpia de seguresa fallidu</string>
+    <string name="restore_in_progress">Su riprìstinu est giai in cursu</string>
+    <string name="creating_backup_error">Còpia de seguresa fallida</string>
+    <string name="backup_in_progress">Sa còpia de seguresa est giai in cursu</string>
+    <string name="restore_duration">%02d min e %02d seg</string>
+    <string name="local_source_help_guide">Ghia de sas mitzas locales</string>
+    <string name="manga_info_latest_data_label">Agiornadu</string>
+    <string name="manga_info_last_chapter_label">Ùrtimu capìtulu</string>
+    <string name="downloaded_only_summary">Filtrat totu sos manga in sa biblioteca tua</string>
+    <string name="pref_search_pinned_sources_only">Inclue petzi sas mitzas apicadas</string>
+    <plurals name="download_queue_summary">
+        <item quantity="one">Nd\'abarrat 1</item>
+        <item quantity="other">Nd\'abarrant %1$s</item>
     </plurals>
-    <string name="channel_backup_restore_progress" formatted="false">Progressu</string>
-    <string name="channel_backup_restore_complete" formatted="false">Acabadu</string>
+    <string name="channel_backup_restore_progress">Progressu</string>
+    <string name="channel_backup_restore_complete">Acabadu</string>
 </resources>

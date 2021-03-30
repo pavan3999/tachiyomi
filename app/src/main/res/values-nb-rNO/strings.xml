@@ -1,496 +1,496 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="name" formatted="false">Navn</string>
-    <string name="categories" formatted="false">Kategorier</string>
-    <string name="manga" formatted="false">Manga</string>
-    <string name="chapters" formatted="false">Kapittel</string>
-    <string name="history" formatted="false">Historikk</string>
-    <string name="label_settings" formatted="false">Innstillinger</string>
-    <string name="label_download_queue" formatted="false">Nedlastingskø</string>
-    <string name="label_library" formatted="false">Bibliotek</string>
-    <string name="label_recent_manga" formatted="false">Historikk</string>
-    <string name="label_recent_updates" formatted="false">Oppdateringer</string>
-    <string name="label_categories" formatted="false">Kategorier</string>
-    <string name="label_backup" formatted="false">Sikkerhetskopi</string>
-    <string name="label_migration" formatted="false">Kildeflytting</string>
-    <string name="label_extensions" formatted="false">Utvidelser</string>
-    <string name="label_extension_info" formatted="false">Utvidelsesinfo</string>
-    <string name="action_settings" formatted="false">Innstillinger</string>
-    <string name="action_filter" formatted="false">Filter</string>
-    <string name="action_filter_downloaded" formatted="false">Nedlastet</string>
-    <string name="action_filter_bookmarked" formatted="false">Bokmerket</string>
-    <string name="action_filter_unread" formatted="false">Ulest</string>
-    <string name="action_filter_read" formatted="false">Les</string>
-    <string name="action_filter_empty" formatted="false">Fjern filter</string>
-    <string name="action_sort_alpha" formatted="false">Alfabetisk</string>
-    <string name="action_sort_total" formatted="false">Totale kapittel</string>
-    <string name="action_sort_last_read" formatted="false">Sist lest</string>
-    <string name="action_search" formatted="false">Søk</string>
-    <string name="action_select_all" formatted="false">Velg alt</string>
-    <string name="action_mark_as_read" formatted="false">Marker som lest</string>
-    <string name="action_mark_as_unread" formatted="false">Marker som ulest</string>
-    <string name="action_mark_previous_as_read" formatted="false">Merk forrige som lest</string>
-    <string name="action_download" formatted="false">Last ned</string>
-    <string name="action_bookmark" formatted="false">Bokmerk</string>
-    <string name="action_remove_bookmark" formatted="false">Fjern bokmerke</string>
-    <string name="action_delete" formatted="false">Slett</string>
-    <string name="action_update" formatted="false">Oppdater</string>
-    <string name="action_update_library" formatted="false">Oppdater bibliotek</string>
-    <string name="action_edit" formatted="false">Rediger</string>
-    <string name="action_add" formatted="false">Legg til</string>
-    <string name="action_add_category" formatted="false">Legg til kategori</string>
-    <string name="action_edit_categories" formatted="false">Rediger kategorier</string>
-    <string name="action_rename_category" formatted="false">Gi kategori nytt navn</string>
-    <string name="action_move_category" formatted="false">Flytt til kategorier</string>
-    <string name="action_edit_cover" formatted="false">Rediger omslagsbildet</string>
-    <string name="action_sort_up" formatted="false">Sorter oppover</string>
-    <string name="action_sort_down" formatted="false">Sorter nedover</string>
-    <string name="action_show_downloaded" formatted="false">Nedlastet</string>
-    <string name="action_next_unread" formatted="false">Neste uleste</string>
-    <string name="action_start" formatted="false">Start</string>
-    <string name="action_stop" formatted="false">Stopp</string>
-    <string name="action_pause" formatted="false">Pause</string>
-    <string name="action_close" formatted="false">Lukk</string>
-    <string name="action_previous_chapter" formatted="false">Forrige kapittel</string>
-    <string name="action_next_chapter" formatted="false">Neste kapittel</string>
-    <string name="action_retry" formatted="false">Prøv igjen</string>
-    <string name="action_remove" formatted="false">Fjern</string>
-    <string name="action_resume" formatted="false">Fortsett</string>
-    <string name="action_move" formatted="false">Flytt</string>
-    <string name="action_open_in_browser" formatted="false">Åpne i nettleser</string>
-    <string name="action_display_mode" formatted="false">Visningsmodus</string>
-    <string name="action_display" formatted="false">Vis</string>
-    <string name="action_display_grid" formatted="false">Rutenett</string>
-    <string name="action_display_list" formatted="false">Liste</string>
-    <string name="action_cancel" formatted="false">Avbryt</string>
-    <string name="action_sort" formatted="false">Sorter</string>
-    <string name="action_install" formatted="false">Installer</string>
-    <string name="action_share" formatted="false">Del</string>
-    <string name="action_save" formatted="false">Lagre</string>
-    <string name="action_reset" formatted="false">Tilbakestill</string>
-    <string name="action_undo" formatted="false">Angre</string>
-    <string name="action_open_log" formatted="false">Åpne logg</string>
-    <string name="action_create" formatted="false">Opprett</string>
-    <string name="action_restore" formatted="false">Gjenopprett</string>
-    <string name="action_open" formatted="false">Åpne</string>
-    <string name="action_login" formatted="false">Logg inn</string>
-    <string name="loading" formatted="false">Laster…</string>
-    <string name="app_not_available" formatted="false">Program ikke tilgjengelig</string>
-    <string name="short_recent_updates" formatted="false">Oppdateringer</string>
-    <string name="pref_category_general" formatted="false">Generelt</string>
-    <string name="pref_category_reader" formatted="false">Leser</string>
-    <string name="pref_category_downloads" formatted="false">Nedlastinger</string>
-    <string name="pref_category_advanced" formatted="false">Avansert</string>
-    <string name="pref_category_about" formatted="false">Om</string>
-    <string name="default_columns" formatted="false">Forvalg</string>
-    <string name="update_never" formatted="false">Manuell</string>
-    <string name="update_1hour" formatted="false">Timevis</string>
-    <string name="update_2hour" formatted="false">Hver andre time</string>
-    <string name="update_3hour" formatted="false">Hver tredje time</string>
-    <string name="update_6hour" formatted="false">Hver sjette time</string>
-    <string name="update_12hour" formatted="false">Hver tolvte time</string>
-    <string name="update_24hour" formatted="false">Daglig</string>
-    <string name="update_48hour" formatted="false">Annenhver dag</string>
-    <string name="update_weekly" formatted="false">Ukentlig</string>
-    <string name="update_monthly" formatted="false">Månedlig</string>
-    <string name="all" formatted="false">Alle</string>
-    <string name="wifi" formatted="false">Wi-Fi</string>
-    <string name="charging" formatted="false">Lading</string>
-    <string name="pref_start_screen" formatted="false">Startskjerm</string>
-    <string name="pref_language" formatted="false">Språk</string>
-    <string name="system_default" formatted="false">Systemforvalg</string>
-    <string name="default_category" formatted="false">Forvalgt kategori</string>
-    <string name="default_category_summary" formatted="false">Alltid spør</string>
-    <string name="all_lang" formatted="false">Alle</string>
-    <string name="ext_details" formatted="false">Detaljer</string>
-    <string name="ext_update" formatted="false">Oppdater</string>
-    <string name="ext_install" formatted="false">Installer</string>
-    <string name="ext_pending" formatted="false">Ventende</string>
-    <string name="ext_downloading" formatted="false">Laster ned</string>
-    <string name="ext_installing" formatted="false">Installerer</string>
-    <string name="ext_installed" formatted="false">Installert</string>
-    <string name="ext_trust" formatted="false">Tillit</string>
-    <string name="ext_untrusted" formatted="false">Ubetrodd</string>
-    <string name="ext_uninstall" formatted="false">Avinstaller</string>
-    <string name="ext_preferences" formatted="false">Innstillinger</string>
-    <string name="ext_available" formatted="false">Tilgjengelig</string>
-    <string name="untrusted_extension" formatted="false">Ubetrodd utvidelse</string>
-    <string name="ext_version_info" formatted="false">Versjon: %1$s</string>
-    <string name="ext_language_info" formatted="false">Språk: %1$s</string>
-    <string name="pref_fullscreen" formatted="false">Fullskjermsvisning</string>
-    <string name="pref_lock_orientation" formatted="false">Lås sideretning</string>
-    <string name="pref_page_transitions" formatted="false">Sideoverganger</string>
-    <string name="pref_show_page_number" formatted="false">Vis sidenummer</string>
-    <string name="pref_keep_screen_on" formatted="false">Behold skjerm på</string>
-    <string name="pref_reader_navigation" formatted="false">Navigasjon</string>
-    <string name="track" formatted="false">Sporing</string>
-    <string name="action_global_search" formatted="false">Globalt søk</string>
-    <string name="action_open_in_web_view" formatted="false">Nettvisning</string>
-    <string name="pref_category_tracking" formatted="false">Sporing</string>
-    <string name="portrait" formatted="false">Stående</string>
-    <string name="landscape" formatted="false">Liggende</string>
-    <string name="pref_library_update_interval" formatted="false">Frekvens for oppdatering av bibliotek</string>
-    <string name="pref_library_update_categories" formatted="false">Kategorier inkludert i global oppdatering</string>
-    <string name="pref_library_update_restriction" formatted="false">Restriksjoner for oppdatering av bibliotek</string>
-    <string name="pref_library_update_restriction_summary" formatted="false">Kun oppdater når disse vilkårene oppfylles</string>
-    <string name="pref_update_only_non_completed" formatted="false">Kun oppdater pågående manga</string>
-    <string name="pref_auto_update_manga_sync" formatted="false">Synkroniser kapitler etter lesing</string>
-    <string name="pref_true_color" formatted="false">32-biters fargerom</string>
-    <string name="pref_crop_borders" formatted="false">Beskjær kanter</string>
-    <string name="pref_custom_brightness" formatted="false">Bruk egendefinert lysstyrke</string>
-    <string name="pref_custom_color_filter" formatted="false">Bruk egendefinert fargefilter</string>
-    <string name="pref_skip_read_chapters" formatted="false">Hopp over kapittel markert som leste</string>
-    <string name="pref_read_with_volume_keys" formatted="false">Lydstyrkejusteringstaster</string>
-    <string name="pref_read_with_volume_keys_inverted" formatted="false">Inverter lydstyrketaster</string>
-    <string name="pref_read_with_tapping" formatted="false">Trykking</string>
-    <string name="pref_read_with_long_tap" formatted="false">Dialogvindu for langt trykk</string>
-    <string name="pref_reader_theme" formatted="false">Bakgrunnsfarge</string>
-    <string name="white_background" formatted="false">Hvit</string>
-    <string name="black_background" formatted="false">Svart</string>
-    <string name="pref_viewer_type" formatted="false">Forvalgt framviser</string>
-    <string name="default_viewer" formatted="false">Forvalg</string>
-    <string name="left_to_right_viewer" formatted="false">Venstre til høyre</string>
-    <string name="right_to_left_viewer" formatted="false">Høyre til venstre</string>
-    <string name="vertical_viewer" formatted="false">Loddrett</string>
-    <string name="webtoon_viewer" formatted="false">Webtoon</string>
-    <string name="pref_image_decoder" formatted="false">Bildedekoder</string>
-    <string name="pref_image_scale_type" formatted="false">Skalatype</string>
-    <string name="scale_type_fit_screen" formatted="false">Tilpass skjerm</string>
-    <string name="scale_type_stretch" formatted="false">Strekk</string>
-    <string name="scale_type_fit_width" formatted="false">Tilpass bredde</string>
-    <string name="scale_type_fit_height" formatted="false">Tilpass høyde</string>
-    <string name="scale_type_original_size" formatted="false">Opprinnelig størrelse</string>
-    <string name="scale_type_smart_fit" formatted="false">Smart tilpasning</string>
-    <string name="pref_zoom_start" formatted="false">Startposisjon for forstørring</string>
-    <string name="zoom_start_automatic" formatted="false">Automatisk</string>
-    <string name="zoom_start_left" formatted="false">Venstre</string>
-    <string name="zoom_start_right" formatted="false">Høyre</string>
-    <string name="zoom_start_center" formatted="false">Sentrer</string>
-    <string name="double_tap_anim_speed_0" formatted="false">Ingen animasjon</string>
-    <string name="double_tap_anim_speed_normal" formatted="false">Normal</string>
-    <string name="double_tap_anim_speed_fast" formatted="false">Rask</string>
-    <string name="pref_rotation_type" formatted="false">Rotasjon</string>
-    <string name="rotation_free" formatted="false">Fri</string>
-    <string name="rotation_lock" formatted="false">Låst</string>
-    <string name="rotation_force_portrait" formatted="false">Tving stående</string>
-    <string name="rotation_force_landscape" formatted="false">Tving liggende</string>
-    <string name="color_filter_r_value" formatted="false">R</string>
-    <string name="color_filter_g_value" formatted="false">G</string>
-    <string name="color_filter_b_value" formatted="false">B</string>
-    <string name="color_filter_a_value" formatted="false">A</string>
-    <string name="pref_download_directory" formatted="false">Nedlastingsmappe</string>
-    <string name="pref_download_only_over_wifi" formatted="false">Kun last ned over Wi-Fi</string>
-    <string name="pref_remove_after_marked_as_read" formatted="false">Fjern når markert som lest</string>
-    <string name="pref_remove_after_read" formatted="false">Fjern etter lesning</string>
-    <string name="custom_dir" formatted="false">Egendefinert mappe</string>
-    <string name="disabled" formatted="false">Avskrudd</string>
-    <string name="last_read_chapter" formatted="false">Sist leste kapittel</string>
-    <string name="second_to_last" formatted="false">Nest siste kapittel</string>
-    <string name="third_to_last" formatted="false">Tredje siste kapittel</string>
-    <string name="fourth_to_last" formatted="false">Fjerde siste kapittel</string>
-    <string name="fifth_to_last" formatted="false">Femte siste kapittel</string>
-    <string name="pref_download_new" formatted="false">Last ned nye kapitler</string>
-    <string name="pref_download_new_categories" formatted="false">Kategorier å ta med i nedlastning</string>
-    <string name="services" formatted="false">Tjenester</string>
-    <string name="backup" formatted="false">Sikkerhetskopier</string>
-    <string name="pref_create_backup" formatted="false">Opprett sikkerhetskopi</string>
-    <string name="pref_create_backup_summ" formatted="false">Kan brukes til å gjenopprette nåværende bibliotek</string>
-    <string name="pref_restore_backup" formatted="false">Gjenopprett sikkerhetskopi</string>
-    <string name="pref_restore_backup_summ" formatted="false">Gjenopprett bibliotek fra sikkerhetskopifil</string>
-    <string name="pref_backup_directory" formatted="false">Sikkerhetskopimappe</string>
-    <string name="pref_backup_service_category" formatted="false">Tjeneste</string>
-    <string name="pref_backup_interval" formatted="false">Sikkerhetskopieringsfrekvens</string>
-    <string name="pref_backup_slots" formatted="false">Maks antall automatiske sikkerhetskopier</string>
-    <string name="source_not_found" formatted="false">Fant ikke kilden</string>
-    <string name="backup_created" formatted="false">Sikkerhetskopi opprettet</string>
-    <string name="restore_completed" formatted="false">Gjenoppretting fullført</string>
-    <string name="restore_completed_content" formatted="false">Gjenoppretting tok %1$s.
+    <string name="name">Navn</string>
+    <string name="categories">Kategorier</string>
+    <string name="manga">Manga</string>
+    <string name="chapters">Kapittel</string>
+    <string name="history">Historikk</string>
+    <string name="label_settings">Innstillinger</string>
+    <string name="label_download_queue">Nedlastingskø</string>
+    <string name="label_library">Bibliotek</string>
+    <string name="label_recent_manga">Historikk</string>
+    <string name="label_recent_updates">Oppdateringer</string>
+    <string name="label_categories">Kategorier</string>
+    <string name="label_backup">Sikkerhetskopi</string>
+    <string name="label_migration">Kildeflytting</string>
+    <string name="label_extensions">Utvidelser</string>
+    <string name="label_extension_info">Utvidelsesinfo</string>
+    <string name="action_settings">Innstillinger</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_filter_downloaded">Nedlastet</string>
+    <string name="action_filter_bookmarked">Bokmerket</string>
+    <string name="action_filter_unread">Ulest</string>
+    <string name="action_filter_read">Les</string>
+    <string name="action_filter_empty">Fjern filter</string>
+    <string name="action_sort_alpha">Alfabetisk</string>
+    <string name="action_sort_total">Totale kapittel</string>
+    <string name="action_sort_last_read">Sist lest</string>
+    <string name="action_search">Søk</string>
+    <string name="action_select_all">Velg alt</string>
+    <string name="action_mark_as_read">Marker som lest</string>
+    <string name="action_mark_as_unread">Marker som ulest</string>
+    <string name="action_mark_previous_as_read">Merk forrige som lest</string>
+    <string name="action_download">Last ned</string>
+    <string name="action_bookmark">Bokmerk</string>
+    <string name="action_remove_bookmark">Fjern bokmerke</string>
+    <string name="action_delete">Slett</string>
+    <string name="action_update">Oppdater</string>
+    <string name="action_update_library">Oppdater bibliotek</string>
+    <string name="action_edit">Rediger</string>
+    <string name="action_add">Legg til</string>
+    <string name="action_add_category">Legg til kategori</string>
+    <string name="action_edit_categories">Rediger kategorier</string>
+    <string name="action_rename_category">Gi kategori nytt navn</string>
+    <string name="action_move_category">Flytt til kategorier</string>
+    <string name="action_edit_cover">Rediger omslagsbildet</string>
+    <string name="action_sort_up">Sorter oppover</string>
+    <string name="action_sort_down">Sorter nedover</string>
+    <string name="action_show_downloaded">Nedlastet</string>
+    <string name="action_next_unread">Neste uleste</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stopp</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_close">Lukk</string>
+    <string name="action_previous_chapter">Forrige kapittel</string>
+    <string name="action_next_chapter">Neste kapittel</string>
+    <string name="action_retry">Prøv igjen</string>
+    <string name="action_remove">Fjern</string>
+    <string name="action_resume">Fortsett</string>
+    <string name="action_move">Flytt</string>
+    <string name="action_open_in_browser">Åpne i nettleser</string>
+    <string name="action_display_mode">Visningsmodus</string>
+    <string name="action_display">Vis</string>
+    <string name="action_display_grid">Rutenett</string>
+    <string name="action_display_list">Liste</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="action_sort">Sorter</string>
+    <string name="action_install">Installer</string>
+    <string name="action_share">Del</string>
+    <string name="action_save">Lagre</string>
+    <string name="action_reset">Tilbakestill</string>
+    <string name="action_undo">Angre</string>
+    <string name="action_open_log">Åpne logg</string>
+    <string name="action_create">Opprett</string>
+    <string name="action_restore">Gjenopprett</string>
+    <string name="action_open">Åpne</string>
+    <string name="action_login">Logg inn</string>
+    <string name="loading">Laster…</string>
+    <string name="app_not_available">Program ikke tilgjengelig</string>
+    <string name="short_recent_updates">Oppdateringer</string>
+    <string name="pref_category_general">Generelt</string>
+    <string name="pref_category_reader">Leser</string>
+    <string name="pref_category_downloads">Nedlastinger</string>
+    <string name="pref_category_advanced">Avansert</string>
+    <string name="pref_category_about">Om</string>
+    <string name="default_columns">Forvalg</string>
+    <string name="update_never">Manuell</string>
+    <string name="update_1hour">Timevis</string>
+    <string name="update_2hour">Hver andre time</string>
+    <string name="update_3hour">Hver tredje time</string>
+    <string name="update_6hour">Hver sjette time</string>
+    <string name="update_12hour">Hver tolvte time</string>
+    <string name="update_24hour">Daglig</string>
+    <string name="update_48hour">Annenhver dag</string>
+    <string name="update_weekly">Ukentlig</string>
+    <string name="update_monthly">Månedlig</string>
+    <string name="all">Alle</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="charging">Lading</string>
+    <string name="pref_start_screen">Startskjerm</string>
+    <string name="pref_language">Språk</string>
+    <string name="system_default">Systemforvalg</string>
+    <string name="default_category">Forvalgt kategori</string>
+    <string name="default_category_summary">Alltid spør</string>
+    <string name="all_lang">Alle</string>
+    <string name="ext_details">Detaljer</string>
+    <string name="ext_update">Oppdater</string>
+    <string name="ext_install">Installer</string>
+    <string name="ext_pending">Ventende</string>
+    <string name="ext_downloading">Laster ned</string>
+    <string name="ext_installing">Installerer</string>
+    <string name="ext_installed">Installert</string>
+    <string name="ext_trust">Tillit</string>
+    <string name="ext_untrusted">Ubetrodd</string>
+    <string name="ext_uninstall">Avinstaller</string>
+    <string name="ext_preferences">Innstillinger</string>
+    <string name="ext_available">Tilgjengelig</string>
+    <string name="untrusted_extension">Ubetrodd utvidelse</string>
+    <string name="ext_version_info">Versjon: %1$s</string>
+    <string name="ext_language_info">Språk: %1$s</string>
+    <string name="pref_fullscreen">Fullskjermsvisning</string>
+    <string name="pref_lock_orientation">Lås sideretning</string>
+    <string name="pref_page_transitions">Sideoverganger</string>
+    <string name="pref_show_page_number">Vis sidenummer</string>
+    <string name="pref_keep_screen_on">Behold skjerm på</string>
+    <string name="pref_reader_navigation">Navigasjon</string>
+    <string name="track">Sporing</string>
+    <string name="action_global_search">Globalt søk</string>
+    <string name="action_open_in_web_view">Nettvisning</string>
+    <string name="pref_category_tracking">Sporing</string>
+    <string name="portrait">Stående</string>
+    <string name="landscape">Liggende</string>
+    <string name="pref_library_update_interval">Frekvens for oppdatering av bibliotek</string>
+    <string name="pref_library_update_categories">Kategorier inkludert i global oppdatering</string>
+    <string name="pref_library_update_restriction">Restriksjoner for oppdatering av bibliotek</string>
+    <string name="pref_library_update_restriction_summary">Kun oppdater når disse vilkårene oppfylles</string>
+    <string name="pref_update_only_non_completed">Kun oppdater pågående manga</string>
+    <string name="pref_auto_update_manga_sync">Synkroniser kapitler etter lesing</string>
+    <string name="pref_true_color">32-biters fargerom</string>
+    <string name="pref_crop_borders">Beskjær kanter</string>
+    <string name="pref_custom_brightness">Bruk egendefinert lysstyrke</string>
+    <string name="pref_custom_color_filter">Bruk egendefinert fargefilter</string>
+    <string name="pref_skip_read_chapters">Hopp over kapittel markert som leste</string>
+    <string name="pref_read_with_volume_keys">Lydstyrkejusteringstaster</string>
+    <string name="pref_read_with_volume_keys_inverted">Inverter lydstyrketaster</string>
+    <string name="pref_read_with_tapping">Trykking</string>
+    <string name="pref_read_with_long_tap">Dialogvindu for langt trykk</string>
+    <string name="pref_reader_theme">Bakgrunnsfarge</string>
+    <string name="white_background">Hvit</string>
+    <string name="black_background">Svart</string>
+    <string name="pref_viewer_type">Forvalgt framviser</string>
+    <string name="default_viewer">Forvalg</string>
+    <string name="left_to_right_viewer">Venstre til høyre</string>
+    <string name="right_to_left_viewer">Høyre til venstre</string>
+    <string name="vertical_viewer">Loddrett</string>
+    <string name="webtoon_viewer">Webtoon</string>
+    <string name="pref_image_decoder">Bildedekoder</string>
+    <string name="pref_image_scale_type">Skalatype</string>
+    <string name="scale_type_fit_screen">Tilpass skjerm</string>
+    <string name="scale_type_stretch">Strekk</string>
+    <string name="scale_type_fit_width">Tilpass bredde</string>
+    <string name="scale_type_fit_height">Tilpass høyde</string>
+    <string name="scale_type_original_size">Opprinnelig størrelse</string>
+    <string name="scale_type_smart_fit">Smart tilpasning</string>
+    <string name="pref_zoom_start">Startposisjon for forstørring</string>
+    <string name="zoom_start_automatic">Automatisk</string>
+    <string name="zoom_start_left">Venstre</string>
+    <string name="zoom_start_right">Høyre</string>
+    <string name="zoom_start_center">Sentrer</string>
+    <string name="double_tap_anim_speed_0">Ingen animasjon</string>
+    <string name="double_tap_anim_speed_normal">Normal</string>
+    <string name="double_tap_anim_speed_fast">Rask</string>
+    <string name="pref_rotation_type">Rotasjon</string>
+    <string name="rotation_free">Fri</string>
+    <string name="rotation_lock">Låst</string>
+    <string name="rotation_force_portrait">Tving stående</string>
+    <string name="rotation_force_landscape">Tving liggende</string>
+    <string name="color_filter_r_value">R</string>
+    <string name="color_filter_g_value">G</string>
+    <string name="color_filter_b_value">B</string>
+    <string name="color_filter_a_value">A</string>
+    <string name="pref_download_directory">Nedlastingsmappe</string>
+    <string name="pref_download_only_over_wifi">Kun last ned over Wi-Fi</string>
+    <string name="pref_remove_after_marked_as_read">Fjern når markert som lest</string>
+    <string name="pref_remove_after_read">Fjern etter lesning</string>
+    <string name="custom_dir">Egendefinert mappe</string>
+    <string name="disabled">Avskrudd</string>
+    <string name="last_read_chapter">Sist leste kapittel</string>
+    <string name="second_to_last">Nest siste kapittel</string>
+    <string name="third_to_last">Tredje siste kapittel</string>
+    <string name="fourth_to_last">Fjerde siste kapittel</string>
+    <string name="fifth_to_last">Femte siste kapittel</string>
+    <string name="pref_download_new">Last ned nye kapitler</string>
+    <string name="pref_download_new_categories">Kategorier å ta med i nedlastning</string>
+    <string name="services">Tjenester</string>
+    <string name="backup">Sikkerhetskopier</string>
+    <string name="pref_create_backup">Opprett sikkerhetskopi</string>
+    <string name="pref_create_backup_summ">Kan brukes til å gjenopprette nåværende bibliotek</string>
+    <string name="pref_restore_backup">Gjenopprett sikkerhetskopi</string>
+    <string name="pref_restore_backup_summ">Gjenopprett bibliotek fra sikkerhetskopifil</string>
+    <string name="pref_backup_directory">Sikkerhetskopimappe</string>
+    <string name="pref_backup_service_category">Tjeneste</string>
+    <string name="pref_backup_interval">Sikkerhetskopieringsfrekvens</string>
+    <string name="pref_backup_slots">Maks antall automatiske sikkerhetskopier</string>
+    <string name="source_not_found">Fant ikke kilden</string>
+    <string name="backup_created">Sikkerhetskopi opprettet</string>
+    <string name="restore_completed">Gjenoppretting fullført</string>
+    <string name="restore_completed_content">Gjenoppretting tok %1$s.
 \n%2$s feil funnet.</string>
-    <string name="backup_choice" formatted="false">Hva ønsker du å sikkerhetskopiere\?</string>
-    <string name="restoring_backup" formatted="false">Gjenoppretter sikkerhetskopi</string>
-    <string name="creating_backup" formatted="false">Oppretter sikkerhetskopi</string>
-    <string name="pref_clear_chapter_cache" formatted="false">Tøm kapittelhurtiglager</string>
-    <string name="used_cache" formatted="false">Brukt: %1$s</string>
-    <string name="cache_deleted" formatted="false">Hurtiglager tømt. %1$d filer har blitt slettet.</string>
-    <string name="cache_delete_error" formatted="false">Feil oppstod under tømming av hurtiglager</string>
-    <string name="pref_clear_cookies" formatted="false">Tøm kaker</string>
-    <string name="cookies_cleared" formatted="false">Kaker tømt</string>
-    <string name="choices_reset" formatted="false">Dialogvinduvalg tilbakestilt</string>
-    <string name="pref_clear_database" formatted="false">Tøm database</string>
-    <string name="pref_clear_database_summary" formatted="false">Slett manga og kapittel som ikke finnes i biblioteket ditt</string>
-    <string name="clear_database_confirmation" formatted="false">Er du sikker\? Leste kapittel og framdrift for manga som ikke er i biblioteket vil gå tapt.</string>
-    <string name="clear_database_completed" formatted="false">Oppføringer slettet</string>
-    <string name="pref_refresh_library_metadata" formatted="false">Gjenoppfrisk biblioteksmetadata</string>
-    <string name="pref_refresh_library_metadata_summary" formatted="false">Oppdater omslag, sjangere, beskrivelse og statusinfo for manga</string>
-    <string name="pref_refresh_library_tracking" formatted="false">Gjenopprett sporingsmetadata</string>
-    <string name="pref_refresh_library_tracking_summary" formatted="false">Oppdaterer status, poengsum og sist leste kapittel fra sporingstjenestene</string>
-    <string name="version" formatted="false">Versjon</string>
-    <string name="build_time" formatted="false">Byggtid</string>
-    <string name="pref_enable_acra" formatted="false">Send kræsjrapporter</string>
-    <string name="pref_acra_summary" formatted="false">Hjelper til med fiksing av feil. Ingen sensitiv data vil bli sendt.</string>
-    <string name="login_title" formatted="false">Innlogging for %1$s</string>
-    <string name="username" formatted="false">Brukernavn</string>
-    <string name="password" formatted="false">Passord</string>
-    <string name="show_password" formatted="false">Vis passord</string>
-    <string name="login" formatted="false">Logg inn</string>
-    <string name="login_success" formatted="false">Innlogget</string>
-    <string name="invalid_login" formatted="false">Kunne ikke logge inn</string>
-    <string name="unknown_error" formatted="false">Ukjent feil</string>
-    <string name="library_search_hint" formatted="false">Tittel eller forfatter…</string>
-    <string name="updating_category" formatted="false">Oppdaterer kategori</string>
-    <string name="local_source_badge" formatted="false">Lokal</string>
-    <string name="confirm_delete_manga" formatted="false">Er du sikker på at du vil fjerne valgt manga\?</string>
-    <string name="also_delete_chapters" formatted="false">Slett også nedlastede kapittel</string>
-    <string name="source_requires_login" formatted="false">Denne kilden krever at du logger inn</string>
-    <string name="select_source" formatted="false">Velg en kilde</string>
-    <string name="no_valid_sources" formatted="false">Skru på minst én gyldig kilde</string>
-    <string name="no_more_results" formatted="false">Ingen flere resultater</string>
-    <string name="local_source" formatted="false">Lokal kilde</string>
-    <string name="other_source" formatted="false">Andre</string>
-    <string name="invalid_combination" formatted="false">Forvalg kan ikke velges med andre kategorier</string>
-    <string name="added_to_library" formatted="false">Mangaen har blitt lagt til i biblioteket ditt</string>
-    <string name="action_global_search_hint" formatted="false">Globalt søk…</string>
-    <string name="latest" formatted="false">Seneste</string>
-    <string name="browse" formatted="false">Utforsk</string>
-    <string name="manga_not_in_db" formatted="false">Denne mangaen har blitt fjernet fra databasen.</string>
-    <string name="manga_detail_tab" formatted="false">Info</string>
-    <string name="description" formatted="false">Beskrivelse</string>
-    <string name="ongoing" formatted="false">Pågående</string>
-    <string name="unknown" formatted="false">Ukjent</string>
-    <string name="licensed" formatted="false">Lisensiert</string>
-    <string name="remove_from_library" formatted="false">Fjern fra bibliotek</string>
-    <string name="manga_info_full_title_label" formatted="false">Tittel</string>
-    <string name="manga_added_library" formatted="false">Lagt til i biblioteket</string>
-    <string name="manga_removed_library" formatted="false">Fjernet fra bibliotek</string>
-    <string name="manga_info_author_label" formatted="false">Forfatter</string>
-    <string name="manga_info_artist_label" formatted="false">Artist</string>
-    <string name="manga_info_chapters_label" formatted="false">Kapittel</string>
-    <string name="manga_info_status_label" formatted="false">Status</string>
-    <string name="manga_info_source_label" formatted="false">Kilde</string>
-    <string name="manga_info_genres_label" formatted="false">Sjangere</string>
-    <string name="delete_downloads_for_manga" formatted="false">Slett nedlastede kapittel\?</string>
-    <string name="copied_to_clipboard" formatted="false">%1$s kopiert til utklippstavle</string>
-    <string name="source_not_installed" formatted="false">Kilde ikke installert: %1$s</string>
-    <string name="manga_chapters_tab" formatted="false">Kapittel</string>
-    <string name="manga_chapter_no_title" formatted="false">Ingen tittel</string>
-    <string name="display_mode_chapter" formatted="false">Kapittel %1$s</string>
-    <string name="chapter_downloaded" formatted="false">Nedlastet</string>
-    <string name="chapter_queued" formatted="false">I kø</string>
-    <string name="chapter_downloading" formatted="false">Laster ned</string>
-    <string name="chapter_downloading_progress" formatted="false">Laster ned (%1$d/%2$d)</string>
-    <string name="chapter_error" formatted="false">Feil</string>
-    <string name="chapter_paused" formatted="false">Pauset</string>
-    <string name="fetch_chapters_error" formatted="false">Kunne ikke hente kapittel</string>
-    <string name="show_title" formatted="false">Tittel</string>
-    <string name="show_chapter_number" formatted="false">Kapittelnummer</string>
-    <string name="sorting_mode" formatted="false">Sorteringsmodus</string>
-    <string name="sort_by_source" formatted="false">Etter kilde</string>
-    <string name="sort_by_number" formatted="false">Etter kapittelnummer</string>
-    <string name="manga_download" formatted="false">Last ned</string>
-    <string name="custom_download" formatted="false">Last ned egendefinert mengde</string>
-    <string name="download_1" formatted="false">Neste kapittel</string>
-    <string name="download_5" formatted="false">Neste fem kapittel</string>
-    <string name="download_10" formatted="false">Neste ti kapittel</string>
-    <string name="download_custom" formatted="false">Egendefinert</string>
-    <string name="download_all" formatted="false">Alle</string>
-    <string name="download_unread" formatted="false">Ulest</string>
-    <string name="confirm_delete_chapters" formatted="false">Er du sikker på at du vil slette valgte kapittel\?</string>
-    <string name="manga_tracking_tab" formatted="false">Sporing</string>
-    <string name="reading" formatted="false">Leser</string>
-    <string name="completed" formatted="false">Fullført</string>
-    <string name="dropped" formatted="false">Droppet</string>
-    <string name="on_hold" formatted="false">På vent</string>
-    <string name="plan_to_read" formatted="false">Planlagt lest</string>
-    <string name="repeating" formatted="false">Leser om igjen</string>
-    <string name="score" formatted="false">Poengsum</string>
-    <string name="title" formatted="false">Tittel</string>
-    <string name="status" formatted="false">Status</string>
-    <string name="track_status" formatted="false">Status</string>
-    <string name="track_start_date" formatted="false">Startet</string>
-    <string name="track_type" formatted="false">Type</string>
-    <string name="track_author" formatted="false">Forfatter</string>
-    <string name="url_not_set" formatted="false">Manga-nettadresse ikke satt, klikk tittel og velg manga igjen</string>
-    <string name="error_category_exists" formatted="false">En kategori ved dette navnet finnes allerede.</string>
-    <string name="snack_categories_deleted" formatted="false">Kategorier slettet</string>
-    <string name="dialog_with_checkbox_remove_description" formatted="false">Lesningsdato for dette kapittelet vil bli fjernet. Er du sikker\?</string>
-    <string name="dialog_with_checkbox_reset" formatted="false">Tilbakestill alle kapittel for denne mangaen</string>
-    <string name="snack_add_to_library" formatted="false">Legg manga til i bibliotek\?</string>
-    <string name="picture_saved" formatted="false">Bilde lagret</string>
-    <string name="saving_picture" formatted="false">Lagrer bilde</string>
-    <string name="options" formatted="false">Valg</string>
-    <string name="custom_filter" formatted="false">Egendefinert filter</string>
-    <string name="set_as_cover" formatted="false">Sett som omslag</string>
-    <string name="cover_updated" formatted="false">Omslag oppdatert</string>
-    <string name="page_downloaded" formatted="false">Side kopiert til %1$s</string>
-    <string name="downloading" formatted="false">Laster ned…</string>
-    <string name="download_progress" formatted="false">Nedlastet %1$d%%</string>
-    <string name="chapter_progress" formatted="false">Side: %1$d</string>
-    <string name="chapter_subtitle" formatted="false">Kapittel %1$s</string>
-    <string name="no_next_chapter" formatted="false">Fant ikke neste kapittel</string>
-    <string name="no_previous_chapter" formatted="false">Fant ikke forrige kapittel</string>
-    <string name="decode_image_error" formatted="false">Kunne ikke dekode bildet</string>
-    <string name="transition_finished" formatted="false">Fullført:</string>
-    <string name="transition_current" formatted="false">Nåværende:</string>
-    <string name="transition_next" formatted="false">Neste:</string>
-    <string name="transition_previous" formatted="false">Forrige:</string>
-    <string name="transition_no_next" formatted="false">Det finnes ikke flere kapittel</string>
-    <string name="transition_no_previous" formatted="false">Det er ikke noe tidligere kapittel</string>
-    <string name="transition_pages_loading" formatted="false">Laster inn sider…</string>
-    <string name="transition_pages_error" formatted="false">Klarte ikke å laste inn sider: %1$s</string>
-    <string name="migration_dialog_what_to_include" formatted="false">Velg data å inkludere</string>
-    <string name="select" formatted="false">Velg</string>
-    <string name="migrate" formatted="false">Migrer</string>
-    <string name="copy" formatted="false">Kopier</string>
-    <string name="channel_library" formatted="false">Bibliotek</string>
-    <string name="channel_downloader" formatted="false">Nedlaster</string>
-    <string name="notification_new_chapters" formatted="false">Nye kapitler funnet</string>
-    <string name="notification_cover_update_failed" formatted="false">Klarte ikke å oppdatere omslag</string>
-    <string name="update_check_confirm" formatted="false">Last ned</string>
-    <string name="update_check_ignore" formatted="false">Ignorer</string>
-    <string name="channel_common" formatted="false">Vanlig</string>
-    <string name="filter_mode_default" formatted="false">Forvalg</string>
-    <string name="filter_mode_screen" formatted="false">Skjerm</string>
-    <string name="label_help" formatted="false">Hjelp</string>
-    <string name="action_display_download_badge" formatted="false">Last ned merker</string>
-    <string name="pref_library_columns" formatted="false">Bibliotekmanga per rad</string>
-    <string name="untrusted_extension_message" formatted="false">Denne utvidelsen ble signert med et usikkert sertifikat, og ble dermed ikke aktivert 
+    <string name="backup_choice">Hva ønsker du å sikkerhetskopiere\?</string>
+    <string name="restoring_backup">Gjenoppretter sikkerhetskopi</string>
+    <string name="creating_backup">Oppretter sikkerhetskopi</string>
+    <string name="pref_clear_chapter_cache">Tøm kapittelhurtiglager</string>
+    <string name="used_cache">Brukt: %1$s</string>
+    <string name="cache_deleted">Hurtiglager tømt. %1$d filer har blitt slettet.</string>
+    <string name="cache_delete_error">Feil oppstod under tømming av hurtiglager</string>
+    <string name="pref_clear_cookies">Tøm kaker</string>
+    <string name="cookies_cleared">Kaker tømt</string>
+    <string name="choices_reset">Dialogvinduvalg tilbakestilt</string>
+    <string name="pref_clear_database">Tøm database</string>
+    <string name="pref_clear_database_summary">Slett manga og kapittel som ikke finnes i biblioteket ditt</string>
+    <string name="clear_database_confirmation">Er du sikker\? Leste kapittel og framdrift for manga som ikke er i biblioteket vil gå tapt.</string>
+    <string name="clear_database_completed">Oppføringer slettet</string>
+    <string name="pref_refresh_library_metadata">Gjenoppfrisk biblioteksmetadata</string>
+    <string name="pref_refresh_library_metadata_summary">Oppdater omslag, sjangere, beskrivelse og statusinfo for manga</string>
+    <string name="pref_refresh_library_tracking">Gjenopprett sporingsmetadata</string>
+    <string name="pref_refresh_library_tracking_summary">Oppdaterer status, poengsum og sist leste kapittel fra sporingstjenestene</string>
+    <string name="version">Versjon</string>
+    <string name="build_time">Byggtid</string>
+    <string name="pref_enable_acra">Send kræsjrapporter</string>
+    <string name="pref_acra_summary">Hjelper til med fiksing av feil. Ingen sensitiv data vil bli sendt.</string>
+    <string name="login_title">Innlogging for %1$s</string>
+    <string name="username">Brukernavn</string>
+    <string name="password">Passord</string>
+    <string name="show_password">Vis passord</string>
+    <string name="login">Logg inn</string>
+    <string name="login_success">Innlogget</string>
+    <string name="invalid_login">Kunne ikke logge inn</string>
+    <string name="unknown_error">Ukjent feil</string>
+    <string name="library_search_hint">Tittel eller forfatter…</string>
+    <string name="updating_category">Oppdaterer kategori</string>
+    <string name="local_source_badge">Lokal</string>
+    <string name="confirm_delete_manga">Er du sikker på at du vil fjerne valgt manga\?</string>
+    <string name="also_delete_chapters">Slett også nedlastede kapittel</string>
+    <string name="source_requires_login">Denne kilden krever at du logger inn</string>
+    <string name="select_source">Velg en kilde</string>
+    <string name="no_valid_sources">Skru på minst én gyldig kilde</string>
+    <string name="no_more_results">Ingen flere resultater</string>
+    <string name="local_source">Lokal kilde</string>
+    <string name="other_source">Andre</string>
+    <string name="invalid_combination">Forvalg kan ikke velges med andre kategorier</string>
+    <string name="added_to_library">Mangaen har blitt lagt til i biblioteket ditt</string>
+    <string name="action_global_search_hint">Globalt søk…</string>
+    <string name="latest">Seneste</string>
+    <string name="browse">Utforsk</string>
+    <string name="manga_not_in_db">Denne mangaen har blitt fjernet fra databasen.</string>
+    <string name="manga_detail_tab">Info</string>
+    <string name="description">Beskrivelse</string>
+    <string name="ongoing">Pågående</string>
+    <string name="unknown">Ukjent</string>
+    <string name="licensed">Lisensiert</string>
+    <string name="remove_from_library">Fjern fra bibliotek</string>
+    <string name="manga_info_full_title_label">Tittel</string>
+    <string name="manga_added_library">Lagt til i biblioteket</string>
+    <string name="manga_removed_library">Fjernet fra bibliotek</string>
+    <string name="manga_info_author_label">Forfatter</string>
+    <string name="manga_info_artist_label">Artist</string>
+    <string name="manga_info_chapters_label">Kapittel</string>
+    <string name="manga_info_status_label">Status</string>
+    <string name="manga_info_source_label">Kilde</string>
+    <string name="manga_info_genres_label">Sjangere</string>
+    <string name="delete_downloads_for_manga">Slett nedlastede kapittel\?</string>
+    <string name="copied_to_clipboard">%1$s kopiert til utklippstavle</string>
+    <string name="source_not_installed">Kilde ikke installert: %1$s</string>
+    <string name="manga_chapters_tab">Kapittel</string>
+    <string name="manga_chapter_no_title">Ingen tittel</string>
+    <string name="display_mode_chapter">Kapittel %1$s</string>
+    <string name="chapter_downloaded">Nedlastet</string>
+    <string name="chapter_queued">I kø</string>
+    <string name="chapter_downloading">Laster ned</string>
+    <string name="chapter_downloading_progress">Laster ned (%1$d/%2$d)</string>
+    <string name="chapter_error">Feil</string>
+    <string name="chapter_paused">Pauset</string>
+    <string name="fetch_chapters_error">Kunne ikke hente kapittel</string>
+    <string name="show_title">Tittel</string>
+    <string name="show_chapter_number">Kapittelnummer</string>
+    <string name="sorting_mode">Sorteringsmodus</string>
+    <string name="sort_by_source">Etter kilde</string>
+    <string name="sort_by_number">Etter kapittelnummer</string>
+    <string name="manga_download">Last ned</string>
+    <string name="custom_download">Last ned egendefinert mengde</string>
+    <string name="download_1">Neste kapittel</string>
+    <string name="download_5">Neste fem kapittel</string>
+    <string name="download_10">Neste ti kapittel</string>
+    <string name="download_custom">Egendefinert</string>
+    <string name="download_all">Alle</string>
+    <string name="download_unread">Ulest</string>
+    <string name="confirm_delete_chapters">Er du sikker på at du vil slette valgte kapittel\?</string>
+    <string name="manga_tracking_tab">Sporing</string>
+    <string name="reading">Leser</string>
+    <string name="completed">Fullført</string>
+    <string name="dropped">Droppet</string>
+    <string name="on_hold">På vent</string>
+    <string name="plan_to_read">Planlagt lest</string>
+    <string name="repeating">Leser om igjen</string>
+    <string name="score">Poengsum</string>
+    <string name="title">Tittel</string>
+    <string name="status">Status</string>
+    <string name="track_status">Status</string>
+    <string name="track_start_date">Startet</string>
+    <string name="track_type">Type</string>
+    <string name="track_author">Forfatter</string>
+    <string name="url_not_set">Manga-nettadresse ikke satt, klikk tittel og velg manga igjen</string>
+    <string name="error_category_exists">En kategori ved dette navnet finnes allerede.</string>
+    <string name="snack_categories_deleted">Kategorier slettet</string>
+    <string name="dialog_with_checkbox_remove_description">Lesningsdato for dette kapittelet vil bli fjernet. Er du sikker\?</string>
+    <string name="dialog_with_checkbox_reset">Tilbakestill alle kapittel for denne mangaen</string>
+    <string name="snack_add_to_library">Legg manga til i bibliotek\?</string>
+    <string name="picture_saved">Bilde lagret</string>
+    <string name="saving_picture">Lagrer bilde</string>
+    <string name="options">Valg</string>
+    <string name="custom_filter">Egendefinert filter</string>
+    <string name="set_as_cover">Sett som omslag</string>
+    <string name="cover_updated">Omslag oppdatert</string>
+    <string name="page_downloaded">Side kopiert til %1$s</string>
+    <string name="downloading">Laster ned…</string>
+    <string name="download_progress">Nedlastet %1$d%%</string>
+    <string name="chapter_progress">Side: %1$d</string>
+    <string name="chapter_subtitle">Kapittel %1$s</string>
+    <string name="no_next_chapter">Fant ikke neste kapittel</string>
+    <string name="no_previous_chapter">Fant ikke forrige kapittel</string>
+    <string name="decode_image_error">Kunne ikke dekode bildet</string>
+    <string name="transition_finished">Fullført:</string>
+    <string name="transition_current">Nåværende:</string>
+    <string name="transition_next">Neste:</string>
+    <string name="transition_previous">Forrige:</string>
+    <string name="transition_no_next">Det finnes ikke flere kapittel</string>
+    <string name="transition_no_previous">Det er ikke noe tidligere kapittel</string>
+    <string name="transition_pages_loading">Laster inn sider…</string>
+    <string name="transition_pages_error">Klarte ikke å laste inn sider: %1$s</string>
+    <string name="migration_dialog_what_to_include">Velg data å inkludere</string>
+    <string name="select">Velg</string>
+    <string name="migrate">Migrer</string>
+    <string name="copy">Kopier</string>
+    <string name="channel_library">Bibliotek</string>
+    <string name="channel_downloader">Nedlaster</string>
+    <string name="notification_new_chapters">Nye kapitler funnet</string>
+    <string name="notification_cover_update_failed">Klarte ikke å oppdatere omslag</string>
+    <string name="update_check_confirm">Last ned</string>
+    <string name="update_check_ignore">Ignorer</string>
+    <string name="channel_common">Vanlig</string>
+    <string name="filter_mode_default">Forvalg</string>
+    <string name="filter_mode_screen">Skjerm</string>
+    <string name="label_help">Hjelp</string>
+    <string name="action_display_download_badge">Last ned merker</string>
+    <string name="pref_library_columns">Bibliotekmanga per rad</string>
+    <string name="untrusted_extension_message">Denne utvidelsen ble signert med et usikkert sertifikat, og ble dermed ikke aktivert 
 \n
 \nEn skadelig utvidelse kan lese innloggingsdetaljer lagret i Tachiyomi, eller kjøre ukjent kode.
 \n
 \nVed å godta dette sertifikatet aksepterer du overstående risikoer.</string>
-    <string name="ext_empty_preferences" formatted="false">Ingen preferanser å redigere for denne utvidelsen</string>
-    <string name="pref_double_tap_anim_speed" formatted="false">Animasjonshastighet ved dobbelklikk</string>
-    <string name="pager_viewer" formatted="false">Sideleser</string>
-    <string name="backup_restore_content" formatted="false">Gjenoppretting bruker kilde for å hente data, mobilkostnader kan tilkomme.
+    <string name="ext_empty_preferences">Ingen preferanser å redigere for denne utvidelsen</string>
+    <string name="pref_double_tap_anim_speed">Animasjonshastighet ved dobbelklikk</string>
+    <string name="pager_viewer">Sideleser</string>
+    <string name="backup_restore_content">Gjenoppretting bruker kilde for å hente data, mobilkostnader kan tilkomme.
 \n
 \nForsikre deg om at du har installert alle nødvendige utvidelser og er logget inn i kilder og sporingstjenester før du gjenoppretter.</string>
-    <string name="confirm_set_image_as_cover" formatted="false">Bruk dette bildet som omslag\?</string>
-    <string name="viewer_for_this_series" formatted="false">Leser for denne serien</string>
-    <string name="migration_info" formatted="false">Trykk for å velge kilde å migrere fra</string>
-    <string name="download_queue_error" formatted="false">Kunne ikke laste ned kapitler. Du kan prøve igjen i nedlastingsdelen.</string>
-    <string name="notification_update_progress" formatted="false">Oppdateringsfremdrift: %1$d/%2$d</string>
-    <string name="notification_first_add_to_library" formatted="false">Legg til mangaen i biblioteket ditt før du gjør dette</string>
-    <string name="notification_not_connected_to_ac_title" formatted="false">Synkronisering avbrutt</string>
-    <string name="notification_not_connected_to_ac_body" formatted="false">Ikke tilkoblet strøm</string>
-    <string name="notification_no_connection_title" formatted="false">Synkronisering avbrutt</string>
-    <string name="notification_no_connection_body" formatted="false">Tilkobling ikke tilgjengelig</string>
-    <string name="file_select_cover" formatted="false">Velg omslagsbilde</string>
-    <string name="file_select_backup" formatted="false">Velg sikkerhetskopifil</string>
-    <string name="file_select_icon" formatted="false">Velg snarveisikon</string>
-    <string name="update_check_no_new_updates" formatted="false">Ingen nye oppdateringer tilgjengelige</string>
-    <string name="update_check_look_for_updates" formatted="false">Ser etter oppdateringer…</string>
-    <string name="update_check_notification_file_download" formatted="false">Last ned oppdatering</string>
-    <string name="update_check_notification_download_in_progress" formatted="false">Laster ned…</string>
-    <string name="update_check_notification_download_complete" formatted="false">Nedlasting ferdig</string>
-    <string name="update_check_notification_download_error" formatted="false">Feil ved nedlasting</string>
-    <string name="update_check_notification_update_available" formatted="false">Oppdatering tilgjengelig</string>
-    <string name="description_backdrop" formatted="false">Bakgrunnsbilde av manga</string>
-    <string name="description_cover" formatted="false">Omslag til manga</string>
-    <string name="information_no_downloads" formatted="false">Ingen nedlastinger</string>
-    <string name="information_no_recent" formatted="false">Ingen nylige kapittel</string>
-    <string name="information_no_recent_manga" formatted="false">Ingen nylig lest manga</string>
-    <string name="information_empty_library" formatted="false">Biblioteket ditt er tomt,legg til serier i biblioteket ditt fra katalogene.</string>
-    <string name="information_empty_category" formatted="false">Du har ingen kategorier. Trykk på pluss-knappen for å lage en for å organisere ditt bibliotek.</string>
-    <string name="download_notifier_downloader_title" formatted="false">Nedlaster</string>
-    <string name="download_notifier_title_error" formatted="false">Feil</string>
-    <string name="download_notifier_unknown_error" formatted="false">En uventet feil oppstod mens kapittelet ble lastet ned</string>
-    <string name="download_notifier_page_error" formatted="false">En side ble ikke funnet</string>
-    <string name="download_notifier_page_ready_error" formatted="false">En side er ikke innlastet</string>
-    <string name="download_notifier_text_only_wifi" formatted="false">Ingen trådløstilkobling tilgjengelig</string>
-    <string name="download_notifier_no_network" formatted="false">Ingen nettverkstilkobling tilgjengelig</string>
-    <string name="download_notifier_download_paused" formatted="false">Nedlasting pauset</string>
-    <string name="pref_color_filter_mode" formatted="false">Blandingsmodus for fargefilter</string>
-    <string name="filter_mode_overlay" formatted="false">Overlegg</string>
-    <string name="filter_mode_multiply" formatted="false">Multiplisere</string>
-    <string name="filter_mode_lighten" formatted="false">Unngå / lysne</string>
-    <string name="filter_mode_darken" formatted="false">Brenn / mørkere</string>
-    <string name="pref_library_update_prioritization" formatted="false">Rekkefølge for biblioteksoppdatering</string>
-    <string name="no_results_found" formatted="false">Resultatløst</string>
-    <string name="migration_selection_prompt" formatted="false">Velg en kilde å migrere fra</string>
-    <string name="action_webview_back" formatted="false">Tilbake</string>
-    <string name="action_webview_forward" formatted="false">Fram</string>
-    <string name="action_webview_refresh" formatted="false">Gjenoppfrisk</string>
-    <string name="pref_category_library" formatted="false">Bibliotek</string>
-    <string name="invalid_download_dir" formatted="false">Ugyldig nedlastingsmappe</string>
-    <string name="ext_obsolete" formatted="false">Foreldet</string>
-    <string name="obsolete_extension_message" formatted="false">Denne utvidelsen er ikke lenger tilgjengelig.</string>
-    <string name="pref_date_format" formatted="false">Datoformat</string>
-    <string name="pref_category_library_update" formatted="false">Oppdateringer</string>
-    <string name="pref_category_library_categories" formatted="false">Kategorier</string>
-    <string name="logout_title" formatted="false">Logg ut fra %1$s\?</string>
-    <string name="logout" formatted="false">Logg ut</string>
-    <string name="logout_success" formatted="false">Du er utlogget</string>
-    <string name="currently_reading" formatted="false">Leses</string>
-    <string name="paused" formatted="false">På pause</string>
-    <string name="want_to_read" formatted="false">Ønsker å lese</string>
-    <string name="label_more" formatted="false">Mer</string>
-    <string name="action_view_chapters" formatted="false">Vis kapitler</string>
-    <string name="action_cancel_all" formatted="false">Avbryt alle</string>
-    <string name="pref_theme_mode" formatted="false">Drakt</string>
-    <string name="theme_light" formatted="false">Lys</string>
-    <string name="theme_dark" formatted="false">Mørk</string>
-    <string name="theme_system" formatted="false">System</string>
-    <string name="pref_theme_dark" formatted="false">Mørkt draktvalg</string>
-    <string name="theme_dark_default" formatted="false">Forvalg</string>
-    <string name="theme_dark_blue" formatted="false">Mørkeblå</string>
-    <string name="theme_dark_amoled" formatted="false">AMOLED-sort</string>
-    <string name="pref_manage_notifications" formatted="false">Håndter merknader</string>
-    <string name="pref_category_security" formatted="false">Sikkerhet</string>
-    <string name="lock_with_biometrics" formatted="false">Lås med biometri</string>
-    <string name="lock_when_idle" formatted="false">Lås ved lediggang</string>
-    <string name="lock_always" formatted="false">Alltid</string>
-    <string name="lock_never" formatted="false">Aldri</string>
-    <plurals name="lock_after_mins" formatted="false">
-        <item quantity="one" formatted="false">Etter ett minutt</item>
-        <item quantity="other" formatted="false">Etter %1$s minutter</item>
+    <string name="confirm_set_image_as_cover">Bruk dette bildet som omslag\?</string>
+    <string name="viewer_for_this_series">Leser for denne serien</string>
+    <string name="migration_info">Trykk for å velge kilde å migrere fra</string>
+    <string name="download_queue_error">Kunne ikke laste ned kapitler. Du kan prøve igjen i nedlastingsdelen.</string>
+    <string name="notification_update_progress">Oppdateringsfremdrift: %1$d/%2$d</string>
+    <string name="notification_first_add_to_library">Legg til mangaen i biblioteket ditt før du gjør dette</string>
+    <string name="notification_not_connected_to_ac_title">Synkronisering avbrutt</string>
+    <string name="notification_not_connected_to_ac_body">Ikke tilkoblet strøm</string>
+    <string name="notification_no_connection_title">Synkronisering avbrutt</string>
+    <string name="notification_no_connection_body">Tilkobling ikke tilgjengelig</string>
+    <string name="file_select_cover">Velg omslagsbilde</string>
+    <string name="file_select_backup">Velg sikkerhetskopifil</string>
+    <string name="file_select_icon">Velg snarveisikon</string>
+    <string name="update_check_no_new_updates">Ingen nye oppdateringer tilgjengelige</string>
+    <string name="update_check_look_for_updates">Ser etter oppdateringer…</string>
+    <string name="update_check_notification_file_download">Last ned oppdatering</string>
+    <string name="update_check_notification_download_in_progress">Laster ned…</string>
+    <string name="update_check_notification_download_complete">Nedlasting ferdig</string>
+    <string name="update_check_notification_download_error">Feil ved nedlasting</string>
+    <string name="update_check_notification_update_available">Oppdatering tilgjengelig</string>
+    <string name="description_backdrop">Bakgrunnsbilde av manga</string>
+    <string name="description_cover">Omslag til manga</string>
+    <string name="information_no_downloads">Ingen nedlastinger</string>
+    <string name="information_no_recent">Ingen nylige kapittel</string>
+    <string name="information_no_recent_manga">Ingen nylig lest manga</string>
+    <string name="information_empty_library">Biblioteket ditt er tomt,legg til serier i biblioteket ditt fra katalogene.</string>
+    <string name="information_empty_category">Du har ingen kategorier. Trykk på pluss-knappen for å lage en for å organisere ditt bibliotek.</string>
+    <string name="download_notifier_downloader_title">Nedlaster</string>
+    <string name="download_notifier_title_error">Feil</string>
+    <string name="download_notifier_unknown_error">En uventet feil oppstod mens kapittelet ble lastet ned</string>
+    <string name="download_notifier_page_error">En side ble ikke funnet</string>
+    <string name="download_notifier_page_ready_error">En side er ikke innlastet</string>
+    <string name="download_notifier_text_only_wifi">Ingen trådløstilkobling tilgjengelig</string>
+    <string name="download_notifier_no_network">Ingen nettverkstilkobling tilgjengelig</string>
+    <string name="download_notifier_download_paused">Nedlasting pauset</string>
+    <string name="pref_color_filter_mode">Blandingsmodus for fargefilter</string>
+    <string name="filter_mode_overlay">Overlegg</string>
+    <string name="filter_mode_multiply">Multiplisere</string>
+    <string name="filter_mode_lighten">Unngå / lysne</string>
+    <string name="filter_mode_darken">Brenn / mørkere</string>
+    <string name="pref_library_update_prioritization">Rekkefølge for biblioteksoppdatering</string>
+    <string name="no_results_found">Resultatløst</string>
+    <string name="migration_selection_prompt">Velg en kilde å migrere fra</string>
+    <string name="action_webview_back">Tilbake</string>
+    <string name="action_webview_forward">Fram</string>
+    <string name="action_webview_refresh">Gjenoppfrisk</string>
+    <string name="pref_category_library">Bibliotek</string>
+    <string name="invalid_download_dir">Ugyldig nedlastingsmappe</string>
+    <string name="ext_obsolete">Foreldet</string>
+    <string name="obsolete_extension_message">Denne utvidelsen er ikke lenger tilgjengelig.</string>
+    <string name="pref_date_format">Datoformat</string>
+    <string name="pref_category_library_update">Oppdateringer</string>
+    <string name="pref_category_library_categories">Kategorier</string>
+    <string name="logout_title">Logg ut fra %1$s\?</string>
+    <string name="logout">Logg ut</string>
+    <string name="logout_success">Du er utlogget</string>
+    <string name="currently_reading">Leses</string>
+    <string name="paused">På pause</string>
+    <string name="want_to_read">Ønsker å lese</string>
+    <string name="label_more">Mer</string>
+    <string name="action_view_chapters">Vis kapitler</string>
+    <string name="action_cancel_all">Avbryt alle</string>
+    <string name="pref_theme_mode">Drakt</string>
+    <string name="theme_light">Lys</string>
+    <string name="theme_dark">Mørk</string>
+    <string name="theme_system">System</string>
+    <string name="pref_theme_dark">Mørkt draktvalg</string>
+    <string name="theme_dark_default">Forvalg</string>
+    <string name="theme_dark_blue">Mørkeblå</string>
+    <string name="theme_dark_amoled">AMOLED-sort</string>
+    <string name="pref_manage_notifications">Håndter merknader</string>
+    <string name="pref_category_security">Sikkerhet</string>
+    <string name="lock_with_biometrics">Lås med biometri</string>
+    <string name="lock_when_idle">Lås ved lediggang</string>
+    <string name="lock_always">Alltid</string>
+    <string name="lock_never">Aldri</string>
+    <plurals name="lock_after_mins">
+        <item quantity="one">Etter ett minutt</item>
+        <item quantity="other">Etter %1$s minutter</item>
     </plurals>
-    <string name="secure_screen" formatted="false">Sikker skjerm</string>
-    <string name="channel_new_chapters" formatted="false">Kapitteloppdateringer</string>
-    <string name="unlock_app" formatted="false">Lås opp Tachiyomi</string>
-    <string name="notification_chapters_single" formatted="false">Kapittel %1$s</string>
-    <string name="action_hide" formatted="false">Skjul</string>
-    <string name="email" formatted="false">E-postadresse</string>
-    <string name="in_library" formatted="false">I bibliotek</string>
-    <string name="add_to_library" formatted="false">Legg til i bibliotek</string>
-    <string name="changelog" formatted="false">Endringslogg</string>
-    <string name="webtoon_side_padding_25" formatted="false">25%</string>
-    <string name="webtoon_side_padding_20" formatted="false">20%</string>
-    <string name="webtoon_side_padding_15" formatted="false">15%</string>
-    <string name="webtoon_side_padding_10" formatted="false">10%</string>
-    <string name="theme_light_blue" formatted="false">Lyseblå</string>
-    <string name="theme_light_default" formatted="false">Forvalg</string>
-    <string name="pref_theme_light" formatted="false">Lys draktvariant</string>
-    <string name="action_move_to_bottom" formatted="false">Flytt til bunnen</string>
-    <string name="action_move_to_top" formatted="false">Flytt til toppen</string>
-    <string name="action_oldest" formatted="false">Eldste</string>
-    <string name="action_newest" formatted="false">Nyeste</string>
-    <string name="action_unpin" formatted="false">Opphev festin</string>
-    <string name="action_pin" formatted="false">Fest</string>
-    <string name="action_select_inverse" formatted="false">Velg motsatt</string>
-    <string name="action_sort_last_checked" formatted="false">Sist sjekket</string>
-    <string name="action_menu" formatted="false">Meny</string>
-    <string name="label_sources" formatted="false">Kilder</string>
-    <string name="channel_backup_restore" formatted="false">Sikkerhetskopier og gjenopprett</string>
-    <string name="channel_ext_updates" formatted="false">Utvidelsesoppdateringer</string>
-    <string name="information_webview_required" formatted="false">Tachiyomi krever WebView</string>
-    <string name="add_tracking" formatted="false">Legg til sporing</string>
-    <string name="manga_info_collapse" formatted="false">Vis mindre info</string>
-    <string name="manga_info_expand" formatted="false">Vis mer info</string>
-    <string name="manga_info_about_label" formatted="false">Om</string>
-    <string name="pinned_sources" formatted="false">Festet</string>
-    <string name="notices" formatted="false">Merknader</string>
-    <string name="website" formatted="false">Nettside</string>
-    <string name="creating_backup_error" formatted="false">Sikkerhetskopiering mislyktes</string>
-    <string name="webtoon_side_padding_0" formatted="false">Ingen</string>
-    <string name="pref_category_reading" formatted="false">Leser</string>
-    <string name="pref_always_show_chapter_transition" formatted="false">Alltid vis kapittelovergang</string>
-    <string name="vertical_plus_viewer" formatted="false">Kontinuerlig loddrett</string>
-    <string name="pref_skip_filtered_chapters" formatted="false">Hopp over filtrerte kapittel</string>
-    <string name="pref_enable_automatic_extension_updates" formatted="false">Se etter utvidelsesoppdateringer</string>
-    <string name="hide_notification_content" formatted="false">Skjul merknadsinnhold</string>
-    <string name="secure_screen_summary" formatted="false">Skjul programinnhold ved bytting av programmer og blokker skjermavbildninger</string>
-    <string name="pref_confirm_exit" formatted="false">Bekreft avslutning</string>
-    <string name="action_reorganize_by" formatted="false">Sorter etter</string>
-    <string name="confirm_exit" formatted="false">Trykk \"Tilbake\" igjen for å avslutte</string>
-    <string name="label_downloaded_only" formatted="false">Kun nedlastet</string>
+    <string name="secure_screen">Sikker skjerm</string>
+    <string name="channel_new_chapters">Kapitteloppdateringer</string>
+    <string name="unlock_app">Lås opp Tachiyomi</string>
+    <string name="notification_chapters_single">Kapittel %1$s</string>
+    <string name="action_hide">Skjul</string>
+    <string name="email">E-postadresse</string>
+    <string name="in_library">I bibliotek</string>
+    <string name="add_to_library">Legg til i bibliotek</string>
+    <string name="changelog">Endringslogg</string>
+    <string name="webtoon_side_padding_25">25%</string>
+    <string name="webtoon_side_padding_20">20%</string>
+    <string name="webtoon_side_padding_15">15%</string>
+    <string name="webtoon_side_padding_10">10%</string>
+    <string name="theme_light_blue">Lyseblå</string>
+    <string name="theme_light_default">Forvalg</string>
+    <string name="pref_theme_light">Lys draktvariant</string>
+    <string name="action_move_to_bottom">Flytt til bunnen</string>
+    <string name="action_move_to_top">Flytt til toppen</string>
+    <string name="action_oldest">Eldste</string>
+    <string name="action_newest">Nyeste</string>
+    <string name="action_unpin">Opphev festin</string>
+    <string name="action_pin">Fest</string>
+    <string name="action_select_inverse">Velg motsatt</string>
+    <string name="action_sort_last_checked">Sist sjekket</string>
+    <string name="action_menu">Meny</string>
+    <string name="label_sources">Kilder</string>
+    <string name="channel_backup_restore">Sikkerhetskopier og gjenopprett</string>
+    <string name="channel_ext_updates">Utvidelsesoppdateringer</string>
+    <string name="information_webview_required">Tachiyomi krever WebView</string>
+    <string name="add_tracking">Legg til sporing</string>
+    <string name="manga_info_collapse">Vis mindre info</string>
+    <string name="manga_info_expand">Vis mer info</string>
+    <string name="manga_info_about_label">Om</string>
+    <string name="pinned_sources">Festet</string>
+    <string name="notices">Merknader</string>
+    <string name="website">Nettside</string>
+    <string name="creating_backup_error">Sikkerhetskopiering mislyktes</string>
+    <string name="webtoon_side_padding_0">Ingen</string>
+    <string name="pref_category_reading">Leser</string>
+    <string name="pref_always_show_chapter_transition">Alltid vis kapittelovergang</string>
+    <string name="vertical_plus_viewer">Kontinuerlig loddrett</string>
+    <string name="pref_skip_filtered_chapters">Hopp over filtrerte kapittel</string>
+    <string name="pref_enable_automatic_extension_updates">Se etter utvidelsesoppdateringer</string>
+    <string name="hide_notification_content">Skjul merknadsinnhold</string>
+    <string name="secure_screen_summary">Skjul programinnhold ved bytting av programmer og blokker skjermavbildninger</string>
+    <string name="pref_confirm_exit">Bekreft avslutning</string>
+    <string name="action_reorganize_by">Sorter etter</string>
+    <string name="confirm_exit">Trykk \"Tilbake\" igjen for å avslutte</string>
+    <string name="label_downloaded_only">Kun nedlastet</string>
 </resources>
