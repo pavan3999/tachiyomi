@@ -132,15 +132,3 @@ object PreferenceKeys {
     fun trackToken(syncId: Int) = "track_token_$syncId"
 
 }
-c_password_$syncId"
-
-    fun trackToken(syncId: Int) = "track_token_$syncId"
-
-}
->>>>>>> 72cb8fd39e712762aacc6b79967844e191749f61
-_password_$syncId"
-
-    fun trackToken(syncId: Int) = "track_token_$syncId"
-
-}
->>>>>>> 72cb8fd39e712762aacc6b79967844e191749f61
