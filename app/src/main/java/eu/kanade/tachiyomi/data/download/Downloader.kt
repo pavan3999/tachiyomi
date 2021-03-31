@@ -291,7 +291,7 @@ class Downloader(
             Observable.just(download.pages!!)
         }
 
-        pageListObservable
+        return pageListObservable
                 .doOnNext { _ ->
                     // Delete all temporary (unfinished) files
                     tmpDir.listFiles()
