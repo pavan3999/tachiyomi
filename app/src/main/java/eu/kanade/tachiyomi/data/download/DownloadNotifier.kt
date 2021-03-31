@@ -154,8 +154,9 @@ internal class DownloadNotifier(private val context: Context) {
                 setContentTitle(context.getString(R.string.app_name))
 
                 // Reset the queue size if the download progress is negative
-                if ((initialQueueSize - queue.size) < 0)
-                    notifier.initialQueueSize = queue.size
+                if ((initialQueueSize - queue.size) < 0) {
+                    initialQueueSize = queue.size
+            }
 
                 setContentText(context.getString(R.string.chapter_downloading_progress)
                         .format(initialQueueSize - queue.size, initialQueueSize))
