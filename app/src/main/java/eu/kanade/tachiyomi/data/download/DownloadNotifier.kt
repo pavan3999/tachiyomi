@@ -52,7 +52,6 @@ internal class DownloadNotifier(private val context: Context) {
     var multipleDownloadThreads = false
 
     /**
->>>>>>> 44a24a52d426d5ff2a23d251c25060e2de28b1d3
      * Updated when error is thrown
      */
     var errorThrown = false
