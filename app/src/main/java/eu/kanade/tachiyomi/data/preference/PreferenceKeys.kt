@@ -71,6 +71,8 @@ object PreferenceKeys {
 
     const val downloadsDirectory = "download_directory"
 
+    const val downloadThreads = "pref_download_slots_key"
+
     const val downloadOnlyOverWifi = "pref_download_only_over_wifi_key"
 
     const val numberOfBackups = "backup_slots"
@@ -130,3 +132,15 @@ object PreferenceKeys {
     fun trackToken(syncId: Int) = "track_token_$syncId"
 
 }
+c_password_$syncId"
+
+    fun trackToken(syncId: Int) = "track_token_$syncId"
+
+}
+>>>>>>> 72cb8fd39e712762aacc6b79967844e191749f61
+_password_$syncId"
+
+    fun trackToken(syncId: Int) = "track_token_$syncId"
+
+}
+>>>>>>> 72cb8fd39e712762aacc6b79967844e191749f61
