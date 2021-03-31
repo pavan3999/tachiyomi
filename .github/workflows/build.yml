@@ -24,8 +24,6 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-          java-package: jdk
-          architecture: x64
 
       - name: Get previous release
         id: last_release
@@ -56,11 +54,11 @@ jobs:
             | jq -r '.[]|"- \(.message | first) (@\(.username))"')
           {delimiter}" >> $GITHUB_ENV
 
-      - name: Get NDK 
-        run: sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "ndk;22.1.7171670"
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v2
 
       - name: Build Release APK
-        run: bash ./gradlew assembleStandardDebug --stacktrace
+        run: ./gradlew assembleStandardDebug --stacktrace
 
       - name: Sign Android release
         uses: r0adkll/sign-android-release@v1
