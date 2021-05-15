@@ -11,7 +11,6 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
-import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.view.ActionMode
 import androidx.core.graphics.blue
@@ -26,6 +25,7 @@ import com.bluelinelabs.conductor.ControllerChangeHandler
 import com.bluelinelabs.conductor.ControllerChangeType
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
 import com.google.android.material.snackbar.Snackbar
+import dev.chrisbanes.insetter.applyInsetter
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.SelectableAdapter
 import eu.kanade.tachiyomi.R
@@ -127,7 +127,7 @@ class MangaController :
     var source: Source? = null
         private set
 
-    private val fromSource = args.getBoolean(FROM_SOURCE_EXTRA, false)
+    val fromSource = args.getBoolean(FROM_SOURCE_EXTRA, false)
 
     private val preferences: PreferencesHelper by injectLazy()
     private val coverCache: CoverCache by injectLazy()
@@ -198,13 +198,21 @@ class MangaController :
         )
     }
 
-    override fun inflateView(inflater: LayoutInflater, container: ViewGroup): View {
-        binding = MangaControllerBinding.inflate(inflater)
-        return binding.root
-    }
+    override fun createBinding(inflater: LayoutInflater) = MangaControllerBinding.inflate(inflater)
 
     override fun onViewCreated(view: View) {
         super.onViewCreated(view)
+
+        binding.recycler.applyInsetter {
+            type(navigationBars = true) {
+                padding()
+            }
+        }
+        binding.actionToolbar.applyInsetter {
+            type(navigationBars = true) {
+                margin(bottom = true)
+            }
+        }
 
         if (manga == null || source == null) return
 
@@ -269,7 +277,7 @@ class MangaController :
             else -> min(binding.recycler.computeVerticalScrollOffset(), 255)
         }
 
-        (activity as? MainActivity)?.binding?.toolbar?.setTitleTextColor(
+        (activity as? MainActivity)?.binding?.toolbarLayout?.toolbar?.setTitleTextColor(
             Color.argb(
                 calculatedAlpha,
                 toolbarTextColor.red,
@@ -713,8 +721,7 @@ class MangaController :
 
     fun onChapterDownloadUpdate(download: Download) {
         chaptersAdapter?.currentItems?.find { it.id == download.chapter.id }?.let {
-            chaptersAdapter?.updateItem(it)
-            chaptersAdapter?.notifyDataSetChanged()
+            chaptersAdapter?.updateItem(it, it.status)
         }
     }
 
@@ -838,7 +845,6 @@ class MangaController :
             binding.actionToolbar.findItem(R.id.action_mark_as_unread)?.isVisible = chapters.all { it.chapter.read }
 
             // Hide FAB to avoid interfering with the bottom action toolbar
-            // actionFab?.hide()
             actionFab?.isVisible = false
         }
         return false
@@ -870,10 +876,6 @@ class MangaController :
         chaptersAdapter?.clearSelection()
         selectedChapters.clear()
         actionMode = null
-
-        // TODO: there seems to be a bug in MaterialComponents where the [ExtendedFloatingActionButton]
-        // fails to show up properly
-        // actionFab?.show()
         actionFab?.isVisible = true
     }
 
@@ -942,7 +944,9 @@ class MangaController :
         if (view != null && !manga.favorite) {
             addSnackbar = (activity as? MainActivity)?.binding?.rootCoordinator?.snack(view.context.getString(R.string.snack_add_to_library), Snackbar.LENGTH_INDEFINITE) {
                 setAction(R.string.action_add) {
-                    addToLibrary(manga)
+                    if (!manga.favorite) {
+                        addToLibrary(manga)
+                    }
                 }
             }
         }
@@ -995,10 +999,17 @@ class MangaController :
 
     // OVERFLOW MENU DIALOGS
 
-    private fun getUnreadChaptersSorted() = presenter.chapters
-        .filter { !it.read && it.status == Download.State.NOT_DOWNLOADED }
-        .distinctBy { it.name }
-        .sortedByDescending { it.source_order }
+    private fun getUnreadChaptersSorted(): List<ChapterItem> {
+        val chapters = presenter.chapters
+            .sortedWith(presenter.getChapterSort())
+            .filter { !it.read && it.status == Download.State.NOT_DOWNLOADED }
+            .distinctBy { it.name }
+        return if (presenter.sortDescending()) {
+            chapters.reversed()
+        } else {
+            chapters
+        }
+    }
 
     private fun downloadChapters(choice: Int) {
         val chaptersToDownload = when (choice) {

@@ -15,7 +15,8 @@ object PreferenceKeys {
 
     const val hideBottomBar = "pref_hide_bottom_bar_on_scroll"
 
-    const val rotation = "pref_rotation_type_key"
+    const val showNavUpdates = "pref_nav_show_updates"
+    const val showNavHistory = "pref_nav_show_history"
 
     const val enableTransitions = "pref_enable_transitions_key"
 
@@ -51,7 +52,11 @@ object PreferenceKeys {
 
     const val colorFilterMode = "color_filter_mode"
 
-    const val defaultViewer = "pref_default_viewer_key"
+    const val grayscale = "pref_grayscale"
+
+    const val defaultReadingMode = "pref_default_reading_mode_key"
+
+    const val defaultOrientationType = "pref_default_orientation_type_key"
 
     const val imageScaleType = "pref_image_scale_type_key"
 
@@ -109,6 +114,8 @@ object PreferenceKeys {
 
     const val downloadOnlyOverWifi = "pref_download_only_over_wifi_key"
 
+    const val folderPerManga = "create_folder_per_manga"
+
     const val numberOfBackups = "backup_slots"
 
     const val backupInterval = "backup_interval"
@@ -124,6 +131,7 @@ object PreferenceKeys {
     const val libraryUpdateRestriction = "library_update_restriction"
 
     const val libraryUpdateCategories = "library_update_categories"
+    const val libraryUpdateCategoriesExclude = "library_update_categories_exclude"
 
     const val libraryUpdatePrioritization = "library_update_prioritization"
 
@@ -164,6 +172,7 @@ object PreferenceKeys {
     const val downloadNew = "download_new"
 
     const val downloadNewCategories = "download_new_categories"
+    const val downloadNewCategoriesExclude = "download_new_categories_exclude"
 
     const val libraryDisplayMode = "pref_display_mode_library"
 
@@ -189,7 +198,7 @@ object PreferenceKeys {
 
     const val searchPinnedSourcesOnly = "search_pinned_sources_only"
 
-    const val enableDoh = "enable_doh"
+    const val dohProvider = "doh_provider"
 
     const val defaultChapterFilterByRead = "default_chapter_filter_by_read"
 

@@ -7,10 +7,10 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
-import android.view.ViewGroup
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.afollestad.materialdialogs.MaterialDialog
+import dev.chrisbanes.insetter.applyInsetter
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.kanade.tachiyomi.R
 import eu.kanade.tachiyomi.data.backup.BackupRestoreService
@@ -19,7 +19,6 @@ import eu.kanade.tachiyomi.data.database.models.History
 import eu.kanade.tachiyomi.data.database.models.Manga
 import eu.kanade.tachiyomi.databinding.HistoryControllerBinding
 import eu.kanade.tachiyomi.ui.base.controller.DialogController
-import eu.kanade.tachiyomi.ui.base.controller.NoToolbarElevationController
 import eu.kanade.tachiyomi.ui.base.controller.NucleusController
 import eu.kanade.tachiyomi.ui.base.controller.RootController
 import eu.kanade.tachiyomi.ui.base.controller.withFadeTransaction
@@ -35,13 +34,10 @@ import uy.kohesive.injekt.injectLazy
 
 /**
  * Fragment that shows recently read manga.
- * Uses [R.layout.history_controller].
- * UI related actions should be called from here.
  */
 class HistoryController :
     NucleusController<HistoryControllerBinding, HistoryPresenter>(),
     RootController,
-    NoToolbarElevationController,
     FlexibleAdapter.OnUpdateListener,
     FlexibleAdapter.EndlessScrollListener,
     HistoryAdapter.OnRemoveClickListener,
@@ -75,13 +71,16 @@ class HistoryController :
         return HistoryPresenter()
     }
 
-    override fun inflateView(inflater: LayoutInflater, container: ViewGroup): View {
-        binding = HistoryControllerBinding.inflate(inflater)
-        return binding.root
-    }
+    override fun createBinding(inflater: LayoutInflater) = HistoryControllerBinding.inflate(inflater)
 
     override fun onViewCreated(view: View) {
         super.onViewCreated(view)
+
+        binding.recycler.applyInsetter {
+            type(navigationBars = true) {
+                padding()
+            }
+        }
 
         // Initialize adapter
         binding.recycler.layoutManager = LinearLayoutManager(view.context)

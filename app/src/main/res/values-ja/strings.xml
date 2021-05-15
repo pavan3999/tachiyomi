@@ -10,7 +10,6 @@
     <string name="label_library">ライブラリ</string>
     <string name="label_recent_manga">履歴</string>
     <string name="label_recent_updates">アップデート</string>
-    <string name="label_categories">カテゴリー</string>
     <string name="label_backup">バックアップ</string>
     <string name="action_settings">設定</string>
     <string name="action_filter">絞り込む</string>
@@ -71,7 +70,7 @@
     <string name="portrait">縦向き</string>
     <string name="landscape">横向き</string>
     <string name="default_columns">デフォルト</string>
-    <string name="pref_library_update_interval">ライブラリ更新頻度</string>
+    <string name="pref_library_update_interval">更新頻度</string>
     <string name="update_never">マニュアル</string>
     <string name="update_1hour">毎時間</string>
     <string name="update_2hour">2時間ごと</string>
@@ -81,9 +80,8 @@
     <string name="update_24hour">毎日</string>
     <string name="update_48hour">2日ごと</string>
     <string name="update_weekly">毎週</string>
-    <string name="pref_library_update_categories">グローバル更新に含まれるカテゴリ</string>
     <string name="all">すべて</string>
-    <string name="pref_library_update_restriction">ライブラリ更新制限</string>
+    <string name="pref_library_update_restriction">更新制限</string>
     <string name="pref_library_update_restriction_summary">条件が満たされた場合にのみ更新する</string>
     <string name="charging">充電中</string>
     <string name="pref_update_only_non_completed">連載中のマンガのみ更新</string>
@@ -143,7 +141,6 @@
     <string name="double_tap_anim_speed_fast">速い</string>
     <string name="pref_rotation_type">回転</string>
     <string name="rotation_free">自動回転</string>
-    <string name="rotation_lock">ロック</string>
     <string name="rotation_force_portrait">横向き画面を強制</string>
     <string name="color_filter_r_value">R</string>
     <string name="color_filter_g_value">G</string>
@@ -157,7 +154,6 @@
     <string name="disabled">無効</string>
     <string name="second_to_last">最後に読んだ章の2番目</string>
     <string name="pref_download_new">新しい章をダウンロード</string>
-    <string name="pref_download_new_categories">ダウンロードに含まれるカテゴリ</string>
     <string name="backup">バックアップ</string>
     <string name="pref_create_backup">バックアップを作成</string>
     <string name="pref_create_backup_summ">現在のライブラリを復元するために使用できます</string>
@@ -372,7 +368,7 @@
     <string name="filter_mode_default">既定</string>
     <string name="filter_mode_overlay">オーバーレイ</string>
     <string name="filter_mode_screen">スクリーン</string>
-    <string name="pref_library_update_prioritization">ライブラリ更新の順</string>
+    <string name="pref_library_update_prioritization">更新の順</string>
     <string name="no_results_found">結果が見つかりませんでした</string>
     <string name="migration_selection_prompt">移行元を選択</string>
     <string name="action_webview_back">前へ</string>
@@ -383,8 +379,7 @@
     <string name="ext_obsolete">廃止済み</string>
     <string name="obsolete_extension_message">この拡張機能は利用不可になりました。</string>
     <string name="pref_date_format">日付形式</string>
-    <string name="pref_category_library_update">更新</string>
-    <string name="pref_category_library_categories">カテゴリー</string>
+    <string name="pref_category_library_update">グローバルアップデート</string>
     <string name="logout_title">%1$sからログアウトしますか？</string>
     <string name="logout">ログアウト</string>
     <string name="logout_success">ログアウトしました</string>
@@ -406,7 +401,7 @@
     <string name="theme_dark_amoled">AMOLEDブラック</string>
     <string name="pref_manage_notifications">通知設定</string>
     <string name="pref_category_security">セキュリティ</string>
-    <string name="lock_with_biometrics">生体認証</string>
+    <string name="lock_with_biometrics">アンロックを必要とする</string>
     <string name="lock_when_idle">タイムアウトロック</string>
     <string name="lock_always">常時</string>
     <string name="lock_never">しない</string>
@@ -433,7 +428,6 @@
     <string name="label_downloaded_only">ダウンロード済みのみ</string>
     <string name="check_for_updates">更新を確認</string>
     <string name="licenses">オープンソースライセンス</string>
-    <string name="notices">プレビュービルドの更新情報</string>
     <string name="website">Webサイト</string>
     <string name="battery_optimization_setting_activity_not_found">デバイス設定を開きませんでした</string>
     <string name="battery_optimization_disabled">バッテリー最適化は既に無効です</string>
@@ -605,15 +599,11 @@
     <string name="pref_hide_bottom_bar_on_scroll">スクロール時ボトムバーを非表示</string>
     <string name="pref_incognito_mode_summary">閲覧履歴の記録を一時停止します</string>
     <string name="pref_incognito_mode">シークレット モード</string>
-    <string name="pref_clear_history_summary">すべてのマンガの閲覧履歴を削除</string>
     <string name="pref_clear_history">履歴を全消去</string>
     <string name="clear_history_confirmation">履歴がすべて失われます。続行しますか？</string>
     <string name="clear_history_completed">履歴を削除しました</string>
     <string name="spen_next_page">次のページ</string>
     <string name="spen_previous_page">前のページ</string>
-    <string name="full_restore_offline">オフラインで復元（速いですが、バックアップそのまましか復元しません）</string>
-    <string name="full_restore_online">オンラインで復元（復元には時間がかかりますが、最新の情報と章を取得できます）</string>
-    <string name="full_restore_mode">ネットワーク モード</string>
     <string name="pref_backup_auto_create_legacy">同じくレガシー バックアップを作成</string>
     <string name="pref_create_legacy_backup_summary">古いバージョンのTachiyomiで利用可能</string>
     <string name="pref_create_legacy_backup">レガシー バックアップを作成</string>
@@ -648,5 +638,25 @@
     <string name="action_asc">昇順</string>
     <string name="pref_dual_page_invert_summary">分割したダブルページは閲覧方向に一致しない場合は有効にしてください</string>
     <string name="pref_dual_page_invert">分割したダブルページの順位を反転</string>
-    <string name="pref_dual_page_split">ダブルページを分割（ALPHA）</string>
+    <string name="pref_dual_page_split">ダブルページを分割</string>
+    <string name="backup_restore_content_full">バックアップファイルからデータを復旧します。
+\n
+\n後で手動で必要な拡張機能をインストールし、使用したい追跡サービスにログインしてください。</string>
+    <string name="update_8hour">8時間ごと</string>
+    <string name="update_4hour">4時間ごと</string>
+    <string name="nav_zone_right">右</string>
+    <string name="nav_zone_left">左</string>
+    <string name="nav_zone_next">次へ</string>
+    <string name="nav_zone_prev">前へ</string>
+    <string name="pref_show_navigation_mode_summary">ビューアが立ち上がるとタップゾーンを表示します</string>
+    <string name="pref_show_navigation_mode">ﾅﾋﾞｹﾞｰｼｮﾝﾚｲｱｳﾄｵｰﾊﾞｰﾚｲを表示</string>
+    <string name="pref_dns_over_https">DNS over HTTPS</string>
+    <string name="pref_download_new_categories_details">含まれているカテゴリーに入っていても、除外対象カテゴリーにあるマンガは更新されません。</string>
+    <string name="pref_category_auto_download">自動ダウンロード</string>
+    <string name="exclude">下記を除外：%s</string>
+    <string name="include">下記を含む：%s</string>
+    <string name="none">なし</string>
+    <string name="pref_library_update_categories_details">含まれているカテゴリーに入っていても、除外対象カテゴリーにあるマンガは更新されません。</string>
+    <string name="action_show_errors">エラーを表示</string>
+    <string name="action_sort_chapter_fetch_date">日付を取得しました</string>
 </resources>

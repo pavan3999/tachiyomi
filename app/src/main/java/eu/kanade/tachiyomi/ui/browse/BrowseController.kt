@@ -3,7 +3,6 @@ package eu.kanade.tachiyomi.ui.browse
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import com.bluelinelabs.conductor.Controller
 import com.bluelinelabs.conductor.ControllerChangeHandler
@@ -50,10 +49,7 @@ class BrowseController :
         return resources!!.getString(R.string.browse)
     }
 
-    override fun inflateView(inflater: LayoutInflater, container: ViewGroup): View {
-        binding = PagerControllerBinding.inflate(inflater)
-        return binding.root
-    }
+    override fun createBinding(inflater: LayoutInflater) = PagerControllerBinding.inflate(inflater)
 
     override fun onViewCreated(view: View) {
         super.onViewCreated(view)
@@ -74,7 +70,7 @@ class BrowseController :
     override fun onChangeStarted(handler: ControllerChangeHandler, type: ControllerChangeType) {
         super.onChangeStarted(handler, type)
         if (type.isEnter) {
-            (activity as? MainActivity)?.binding?.tabs?.apply {
+            (activity as? MainActivity)?.binding?.toolbarLayout?.tabs?.apply {
                 setupWithViewPager(binding.pager)
 
                 // Show badge on tab for extension updates
@@ -96,7 +92,7 @@ class BrowseController :
     }
 
     fun setExtensionUpdateBadge() {
-        (activity as? MainActivity)?.binding?.tabs?.apply {
+        (activity as? MainActivity)?.binding?.toolbarLayout?.tabs?.apply {
             val updates = preferences.extensionUpdatesCount().get()
             if (updates > 0) {
                 val badge: BadgeDrawable? = getTabAt(1)?.orCreateBadge

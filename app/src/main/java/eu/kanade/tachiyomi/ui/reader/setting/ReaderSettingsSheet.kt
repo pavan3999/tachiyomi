@@ -8,7 +8,10 @@ import eu.kanade.tachiyomi.ui.reader.ReaderActivity
 import eu.kanade.tachiyomi.widget.SimpleTabSelectedListener
 import eu.kanade.tachiyomi.widget.sheet.TabbedBottomSheetDialog
 
-class ReaderSettingsSheet(private val activity: ReaderActivity) : TabbedBottomSheetDialog(activity) {
+class ReaderSettingsSheet(
+    private val activity: ReaderActivity,
+    showColorFilterSettings: Boolean = false,
+) : TabbedBottomSheetDialog(activity) {
 
     private val readingModeSettings = ReaderReadingModeSettings(activity)
     private val generalSettings = ReaderGeneralSettings(activity)
@@ -19,7 +22,7 @@ class ReaderSettingsSheet(private val activity: ReaderActivity) : TabbedBottomSh
     init {
         val sheetBehavior = BottomSheetBehavior.from(binding.root.parent as ViewGroup)
         sheetBehavior.isFitToContents = false
-        sheetBehavior.halfExpandedRatio = 0.5f
+        sheetBehavior.halfExpandedRatio = 0.25f
 
         val filterTabIndex = getTabViews().indexOf(colorFilterSettings)
         binding.tabs.addOnTabSelectedListener(object : SimpleTabSelectedListener() {
@@ -33,13 +36,12 @@ class ReaderSettingsSheet(private val activity: ReaderActivity) : TabbedBottomSh
                 if (activity.menuVisible != !isFilterTab) {
                     activity.setMenuVisibility(!isFilterTab)
                 }
-
-                // Partially collapse the sheet for better preview
-                if (isFilterTab) {
-                    sheetBehavior.state = BottomSheetBehavior.STATE_HALF_EXPANDED
-                }
             }
         })
+
+        if (showColorFilterSettings) {
+            binding.tabs.getTabAt(filterTabIndex)?.select()
+        }
     }
 
     override fun getTabViews() = listOf(

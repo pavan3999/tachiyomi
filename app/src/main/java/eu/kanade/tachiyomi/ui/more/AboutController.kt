@@ -1,7 +1,6 @@
 package eu.kanade.tachiyomi.ui.more
 
 import android.app.Dialog
-import android.os.Build
 import android.os.Bundle
 import androidx.core.os.bundleOf
 import androidx.preference.PreferenceScreen
@@ -15,6 +14,7 @@ import eu.kanade.tachiyomi.data.updater.github.GithubUpdateChecker
 import eu.kanade.tachiyomi.ui.base.controller.DialogController
 import eu.kanade.tachiyomi.ui.base.controller.openInBrowser
 import eu.kanade.tachiyomi.ui.setting.SettingsController
+import eu.kanade.tachiyomi.util.CrashLogUtil
 import eu.kanade.tachiyomi.util.lang.launchNow
 import eu.kanade.tachiyomi.util.lang.toDateTimestampString
 import eu.kanade.tachiyomi.util.preference.onClick
@@ -78,21 +78,20 @@ class AboutController : SettingsController() {
                 openInBrowser(url)
             }
         }
-        if (BuildConfig.DEBUG) {
-            preference {
-                key = "pref_about_notices"
-                titleRes = R.string.notices
-                onClick {
-                    openInBrowser("https://github.com/tachiyomiorg/tachiyomi/blob/master/PREVIEW_RELEASE_NOTES.md")
-                }
-            }
-        }
 
         preferenceCategory {
             preference {
                 key = "pref_about_website"
                 titleRes = R.string.website
                 "https://tachiyomi.org".also {
+                    summary = it
+                    onClick { openInBrowser(it) }
+                }
+            }
+            preference {
+                key = "pref_about_facebook"
+                title = "Facebook"
+                "https://facebook.com/tachiyomiorg".also {
                     summary = it
                     onClick { openInBrowser(it) }
                 }
@@ -116,15 +115,7 @@ class AboutController : SettingsController() {
             preference {
                 key = "pref_about_github"
                 title = "GitHub"
-                "https://github.com/tachiyomiorg/tachiyomi".also {
-                    summary = it
-                    onClick { openInBrowser(it) }
-                }
-            }
-            preference {
-                key = "pref_about_label_extensions"
-                titleRes = R.string.label_extensions
-                "https://github.com/tachiyomiorg/tachiyomi-extensions".also {
+                "https://github.com/tachiyomiorg".also {
                     summary = it
                     onClick { openInBrowser(it) }
                 }
@@ -138,6 +129,7 @@ class AboutController : SettingsController() {
                         .withAboutIconShown(false)
                         .withAboutVersionShown(false)
                         .withLicenseShown(true)
+                        .withEdgeToEdge(true)
                         .start(activity!!)
                 }
             }
@@ -201,19 +193,10 @@ class AboutController : SettingsController() {
     }
 
     private fun copyDebugInfo() {
-        val deviceInfo =
-            """
-            App version: ${BuildConfig.VERSION_NAME} (${BuildConfig.FLAVOR}, ${BuildConfig.COMMIT_SHA}, ${BuildConfig.VERSION_CODE})
-            Android version: ${Build.VERSION.RELEASE} (SDK ${Build.VERSION.SDK_INT})
-            Android build ID: ${Build.DISPLAY}
-            Device brand: ${Build.BRAND}
-            Device manufacturer: ${Build.MANUFACTURER}
-            Device name: ${Build.DEVICE}
-            Device model: ${Build.MODEL}
-            Device product name: ${Build.PRODUCT}
-            """.trimIndent()
-
-        activity?.copyToClipboard("Debug information", deviceInfo)
+        activity?.let {
+            val deviceInfo = CrashLogUtil(it).getDebugInfo()
+            activity?.copyToClipboard("Debug information", deviceInfo)
+        }
     }
 
     private fun getFormattedBuildTime(): String {

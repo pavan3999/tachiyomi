@@ -12,7 +12,6 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
-import android.view.ViewGroup
 import androidx.appcompat.view.ContextThemeWrapper
 import androidx.core.os.bundleOf
 import androidx.preference.Preference
@@ -22,6 +21,7 @@ import androidx.preference.PreferenceScreen
 import androidx.preference.SwitchPreferenceCompat
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
+import dev.chrisbanes.insetter.applyInsetter
 import eu.kanade.tachiyomi.R
 import eu.kanade.tachiyomi.data.preference.EmptyPreferenceDataStore
 import eu.kanade.tachiyomi.data.preference.PreferencesHelper
@@ -64,10 +64,9 @@ class ExtensionDetailsController(bundle: Bundle? = null) :
         setHasOptionsMenu(true)
     }
 
-    override fun inflateView(inflater: LayoutInflater, container: ViewGroup): View {
+    override fun createBinding(inflater: LayoutInflater): ExtensionDetailControllerBinding {
         val themedInflater = inflater.cloneInContext(getPreferenceThemeContext())
-        binding = ExtensionDetailControllerBinding.inflate(themedInflater)
-        return binding.root
+        return ExtensionDetailControllerBinding.inflate(themedInflater)
     }
 
     override fun createPresenter(): ExtensionDetailsPresenter {
@@ -81,6 +80,12 @@ class ExtensionDetailsController(bundle: Bundle? = null) :
     @SuppressLint("PrivateResource")
     override fun onViewCreated(view: View) {
         super.onViewCreated(view)
+
+        binding.extensionPrefsRecycler.applyInsetter {
+            type(navigationBars = true) {
+                padding()
+            }
+        }
 
         val extension = presenter.extension ?: return
         val context = view.context

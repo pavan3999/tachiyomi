@@ -12,6 +12,8 @@ import eu.kanade.tachiyomi.data.database.models.Manga
 import eu.kanade.tachiyomi.data.preference.PreferenceValues.DisplayMode
 import eu.kanade.tachiyomi.data.track.TrackService
 import eu.kanade.tachiyomi.data.track.anilist.Anilist
+import eu.kanade.tachiyomi.ui.reader.setting.OrientationType
+import eu.kanade.tachiyomi.ui.reader.setting.ReadingModeType
 import eu.kanade.tachiyomi.widget.ExtendedNavigationView
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.onEach
@@ -22,7 +24,7 @@ import java.util.Locale
 import eu.kanade.tachiyomi.data.preference.PreferenceKeys as Keys
 import eu.kanade.tachiyomi.data.preference.PreferenceValues as Values
 
-fun <T> Preference<T>.asImmediateFlow(block: (value: T) -> Unit): Flow<T> {
+fun <T> Preference<T>.asImmediateFlow(block: (T) -> Unit): Flow<T> {
     block(get())
     return asFlow()
         .onEach { block(it) }
@@ -63,6 +65,9 @@ class PreferencesHelper(val context: Context) {
 
     fun hideBottomBar() = flowPrefs.getBoolean(Keys.hideBottomBar, true)
 
+    fun showNavUpdates() = prefs.getBoolean(Keys.showNavUpdates, true)
+    fun showNavHistory() = prefs.getBoolean(Keys.showNavHistory, true)
+
     fun useBiometricLock() = flowPrefs.getBoolean(Keys.useBiometricLock, false)
 
     fun lockAppAfter() = flowPrefs.getInt(Keys.lockAppAfter, 0)
@@ -84,8 +89,6 @@ class PreferencesHelper(val context: Context) {
     fun themeLight() = flowPrefs.getEnum(Keys.themeLight, Values.LightThemeVariant.default)
 
     fun themeDark() = flowPrefs.getEnum(Keys.themeDark, Values.DarkThemeVariant.default)
-
-    fun rotation() = flowPrefs.getInt(Keys.rotation, 1)
 
     fun pageTransitions() = flowPrefs.getBoolean(Keys.enableTransitions, true)
 
@@ -121,7 +124,11 @@ class PreferencesHelper(val context: Context) {
 
     fun colorFilterMode() = flowPrefs.getInt(Keys.colorFilterMode, 0)
 
-    fun defaultViewer() = prefs.getInt(Keys.defaultViewer, 2)
+    fun grayscale() = flowPrefs.getBoolean(Keys.grayscale, false)
+
+    fun defaultReadingMode() = prefs.getInt(Keys.defaultReadingMode, ReadingModeType.RIGHT_TO_LEFT.flagValue)
+
+    fun defaultOrientationType() = prefs.getInt(Keys.defaultOrientationType, OrientationType.FREE.flagValue)
 
     fun imageScaleType() = flowPrefs.getInt(Keys.imageScaleType, 1)
 
@@ -203,6 +210,8 @@ class PreferencesHelper(val context: Context) {
 
     fun downloadOnlyOverWifi() = prefs.getBoolean(Keys.downloadOnlyOverWifi, true)
 
+    fun folderPerManga() = prefs.getBoolean(Keys.folderPerManga, false)
+
     fun numberOfBackups() = flowPrefs.getInt(Keys.numberOfBackups, 1)
 
     fun backupInterval() = flowPrefs.getInt(Keys.backupInterval, 0)
@@ -218,6 +227,7 @@ class PreferencesHelper(val context: Context) {
     fun libraryUpdateRestriction() = prefs.getStringSet(Keys.libraryUpdateRestriction, setOf("wifi"))
 
     fun libraryUpdateCategories() = flowPrefs.getStringSet(Keys.libraryUpdateCategories, emptySet())
+    fun libraryUpdateCategoriesExclude() = flowPrefs.getStringSet(Keys.libraryUpdateCategoriesExclude, emptySet())
 
     fun libraryUpdatePrioritization() = flowPrefs.getInt(Keys.libraryUpdatePrioritization, 0)
 
@@ -264,6 +274,7 @@ class PreferencesHelper(val context: Context) {
     fun downloadNew() = flowPrefs.getBoolean(Keys.downloadNew, false)
 
     fun downloadNewCategories() = flowPrefs.getStringSet(Keys.downloadNewCategories, emptySet())
+    fun downloadNewCategoriesExclude() = flowPrefs.getStringSet(Keys.downloadNewCategoriesExclude, emptySet())
 
     fun lang() = prefs.getString(Keys.lang, "")
 
@@ -277,7 +288,7 @@ class PreferencesHelper(val context: Context) {
 
     fun trustedSignatures() = flowPrefs.getStringSet("trusted_signatures", emptySet())
 
-    fun enableDoh() = prefs.getBoolean(Keys.enableDoh, false)
+    fun dohProvider() = prefs.getInt(Keys.dohProvider, -1)
 
     fun lastSearchQuerySearchSettings() = flowPrefs.getString("last_search_query", "")
 
@@ -287,11 +298,11 @@ class PreferencesHelper(val context: Context) {
 
     fun filterChapterByBookmarked() = prefs.getInt(Keys.defaultChapterFilterByBookmarked, Manga.SHOW_ALL)
 
-    fun sortChapterBySourceOrNumber() = prefs.getInt(Keys.defaultChapterSortBySourceOrNumber, Manga.SORTING_SOURCE)
+    fun sortChapterBySourceOrNumber() = prefs.getInt(Keys.defaultChapterSortBySourceOrNumber, Manga.CHAPTER_SORTING_SOURCE)
 
-    fun displayChapterByNameOrNumber() = prefs.getInt(Keys.defaultChapterDisplayByNameOrNumber, Manga.DISPLAY_NAME)
+    fun displayChapterByNameOrNumber() = prefs.getInt(Keys.defaultChapterDisplayByNameOrNumber, Manga.CHAPTER_DISPLAY_NAME)
 
-    fun sortChapterByAscendingOrDescending() = prefs.getInt(Keys.defaultChapterSortByAscendingOrDescending, Manga.SORT_DESC)
+    fun sortChapterByAscendingOrDescending() = prefs.getInt(Keys.defaultChapterSortByAscendingOrDescending, Manga.CHAPTER_SORT_DESC)
 
     fun incognitoMode() = flowPrefs.getBoolean(Keys.incognitoMode, false)
 
@@ -304,7 +315,7 @@ class PreferencesHelper(val context: Context) {
             putInt(Keys.defaultChapterFilterByBookmarked, manga.bookmarkedFilter)
             putInt(Keys.defaultChapterSortBySourceOrNumber, manga.sorting)
             putInt(Keys.defaultChapterDisplayByNameOrNumber, manga.displayMode)
-            putInt(Keys.defaultChapterSortByAscendingOrDescending, if (manga.sortDescending()) Manga.SORT_DESC else Manga.SORT_ASC)
+            putInt(Keys.defaultChapterSortByAscendingOrDescending, if (manga.sortDescending()) Manga.CHAPTER_SORT_DESC else Manga.CHAPTER_SORT_ASC)
         }
     }
 }

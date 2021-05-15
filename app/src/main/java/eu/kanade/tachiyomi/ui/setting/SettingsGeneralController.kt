@@ -45,11 +45,7 @@ class SettingsGeneralController : SettingsController() {
             titleRes = R.string.pref_confirm_exit
             defaultValue = false
         }
-        switchPreference {
-            key = Keys.hideBottomBar
-            titleRes = R.string.pref_hide_bottom_bar_on_scroll
-            defaultValue = true
-        }
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             preference {
                 key = "pref_manage_notifications"
@@ -195,14 +191,17 @@ class SettingsGeneralController : SettingsController() {
                     "in",
                     "it",
                     "ja",
+                    "jv",
                     "ka-rGE",
                     "kn",
                     "ko",
+                    "lt",
                     "lv",
                     "mr",
                     "ms",
                     "my",
                     "nb-rNO",
+                    "ne",
                     "nl",
                     "pl",
                     "pt",
@@ -260,6 +259,26 @@ class SettingsGeneralController : SettingsController() {
 
                 defaultValue = ""
                 summary = "%s"
+            }
+        }
+
+        preferenceCategory {
+            titleRes = R.string.pref_category_navigation
+
+            switchPreference {
+                key = Keys.hideBottomBar
+                titleRes = R.string.pref_hide_bottom_bar_on_scroll
+                defaultValue = true
+            }
+            switchPreference {
+                key = Keys.showNavUpdates
+                titleRes = R.string.label_recent_updates
+                defaultValue = true
+            }
+            switchPreference {
+                key = Keys.showNavHistory
+                titleRes = R.string.label_recent_manga
+                defaultValue = true
             }
         }
     }

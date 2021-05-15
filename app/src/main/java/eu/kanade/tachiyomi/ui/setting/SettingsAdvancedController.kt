@@ -16,9 +16,15 @@ import eu.kanade.tachiyomi.data.database.DatabaseHelper
 import eu.kanade.tachiyomi.data.library.LibraryUpdateService
 import eu.kanade.tachiyomi.data.library.LibraryUpdateService.Target
 import eu.kanade.tachiyomi.network.NetworkHelper
+import eu.kanade.tachiyomi.network.PREF_DOH_CLOUDFLARE
+import eu.kanade.tachiyomi.network.PREF_DOH_GOOGLE
 import eu.kanade.tachiyomi.ui.base.controller.DialogController
 import eu.kanade.tachiyomi.util.CrashLogUtil
+import eu.kanade.tachiyomi.util.lang.launchIO
+import eu.kanade.tachiyomi.util.lang.withUIContext
 import eu.kanade.tachiyomi.util.preference.defaultValue
+import eu.kanade.tachiyomi.util.preference.intListPreference
+import eu.kanade.tachiyomi.util.preference.onChange
 import eu.kanade.tachiyomi.util.preference.onClick
 import eu.kanade.tachiyomi.util.preference.preference
 import eu.kanade.tachiyomi.util.preference.preferenceCategory
@@ -27,9 +33,6 @@ import eu.kanade.tachiyomi.util.preference.switchPreference
 import eu.kanade.tachiyomi.util.preference.titleRes
 import eu.kanade.tachiyomi.util.system.powerManager
 import eu.kanade.tachiyomi.util.system.toast
-import rx.Observable
-import rx.android.schedulers.AndroidSchedulers
-import rx.schedulers.Schedulers
 import uy.kohesive.injekt.injectLazy
 import eu.kanade.tachiyomi.data.preference.PreferenceKeys as Keys
 
@@ -121,11 +124,26 @@ class SettingsAdvancedController : SettingsController() {
                     activity?.toast(R.string.cookies_cleared)
                 }
             }
-            switchPreference {
-                key = Keys.enableDoh
+            intListPreference {
+                key = Keys.dohProvider
                 titleRes = R.string.pref_dns_over_https
-                summaryRes = R.string.requires_app_restart
-                defaultValue = false
+                entries = arrayOf(
+                    context.getString(R.string.disabled),
+                    "Cloudflare",
+                    "Google",
+                )
+                entryValues = arrayOf(
+                    "-1",
+                    PREF_DOH_CLOUDFLARE.toString(),
+                    PREF_DOH_GOOGLE.toString(),
+                )
+                defaultValue = "-1"
+                summary = "%s"
+
+                onChange {
+                    activity?.toast(R.string.requires_app_restart)
+                    true
+                }
             }
         }
 
@@ -150,27 +168,18 @@ class SettingsAdvancedController : SettingsController() {
 
     private fun clearChapterCache() {
         if (activity == null) return
-        val files = chapterCache.cacheDir.listFiles() ?: return
-
-        var deletedFiles = 0
-
-        Observable.defer { Observable.from(files) }
-            .doOnNext { file ->
-                if (chapterCache.removeFileFromCache(file.name)) {
-                    deletedFiles++
+        launchIO {
+            try {
+                val deletedFiles = chapterCache.clear()
+                withUIContext {
+                    activity?.toast(resources?.getString(R.string.cache_deleted, deletedFiles))
+                    findPreference(CLEAR_CACHE_KEY)?.summary =
+                        resources?.getString(R.string.used_cache, chapterCache.readableSize)
                 }
+            } catch (e: Throwable) {
+                withUIContext { activity?.toast(R.string.cache_delete_error) }
             }
-            .subscribeOn(Schedulers.io())
-            .observeOn(AndroidSchedulers.mainThread())
-            .doOnError {
-                activity?.toast(R.string.cache_delete_error)
-            }
-            .doOnCompleted {
-                activity?.toast(resources?.getString(R.string.cache_deleted, deletedFiles))
-                findPreference(CLEAR_CACHE_KEY)?.summary =
-                    resources?.getString(R.string.used_cache, chapterCache.readableSize)
-            }
-            .subscribe()
+        }
     }
 
     class ClearDatabaseDialogController : DialogController() {
