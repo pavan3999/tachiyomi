@@ -35,9 +35,9 @@ fun WebView.isOutdated(): Boolean {
 fun WebView.setDefaultSettings() {
     with(settings) {
         javaScriptEnabled = true
-        setSupportZoom = true
-        setBuiltInZoomControls = true
-        setDisplayZoomControls = false
+        setSupportZoom(true)
+        setBuiltInZoomControls(true)
+        setDisplayZoomControls(false)
         domStorageEnabled = true
         databaseEnabled = true
         setAppCacheEnabled(true)
