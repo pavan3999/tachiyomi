@@ -20,11 +20,6 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <eu.kanade.tachiyomi.widget.ThemedSwipeRefreshLayout
-        android:id="@id/swipe_refresh"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
         <WebView
             android:id="@+id/webview"
             android:layout_width="match_parent"
@@ -36,7 +31,5 @@
                 android:layout_height="wrap_content" />
 
         </WebView>
-
-    </eu.kanade.tachiyomi.widget.ThemedSwipeRefreshLayout>
 
 </LinearLayout>
