@@ -44,12 +44,12 @@ fun WebView.setDefaultSettings() {
     }
 }
 
-    webView.getSettings().setSupportZoom(true);
-    webView.getSettings().setBuiltInZoomControls(true);
-    webView.getSettings().setDisplayZoomControls(false);
+    WebView.getSettings().setSupportZoom(true);
+    WebView.getSettings().setBuiltInZoomControls(true);
+    WebView.getSettings().setDisplayZoomControls(false);
 
-    webView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
-    webView.setScrollbarFadingEnabled(false);
+    WebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+    WebView.setScrollbarFadingEnabled(false);
 
 private fun WebView.getWebViewMajorVersion(): Int {
     val uaRegexMatch = """.*Chrome/(\d+)\..*""".toRegex().matchEntire(getDefaultUserAgentString())
