@@ -15,9 +15,6 @@ object PreferenceKeys {
 
     const val hideBottomBar = "pref_hide_bottom_bar_on_scroll"
 
-    const val showNavUpdates = "pref_nav_show_updates"
-    const val showNavHistory = "pref_nav_show_history"
-
     const val enableTransitions = "pref_enable_transitions_key"
 
     const val doubleTapAnimationSpeed = "pref_double_tap_anim_speed"
@@ -213,8 +210,6 @@ object PreferenceKeys {
     const val defaultChapterDisplayByNameOrNumber = "default_chapter_display_by_name_or_number"
 
     const val incognitoMode = "incognito_mode"
-
-    const val createLegacyBackup = "create_legacy_backup"
 
     fun trackUsername(syncId: Int) = "pref_mangasync_username_$syncId"
 
