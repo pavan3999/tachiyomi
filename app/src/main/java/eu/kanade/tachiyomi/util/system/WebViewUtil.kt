@@ -35,9 +35,6 @@ fun WebView.isOutdated(): Boolean {
 fun WebView.setDefaultSettings() {
     with(settings) {
         javaScriptEnabled = true
-        setSupportZoom(true)
-        setBuiltInZoomControls(true)
-        setDisplayZoomControls(false)
         domStorageEnabled = true
         databaseEnabled = true
         setAppCacheEnabled(true)
@@ -46,6 +43,13 @@ fun WebView.setDefaultSettings() {
         cacheMode = WebSettings.LOAD_DEFAULT
     }
 }
+
+    webView.getSettings().setSupportZoom(true);
+    webView.getSettings().setBuiltInZoomControls(true);
+    webView.getSettings().setDisplayZoomControls(false);
+
+    webView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+    webView.setScrollbarFadingEnabled(false);
 
 private fun WebView.getWebViewMajorVersion(): Int {
     val uaRegexMatch = """.*Chrome/(\d+)\..*""".toRegex().matchEntire(getDefaultUserAgentString())
