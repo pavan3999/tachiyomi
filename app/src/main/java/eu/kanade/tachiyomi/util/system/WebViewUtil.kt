@@ -41,15 +41,12 @@ fun WebView.setDefaultSettings() {
         useWideViewPort = true
         loadWithOverviewMode = true
         cacheMode = WebSettings.LOAD_DEFAULT
+        setBuiltInZoomControls(true)
+        setSupportZoom(true)
+        setBuiltInZoomControls(true)
+        setDisplayZoomControls(false)
     }
 }
-
-    WebView.getSettings().setSupportZoom(true);
-    WebView.getSettings().setBuiltInZoomControls(true);
-    WebView.getSettings().setDisplayZoomControls(false);
-
-    WebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
-    WebView.setScrollbarFadingEnabled(false);
 
 private fun WebView.getWebViewMajorVersion(): Int {
     val uaRegexMatch = """.*Chrome/(\d+)\..*""".toRegex().matchEntire(getDefaultUserAgentString())
