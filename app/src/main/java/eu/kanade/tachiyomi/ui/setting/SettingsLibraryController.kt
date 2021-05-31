@@ -12,7 +12,9 @@ import eu.kanade.tachiyomi.R
 import eu.kanade.tachiyomi.data.database.DatabaseHelper
 import eu.kanade.tachiyomi.data.database.models.Category
 import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
+import eu.kanade.tachiyomi.data.preference.CHARGING
 import eu.kanade.tachiyomi.data.preference.PreferencesHelper
+import eu.kanade.tachiyomi.data.preference.UNMETERED_NETWORK
 import eu.kanade.tachiyomi.data.preference.asImmediateFlow
 import eu.kanade.tachiyomi.ui.base.controller.DialogController
 import eu.kanade.tachiyomi.ui.base.controller.withFadeTransaction
@@ -28,6 +30,7 @@ import eu.kanade.tachiyomi.util.preference.preferenceCategory
 import eu.kanade.tachiyomi.util.preference.summaryRes
 import eu.kanade.tachiyomi.util.preference.switchPreference
 import eu.kanade.tachiyomi.util.preference.titleRes
+import eu.kanade.tachiyomi.util.system.isTablet
 import eu.kanade.tachiyomi.widget.MinMaxNumberPicker
 import eu.kanade.tachiyomi.widget.materialdialogs.QuadStateCheckBox
 import eu.kanade.tachiyomi.widget.materialdialogs.listItemsQuadStateMultiChoice
@@ -75,10 +78,12 @@ class SettingsLibraryController : SettingsController() {
                     }
                     .launchIn(viewScope)
             }
-            switchPreference {
-                key = Keys.jumpToChapters
-                titleRes = R.string.pref_jump_to_chapters
-                defaultValue = false
+            if (!context.isTablet()) {
+                switchPreference {
+                    key = Keys.jumpToChapters
+                    titleRes = R.string.pref_jump_to_chapters
+                    defaultValue = false
+                }
             }
         }
 
@@ -149,9 +154,8 @@ class SettingsLibraryController : SettingsController() {
                 key = Keys.libraryUpdateRestriction
                 titleRes = R.string.pref_library_update_restriction
                 entriesRes = arrayOf(R.string.network_unmetered, R.string.charging)
-                entryValues = arrayOf("wifi", "ac")
-                summaryRes = R.string.pref_library_update_restriction_summary
-                defaultValue = setOf("wifi")
+                entryValues = arrayOf(UNMETERED_NETWORK, CHARGING)
+                defaultValue = setOf(UNMETERED_NETWORK)
 
                 preferences.libraryUpdateInterval().asImmediateFlow { isVisible = it > 0 }
                     .launchIn(viewScope)
@@ -161,6 +165,29 @@ class SettingsLibraryController : SettingsController() {
                     Handler().post { LibraryUpdateJob.setupTask(context) }
                     true
                 }
+
+                fun updateSummary() {
+                    val restrictions = preferences.libraryUpdateRestriction().get()
+                        .sorted()
+                        .map {
+                            when (it) {
+                                UNMETERED_NETWORK -> context.getString(R.string.network_unmetered)
+                                CHARGING -> context.getString(R.string.charging)
+                                else -> it
+                            }
+                        }
+                    val restrictionsText = if (restrictions.isEmpty()) {
+                        context.getString(R.string.none)
+                    } else {
+                        restrictions.joinToString()
+                    }
+
+                    summary = context.getString(R.string.restrictions, restrictionsText)
+                }
+
+                preferences.libraryUpdateRestriction().asFlow()
+                    .onEach { updateSummary() }
+                    .launchIn(viewScope)
             }
             switchPreference {
                 key = Keys.updateOnlyNonCompleted
@@ -236,6 +263,12 @@ class SettingsLibraryController : SettingsController() {
                 key = Keys.autoUpdateMetadata
                 titleRes = R.string.pref_library_update_refresh_metadata
                 summaryRes = R.string.pref_library_update_refresh_metadata_summary
+                defaultValue = false
+            }
+            switchPreference {
+                key = Keys.autoUpdateTrackers
+                titleRes = R.string.pref_library_update_refresh_trackers
+                summaryRes = R.string.pref_library_update_refresh_trackers_summary
                 defaultValue = false
             }
             switchPreference {

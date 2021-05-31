@@ -32,7 +32,7 @@
             android:id="@+id/downloaded_only"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@color/green"
+            android:background="?attr/colorTertiary"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
                 android:layout_gravity="center"
                 android:padding="4dp"
                 android:text="@string/label_downloaded_only"
-                android:textColor="@color/md_white_1000" />
+                android:textColor="?attr/colorOnTertiary" />
 
         </FrameLayout>
 
@@ -76,6 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             app:itemIconTint="@color/nav_selector"
+            app:itemRippleColor="?attr/rippleSecondaryColor"
             app:itemTextColor="@color/nav_selector"
             app:labelVisibilityMode="labeled"
             app:layout_constraintBottom_toBottomOf="parent"

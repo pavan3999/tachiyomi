@@ -38,8 +38,9 @@ operator fun <T> Preference<Set<T>>.minusAssign(item: T) {
     set(get() - item)
 }
 
-fun Preference<Boolean>.toggle() {
+fun Preference<Boolean>.toggle(): Boolean {
     set(!get())
+    return get()
 }
 
 class PreferencesHelper(val context: Context) {
@@ -63,7 +64,9 @@ class PreferencesHelper(val context: Context) {
 
     fun confirmExit() = prefs.getBoolean(Keys.confirmExit, false)
 
-    fun hideBottomBar() = flowPrefs.getBoolean(Keys.hideBottomBar, true)
+    fun hideBottomBarOnScroll() = flowPrefs.getBoolean(Keys.hideBottomBarOnScroll, true)
+
+    fun showSideNavOnBottom() = flowPrefs.getBoolean(Keys.showSideNavOnBottom, false)
 
     fun useAuthenticator() = flowPrefs.getBoolean(Keys.useAuthenticator, false)
 
@@ -77,9 +80,9 @@ class PreferencesHelper(val context: Context) {
 
     fun autoUpdateMetadata() = prefs.getBoolean(Keys.autoUpdateMetadata, false)
 
-    fun showLibraryUpdateErrors() = prefs.getBoolean(Keys.showLibraryUpdateErrors, false)
+    fun autoUpdateTrackers() = prefs.getBoolean(Keys.autoUpdateTrackers, false)
 
-    fun clear() = prefs.edit { clear() }
+    fun showLibraryUpdateErrors() = prefs.getBoolean(Keys.showLibraryUpdateErrors, false)
 
     fun themeMode() = flowPrefs.getEnum(Keys.themeMode, Values.ThemeMode.system)
 
@@ -223,7 +226,7 @@ class PreferencesHelper(val context: Context) {
 
     fun libraryUpdateInterval() = flowPrefs.getInt(Keys.libraryUpdateInterval, 24)
 
-    fun libraryUpdateRestriction() = prefs.getStringSet(Keys.libraryUpdateRestriction, setOf("wifi"))
+    fun libraryUpdateRestriction() = flowPrefs.getStringSet(Keys.libraryUpdateRestriction, setOf(UNMETERED_NETWORK))
 
     fun libraryUpdateCategories() = flowPrefs.getStringSet(Keys.libraryUpdateCategories, emptySet())
     fun libraryUpdateCategoriesExclude() = flowPrefs.getStringSet(Keys.libraryUpdateCategoriesExclude, emptySet())
@@ -233,6 +236,8 @@ class PreferencesHelper(val context: Context) {
     fun libraryDisplayMode() = flowPrefs.getEnum(Keys.libraryDisplayMode, DisplayMode.COMPACT_GRID)
 
     fun downloadBadge() = flowPrefs.getBoolean(Keys.downloadBadge, false)
+
+    fun localBadge() = flowPrefs.getBoolean(Keys.localBadge, true)
 
     fun downloadedOnly() = flowPrefs.getBoolean(Keys.downloadedOnly, false)
 

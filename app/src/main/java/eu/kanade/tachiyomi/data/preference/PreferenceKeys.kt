@@ -13,7 +13,9 @@ object PreferenceKeys {
 
     const val confirmExit = "pref_confirm_exit"
 
-    const val hideBottomBar = "pref_hide_bottom_bar_on_scroll"
+    const val hideBottomBarOnScroll = "pref_hide_bottom_bar_on_scroll"
+
+    const val showSideNavOnBottom = "pref_show_side_nav_on_bottom"
 
     const val enableTransitions = "pref_enable_transitions_key"
 
@@ -166,6 +168,8 @@ object PreferenceKeys {
 
     const val autoUpdateMetadata = "auto_update_metadata"
 
+    const val autoUpdateTrackers = "auto_update_trackers"
+
     const val showLibraryUpdateErrors = "show_library_update_errors"
 
     const val downloadNew = "download_new"
@@ -188,6 +192,8 @@ object PreferenceKeys {
     const val downloadBadge = "display_download_badge"
 
     const val unreadBadge = "display_unread_badge"
+
+    const val localBadge = "display_local_badge"
 
     const val categoryTabs = "display_category_tabs"
 
